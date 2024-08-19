@@ -6,9 +6,15 @@ LoadFishingGFX:
 
 	ld de, FishingGFX
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_gender
 	ld de, KrisFishingGFX
+	dec a ; FEMALE
+	jr z, .got_gender
+	ld de, AshFishingGFX
+	dec a ; MALE2
+	jr z, .got_gender
+	ld de, MayFishingGFX
 .got_gender
 
 	ld hl, vTiles0 tile $02
@@ -40,3 +46,9 @@ INCBIN "gfx/overworld/chris_fish.2bpp"
 
 KrisFishingGFX:
 INCBIN "gfx/overworld/kris_fish.2bpp"
+
+AshFishingGFX:
+INCBIN "gfx/overworld/ash_fish.2bpp"
+
+MayFishingGFX:
+INCBIN "gfx/overworld/may_fish.2bpp"

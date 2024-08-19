@@ -9011,15 +9011,29 @@ GetTrainerBackpic:
 	bit PLAYERSPRITESETUP_FEMALE_TO_MALE_F, a
 	jr nz, .Chris
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .Chris
+	dec a ; FEMALE
+	jr z, .Kris
+	dec a ; MALE2
+	jr z, .Ash
+	
+; Player is FEMALE2.
+	farcall GetMayBackpic
+	ret
 
-; It's a girl.
+.Ash
+; Player is MALE2.
+	farcall GetAshBackpic
+	ret
+	
+.Kris:
+; Player is FEMALE.
 	farcall GetKrisBackpic
 	ret
 
 .Chris:
-; It's a boy.
+; Player is MALE.
 	ld b, BANK(ChrisBackpic)
 	ld hl, ChrisBackpic
 

@@ -89,8 +89,9 @@ DanceTheaterSurfGuy:
 	sjump .GetSurf
 
 .KimonoGirlsUndefeated:
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .PlayerIsFemale
+	readvar VAR_PLAYERGENDER
+	if_equal FEMALE, .PlayerIsFemale
+	if_equal FEMALE2, .PlayerIsFemale
 	writetext SurfGuyLadGiftText
 	waitbutton
 	closetext

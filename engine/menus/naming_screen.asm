@@ -216,7 +216,26 @@ NamingScreen:
 	cp LOW(KrisSpriteGFX)
 	jr nz, .not_kris
 	ld b, SPRITE_ANIM_OBJ_BLUE_WALK
+	jr .not_may
 .not_kris
+    ld a, d
+	cp HIGH(AshSpriteGFX)
+	jr nz, .not_ash
+	ld a, e
+	cp LOW(AshSpriteGFX)
+	jr nz, .not_ash
+	ld b, SPRITE_ANIM_INDEX_GREEN_WALK
+	jr .not_ash
+.not_ash
+    ld a, d
+	cp HIGH(MaySpriteGFX)
+	jr nz, .not_may
+	ld a, e
+	cp LOW(MaySpriteGFX)
+	jr nz, .not_may
+	ld b, SPRITE_ANIM_INDEX_YELLOW_WALK
+	jr .not_may
+.not_may
 	ld a, b
 	depixel 4, 4, 4, 0
 	call InitSpriteAnimStruct

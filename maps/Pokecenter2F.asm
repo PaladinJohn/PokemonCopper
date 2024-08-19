@@ -411,8 +411,9 @@ Script_WalkOutOfMobileBattleRoom:
 	end
 
 Pokecenter2F_CheckGender:
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Female
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Female
+	ifequal FEMALE2, .Female
 	applymovementlasttalked Pokecenter2FMovementData_ReceptionistWalksUpAndLeft_LookRight
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerTakesThreeStepsUp
 	end
@@ -432,8 +433,7 @@ Pokecenter2F_CheckGender:
 	closetext
 	playsound SFX_TINGLE
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingRight
-	setval (PAL_NPC_RED << 4)
-	special SetPlayerPalette
+	scall Script_RestorePlayerColor
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingLeft
 	setflag ENGINE_KRIS_IN_CABLE_CLUB
 	special UpdatePlayerSprite
@@ -459,8 +459,7 @@ Script_WalkOutOfLinkTradeRoom:
 	clearflag ENGINE_KRIS_IN_CABLE_CLUB
 	playsound SFX_TINGLE
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingRight
-	setval (PAL_NPC_BLUE << 4)
-	special SetPlayerPalette
+	scall Script_RestorePlayerColor
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingLeft
 	special UpdatePlayerSprite
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerTakesTwoStepsDown_2
@@ -481,8 +480,7 @@ Script_WalkOutOfLinkBattleRoom:
 	clearflag ENGINE_KRIS_IN_CABLE_CLUB
 	playsound SFX_TINGLE
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingRight
-	setval (PAL_NPC_BLUE << 4)
-	special SetPlayerPalette
+	scall Script_RestorePlayerColor
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingLeft
 	special UpdatePlayerSprite
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerTakesTwoStepsDown_2
@@ -490,8 +488,9 @@ Script_WalkOutOfLinkBattleRoom:
 	end
 
 TimeCapsuleScript_CheckPlayerGender:
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Female
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Female
+	ifequal FEMALE2, .Female
 	readvar VAR_FACING
 	ifequal LEFT, .MaleFacingLeft
 	ifequal RIGHT, .MaleFacingRight
@@ -540,8 +539,7 @@ TimeCapsuleScript_CheckPlayerGender:
 	closetext
 	playsound SFX_TINGLE
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingRight
-	setval (PAL_NPC_RED << 4)
-	special SetPlayerPalette
+	scall Script_RestorePlayerColor
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingDown
 	faceobject PLAYER, POKECENTER2F_TIME_CAPSULE_RECEPTIONIST
 	setflag ENGINE_KRIS_IN_CABLE_CLUB
@@ -569,8 +567,7 @@ Script_LeftTimeCapsule:
 	clearflag ENGINE_KRIS_IN_CABLE_CLUB
 	playsound SFX_TINGLE
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingRight
-	setval (PAL_NPC_BLUE << 4)
-	special SetPlayerPalette
+	scall Script_RestorePlayerColor
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerSpinsClockwiseEndsFacingLeft
 	special UpdatePlayerSprite
 	applymovement PLAYER, Pokecenter2FMovementData_PlayerTakesOneStepDown
@@ -580,6 +577,27 @@ Script_LeftTimeCapsule:
 	setmapscene TIME_CAPSULE, SCENE_TIMECAPSULE_INITIALIZE
 	end
 
+Script_RestorePlayerColor:
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Blue
+	ifequal MALE2, .Green
+	ifequal FEMALE2, .Brown
+	setval (PAL_NPC_RED << 4)
+	special SetPlayerPalette
+	end
+.Blue
+	setval (PAL_NPC_BLUE << 4)
+	special SetPlayerPalette
+	end
+.Green
+    setval (PAL_NPC_GREEN << 4)
+	special SetPlayerPalette
+	end
+.Brown
+    setval (PAL_NPC_BROWN << 4)
+	special SetPlayerPalette
+	end
+	
 Pokecenter2FLinkRecordSign:
 	reanchormap
 	special DisplayLinkRecord

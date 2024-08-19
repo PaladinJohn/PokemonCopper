@@ -59,8 +59,9 @@ SSAquaGranddaughterBefore:
 	showemote EMOTE_SHOCK, FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_GENTLEMAN, 15
 	applymovement FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_TWIN1, SSAquaGranddaughterEntersCabinMovement
 	turnobject FASTSHIPCABINS_SE_SSE_CAPTAINSCABIN_GENTLEMAN, RIGHT
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .PlayerIsFemale
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .PlayerIsFemale
+	ifequal FEMALE2, .PlayerIsFemale
 	opentext
 	writetext SSAquaGranddaughterWasPlayingMText
 	waitbutton

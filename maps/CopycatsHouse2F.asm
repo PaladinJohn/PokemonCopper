@@ -5,6 +5,8 @@
 	const COPYCATSHOUSE2F_MONSTERDOLL
 	const COPYCATSHOUSE2F_BIRDDOLL
 	const COPYCATSHOUSE2F_COPYCAT2 ; if player is female
+	const COPYCATSHOUSE2F_COPYCAT3 ; if player is male 2
+	const COPYCATSHOUSE2F_COPYCAT4 ; if player is female 2
 
 CopycatsHouse2F_MapScripts:
 	def_scene_scripts
@@ -13,14 +15,33 @@ CopycatsHouse2F_MapScripts:
 	callback MAPCALLBACK_OBJECTS, CopycatsHouse2FWhichGenderCallback
 
 CopycatsHouse2FWhichGenderCallback:
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Female
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Female
+	ifequal MALE2, .Male2
+	ifequal FEMALE2, .Female2
 	disappear COPYCATSHOUSE2F_COPYCAT2
+	disappear COPYCATSHOUSE2F_COPYCAT3
+	disappear COPYCATSHOUSE2F_COPYCAT4
 	appear COPYCATSHOUSE2F_COPYCAT1
 	sjump .Done
 .Female:
 	disappear COPYCATSHOUSE2F_COPYCAT1
 	appear COPYCATSHOUSE2F_COPYCAT2
+	disappear COPYCATSHOUSE2F_COPYCAT3
+	disappear COPYCATSHOUSE2F_COPYCAT4
+	sjump .Done
+.Male2:
+	disappear COPYCATSHOUSE2F_COPYCAT1
+	disappear COPYCATSHOUSE2F_COPYCAT2
+	appear COPYCATSHOUSE2F_COPYCAT3
+	disappear COPYCATSHOUSE2F_COPYCAT4
+	sjump .Done
+.Female2:
+	disappear COPYCATSHOUSE2F_COPYCAT1
+	disappear COPYCATSHOUSE2F_COPYCAT2
+	disappear COPYCATSHOUSE2F_COPYCAT3
+	appear COPYCATSHOUSE2F_COPYCAT4
+	sjump .Done
 .Done:
 	endcallback
 
@@ -32,8 +53,10 @@ Copycat:
 	iftrue .TryGivePassAgain
 	checkitem LOST_ITEM
 	iftrue .ReturnLostItem
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Default_Female_1
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Default_Female_1
+	ifequal MALE2, .Default_Male2_1
+	ifequal FEMALE2, .Default_Female2_1
 	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpinAroundMovementData
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_CHRIS
@@ -43,12 +66,22 @@ Copycat:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_KRIS
+	sjump .Default_Merge_1
+.Default_Male2_1:
+	applymovement COPYCATSHOUSE2F_COPYCAT3, CopycatSpinAroundMovementData
+	faceplayer
+	variablesprite SPRITE_COPYCAT, SPRITE_ASH
+	sjump .Default_Merge_1
+.Default_Female2_1:
+	applymovement COPYCATSHOUSE2F_COPYCAT4, CopycatSpinAroundMovementData
+	faceplayer
+	variablesprite SPRITE_COPYCAT, SPRITE_MAY
 .Default_Merge_1:
 	special LoadUsedSpritesGFX
 	checkevent EVENT_RETURNED_MACHINE_PART
 	iftrue .TalkAboutLostItem
 	opentext
-	checkflag ENGINE_PLAYER_IS_FEMALE
+	readvar VAR_PLAYERGENDER
 	iftrue .Default_Female_2a
 	writetext CopycatText_Male_1
 	sjump .Default_Merge_2a
@@ -58,13 +91,21 @@ Copycat:
 .Default_Merge_2a:
 	waitbutton
 	closetext
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Default_Female_3a
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Default_Female_3a
+	ifequal MALE2, .Default_Male2_3a
+	ifequal FEMALE2, .Default_Female2_3a
 	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpinAroundMovementData
 	sjump .Default_Merge_3a
 
 .Default_Female_3a:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
+	sjump .Default_Merge_3a
+.Default_Male2_3a:
+	applymovement COPYCATSHOUSE2F_COPYCAT3, CopycatSpinAroundMovementData
+	sjump .Default_Merge_3a
+.Default_Female2_3a:
+	applymovement COPYCATSHOUSE2F_COPYCAT4, CopycatSpinAroundMovementData
 .Default_Merge_3a:
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_LASS
@@ -77,7 +118,7 @@ Copycat:
 
 .TalkAboutLostItem:
 	opentext
-	checkflag ENGINE_PLAYER_IS_FEMALE
+	readvar VAR_PLAYERGENDER
 	iftrue .Default_Female_2b
 	writetext CopycatText_Male_2
 	sjump .Default_Merge_2b
@@ -87,13 +128,21 @@ Copycat:
 .Default_Merge_2b:
 	waitbutton
 	closetext
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .Default_Female_3b
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .Default_Female_3b
+	ifequal MALE2, .Default_Male2_3b
+	ifequal FEMALE2, .Default_Female2_3b
 	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpinAroundMovementData
 	sjump .Default_Merge_3b
 
 .Default_Female_3b:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
+	sjump .Default_Merge_3b
+.Default_Male2_3b:
+	applymovement COPYCATSHOUSE2F_COPYCAT3, CopycatSpinAroundMovementData
+	sjump .Default_Merge_3b
+.Default_Female2_3b:
+	applymovement COPYCATSHOUSE2F_COPYCAT4, CopycatSpinAroundMovementData
 .Default_Merge_3b:
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_LASS
@@ -128,8 +177,10 @@ Copycat:
 	end
 
 .GotPass:
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .GotPass_Female_1
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .GotPass_Female_1
+	ifequal MALE2, .GotPass_Male2_1
+	ifequal FEMALE2, .GotPass_Female2_1
 	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpinAroundMovementData
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_CHRIS
@@ -139,10 +190,20 @@ Copycat:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_KRIS
+	sjump .GotPass_Merge_1
+.GotPass_Male2_1:
+	applymovement COPYCATSHOUSE2F_COPYCAT3, CopycatSpinAroundMovementData
+	faceplayer
+	variablesprite SPRITE_COPYCAT, SPRITE_ASH
+	sjump .GotPass_Merge_1
+.GotPass_Female2_1:
+	applymovement COPYCATSHOUSE2F_COPYCAT4, CopycatSpinAroundMovementData
+	faceplayer
+	variablesprite SPRITE_COPYCAT, SPRITE_MAY
 .GotPass_Merge_1:
 	special LoadUsedSpritesGFX
 	opentext
-	checkflag ENGINE_PLAYER_IS_FEMALE
+	readvar VAR_PLAYERGENDER
 	iftrue .GotPass_Female_2
 	writetext CopycatText_Male_3
 	sjump .GotPass_Merge_2
@@ -152,13 +213,21 @@ Copycat:
 .GotPass_Merge_2:
 	waitbutton
 	closetext
-	checkflag ENGINE_PLAYER_IS_FEMALE
-	iftrue .GotPass_Female_3
+	readvar VAR_PLAYERGENDER
+	ifequal FEMALE, .GotPass_Female_3
+	ifequal MALE2, .GotPass_Male2_3
+	ifequal FEMALE2, .GotPass_Female2_3
 	applymovement COPYCATSHOUSE2F_COPYCAT1, CopycatSpinAroundMovementData
 	sjump .GotPass_Merge_3
 
 .GotPass_Female_3:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
+	sjump .GotPass_Merge_3
+.GotPass_Male2_3:
+	applymovement COPYCATSHOUSE2F_COPYCAT3, CopycatSpinAroundMovementData
+	sjump .GotPass_Merge_3
+.GotPass_Female2_3:
+	applymovement COPYCATSHOUSE2F_COPYCAT4, CopycatSpinAroundMovementData
 .GotPass_Merge_3:
 	faceplayer
 	variablesprite SPRITE_COPYCAT, SPRITE_LASS
@@ -377,3 +446,5 @@ CopycatsHouse2F_MapEvents:
 	object_event  2,  1, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1
 	object_event  7,  1, SPRITE_BIRD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CopycatsHouse2FDoll, -1
 	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_2
+	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_3
+	object_event  4,  3, SPRITE_COPYCAT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Copycat, EVENT_COPYCAT_4

@@ -1,14 +1,3 @@
-BetaLoadPlayerTrainerClass: ; unreferenced
-	ld c, CAL
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
-	jr z, .got_class
-	ld c, KAREN ; not KRIS?
-.got_class
-	ld a, c
-	ld [wTrainerClass], a
-	ret
-
 MovePlayerPicRight:
 	hlcoord 6, 4
 	ld de, 1
@@ -57,9 +46,15 @@ MovePlayerPic:
 ShowPlayerNamingChoices:
 	ld hl, ChrisNameMenuHeader
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_header
 	ld hl, KrisNameMenuHeader
+	dec a ; FEMALE
+	jr z, .got_header
+	ld hl, AshNameMenuHeader
+	dec a ; MALE2
+	jr z, .got_header
+	ld hl, MayNameMenuHeader
 .got_header
 	call LoadMenuHeader
 	call VerticalMenu
@@ -71,34 +66,37 @@ ShowPlayerNamingChoices:
 
 INCLUDE "data/player_names.asm"
 
-GetPlayerNameArray: ; unreferenced
-	ld hl, wPlayerName
-	ld de, MalePlayerNameArray
-	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
-	jr z, .got_array
-	ld de, FemalePlayerNameArray
-.got_array
-	call InitName
-	ret
-
 GetPlayerIcon:
 	ld de, ChrisSpriteGFX
 	ld b, BANK(ChrisSpriteGFX)
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_gfx
 	ld de, KrisSpriteGFX
 	ld b, BANK(KrisSpriteGFX)
+	dec a ; FEMALE
+	jr z, .got_gfx
+	ld de, AshSpriteGFX
+	ld b, BANK(AshSpriteGFX)
+	dec a ; MALE2
+	jr z, .got_gfx
+	ld de, MaySpriteGFX
+	ld b, BANK(MaySpriteGFX)
 .got_gfx
 	ret
 
 GetCardPic:
 	ld hl, ChrisCardPic
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_pic
 	ld hl, KrisCardPic
+	dec a ; FEMALE
+	jr z, .got_pic
+	ld hl, AshCardPic
+	dec a ; MALE2
+	jr z, .got_pic
+	ld hl, MayCardPic
 .got_pic
 	ld de, vTiles2 tile $00
 	ld bc, $23 tiles
@@ -117,14 +115,24 @@ INCBIN "gfx/trainer_card/chris_card.2bpp"
 KrisCardPic:
 INCBIN "gfx/trainer_card/kris_card.2bpp"
 
+AshCardPic:
+INCBIN "gfx/trainer_card/ash_card.2bpp"
+
+MayCardPic:
+INCBIN "gfx/trainer_card/may_card.2bpp"
+
 TrainerCardGFX:
 INCBIN "gfx/trainer_card/trainer_card.2bpp"
 
 GetPlayerBackpic:
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, GetChrisBackpic
-	call GetKrisBackpic
+	dec a ; FEMALE
+	jp z, GetKrisBackpic
+	dec a ; MALE2
+	jp z, GetAshBackpic
+	call GetMayBackpic
 	ret
 
 GetChrisBackpic:
@@ -143,9 +151,15 @@ HOF_LoadTrainerFrontpic:
 ; Get class
 	ld e, CHRIS
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_class
 	ld e, KRIS
+	dec a ; FEMALE
+	jr z, .got_class
+	ld e, ASH
+	dec a ; MALE2
+	jr z, .got_class
+	ld e, MAY
 .got_class
 	ld a, e
 	ld [wTrainerClass], a
@@ -153,9 +167,15 @@ HOF_LoadTrainerFrontpic:
 ; Load pic
 	ld de, ChrisPic
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_pic
 	ld de, KrisPic
+	dec a ; FEMALE
+	jr z, .got_pic
+	ld de, AshPic
+	dec a ; MALE2
+	jr z, .got_pic
+	ld de, MayPic
 .got_pic
 	ld hl, vTiles2
 	ld b, BANK(ChrisPic) ; aka BANK(KrisPic)
@@ -173,9 +193,15 @@ DrawIntroPlayerPic:
 ; Get class
 	ld e, CHRIS
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_class
 	ld e, KRIS
+	dec a ; FEMALE
+	jr z, .got_class
+	ld e, ASH
+	dec a ; MALE2
+	jr z, .got_class
+	ld e, MAY
 .got_class
 	ld a, e
 	ld [wTrainerClass], a
@@ -183,9 +209,15 @@ DrawIntroPlayerPic:
 ; Load pic
 	ld de, ChrisPic
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .got_pic
 	ld de, KrisPic
+	dec a ; FEMALE
+	jr z, .got_pic
+	ld de, AshPic
+	dec a ; FEMALE
+	jr z, .got_pic
+	ld de, MayPic
 .got_pic
 	ld hl, vTiles2
 	ld b, BANK(ChrisPic) ; aka BANK(KrisPic)
@@ -206,6 +238,12 @@ INCBIN "gfx/player/chris.2bpp"
 KrisPic:
 INCBIN "gfx/player/kris.2bpp"
 
+AshPic:
+INCBIN "gfx/player/ash.2bpp"
+
+MayPic:
+INCBIN "gfx/player/may.2bpp"
+
 GetKrisBackpic:
 ; Kris's backpic is uncompressed.
 	ld de, KrisBackpic
@@ -216,3 +254,25 @@ GetKrisBackpic:
 
 KrisBackpic:
 INCBIN "gfx/player/kris_back.2bpp"
+
+GetAshBackpic:
+; Ash's backpic is uncompressed.
+	ld de, AshBackpic
+	ld hl, vTiles2 tile $31
+	lb bc, BANK(AshBackpic), 7 * 7 ; dimensions
+	call Get2bpp
+	ret
+
+AshBackpic:
+INCBIN "gfx/player/ash_back.2bpp"
+
+GetMayBackpic:
+; May's backpic is uncompressed.
+	ld de, MayBackpic
+	ld hl, vTiles2 tile $31
+	lb bc, BANK(AshBackpic), 7 * 7 ; dimensions
+	call Get2bpp
+	ret
+
+MayBackpic:
+INCBIN "gfx/player/may_back.2bpp"

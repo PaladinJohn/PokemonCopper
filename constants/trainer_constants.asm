@@ -30,10 +30,10 @@ DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 DEF KRIS EQU __trainer_class__
 	trainerclass FALKNER ; 1
 	const FALKNER1
-
+DEF MAY EQU __trainer_class__
 	trainerclass WHITNEY ; 2
 	const WHITNEY1
-
+DEF ASH EQU __trainer_class__
 	trainerclass BUGSY ; 3
 	const BUGSY1
 

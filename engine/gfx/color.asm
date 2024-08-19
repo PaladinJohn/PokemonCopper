@@ -689,6 +689,18 @@ GetPlayerOrMonPalettePointer:
 	ld a, [wPlayerGender]
 	and a
 	jr z, .male
+	dec a
+	jr z, .female
+	dec a
+	jr z, .male2
+	ld hl, MayPalette
+	ret
+	
+.male2
+	ld hl, AshPalette
+	ret
+	
+.female
 	ld hl, KrisPalette
 	ret
 
@@ -1332,6 +1344,12 @@ INCLUDE "gfx/pokegear/pokegear.pal"
 
 FemalePokegearPals:
 INCLUDE "gfx/pokegear/pokegear_f.pal"
+
+Male2PokegearPals:
+INCLUDE "gfx/pokegear/pokegear_a.pal"
+
+Female2PokegearPals:
+INCLUDE "gfx/pokegear/pokegear_m.pal"
 
 BetaPokerPals:
 INCLUDE "gfx/beta_poker/beta_poker.pal"

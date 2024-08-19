@@ -67,6 +67,10 @@ SpriteAnimFrameData:
 	dw .Frameset_IntroUnownF
 	dw .Frameset_CelebiLeft
 	dw .Frameset_CelebiRight
+	dw .Frameset_GreenWalk
+	dw .Frameset_MagnetTrainGreen
+	dw .Frameset_YellowWalk
+	dw .Frameset_MagnetTrainYellow
 	assert_table_length NUM_SPRITE_ANIM_FRAMESETS
 
 .Frameset_00:
@@ -497,3 +501,31 @@ SpriteAnimFrameData:
 	oamframe SPRITE_ANIM_OAMSET_CELEBI_1,  8, OAM_X_FLIP
 	oamframe SPRITE_ANIM_OAMSET_CELEBI_2,  8, OAM_X_FLIP
 	oamend
+
+.Frameset_GreenWalk:
+	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_2,  8
+	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_GREEN_WALK_2,  8, OAM_X_FLIP
+	oamrestart
+
+.Frameset_MagnetTrainGreen:
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_GREEN_1,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_GREEN_2,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_GREEN_1,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_GREEN_2,  8, OAM_X_FLIP
+	oamrestart
+	
+.Frameset_YellowWalk:
+	oamframe SPRITE_ANIM_OAMSET_YELLOW_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_YELLOW_WALK_2,  8
+	oamframe SPRITE_ANIM_OAMSET_YELLOW_WALK_1,  8
+	oamframe SPRITE_ANIM_OAMSET_YELLOW_WALK_2,  8, OAM_X_FLIP
+	oamrestart
+
+.Frameset_MagnetTrainYellow:
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_YELLOW_1,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_YELLOW_2,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_YELLOW_1,  8
+	oamframe SPRITE_ANIM_OAMSET_MAGNET_TRAIN_YELLOW_2,  8, OAM_X_FLIP
+	oamrestart

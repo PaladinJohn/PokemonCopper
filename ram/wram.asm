@@ -2872,6 +2872,8 @@ wPlayerGender::
 ; bit 0:
 ;	0 male
 ;	1 female
+;   2 male2
+;   3 female2
 	db
 wd473:: ds 1
 wd474:: ds 1

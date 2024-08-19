@@ -59,9 +59,15 @@ GetPlayerSprite:
 	bit PLAYERSPRITESETUP_FEMALE_TO_MALE_F, a
 	jr nz, .go
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .go
 	ld hl, KrisStateSprites
+	dec a ; FEMALE
+	jr z, .go
+	ld hl, AshStateSprites
+	dec a ; MALE2
+	jr z, .go
+	ld hl, MayStateSprites
 
 .go
 	ld a, [wPlayerState]
@@ -346,7 +352,7 @@ AddSpriteGFX:
 	ret
 
 LoadSpriteGFX:
-; BUG: LoadSpriteGFX does not limit the capacity of UsedSprites (see docs/bugs_and_glitches.md)
+; BUG (FIXED): LoadSpriteGFX does not limit the capacity of UsedSprites (see docs/bugs_and_glitches.md)
 
 	ld hl, wUsedSprites
 	ld b, SPRITE_GFX_LIST_CAPACITY
@@ -365,7 +371,9 @@ LoadSpriteGFX:
 	ret
 
 .LoadSprite:
+    push bc
 	call GetSprite
+	pop bc
 	ld a, l
 	ret
 

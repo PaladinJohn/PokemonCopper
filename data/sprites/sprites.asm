@@ -109,4 +109,8 @@ OverworldSprites:
 	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite AshSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite AshBikeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite MaySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite MayBikeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	assert_table_length NUM_OVERWORLD_SPRITES

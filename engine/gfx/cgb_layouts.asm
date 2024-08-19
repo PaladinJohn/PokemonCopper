@@ -178,9 +178,15 @@ InitPartyMenuBGPal0:
 
 _CGB_PokegearPals:
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .male
 	ld hl, FemalePokegearPals
+	dec a ; FEMALE
+	jr z, .got_pals
+	ld hl, Male2PokegearPals
+	dec a ; MALE2
+	jr z, .got_pals
+	ld hl, Female2PokegearPals
 	jr .got_pals
 
 .male
@@ -623,10 +629,10 @@ _CGB_TrainerCard:
 	ld a, FALKNER ; KRIS
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, BUGSY
+	ld a, BUGSY ; ASH
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
-	ld a, WHITNEY
+	ld a, WHITNEY ; MAY
 	call GetTrainerPalettePointer
 	call LoadPalette_White_Col1_Col2_Black
 	ld a, MORTY
@@ -645,14 +651,26 @@ _CGB_TrainerCard:
 	call GetPredefPal
 	call LoadHLPaletteIntoDE
 
-	; fill screen with opposite-gender palette for the card border
+	; fill screen with gender-based palette for the card border
 	hlcoord 0, 0, wAttrmap
 	ld bc, SCREEN_WIDTH * SCREEN_HEIGHT
 	ld a, [wPlayerGender]
 	and a
-	ld a, $1 ; kris
-	jr z, .got_gender
-	ld a, $0 ; chris
+	jr z, .chris
+	dec a
+	jr z, .kris
+	dec a
+	jr z, .ash
+	ld a, $2 ; green for may
+	jr .got_gender
+.chris
+	ld a, $1 ; blue for chris
+	jr .got_gender
+.kris
+	ld a, $0 ; red for kris
+	jr .got_gender
+.ash
+	ld a, $3 ; ??? for ash
 .got_gender
 	call ByteFill
 	; fill trainer sprite area with same-gender palette
@@ -660,14 +678,23 @@ _CGB_TrainerCard:
 	lb bc, 7, 5
 	ld a, [wPlayerGender]
 	and a
+	jr z, .chris2
+	dec a
+	jr z, .kris2
+	dec a
+	jr z, .ash2
+	ld a, $3 ; may
+	jr .got_gender2
+.chris2
 	ld a, $0 ; chris
-	jr z, .got_gender2
+	jr .got_gender2
+.kris2
 	ld a, $1 ; kris
+	jr .got_gender2
+.ash2
+	ld a, $2 ; ash
 .got_gender2
 	call FillBoxCGB
-	; top-right corner still uses the border's palette
-	hlcoord 18, 1, wAttrmap
-	ld [hl], $1
 	hlcoord 2, 11, wAttrmap
 	lb bc, 2, 4
 	ld a, $1 ; falkner
@@ -696,22 +723,29 @@ _CGB_TrainerCard:
 	lb bc, 2, 4
 	ld a, $7 ; pryce
 	call FillBoxCGB
-	; clair uses kris's palette
-	ld a, [wPlayerGender]
-	and a
-	push af
-	jr z, .got_gender3
 	hlcoord 14, 14, wAttrmap
 	lb bc, 2, 4
-	ld a, $1
+	ld a, $1 ; clair
 	call FillBoxCGB
+	; top-right corner still uses the border's palette
+	ld a, [wPlayerGender]
+	and a
+	jr z, .chris3
+	dec a
+	jr z, .kris3
+	dec a
+	jr z, .ash3
+	ld a, $2 ; green for may
+	jr .got_gender3
+.chris3
+	ld a, $1 ; blue for chris
+	jr .got_gender3
+.kris3
+	ld a, $0 ; red for kris
+	jr .got_gender3
+.ash3
+	ld a, $3 ; blue for chris
 .got_gender3
-	pop af
-	ld c, $0
-	jr nz, .got_gender4
-	inc c
-.got_gender4
-	ld a, c
 	hlcoord 18, 1, wAttrmap
 	ld [hl], a
 	call ApplyAttrmap
@@ -773,9 +807,21 @@ _CGB_PackPals:
 	jr z, .tutorial_male
 
 	ld a, [wPlayerGender]
-	bit PLAYERGENDER_FEMALE_F, a
+	and a ; MALE
 	jr z, .tutorial_male
+	dec a ; FEMALE
+	jr z, .tutorial_female
+	dec a ; MALE2
+	jr z, .tutorial_male2
 
+	ld hl, .MayPackPals
+	jr .got_gender
+	
+.tutorial_male2
+	ld hl, .AshPackPals
+	jr .got_gender
+	
+.tutorial_female
 	ld hl, .KrisPackPals
 	jr .got_gender
 
@@ -819,6 +865,12 @@ INCLUDE "gfx/pack/pack.pal"
 
 .KrisPackPals:
 INCLUDE "gfx/pack/pack_f.pal"
+
+.AshPackPals:
+INCLUDE "gfx/pack/pack_a.pal"
+
+.MayPackPals:
+INCLUDE "gfx/pack/pack_m.pal"
 
 _CGB_Pokepic:
 	call _CGB_MapPals

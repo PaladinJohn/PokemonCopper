@@ -3,8 +3,10 @@ DEF FALSE EQU 0
 DEF TRUE  EQU 1
 
 ; genders
-DEF MALE   EQU 0
-DEF FEMALE EQU 1
+DEF MALE    EQU 0
+DEF FEMALE  EQU 1
+DEF MALE2   EQU 2
+DEF FEMALE2 EQU 3
 
 ; FlagAction arguments (see home/flag.asm)
 	const_def
