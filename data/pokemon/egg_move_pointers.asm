@@ -151,7 +151,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ChikoritaEggMoves
+	dw SprigatitoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw CyndaquilEggMoves

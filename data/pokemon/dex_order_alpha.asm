@@ -26,7 +26,6 @@ AlphabeticalPokedexOrder:
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
-	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
 	db CLEFAIRY
@@ -210,6 +209,7 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
+	db SPRIGATITO
 	db SQUIRTLE
 	db STANTLER
 	db STARMIE

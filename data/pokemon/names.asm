@@ -151,7 +151,7 @@ PokemonNames::
 	db "DRAGONITE@"
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
-	db "CHIKORITA@"
+	db "SPRIGATITO"
 	db "BAYLEEF@@@"
 	db "MEGANIUM@@"
 	db "CYNDAQUIL@"

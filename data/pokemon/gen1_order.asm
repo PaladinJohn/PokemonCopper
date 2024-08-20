@@ -191,7 +191,7 @@ Pokered_MonIndices:
 	db WEEPINBELL
 	db VICTREEBEL
 	assert_table_length 190 ; gen 1 mon indexes
-	db CHIKORITA
+	db SPRIGATITO
 	db BAYLEEF
 	db MEGANIUM
 	db CYNDAQUIL
