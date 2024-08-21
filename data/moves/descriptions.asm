@@ -27,7 +27,7 @@ MoveDescriptions::
 	dw DoubleKickDescription
 	dw MegaKickDescription
 	dw JumpKickDescription
-	dw RollingKickDescription
+	dw LeafageDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
 	dw HornAttackDescription
@@ -371,9 +371,9 @@ JumpKickDescription:
 	db   "May miss, damaging"
 	next "the user.@"
 
-RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
+LeafageDescription:
+	db   "Pelts the target"
+	next "with leaves.@"
 
 SandAttackDescription:
 	db   "Reduces accuracy"

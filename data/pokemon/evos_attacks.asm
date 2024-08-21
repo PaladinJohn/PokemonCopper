@@ -1436,7 +1436,7 @@ HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
 	db 6, MEDITATE
-	db 11, ROLLING_KICK
+	db 11, TACKLE
 	db 16, JUMP_KICK
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
@@ -2059,7 +2059,7 @@ SprigatitoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
-	db 8, RAZOR_LEAF
+	db 8, LEAFAGE
 	db 12, BITE
 	db 15, SHARPEN
 	db 22, RAZOR_LEAF
@@ -3146,7 +3146,7 @@ TyrogueEvosAttacks:
 
 HitmontopEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROLLING_KICK
+	db 1, TACKLE
 	db 7, FOCUS_ENERGY
 	db 13, PURSUIT
 	db 19, QUICK_ATTACK

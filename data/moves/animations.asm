@@ -28,7 +28,7 @@ BattleAnimations::
 	dw BattleAnim_DoubleKick
 	dw BattleAnim_MegaKick
 	dw BattleAnim_JumpKick
-	dw BattleAnim_RollingKick
+	dw BattleAnim_Leafage
 	dw BattleAnim_SandAttack
 	dw BattleAnim_Headbutt
 	dw BattleAnim_HornAttack
@@ -808,14 +808,26 @@ BattleAnim_HiJumpKick:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_RollingKick:
-	anim_1gfx BATTLE_ANIM_GFX_HIT
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj BATTLE_ANIM_OBJ_KICK, 112, 56, $0
-	anim_setobj $1, $3
-	anim_wait 12
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 48, $0
-	anim_wait 16
+BattleAnim_Leafage:
+	anim_1gfx BATTLE_ANIM_GFX_PLANT
+	anim_sound 0, 0, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_LEAF, 48, 80, $1c
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_LEAF, 48, 80, $50
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_LEAF, 48, 80, $dc
+	anim_obj BATTLE_ANIM_OBJ_RAZOR_LEAF, 48, 80, $90
+	anim_wait 80
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_incobj 3
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_incobj 4
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_incobj 2
+	anim_wait 2
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_incobj 1
+	anim_wait 64
 	anim_ret
 
 BattleAnim_MegaKick:
