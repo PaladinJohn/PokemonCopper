@@ -741,7 +741,7 @@ LassGroup:
 	; LASS (9)
 	db "MICHELLE@", TRAINERTYPE_NORMAL
 	db 32, SKIPLOOM
-	db 33, HOPPIP
+	db 33, SMOLIV
 	db 34, JUMPLUFF
 	db -1 ; end
 
@@ -1148,7 +1148,7 @@ BeautyGroup:
 
 	; BEAUTY (16)
 	db "VALERIE@", TRAINERTYPE_MOVES
-	db 17, HOPPIP,     SYNTHESIS, TAIL_WHIP, TACKLE, POISONPOWDER
+	db 17, SMOLIV,     SYNTHESIS, TAIL_WHIP, TACKLE, POISONPOWDER
 	db 17, SKIPLOOM,   SYNTHESIS, TAIL_WHIP, TACKLE, STUN_SPORE
 	db -1 ; end
 
@@ -2767,8 +2767,8 @@ PicnickerGroup:
 
 	; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db  9, HOPPIP
-	db  9, HOPPIP
+	db  9, SMOLIV
+	db  9, SMOLIV
 	db 12, BULBASAUR
 	db -1 ; end
 
@@ -2805,8 +2805,8 @@ PicnickerGroup:
 
 	; PICNICKER (9)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db 14, HOPPIP
-	db 14, HOPPIP
+	db 14, SMOLIV
+	db 14, SMOLIV
 	db 17, IVYSAUR
 	db -1 ; end
 

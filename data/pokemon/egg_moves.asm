@@ -559,14 +559,8 @@ SudowoodoEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 
-HoppipEggMoves:
-	db CONFUSION
-	db GROWL
-	db ENCORE
-	db DOUBLE_EDGE
-	db REFLECT
-	db AMNESIA
-	db PAY_DAY
+SmolivEggMoves:
+	db SYNTHESIS
 	db -1 ; end
 
 AipomEggMoves:

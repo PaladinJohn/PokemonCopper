@@ -68,7 +68,7 @@ NewPokedexOrder:
 	db BELLSPROUT
 	db WEEPINBELL
 	db VICTREEBEL
-	db HOPPIP
+	db SMOLIV
 	db SKIPLOOM
 	db JUMPLUFF
 	db PARAS

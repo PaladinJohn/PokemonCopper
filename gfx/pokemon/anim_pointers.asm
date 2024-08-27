@@ -186,7 +186,7 @@ AnimationPointers:
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
 	dw PolitoedAnimation
-	dw HoppipAnimation
+	dw SmolivAnimation
 	dw SkiploomAnimation
 	dw JumpluffAnimation
 	dw AipomAnimation

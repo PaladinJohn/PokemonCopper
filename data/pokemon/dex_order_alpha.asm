@@ -88,7 +88,6 @@ AlphabeticalPokedexOrder:
 	db HITMONTOP
 	db HO_OH
 	db HOOTHOOT
-	db HOPPIP
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
@@ -203,6 +202,7 @@ AlphabeticalPokedexOrder:
 	db SLOWPOKE
 	db SLUGMA
 	db SMEARGLE
+	db SMOLIV
 	db SMOOCHUM
 	db SNEASEL
 	db SNORLAX
