@@ -35,7 +35,7 @@ Pokered_MonIndices:
 	db GROWLITHE
 	db ONIX
 	db FEAROW
-	db PIDGEY
+	db FLETCHLING
 	db SLOWPOKE
 	db KADABRA
 	db GRAVELER

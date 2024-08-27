@@ -36,10 +36,8 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
-PidgeyEggMoves:
-	db PURSUIT
-	db FAINT_ATTACK
-	db FORESIGHT
+FletchlingEggMoves:
+	db SAND_ATTACK
 	db -1 ; end
 
 RattataEggMoves:

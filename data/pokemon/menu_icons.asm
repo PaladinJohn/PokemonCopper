@@ -17,7 +17,7 @@ MonMenuIcons:
 	db ICON_CATERPILLAR ; WEEDLE
 	db ICON_CATERPILLAR ; KAKUNA
 	db ICON_BUG         ; BEEDRILL
-	db ICON_BIRD        ; PIDGEY
+	db ICON_BIRD        ; FLETCHLING
 	db ICON_BIRD        ; PIDGEOTTO
 	db ICON_BIRD        ; PIDGEOT
 	db ICON_FOX         ; RATTATA

@@ -63,6 +63,7 @@ AlphabeticalPokedexOrder:
 	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
+	db FLETCHLING
 	db FORRETRESS
 	db FURRET
 	db GASTLY
@@ -160,7 +161,6 @@ AlphabeticalPokedexOrder:
 	db PICHU
 	db PIDGEOT
 	db PIDGEOTTO
-	db PIDGEY
 	db PIKACHU
 	db PILOSWINE
 	db PINECO
