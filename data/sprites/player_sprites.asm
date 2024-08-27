@@ -3,6 +3,7 @@ ChrisStateSprites:
 	db PLAYER_BIKE,      SPRITE_CHRIS_BIKE
 	db PLAYER_SURF,      SPRITE_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,       SPRITE_CHRIS_RUN
 	db -1 ; end
 
 KrisStateSprites:
@@ -10,6 +11,7 @@ KrisStateSprites:
 	db PLAYER_BIKE,      SPRITE_KRIS_BIKE
 	db PLAYER_SURF,      SPRITE_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,       SPRITE_KRIS_RUN
 	db -1 ; end
 
 AshStateSprites:
@@ -17,6 +19,7 @@ AshStateSprites:
 	db PLAYER_BIKE,      SPRITE_ASH_BIKE
 	db PLAYER_SURF,      SPRITE_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,       SPRITE_ASH_RUN
 	db -1 ; end
 	
 MayStateSprites:
@@ -24,4 +27,5 @@ MayStateSprites:
 	db PLAYER_BIKE,      SPRITE_MAY_BIKE
 	db PLAYER_SURF,      SPRITE_SURF
 	db PLAYER_SURF_PIKA, SPRITE_SURFING_PIKACHU
+	db PLAYER_RUN,       SPRITE_MAY_RUN
 	db -1 ; end

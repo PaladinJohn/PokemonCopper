@@ -108,6 +108,10 @@
 	const SPRITE_ASH_BIKE ; 68
 	const SPRITE_MAY ; 69
 	const SPRITE_MAY_BIKE ; 6a
+	const SPRITE_CHRIS_RUN ;6b
+	const SPRITE_KRIS_RUN ;6c
+	const SPRITE_ASH_RUN ; 6d
+	const SPRITE_MAY_RUN ; 6e
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
