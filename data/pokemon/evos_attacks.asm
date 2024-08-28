@@ -167,17 +167,20 @@ BlastoiseEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScatterbugEvosAttacks:
+	db EVOLVE_LEVEL, 9, SPEWPA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
 	db 6, STUN_SPORE
 	db 0 ; no more level-up moves
 
-MetapodEvosAttacks:
-	db EVOLVE_LEVEL, 10, BUTTERFREE
+SpewpaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HARDEN
-	db 7, HARDEN
+	db 1, STRING_SHOT
+	db 1, TACKLE
+	db 6, STUN_SPORE
+	db 9, HARDEN
+	db 9, PROTECT
 	db 0 ; no more level-up moves
 
 ButterfreeEvosAttacks:

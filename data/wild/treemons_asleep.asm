@@ -2,7 +2,7 @@
 
 AsleepTreeMonsNite:
 	db SCATTERBUG
-	db METAPOD
+	db SPEWPA
 	db BUTTERFREE
 	db WEEDLE
 	db KAKUNA

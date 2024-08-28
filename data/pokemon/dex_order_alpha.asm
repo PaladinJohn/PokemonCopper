@@ -129,7 +129,6 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MEGANIUM
 	db MEOWTH
-	db METAPOD
 	db MEW
 	db MEWTWO
 	db MILTANK
@@ -208,6 +207,7 @@ AlphabeticalPokedexOrder:
 	db SNORLAX
 	db SNUBBULL
 	db SPEAROW
+	db SPEWPA
 	db SPINARAK
 	db SPRIGATITO
 	db SQUIRTLE

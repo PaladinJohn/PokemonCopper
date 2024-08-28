@@ -11,7 +11,7 @@ PokedexDataPointerTable:
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
 	dw ScatterbugPokedexEntry
-	dw MetapodPokedexEntry
+	dw SpewpaPokedexEntry
 	dw ButterfreePokedexEntry
 	dw WeedlePokedexEntry
 	dw KakunaPokedexEntry

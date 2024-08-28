@@ -23,8 +23,8 @@ PokemonPicPointers::
 	dba_pic BlastoiseBackpic
 	dba_pic ScatterbugFrontpic
 	dba_pic ScatterbugBackpic
-	dba_pic MetapodFrontpic
-	dba_pic MetapodBackpic
+	dba_pic SpewpaFrontpic
+	dba_pic SpewpaBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
 	dba_pic WeedleFrontpic

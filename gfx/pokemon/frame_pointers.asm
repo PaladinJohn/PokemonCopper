@@ -10,7 +10,7 @@ FramesPointers:
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw ScatterbugFrames
-	dw MetapodFrames
+	dw SpewpaFrames
 	dw ButterfreeFrames
 	dw WeedleFrames
 	dw KakunaFrames

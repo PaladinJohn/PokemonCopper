@@ -567,7 +567,7 @@ JohtoGrassWildMons:
 	; morn
 	db 5, SCATTERBUG
 	db 5, WEEDLE
-	db 7, METAPOD
+	db 7, SPEWPA
 	db 7, KAKUNA
 	db 7, FLETCHLING
 	db 6, PARAS
@@ -575,7 +575,7 @@ JohtoGrassWildMons:
 	; day
 	db 5, SCATTERBUG
 	db 5, WEEDLE
-	db 7, METAPOD
+	db 7, SPEWPA
 	db 7, KAKUNA
 	db 7, FLETCHLING
 	db 6, PARAS

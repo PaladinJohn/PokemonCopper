@@ -121,7 +121,7 @@ TreeMonSet_Forest:
 	db 15, SCATTERBUG, 10
 	db 15, WEEDLE,     10
 	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
+	db  5, SPEWPA,     10
 	db  5, KAKUNA,     10
 	db -1
 

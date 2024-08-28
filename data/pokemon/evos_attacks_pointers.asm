@@ -12,7 +12,7 @@ EvosAttacksPointers::
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw ScatterbugEvosAttacks
-	dw MetapodEvosAttacks
+	dw SpewpaEvosAttacks
 	dw ButterfreeEvosAttacks
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks

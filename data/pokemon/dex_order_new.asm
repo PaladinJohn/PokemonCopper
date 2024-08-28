@@ -26,7 +26,7 @@ NewPokedexOrder:
 	db PIKACHU
 	db RAICHU
 	db SCATTERBUG
-	db METAPOD
+	db SPEWPA
 	db BUTTERFREE
 	db WEEDLE
 	db KAKUNA
