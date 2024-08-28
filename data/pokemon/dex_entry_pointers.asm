@@ -13,7 +13,7 @@ PokedexDataPointerTable:
 	dw ScatterbugPokedexEntry
 	dw SpewpaPokedexEntry
 	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
+	dw RookideePokedexEntry
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry
 	dw FletchlingPokedexEntry

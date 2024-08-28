@@ -346,16 +346,16 @@ JohtoGrassWildMons:
 	db 14, LEDYBA
 	db 13, FLETCHLING
 	db 10, SCATTERBUG
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, ROOKIDEE
+	db 10, ROOKIDEE
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, FLETCHLING
 	db 10, SCATTERBUG
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, ROOKIDEE
+	db 10, ROOKIDEE
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
@@ -566,7 +566,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, SCATTERBUG
-	db 5, WEEDLE
+	db 5, ROOKIDEE
 	db 7, SPEWPA
 	db 7, KAKUNA
 	db 7, FLETCHLING
@@ -574,7 +574,7 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	; day
 	db 5, SCATTERBUG
-	db 5, WEEDLE
+	db 5, ROOKIDEE
 	db 7, SPEWPA
 	db 7, KAKUNA
 	db 7, FLETCHLING
@@ -1269,7 +1269,7 @@ JohtoGrassWildMons:
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, WEEDLE
+	db 3, ROOKIDEE
 	db 4, SMOLIV
 	db 4, SMOLIV
 	; day
@@ -1277,7 +1277,7 @@ JohtoGrassWildMons:
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, WEEDLE
+	db 3, ROOKIDEE
 	db 4, SMOLIV
 	db 4, SMOLIV
 	; nite
@@ -1297,7 +1297,7 @@ JohtoGrassWildMons:
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, WEEDLE
+	db 4, ROOKIDEE
 	db 5, SMOLIV
 	db 5, SMOLIV
 	; day
@@ -1305,7 +1305,7 @@ JohtoGrassWildMons:
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, WEEDLE
+	db 4, ROOKIDEE
 	db 5, SMOLIV
 	db 5, SMOLIV
 	; nite

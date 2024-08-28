@@ -40,6 +40,12 @@ ScatterbugEggMoves:
 	db POISONPOWDER
 	db STUN_SPORE
 	db -1 ; end
+	
+RookideeEggMoves:
+	db ROCK_SMASH
+	db SAND_ATTACK
+	db SKY_ATTACK
+	db -1 ; end
 
 FletchlingEggMoves:
 	db SAND_ATTACK

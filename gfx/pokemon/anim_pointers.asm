@@ -12,7 +12,7 @@ AnimationPointers:
 	dw ScatterbugAnimation
 	dw SpewpaAnimation
 	dw ButterfreeAnimation
-	dw WeedleAnimation
+	dw RookideeAnimation
 	dw KakunaAnimation
 	dw BeedrillAnimation
 	dw FletchlingAnimation

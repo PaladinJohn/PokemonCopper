@@ -12,7 +12,7 @@ AnimationIdlePointers:
 	dw ScatterbugAnimationIdle
 	dw SpewpaAnimationIdle
 	dw ButterfreeAnimationIdle
-	dw WeedleAnimationIdle
+	dw RookideeAnimationIdle
 	dw KakunaAnimationIdle
 	dw BeedrillAnimationIdle
 	dw FletchlingAnimationIdle

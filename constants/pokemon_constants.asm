@@ -31,7 +31,7 @@
 	const SCATTERBUG ; 0a
 	const SPEWPA     ; 0b
 	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
+	const ROOKIDEE   ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f
 	const FLETCHLING ; 10

@@ -197,11 +197,17 @@ ButterfreeEvosAttacks:
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+RookideeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
+	db 1, PECK
+	db 1, LEER
+	db 7, THIEF
+	db 10, SHARPEN
+	db 15, FURY_ATTACK
+	db 20, WING_ATTACK
+	db 25, SCARY_FACE
+	db 30, DRILL_PECK
+	db 40, SWAGGER
 	db 0 ; no more level-up moves
 
 KakunaEvosAttacks:

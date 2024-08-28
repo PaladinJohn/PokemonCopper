@@ -12,7 +12,7 @@ FramesPointers:
 	dw ScatterbugFrames
 	dw SpewpaFrames
 	dw ButterfreeFrames
-	dw WeedleFrames
+	dw RookideeFrames
 	dw KakunaFrames
 	dw BeedrillFrames
 	dw FletchlingFrames

@@ -12,7 +12,7 @@ EggMovePointers::
 	dw ScatterbugEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw RookideeEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw FletchlingEggMoves

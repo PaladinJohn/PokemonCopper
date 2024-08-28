@@ -28,7 +28,7 @@ NewPokedexOrder:
 	db SCATTERBUG
 	db SPEWPA
 	db BUTTERFREE
-	db WEEDLE
+	db ROOKIDEE
 	db KAKUNA
 	db BEEDRILL
 	db LEDYBA

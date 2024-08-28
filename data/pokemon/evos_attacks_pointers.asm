@@ -14,7 +14,7 @@ EvosAttacksPointers::
 	dw ScatterbugEvosAttacks
 	dw SpewpaEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
+	dw RookideeEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
 	dw FletchlingEvosAttacks

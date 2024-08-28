@@ -183,6 +183,7 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
+	db ROOKIDEE
 	db SANDSHREW
 	db SANDSLASH
 	db SCATTERBUG
@@ -243,7 +244,6 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF
