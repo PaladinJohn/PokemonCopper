@@ -345,7 +345,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_F
 	db 14, LEDYBA
 	db 13, FLETCHLING
-	db 10, CATERPIE
+	db 10, SCATTERBUG
 	db 10, WEEDLE
 	db 10, WEEDLE
 	; day
@@ -353,7 +353,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, FLETCHLING
-	db 10, CATERPIE
+	db 10, SCATTERBUG
 	db 10, WEEDLE
 	db 10, WEEDLE
 	; nite
@@ -565,7 +565,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
+	db 5, SCATTERBUG
 	db 5, WEEDLE
 	db 7, METAPOD
 	db 7, KAKUNA
@@ -573,7 +573,7 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	db 6, PARAS
 	; day
-	db 5, CATERPIE
+	db 5, SCATTERBUG
 	db 5, WEEDLE
 	db 7, METAPOD
 	db 7, KAKUNA
@@ -1266,16 +1266,16 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, LEDYBA
-	db 3, CATERPIE
-	db 4, CATERPIE
+	db 3, SCATTERBUG
+	db 4, SCATTERBUG
 	db 4, FLETCHLING
 	db 3, WEEDLE
 	db 4, SMOLIV
 	db 4, SMOLIV
 	; day
 	db 3, FLETCHLING
-	db 3, CATERPIE
-	db 4, CATERPIE
+	db 3, SCATTERBUG
+	db 4, SCATTERBUG
 	db 4, FLETCHLING
 	db 3, WEEDLE
 	db 4, SMOLIV
@@ -1294,7 +1294,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, CATERPIE
+	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
 	db 4, WEEDLE
@@ -1302,7 +1302,7 @@ JohtoGrassWildMons:
 	db 5, SMOLIV
 	; day
 	db 4, FLETCHLING
-	db 4, CATERPIE
+	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
 	db 4, WEEDLE

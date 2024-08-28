@@ -35,6 +35,11 @@ SquirtleEggMoves:
 	db FORESIGHT
 	db FLAIL
 	db -1 ; end
+	
+ScatterbugEggMoves:
+	db POISONPOWDER
+	db STUN_SPORE
+	db -1 ; end
 
 FletchlingEggMoves:
 	db SAND_ATTACK

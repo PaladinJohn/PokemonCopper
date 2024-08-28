@@ -9,7 +9,7 @@ EggMovePointers::
 	dw SquirtleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw ScatterbugEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

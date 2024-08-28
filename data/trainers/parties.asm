@@ -1496,8 +1496,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  3, SCATTERBUG
+	db  3, SCATTERBUG
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1515,10 +1515,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
+	db  2, SCATTERBUG
+	db  2, SCATTERBUG
 	db  3, WEEDLE
-	db  2, CATERPIE
+	db  2, SCATTERBUG
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -1530,7 +1530,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (6)
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, CATERPIE
+	db 12, SCATTERBUG
 	db 12, WEEDLE
 	db -1 ; end
 

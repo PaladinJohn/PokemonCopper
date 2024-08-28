@@ -20,7 +20,6 @@ AlphabeticalPokedexOrder:
 	db BLISSEY
 	db BULBASAUR
 	db BUTTERFREE
-	db CATERPIE
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -187,6 +186,7 @@ AlphabeticalPokedexOrder:
 	db RHYHORN
 	db SANDSHREW
 	db SANDSLASH
+	db SCATTERBUG
 	db SCIZOR
 	db SCYTHER
 	db SEADRA
