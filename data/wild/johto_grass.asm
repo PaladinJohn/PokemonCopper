@@ -8,25 +8,25 @@ JohtoGrassWildMons:
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 2, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 7, RATTATA
+	db 8, RATTATA
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 2, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 7, RATTATA
+	db 8, RATTATA
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
 	db 5, GASTLY
 	db 3, RATTATA
 	db 6, GASTLY
-	db 5, RATTATA
+	db 4, RATTATA
 	db 5, RATTATA
 	end_grass_wildmons
 
@@ -36,25 +36,25 @@ JohtoGrassWildMons:
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 2, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 7, RATTATA
+	db 8, RATTATA
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 2, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 7, RATTATA
+	db 8, RATTATA
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
 	db 5, GASTLY
 	db 3, RATTATA
 	db 6, GASTLY
-	db 5, RATTATA
+	db 4, RATTATA
 	db 5, RATTATA
 	end_grass_wildmons
 
@@ -1186,24 +1186,24 @@ JohtoGrassWildMons:
 	db 2, GEODUDE
 	db 4, GEODUDE
 	db 2, TEDDIURSA
-	db 4, ZUBAT
 	db 4, DUNSPARCE
+	db 4, ZUBAT
 	; day
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 3, ZUBAT
 	db 4, DUNSPARCE
+	db 4, ZUBAT
 	; nite
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
 	db 4, GEODUDE
-	db 2, ZUBAT
-	db 4, ZUBAT
+	db 3, ZUBAT
 	db 4, DUNSPARCE
+	db 4, ZUBAT
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
@@ -1242,7 +1242,7 @@ JohtoGrassWildMons:
 	db 3, FLETCHLING
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, SMOLIV
+	db 2, SMOLIV
 	db 3, SMOLIV
 	; day
 	db 2, FLETCHLING
@@ -1250,16 +1250,16 @@ JohtoGrassWildMons:
 	db 3, FLETCHLING
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, SMOLIV
+	db 2, SMOLIV
 	db 3, SMOLIV
 	; nite
 	db 2, HOOTHOOT
 	db 2, RATTATA
 	db 3, HOOTHOOT
 	db 3, RATTATA
-	db 2, RATTATA
-	db 3, HOOTHOOT
-	db 3, HOOTHOOT
+	db 4, RATTATA
+	db 4, HOOTHOOT
+	db 5, HOOTHOOT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1269,25 +1269,25 @@ JohtoGrassWildMons:
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, ROOKIDEE
-	db 4, SMOLIV
+	db 3, PAWMI
+	db 3, SMOLIV
 	db 4, SMOLIV
 	; day
 	db 3, FLETCHLING
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, ROOKIDEE
-	db 4, SMOLIV
+	db 3, PAWMI
+	db 3, SMOLIV
 	db 4, SMOLIV
 	; nite
-	db 3, SPINARAK
-	db 3, HOOTHOOT
+	db 3, ROOKIDEE
+	db 2, HOOTHOOT
 	db 4, POLIWAG
-	db 4, HOOTHOOT
+	db 3, HOOTHOOT
 	db 3, ZUBAT
 	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 5, HOOTHOOT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_31
@@ -1297,24 +1297,24 @@ JohtoGrassWildMons:
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, ROOKIDEE
-	db 5, SMOLIV
+	db 4, PAWMI
+	db 4, SMOLIV
 	db 5, SMOLIV
 	; day
 	db 4, FLETCHLING
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, ROOKIDEE
-	db 5, SMOLIV
+	db 4, PAWMI
+	db 4, SMOLIV
 	db 5, SMOLIV
 	; nite
-	db 4, SPINARAK
+	db 4, ROOKIDEE
 	db 4, POLIWAG
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
 	db 4, ZUBAT
-	db 5, GASTLY
+	db 4, GASTLY
 	db 5, GASTLY
 	end_grass_wildmons
 
@@ -1439,23 +1439,23 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, FLETCHLING
 	db 6, FLETCHLING
-	db 6, FLETCHLING
+	db 6, VULPIX
 	; day
-	db 4, FLETCHLING
+	db 3, FLETCHLING
 	db 4, FLETCHLING
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
 	db 5, FLETCHLING
 	db 6, FLETCHLING
-	db 6, FLETCHLING
+	db 6, VULPIX
 	; nite
-	db 4, SPINARAK
+	db 4, ROOKIDEE
 	db 4, HOOTHOOT
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 6, HOOTHOOT
 	db 5, GASTLY
-	db 5, GASTLY
+	db 6, GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
@@ -1663,23 +1663,23 @@ JohtoGrassWildMons:
 	db 3, RATTATA
 	db 2, PHANPY
 	db 2, RATTATA
-	db 2, RATTATA
+	db 4, RATTATA
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 4, RATTATA
+	db 5, RATTATA
 	; nite
 	db 2, GEODUDE
 	db 2, RATTATA
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 4, RATTATA
+	db 5, RATTATA
+	db 6, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
