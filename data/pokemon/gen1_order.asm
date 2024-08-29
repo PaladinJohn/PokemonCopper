@@ -69,7 +69,7 @@ Pokered_MonIndices:
 	db MAGCARGO ; MISSINGNO.
 	db SWINUB ; MISSINGNO.
 	db PILOSWINE ; MISSINGNO.
-	db DODUO
+	db PAWMI
 	db POLIWAG
 	db JYNX
 	db MOLTRES

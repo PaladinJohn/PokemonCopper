@@ -1689,7 +1689,7 @@ JohtoGrassWildMons:
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
-	db 41, DODUO
+	db 41, PAWMI
 	db 43, DODRIO
 	db 43, DODRIO
 	; day
@@ -1697,7 +1697,7 @@ JohtoGrassWildMons:
 	db 42, PONYTA
 	db 42, ARBOK
 	db 44, RAPIDASH
-	db 41, DODUO
+	db 41, PAWMI
 	db 43, DODRIO
 	db 43, DODRIO
 	; nite

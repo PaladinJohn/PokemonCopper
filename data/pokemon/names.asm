@@ -83,7 +83,7 @@ PokemonNames::
 	db "MAGNEMITE@"
 	db "MAGNETON@@"
 	db "FARFETCH'D"
-	db "DODUO@@@@@"
+	db "PAWMI@@@@@"
 	db "DODRIO@@@@"
 	db "SEEL@@@@@@"
 	db "DEWGONG@@@"

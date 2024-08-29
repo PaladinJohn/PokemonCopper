@@ -200,7 +200,7 @@ NewPokedexOrder:
 	db DONPHAN
 	db MANTINE
 	db SKARMORY
-	db DODUO
+	db PAWMI
 	db DODRIO
 	db PONYTA
 	db RAPIDASH

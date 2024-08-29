@@ -599,9 +599,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (5)
 	db "TOBY@", TRAINERTYPE_NORMAL
-	db 15, DODUO
-	db 16, DODUO
-	db 17, DODUO
+	db 15, PAWMI
+	db 16, PAWMI
+	db 17, PAWMI
 	db -1 ; end
 
 	; BIRD_KEEPER (6)
@@ -631,8 +631,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (10)
 	db "BORIS@", TRAINERTYPE_NORMAL
-	db 30, DODUO
-	db 28, DODUO
+	db 30, PAWMI
+	db 28, PAWMI
 	db 32, DODRIO
 	db -1 ; end
 

@@ -1134,17 +1134,16 @@ FarfetchDEvosAttacks:
 	db 44, FALSE_SWIPE
 	db 0 ; no more level-up moves
 
-DoduoEvosAttacks:
-	db EVOLVE_LEVEL, 31, DODRIO
+PawmiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
+	db 1, SCRATCH
 	db 1, GROWL
-	db 9, PURSUIT
-	db 13, FURY_ATTACK
-	db 21, TRI_ATTACK
-	db 25, RAGE
-	db 33, DRILL_PECK
-	db 37, AGILITY
+	db 9, THUNDERSHOCK
+	db 13, QUICK_ATTACK
+	db 21, LEECH_SEED
+	db 25, VINE_WHIP
+	db 33, DIG
+	db 37, BITE
 	db 0 ; no more level-up moves
 
 DodrioEvosAttacks:

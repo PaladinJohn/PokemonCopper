@@ -251,12 +251,8 @@ FarfetchDEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DoduoEggMoves:
-	db QUICK_ATTACK
-	db SUPERSONIC
-	db HAZE
-	db FAINT_ATTACK
-	db FLAIL
+PawmiEggMoves:
+	db SPARK
 	db -1 ; end
 
 SeelEggMoves:

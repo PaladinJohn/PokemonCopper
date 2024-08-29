@@ -102,7 +102,7 @@
 	const MAGNEMITE  ; 51
 	const MAGNETON   ; 52
 	const FARFETCH_D ; 53
-	const DODUO      ; 54
+	const PAWMI      ; 54
 	const DODRIO     ; 55
 	const SEEL       ; 56
 	const DEWGONG    ; 57

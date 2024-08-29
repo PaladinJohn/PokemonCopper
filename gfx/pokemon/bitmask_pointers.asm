@@ -83,7 +83,7 @@ BitmasksPointers:
 	dw MagnemiteBitmasks
 	dw MagnetonBitmasks
 	dw FarfetchDBitmasks
-	dw DoduoBitmasks
+	dw PawmiBitmasks
 	dw DodrioBitmasks
 	dw SeelBitmasks
 	dw DewgongBitmasks
