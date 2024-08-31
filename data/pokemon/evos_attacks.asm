@@ -222,7 +222,7 @@ BeedrillEvosAttacks:
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK
 	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
+	db 20, TACKLE
 	db 25, RAGE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
@@ -629,7 +629,7 @@ ParasectEvosAttacks:
 SnomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POWDER_SNOW
-	db 1, POISONPOWDER
+	db 1, STRUGGLE_BUG
 	db 0 ; no more level-up moves
 
 VenomothEvosAttacks:

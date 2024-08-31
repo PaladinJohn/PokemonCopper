@@ -41,7 +41,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
+	dw StruggleBugDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -427,9 +427,9 @@ PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+StruggleBugDescription:
+	db   "An attack that"
+	next "lowers SPCL. ATK.@"
 
 PinMissileDescription:
 	db   "Fires pins that"
