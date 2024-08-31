@@ -97,8 +97,8 @@ PokemonPicPointers::
 	dba_pic ParasBackpic
 	dba_pic ParasectFrontpic
 	dba_pic ParasectBackpic
-	dba_pic VenonatFrontpic
-	dba_pic VenonatBackpic
+	dba_pic SnomFrontpic
+	dba_pic SnomBackpic
 	dba_pic VenomothFrontpic
 	dba_pic VenomothBackpic
 	dba_pic DiglettFrontpic

@@ -137,10 +137,8 @@ ParasEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-VenonatEggMoves:
-	db BATON_PASS
-	db SCREECH
-	db GIGA_DRAIN
+SnomEggMoves:
+	db MIRROR_COAT
 	db -1 ; end
 
 DiglettEggMoves:

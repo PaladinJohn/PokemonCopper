@@ -361,9 +361,9 @@ JohtoGrassWildMons:
 	db 13, HOOTHOOT
 	db 14, SPINARAK
 	db 15, HOOTHOOT
-	db 10, VENONAT
-	db 12, VENONAT
-	db 12, VENONAT
+	db 10, SNOM
+	db 12, SNOM
+	db 12, SNOM
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -582,7 +582,7 @@ JohtoGrassWildMons:
 	db 6, PARAS
 	; nite
 	db 5, ODDISH
-	db 5, VENONAT
+	db 5, SNOM
 	db 7, ODDISH
 	db 7, PSYDUCK
 	db 7, HOOTHOOT
@@ -1589,10 +1589,10 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 17, FURRET
 	; nite
-	db 15, VENONAT
+	db 15, SNOM
 	db 16, NOCTOWL
 	db 16, RATICATE
-	db 17, VENONAT
+	db 17, SNOM
 	db 17, RATICATE
 	db 17, VENOMOTH
 	db 17, VENOMOTH

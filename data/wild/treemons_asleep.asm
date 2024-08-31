@@ -15,7 +15,7 @@ AsleepTreeMonsNite:
 	db -1 ; end
 
 AsleepTreeMonsDay:
-	db VENONAT
+	db SNOM
 	db HOOTHOOT
 	db NOCTOWL
 	db SPINARAK
@@ -23,7 +23,7 @@ AsleepTreeMonsDay:
 	db -1 ; end
 
 AsleepTreeMonsMorn:
-	db VENONAT
+	db SNOM
 	db HOOTHOOT
 	db NOCTOWL
 	db SPINARAK
