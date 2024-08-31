@@ -1796,8 +1796,8 @@ EeveeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
-	db 16, GROWL
 	db 23, QUICK_ATTACK
 	db 30, BITE
 	db 36, BATON_PASS
@@ -1808,6 +1808,7 @@ VaporeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
 	db 16, WATER_GUN
 	db 23, QUICK_ATTACK
@@ -1822,6 +1823,7 @@ JolteonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
 	db 16, THUNDERSHOCK
 	db 23, QUICK_ATTACK
@@ -1836,6 +1838,7 @@ FlareonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
 	db 16, EMBER
 	db 23, QUICK_ATTACK
@@ -2636,6 +2639,7 @@ EspeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
 	db 16, CONFUSION
 	db 23, QUICK_ATTACK
@@ -2650,6 +2654,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, GROWL
 	db 8, SAND_ATTACK
 	db 16, PURSUIT
 	db 23, QUICK_ATTACK
