@@ -183,3 +183,7 @@ SpecialsPointers::
 	add_special InitialSetDSTFlag
 	add_special InitialClearDSTFlag
 	add_special UnusedDummySpecial ; unused
+	
+;Pokemon Copper
+	add_special BillBoxSwitchCheck
+	add_special BillBoxSwitch

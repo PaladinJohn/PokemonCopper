@@ -2317,10 +2317,19 @@ BillsPC_PrintBoxCountAndCapacity:
 .OutOf20:
 	db "/{d:MONS_PER_BOX}@" ; "/20@"
 
+GetBoxCountWithC:
+	ld a, [wCurBox]
+	ld b, a
+	ld a, c
+	ld c, b
+	jr BoxSelectionJumpIn
+	
 GetBoxCount:
 	ld a, [wCurBox]
 	ld c, a
 	ld a, [wMenuSelection]
+
+BoxSelectionJumpIn:
 	dec a
 	cp c
 	jr z, .activebox
@@ -2359,7 +2368,7 @@ GetBoxCount:
 	ret
 
 .BoxBankAddresses:
-	table_width 3, GetBoxCount.BoxBankAddresses
+	table_width 3, BoxSelectionJumpIn.BoxBankAddresses
 for n, 1, NUM_BOXES + 1
 	dba sBox{d:n}
 endr

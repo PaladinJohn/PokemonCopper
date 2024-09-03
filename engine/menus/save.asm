@@ -45,6 +45,15 @@ ChangeBoxSaveGame:
 	jr c, .refused
 	call AskOverwriteSaveFile
 	jr c, .refused
+	jr nc, SaveAndChangeBox
+.refused
+	pop de
+	ret
+
+ChangeBoxSaveGameNoConfirm:
+	push de
+
+SaveAndChangeBox:
 	call PauseGameLogic
 	call SavingDontTurnOffThePower
 	call SaveBox
@@ -55,9 +64,6 @@ ChangeBoxSaveGame:
 	call SavedTheGame
 	call ResumeGameLogic
 	and a
-	ret
-.refused
-	pop de
 	ret
 
 Link_SaveGame:

@@ -33,9 +33,28 @@ BillPhoneCalleeScript:
 
 .full
 	farwritetext BillPhoneFullText
-	end
+	jump BillPhoneScriptCheckForBoxes
 
 BillPhoneCallerScript:
 	farwritetext BillPhoneNewlyFullText
+	
+BillPhoneScriptCheckForBoxes:
+	special BillBoxSwitchCheck
+	if_equal 0, BillPhoneWholePCFull
+	farwritetext BillWantNextBox
+	farwritetext _ChangeBoxSaveText
+	yesorno
+	iffalse .refused
+	special BillBoxSwitch
+	jump .hang_up
+
+.refused
+	farwritetext BillCallMeToSwitch
+.hang_up
+	farwritetext BillThankYouText
+	end
+
+BillPhoneWholePCFull:
+	farwritetext BillWholePCFullText
 	waitbutton
 	end

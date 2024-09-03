@@ -2177,7 +2177,8 @@ wCurCoordEvent::
 wCurCoordEventSceneID:: db
 wCurCoordEventMapY:: db
 wCurCoordEventMapX:: db
-	ds 1
+;	ds 1
+wBillBuffer:: db
 wCurCoordEventScriptAddr:: dw
 
 NEXTU
