@@ -76,7 +76,7 @@ SageLiScript:
 	opentext
 	writetext SageLiTakeThisFlashText
 	promptbutton
-	verbosegiveitem HM_FLASH
+	verbosegiveitem HM_THUNDER_WAVE
 	setevent EVENT_GOT_HM05_FLASH
 	setevent EVENT_BEAT_SAGE_LI
 	writetext SageLiFlashExplanationText

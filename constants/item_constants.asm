@@ -287,7 +287,7 @@ DEF HM01 EQU const_value
 	add_hm FLY          ; f4
 	add_hm SURF         ; f5
 	add_hm STRENGTH     ; f6
-	add_hm FLASH        ; f7
+	add_hm THUNDER_WAVE ; f7
 	add_hm WHIRLPOOL    ; f8
 	add_hm WATERFALL    ; f9
 DEF NUM_HMS EQU __tmhm_value__ - NUM_TMS - 1
