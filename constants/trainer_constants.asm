@@ -153,8 +153,8 @@ DEF ASH EQU __trainer_class__
 	const CHAD5
 
 	trainerclass BIRD_KEEPER ; 18
-	const ROD
-	const ABE
+	const ROD ; unused
+	const ABE ; unused
 	const BRYAN
 	const THEO
 	const TOBY
@@ -592,8 +592,8 @@ DEF ASH EQU __trainer_class__
 	const LLOYD
 	const DEAN
 	const SID
-	const HARVEY ; unused
-	const DALE ; unused
+	const HARVEY ; John; Violet Gym
+	const DALE ; Craig; Violet Gym
 	const TED
 	const TODD2
 	const TODD3
