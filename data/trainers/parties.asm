@@ -14,7 +14,7 @@ FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
 	db  8, LARVITAR, BITE, LEER, SANDSTORM, NO_MOVE
-	db  10, RHYHORN,  HORN_ATTACK, TAIL_WHIP, SANDSTORM, NO_MOVE
+	db  10, RHYHORN,  HORN_ATTACK, TAIL_WHIP, SANDSTORM, MUD_SLAP
 	db -1 ; end
 
 WhitneyGroup:
@@ -337,14 +337,14 @@ ErikaGroup:
 
 YoungsterGroup:
 	; YOUNGSTER (1)
-	db "DAVID@", TRAINERTYPE_NORMAL
-	db  4, RATTATA
+	db "JOEY@", TRAINERTYPE_NORMAL
+	db  5, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
 	db "CRISTOPH@", TRAINERTYPE_NORMAL
-	db  2, SENTRET
-	db  4, HOOTHOOT
+	db  3, SENTRET
+	db  5, HOOTHOOT
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -1496,8 +1496,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "ANDREW@", TRAINERTYPE_NORMAL
-	db  3, SCATTERBUG
-	db  3, SCATTERBUG
+	db  4, SCATTERBUG
+	db  4, SCATTERBUG
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1515,10 +1515,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (4)
 	db "JAMES@", TRAINERTYPE_NORMAL
-	db  2, SNOM
-	db  2, SNOM
+	db  3, SNOM
+	db  3, SNOM
+	db  4, SCATTERBUG
 	db  3, SCATTERBUG
-	db  2, SCATTERBUG
 	db -1 ; end
 
 	; BUG_CATCHER (5)

@@ -21,7 +21,7 @@ PokemonCries::
 	mon_cry CRY_ENTEI,       289,  121 ; ROOKIDEE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
-	mon_cry CRY_SLOWPOKE,   3863,   99 ; FLETCHLING
+	mon_cry CRY_MARILL,     1870,  413 ; FLETCHLING
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
 	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
