@@ -11,7 +11,7 @@ PokemonNames::
 	db "BLASTOISE@"
 	db "SCATTERBUG"
 	db "SPEWPA@@@@"
-	db "BUTTERFREE"
+	db "VIVILLON@@"
 	db "ROOKIDEE@@"
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"

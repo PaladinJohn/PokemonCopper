@@ -17,7 +17,7 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_VENONAT,    -421,  305 ; SCATTERBUG
 	mon_cry CRY_VENONAT,    -505,  296 ; SPEWPA
-	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
+	mon_cry CRY_RATTATA,     -63,  575 ; VIVILLON
 	mon_cry CRY_ENTEI,       289,  121 ; ROOKIDEE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL

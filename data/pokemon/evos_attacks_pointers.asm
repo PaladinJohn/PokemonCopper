@@ -13,7 +13,7 @@ EvosAttacksPointers::
 	dw BlastoiseEvosAttacks
 	dw ScatterbugEvosAttacks
 	dw SpewpaEvosAttacks
-	dw ButterfreeEvosAttacks
+	dw VivillonEvosAttacks
 	dw RookideeEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks

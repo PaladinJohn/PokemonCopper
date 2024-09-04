@@ -19,7 +19,6 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
-	db BUTTERFREE
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -241,6 +240,7 @@ AlphabeticalPokedexOrder:
 	db VENUSAUR
 	db VICTREEBEL
 	db VILEPLUME
+	db VIVILLON
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE

@@ -175,6 +175,7 @@ ScatterbugEvosAttacks:
 	db 0 ; no more level-up moves
 
 SpewpaEvosAttacks:
+	db EVOLVE_LEVEL, 12, VIVILLON
 	db 0 ; no more evolutions
 	db 1, STRING_SHOT
 	db 1, TACKLE
@@ -183,17 +184,21 @@ SpewpaEvosAttacks:
 	db 9, PROTECT
 	db 0 ; no more level-up moves
 
-ButterfreeEvosAttacks:
+VivillonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONFUSION
-	db 10, CONFUSION
-	db 13, POISONPOWDER
-	db 14, STUN_SPORE
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 6, STUN_SPORE
+	db 9, HARDEN
+	db 9, PROTECT
+	db 12, GUST
+	db 13, LIGHT_SCREEN
+	db 14, POISONPOWDER
 	db 15, SLEEP_POWDER
-	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST
-	db 34, PSYBEAM
+	db 18, STRUGGLE_BUG
+	db 23, PSYBEAM
+	db 28, SUPERSONIC
+	db 34, HEAL_BELL
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 

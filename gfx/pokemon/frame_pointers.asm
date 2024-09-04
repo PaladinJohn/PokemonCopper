@@ -11,7 +11,7 @@ FramesPointers:
 	dw BlastoiseFrames
 	dw ScatterbugFrames
 	dw SpewpaFrames
-	dw ButterfreeFrames
+	dw VivillonFrames
 	dw RookideeFrames
 	dw KakunaFrames
 	dw BeedrillFrames

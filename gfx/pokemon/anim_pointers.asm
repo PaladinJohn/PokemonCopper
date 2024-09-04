@@ -11,7 +11,7 @@ AnimationPointers:
 	dw BlastoiseAnimation
 	dw ScatterbugAnimation
 	dw SpewpaAnimation
-	dw ButterfreeAnimation
+	dw VivillonAnimation
 	dw RookideeAnimation
 	dw KakunaAnimation
 	dw BeedrillAnimation

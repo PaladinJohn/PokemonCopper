@@ -30,7 +30,7 @@
 	const BLASTOISE  ; 09
 	const SCATTERBUG ; 0a
 	const SPEWPA     ; 0b
-	const BUTTERFREE ; 0c
+	const VIVILLON   ; 0c
 	const ROOKIDEE   ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f

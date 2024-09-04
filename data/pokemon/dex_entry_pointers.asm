@@ -12,7 +12,7 @@ PokedexDataPointerTable:
 	dw BlastoisePokedexEntry
 	dw ScatterbugPokedexEntry
 	dw SpewpaPokedexEntry
-	dw ButterfreePokedexEntry
+	dw VivillonPokedexEntry
 	dw RookideePokedexEntry
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry

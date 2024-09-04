@@ -11,7 +11,7 @@ BitmasksPointers:
 	dw BlastoiseBitmasks
 	dw ScatterbugBitmasks
 	dw SpewpaBitmasks
-	dw ButterfreeBitmasks
+	dw VivillonBitmasks
 	dw RookideeBitmasks
 	dw KakunaBitmasks
 	dw BeedrillBitmasks

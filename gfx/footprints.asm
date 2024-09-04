@@ -33,7 +33,7 @@ INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
 INCBIN "gfx/footprints/scatterbug.1bpp", footprint_top
 INCBIN "gfx/footprints/spewpa.1bpp",     footprint_top
-INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
+INCBIN "gfx/footprints/vivillon.1bpp",   footprint_top
 INCBIN "gfx/footprints/rookidee.1bpp",   footprint_top
 INCBIN "gfx/footprints/kakuna.1bpp",     footprint_top
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
@@ -42,7 +42,7 @@ INCBIN "gfx/footprints/fletchling.1bpp", footprint_top
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/scatterbug.1bpp", footprint_bottom
 INCBIN "gfx/footprints/spewpa.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
+INCBIN "gfx/footprints/vivillon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/rookidee.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kakuna.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/beedrill.1bpp",   footprint_bottom
