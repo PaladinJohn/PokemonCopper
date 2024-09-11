@@ -2347,14 +2347,18 @@ LanturnEvosAttacks:
 	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-PichuEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+ShinxEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, CHARM
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, SWEET_KISS
+	db 1, TACKLE
+	db 1, LEER
+	db 6, THUNDERSHOCK
+	db 11, SPARK
+	db 15, BITE
+	db 20, ROAR
+	db 26, SWAGGER
+	db 33, CRUNCH
+	db 41, SCARY_FACE
+	db 50, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
 CleffaEvosAttacks:

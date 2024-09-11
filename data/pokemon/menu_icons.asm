@@ -173,7 +173,7 @@ MonMenuIcons:
 	db ICON_BAT         ; CROBAT
 	db ICON_FISH        ; CHINCHOU
 	db ICON_FISH        ; LANTURN
-	db ICON_PIKACHU     ; PICHU
+	db ICON_FOX         ; SHINX
 	db ICON_CLEFAIRY    ; CLEFFA
 	db ICON_JIGGLYPUFF  ; IGGLYBUFF
 	db ICON_CLEFAIRY    ; TOGEPI

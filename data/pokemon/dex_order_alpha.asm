@@ -154,7 +154,6 @@ AlphabeticalPokedexOrder:
 	db PAWMI
 	db PERSIAN
 	db PHANPY
-	db PICHU
 	db PIDGEOT
 	db PIDGEOTTO
 	db PIKACHU
@@ -193,6 +192,7 @@ AlphabeticalPokedexOrder:
 	db SEEL
 	db SENTRET
 	db SHELLDER
+	db SHINX
 	db SHUCKLE
 	db SKARMORY
 	db SKIPLOOM

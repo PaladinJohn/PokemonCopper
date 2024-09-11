@@ -501,12 +501,10 @@ ChinchouEggMoves:
 	db SCREECH
 	db -1 ; end
 
-PichuEggMoves:
-	db REVERSAL
-	db BIDE
-	db PRESENT
-	db ENCORE
-	db DOUBLESLAP
+ShinxEggMoves:
+	db SHARPEN
+	db QUICK_ATTACK
+	db TAKE_DOWN
 	db -1 ; end
 
 CleffaEggMoves:

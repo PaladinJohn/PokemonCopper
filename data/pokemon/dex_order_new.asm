@@ -61,7 +61,7 @@ NewPokedexOrder:
 	db SMOLIV
 	db SKIPLOOM
 	db JUMPLUFF
-	db PICHU
+	db SHINX
 	db PIKACHU
 	db RAICHU
 	db SPINARAK
