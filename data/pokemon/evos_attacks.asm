@@ -2625,7 +2625,7 @@ WooperEvosAttacks:
 	db 1, TAIL_WHIP
 	db 11, SLAM
 	db 21, AMNESIA
-	db 31, EARTHQUAKE
+	db 31, PETAL_DANCE
 	db 41, RAIN_DANCE
 	db 51, MIST
 	db 51, HAZE
