@@ -24,7 +24,7 @@ PokemonNames::
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
-	db "PIKACHU@@@"
+	db "LUXIO@@@@@"
 	db "RAICHU@@@@"
 	db "SANDSHREW@"
 	db "SANDSLASH@"

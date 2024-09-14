@@ -34,7 +34,7 @@ TrainerPokefanmDerek:
 	iftrue .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftrue .NumberAccepted
-	checkpoke PIKACHU
+	checkpoke LUXIO
 	iffalse .WantsPikachu
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready

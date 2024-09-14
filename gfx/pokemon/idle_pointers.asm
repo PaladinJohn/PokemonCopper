@@ -24,7 +24,7 @@ AnimationIdlePointers:
 	dw FearowAnimationIdle
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle
-	dw PikachuAnimationIdle
+	dw LuxioAnimationIdle
 	dw RaichuAnimationIdle
 	dw SandshrewAnimationIdle
 	dw SandslashAnimationIdle

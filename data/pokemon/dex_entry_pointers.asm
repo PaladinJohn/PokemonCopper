@@ -25,7 +25,7 @@ PokedexDataPointerTable:
 	dw FearowPokedexEntry
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry
-	dw PikachuPokedexEntry
+	dw LuxioPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry

@@ -62,7 +62,7 @@ NewPokedexOrder:
 	db SKIPLOOM
 	db JUMPLUFF
 	db SHINX
-	db PIKACHU
+	db LUXIO
 	db RAICHU
 	db SPINARAK
 	db ARIADOS

@@ -43,7 +43,7 @@
 	const FEAROW     ; 16
 	const EKANS      ; 17
 	const ARBOK      ; 18
-	const PIKACHU    ; 19
+	const LUXIO      ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
 	const SANDSLASH  ; 1c

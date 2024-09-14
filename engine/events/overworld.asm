@@ -444,7 +444,7 @@ GetSurfType:
 	add hl, de
 
 	ld a, [hl]
-	cp PIKACHU
+	cp LUXIO
 	ld a, PLAYER_SURF_PIKA
 	ret z
 	ld a, PLAYER_SURF

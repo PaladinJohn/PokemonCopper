@@ -353,20 +353,19 @@ ArbokEvosAttacks:
 	db 51, HAZE
 	db 0 ; no more level-up moves
 
-PikachuEvosAttacks:
-	db EVOLVE_ITEM, THUNDERSTONE, RAICHU
+LuxioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, GROWL
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, QUICK_ATTACK
-	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
-	db 50, LIGHT_SCREEN
+	db 1, TACKLE
+	db 1, LEER
+	db 6, THUNDERSHOCK
+	db 8, CHARGE
+	db 11, SPARK
+	db 15, BITE
+	db 21, ROAR
+	db 28, SWAGGER
+	db 36, CRUNCH
+	db 45, SCARY_FACE
+	db 55, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
@@ -2347,6 +2346,7 @@ LanturnEvosAttacks:
 	db 0 ; no more level-up moves
 
 ShinxEvosAttacks:
+	db EVOLVE_LEVEL, 15, LUXIO
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER

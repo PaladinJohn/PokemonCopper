@@ -51,8 +51,8 @@ PokemonPicPointers::
 	dba_pic EkansBackpic
 	dba_pic ArbokFrontpic
 	dba_pic ArbokBackpic
-	dba_pic PikachuFrontpic
-	dba_pic PikachuBackpic
+	dba_pic LuxioFrontpic
+	dba_pic LuxioBackpic
 	dba_pic RaichuFrontpic
 	dba_pic RaichuBackpic
 	dba_pic SandshrewFrontpic

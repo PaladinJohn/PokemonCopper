@@ -111,6 +111,7 @@ AlphabeticalPokedexOrder:
 	db LEDYBA
 	db LICKITUNG
 	db LUGIA
+	db LUXIO
 	db MACHAMP
 	db MACHOKE
 	db MACHOP
@@ -156,7 +157,6 @@ AlphabeticalPokedexOrder:
 	db PHANPY
 	db PIDGEOT
 	db PIDGEOTTO
-	db PIKACHU
 	db PILOSWINE
 	db PINECO
 	db PINSIR

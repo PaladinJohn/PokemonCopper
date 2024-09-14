@@ -24,7 +24,7 @@ AnimationPointers:
 	dw FearowAnimation
 	dw EkansAnimation
 	dw ArbokAnimation
-	dw PikachuAnimation
+	dw LuxioAnimation
 	dw RaichuAnimation
 	dw SandshrewAnimation
 	dw SandslashAnimation

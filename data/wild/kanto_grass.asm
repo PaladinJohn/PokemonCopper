@@ -206,16 +206,16 @@ KantoGrassWildMons:
 	db 5, FLETCHLING
 	db 7, VIVILLON
 	db 7, LEDIAN
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, LUXIO
+	db 4, LUXIO
 	; day
 	db 3, SCATTERBUG
 	db 3, FLETCHLING
 	db 5, FLETCHLING
 	db 7, VIVILLON
 	db 7, PIDGEOTTO
-	db 4, PIKACHU
-	db 4, PIKACHU
+	db 4, LUXIO
+	db 4, LUXIO
 	; nite
 	db 3, HOOTHOOT
 	db 3, SPINARAK

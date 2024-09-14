@@ -30,7 +30,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
 	mon_cry CRY_EKANS,        18,  192 ; EKANS
 	mon_cry CRY_EKANS,       224,  144 ; ARBOK
-	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
+	mon_cry CRY_CHIKORITA,  3764,  486 ; LUXIO
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW
 	mon_cry CRY_NIDORAN_M,   255,  383 ; SANDSLASH

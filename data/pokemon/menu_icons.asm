@@ -26,7 +26,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; FEAROW
 	db ICON_SERPENT     ; EKANS
 	db ICON_SERPENT     ; ARBOK
-	db ICON_PIKACHU     ; PIKACHU
+	db ICON_FOX         ; LUXIO
 	db ICON_PIKACHU     ; RAICHU
 	db ICON_MONSTER     ; SANDSHREW
 	db ICON_MONSTER     ; SANDSLASH

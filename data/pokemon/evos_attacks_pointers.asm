@@ -26,7 +26,7 @@ EvosAttacksPointers::
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
-	dw PikachuEvosAttacks
+	dw LuxioEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
