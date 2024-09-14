@@ -1034,6 +1034,13 @@ TriAttack:
 	tristatuschance
 	endmove
 
+Charge:
+	checkobedience
+	usedmovetext
+	doturn
+	charge_m
+	endmove
+	
 Toxic:
 DoPoison:
 	checkobedience

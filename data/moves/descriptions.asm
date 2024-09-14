@@ -26,7 +26,7 @@ MoveDescriptions::
 	dw StompDescription
 	dw DoubleKickDescription
 	dw MegaKickDescription
-	dw JumpKickDescription
+	dw ChargeDescription
 	dw LeafageDescription
 	dw SandAttackDescription
 	dw HeadbuttDescription
@@ -367,9 +367,9 @@ MegaKickDescription:
 	db   "A powerful kicking"
 	next "attack.@"
 
-JumpKickDescription:
-	db   "May miss, damaging"
-	next "the user.@"
+ChargeDescription:
+	db   "Charges power to"
+	next "boost ELEC moves.@"
 
 LeafageDescription:
 	db   "Pelts the target"

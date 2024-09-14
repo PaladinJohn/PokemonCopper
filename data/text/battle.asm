@@ -1102,6 +1102,12 @@ BattleText_LinkErrorBattleCanceled:
 	line "been canceled…"
 	prompt
 
+ChargeText:
+	text "<USER>"
+	line "began charging"
+	cont "power!"
+	prompt
+	
 BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"

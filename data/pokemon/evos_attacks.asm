@@ -1135,7 +1135,7 @@ PawmiEvosAttacks:
 	db 1, GROWL
 	db 9, THUNDERSHOCK
 	db 13, QUICK_ATTACK
-	db 21, LEECH_SEED
+	db 21, CHARGE
 	db 25, VINE_WHIP
 	db 33, DIG
 	db 37, BITE
@@ -1438,7 +1438,7 @@ HitmonleeEvosAttacks:
 	db 1, DOUBLE_KICK
 	db 6, MEDITATE
 	db 11, TACKLE
-	db 16, JUMP_KICK
+	db 16, TACKLE
 	db 21, FOCUS_ENERGY
 	db 26, HI_JUMP_KICK
 	db 31, MIND_READER
@@ -2352,6 +2352,7 @@ ShinxEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 6, THUNDERSHOCK
+	db 8, CHARGE
 	db 11, SPARK
 	db 15, BITE
 	db 20, ROAR

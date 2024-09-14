@@ -387,6 +387,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_SOLARBEAM,        AI_Smart_Solarbeam
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
+	dbw EFFECT_CHARGE_M,         AI_Smart_Charge
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -2672,6 +2673,17 @@ AI_Smart_Thunder:
 	cp 10 percent
 	ret c
 
+	inc [hl]
+	ret
+	
+AI_Smart_Charge:
+; Over 90% chance to discourage this move unless enemy's HP is full.
+
+	call AICheckEnemyMaxHP
+	ret c
+	call Random
+	cp 8 percent
+	ret c
 	inc [hl]
 	ret
 

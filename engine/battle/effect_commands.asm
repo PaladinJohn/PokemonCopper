@@ -3008,11 +3008,33 @@ ConfusionDamageCalc:
 	ld b, $4
 	call Divide
 
-; Item boosts
-; Item boosts don't apply to confusion damage
+; Item & Charge boosts don't apply to confusion damage
 	ld a, [wIsConfusionDamage]
 	and a
 	jr nz, .DoneItem
+	
+; Charge
+	ld a, BATTLE_VARS_SUBSTATUS4
+	call GetBattleVar
+	bit SUBSTATUS_CHARGE, a
+	jr z, .ItemBoosts
+	
+	ld a, BATTLE_VARS_SUBSTATUS4
+	push hl
+	call GetBattleVarAddr
+	res SUBSTATUS_CHARGE, [hl]
+	pop hl
+	
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp ELECTRIC
+	jr nz, .ItemBoosts
+	
+	ld [hl], 2
+	call Multiply
+	
+; Item boosts
+.ItemBoosts
 	call GetUserItem
 
 	ld a, b
@@ -5697,6 +5719,8 @@ BattleCommand_TrapTarget:
 INCLUDE "engine/battle/move_effects/mist.asm"
 
 INCLUDE "engine/battle/move_effects/focus_energy.asm"
+
+INCLUDE "engine/battle/move_effects/charge_m.asm"
 
 BattleCommand_Recoil:
 	ld hl, wBattleMonMaxHP

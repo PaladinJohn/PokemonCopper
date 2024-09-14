@@ -44,6 +44,7 @@ AI_Redundant:
 	dbw EFFECT_MOONLIGHT,    .Moonlight
 	dbw EFFECT_SWAGGER,      .Swagger
 	dbw EFFECT_FUTURE_SIGHT, .FutureSight
+	dbw EFFECT_CHARGE_M,     .Charge
 	db -1
 
 .LightScreen:
@@ -187,6 +188,11 @@ AI_Redundant:
 .Moonlight:
 	farcall AICheckEnemyMaxHP
 	jr nc, .NotRedundant
+	
+.Charge:
+	ld a, [wEnemySubStatus4]
+	bit SUBSTATUS_CHARGE, a
+	ret
 
 .Teleport:
 .Redundant:
