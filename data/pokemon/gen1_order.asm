@@ -70,7 +70,7 @@ Pokered_MonIndices:
 	db SWINUB ; MISSINGNO.
 	db PILOSWINE ; MISSINGNO.
 	db PAWMI
-	db POLIWAG
+	db ROCKRUFF
 	db JYNX
 	db MOLTRES
 	db ARTICUNO

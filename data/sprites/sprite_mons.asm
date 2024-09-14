@@ -14,7 +14,7 @@ SpriteMons:
 	db TOGEPI
 	db VIVILLON
 	db DIGLETT
-	db POLIWAG
+	db POLIWHIRL
 	db PIKACHU
 	db CLEFAIRY
 	db CHARMANDER

@@ -1269,7 +1269,7 @@ JohtoGrassWildMons:
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, PAWMI
+	db 3, SHINX
 	db 3, SMOLIV
 	db 4, SMOLIV
 	; day
@@ -1277,13 +1277,13 @@ JohtoGrassWildMons:
 	db 3, SCATTERBUG
 	db 4, SCATTERBUG
 	db 4, FLETCHLING
-	db 3, PAWMI
+	db 3, SHINX
 	db 3, SMOLIV
 	db 4, SMOLIV
 	; nite
 	db 3, ROOKIDEE
 	db 2, HOOTHOOT
-	db 4, POLIWAG
+	db 4, PAWMI
 	db 3, HOOTHOOT
 	db 3, ZUBAT
 	db 4, HOOTHOOT
@@ -1297,7 +1297,7 @@ JohtoGrassWildMons:
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, PAWMI
+	db 4, SHINX
 	db 4, SMOLIV
 	db 5, SMOLIV
 	; day
@@ -1305,12 +1305,12 @@ JohtoGrassWildMons:
 	db 4, SCATTERBUG
 	db 5, BELLSPROUT
 	db 5, FLETCHLING
-	db 4, PAWMI
+	db 4, SHINX
 	db 4, SMOLIV
 	db 5, SMOLIV
 	; nite
 	db 4, ROOKIDEE
-	db 4, POLIWAG
+	db 4, PAWMI
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
 	db 4, ZUBAT
@@ -1618,7 +1618,7 @@ JohtoGrassWildMons:
 	db 26, LICKITUNG
 	; nite
 	db 23, TANGELA
-	db 22, POLIWAG
+	db 22, ROCKRUFF
 	db 22, BELLSPROUT
 	db 24, WEEPINBELL
 	db 24, POLIWHIRL

@@ -78,7 +78,7 @@
 	const PRIMEAPE   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
-	const POLIWAG    ; 3c
+	const ROCKRUFF   ; 3c
 	const POLIWHIRL  ; 3d
 	const POLIWRATH  ; 3e
 	const ABRA       ; 3f

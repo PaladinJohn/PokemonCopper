@@ -61,7 +61,7 @@ EvosAttacksPointers::
 	dw PrimeapeEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
-	dw PoliwagEvosAttacks
+	dw RockruffEvosAttacks
 	dw PoliwhirlEvosAttacks
 	dw PoliwrathEvosAttacks
 	dw AbraEvosAttacks

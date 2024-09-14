@@ -59,7 +59,7 @@ PokemonNames::
 	db "PRIMEAPE@@"
 	db "GROWLITHE@"
 	db "ARCANINE@@"
-	db "POLIWAG@@@"
+	db "ROCKRUFF@@"
 	db "POLIWHIRL@"
 	db "POLIWRATH@"
 	db "ABRA@@@@@@"

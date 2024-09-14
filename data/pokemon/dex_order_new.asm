@@ -22,7 +22,7 @@ NewPokedexOrder:
 	db CROBAT
 	db GROWLITHE
 	db ARCANINE
-	db POLIWAG
+	db ROCKRUFF
 	db POLIWHIRL
 	db POLIWRATH
 	db POLITOED

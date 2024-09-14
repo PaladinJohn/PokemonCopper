@@ -59,7 +59,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw GrowlitheEggMoves
 	dw NoEggMoves
-	dw PoliwagEggMoves
+	dw RockruffEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw AbraEggMoves

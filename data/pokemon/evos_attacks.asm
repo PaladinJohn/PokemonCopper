@@ -790,17 +790,16 @@ ArcanineEvosAttacks:
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-PoliwagEvosAttacks:
-	db EVOLVE_LEVEL, 25, POLIWHIRL
+RockruffEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 25, RAIN_DANCE
-	db 31, BODY_SLAM
-	db 37, BELLY_DRUM
-	db 43, HYDRO_PUMP
+	db 1, TACKLE
+	db 7, LEER
+	db 13, SAND_ATTACK
+	db 19, BITE
+	db 25, SHARPEN
+	db 31, ROCK_THROW
+	db 37, ROAR
+	db 43, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 PoliwhirlEvosAttacks:

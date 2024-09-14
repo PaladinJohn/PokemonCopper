@@ -184,12 +184,8 @@ GrowlitheEggMoves:
 	db FIRE_SPIN
 	db -1 ; end
 
-PoliwagEggMoves:
-	db MIST
-	db SPLASH
-	db BUBBLEBEAM
-	db HAZE
-	db MIND_READER
+RockruffEggMoves:
+	db THRASH
 	db -1 ; end
 
 AbraEggMoves:

@@ -694,9 +694,9 @@ KantoGrassWildMons:
 	db 7, FEAROW
 	; nite
 	db 3, RATTATA
-	db 3, POLIWAG
+	db 3, ROCKRUFF
 	db 5, RATTATA
-	db 4, POLIWAG
+	db 4, ROCKRUFF
 	db 6, RATTATA
 	db 7, RATTATA
 	db 7, RATTATA

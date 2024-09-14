@@ -65,7 +65,7 @@ PokemonCries::
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
 	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
-	mon_cry CRY_PIDGEY,      255,  383 ; POLIWAG
+	mon_cry CRY_TYPHLOSION, -100,  540 ; ROCKRUFF
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
 	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH
 	mon_cry CRY_METAPOD,     192,  129 ; ABRA

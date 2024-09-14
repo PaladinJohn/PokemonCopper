@@ -13,7 +13,7 @@ Trainers:
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  8, LARVITAR, BITE, LEER, SANDSTORM, NO_MOVE
+	db  8, ROCKRUFF, TACKLE, LEER, MUD_SLAP, NO_MOVE
 	db  10, RHYHORN,  HORN_ATTACK, TAIL_WHIP, SANDSTORM, MUD_SLAP
 	db -1 ; end
 
@@ -1641,8 +1641,8 @@ FisherGroup:
 
 	; FISHER (5)
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  8, ROCKRUFF
+	db  8, ROCKRUFF
 	db -1 ; end
 
 	; FISHER (6)
@@ -2036,7 +2036,7 @@ SailorGroup:
 
 	; SAILOR (2)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 18, POLIWAG
+	db 18, ROCKRUFF
 	db 18, POLIWHIRL
 	db -1 ; end
 
@@ -2963,12 +2963,12 @@ CamperGroup:
 
 	; CAMPER (9)
 	db "JOHN@", TRAINERTYPE_NORMAL
-	db 10, GEODUDE
+	db 10, ROCKRUFF
 	db -1 ; end
 
 	; CAMPER (10)
 	db "CRAIG@", TRAINERTYPE_NORMAL
-	db 8, LARVITAR
+	db 8, GEODUDE
 	db 8, LARVITAR
 	db -1 ; end
 

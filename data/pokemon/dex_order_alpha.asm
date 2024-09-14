@@ -161,7 +161,6 @@ AlphabeticalPokedexOrder:
 	db PINECO
 	db PINSIR
 	db POLITOED
-	db POLIWAG
 	db POLIWHIRL
 	db POLIWRATH
 	db PONYTA
@@ -181,6 +180,7 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
+	db ROCKRUFF
 	db ROOKIDEE
 	db SANDSHREW
 	db SANDSLASH

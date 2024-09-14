@@ -60,7 +60,7 @@ PokedexDataPointerTable:
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
-	dw PoliwagPokedexEntry
+	dw RockruffPokedexEntry
 	dw PoliwhirlPokedexEntry
 	dw PoliwrathPokedexEntry
 	dw AbraPokedexEntry

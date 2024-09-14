@@ -121,8 +121,8 @@ PokemonPicPointers::
 	dba_pic GrowlitheBackpic
 	dba_pic ArcanineFrontpic
 	dba_pic ArcanineBackpic
-	dba_pic PoliwagFrontpic
-	dba_pic PoliwagBackpic
+	dba_pic RockruffFrontpic
+	dba_pic RockruffBackpic
 	dba_pic PoliwhirlFrontpic
 	dba_pic PoliwhirlBackpic
 	dba_pic PoliwrathFrontpic
