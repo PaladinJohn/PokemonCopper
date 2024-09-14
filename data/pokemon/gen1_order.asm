@@ -192,7 +192,7 @@ Pokered_MonIndices:
 	db VICTREEBEL
 	assert_table_length 190 ; gen 1 mon indexes
 	db SPRIGATITO
-	db BAYLEEF
+	db FLORAGATO
 	db MEGANIUM
 	db CYNDAQUIL
 	db QUILAVA

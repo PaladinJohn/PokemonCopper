@@ -154,7 +154,7 @@ EvosAttacksPointers::
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
 	dw SprigatitoEvosAttacks
-	dw BayleefEvosAttacks
+	dw FloragatoEvosAttacks
 	dw MeganiumEvosAttacks
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks

@@ -152,7 +152,7 @@ PokemonNames::
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
 	db "SPRIGATITO"
-	db "BAYLEEF@@@"
+	db "FLORAGATO@"
 	db "MEGANIUM@@"
 	db "CYNDAQUIL@"
 	db "QUILAVA@@@"

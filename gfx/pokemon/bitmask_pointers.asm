@@ -152,7 +152,7 @@ BitmasksPointers:
 	dw MewtwoBitmasks
 	dw MewBitmasks
 	dw SprigatitoBitmasks
-	dw BayleefBitmasks
+	dw FloragatoBitmasks
 	dw MeganiumBitmasks
 	dw CyndaquilBitmasks
 	dw QuilavaBitmasks

@@ -158,7 +158,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_PSYDUCK,    2733,   64 ; SPRIGATITO
-	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
+	mon_cry CRY_PSYDUCK,    1428,  468 ; FLORAGATO
 	mon_cry CRY_CHIKORITA,  -183,  512 ; MEGANIUM
 	mon_cry CRY_CYNDAQUIL,   839,  128 ; CYNDAQUIL
 	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA

@@ -2058,6 +2058,7 @@ MewEvosAttacks:
 	db 0 ; no more level-up moves
 
 SprigatitoEvosAttacks:
+	db EVOLVE_LEVEL, 16, FLORAGATO
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, TAIL_WHIP
@@ -2071,21 +2072,19 @@ SprigatitoEvosAttacks:
 	db 50, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
-BayleefEvosAttacks:
+FloragatoEvosAttacks:
 	db EVOLVE_LEVEL, 32, MEGANIUM
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, GROWL
-	db 1, RAZOR_LEAF
-	db 1, REFLECT
-	db 8, RAZOR_LEAF
-	db 12, REFLECT
-	db 15, POISONPOWDER
-	db 23, SYNTHESIS
-	db 31, BODY_SLAM
-	db 39, LIGHT_SCREEN
-	db 47, SAFEGUARD
-	db 55, SOLARBEAM
+	db 1, SCRATCH
+	db 1, TAIL_WHIP
+	db 8, LEAFAGE
+	db 12, BITE
+	db 15, SHARPEN
+	db 23, RAZOR_LEAF
+	db 31, QUICK_ATTACK
+	db 39, PETAL_DANCE
+	db 47, SLASH
+	db 55, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
 MeganiumEvosAttacks:

@@ -1,7 +1,7 @@
 JohtoFrames: ; used only for BANK(JohtoFrames)
 
 SprigatitoFrames: INCLUDE "gfx/pokemon/sprigatito/frames.asm"
-BayleefFrames:    INCLUDE "gfx/pokemon/bayleef/frames.asm"
+FloragatoFrames:  INCLUDE "gfx/pokemon/floragato/frames.asm"
 MeganiumFrames:   INCLUDE "gfx/pokemon/meganium/frames.asm"
 CyndaquilFrames:  INCLUDE "gfx/pokemon/cyndaquil/frames.asm"
 QuilavaFrames:    INCLUDE "gfx/pokemon/quilava/frames.asm"

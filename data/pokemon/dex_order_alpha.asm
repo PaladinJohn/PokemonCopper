@@ -12,7 +12,6 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
-	db BAYLEEF
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
@@ -61,6 +60,7 @@ AlphabeticalPokedexOrder:
 	db FLAAFFY
 	db FLAREON
 	db FLETCHLING
+	db FLORAGATO
 	db FORRETRESS
 	db FURRET
 	db GASTLY

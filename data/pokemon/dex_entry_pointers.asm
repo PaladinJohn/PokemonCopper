@@ -153,7 +153,7 @@ PokedexDataPointerTable:
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
 	dw SprigatitoPokedexEntry
-	dw BayleefPokedexEntry
+	dw FloragatoPokedexEntry
 	dw MeganiumPokedexEntry
 	dw CyndaquilPokedexEntry
 	dw QuilavaPokedexEntry

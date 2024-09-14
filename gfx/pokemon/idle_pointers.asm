@@ -152,7 +152,7 @@ AnimationIdlePointers:
 	dw MewtwoAnimationIdle
 	dw MewAnimationIdle
 	dw SprigatitoAnimationIdle
-	dw BayleefAnimationIdle
+	dw FloragatoAnimationIdle
 	dw MeganiumAnimationIdle
 	dw CyndaquilAnimationIdle
 	dw QuilavaAnimationIdle

@@ -152,7 +152,7 @@ AnimationPointers:
 	dw MewtwoAnimation
 	dw MewAnimation
 	dw SprigatitoAnimation
-	dw BayleefAnimation
+	dw FloragatoAnimation
 	dw MeganiumAnimation
 	dw CyndaquilAnimation
 	dw QuilavaAnimation

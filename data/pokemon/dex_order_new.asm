@@ -3,7 +3,7 @@
 NewPokedexOrder:
 	table_width 1, NewPokedexOrder
 	db SPRIGATITO
-	db BAYLEEF
+	db FLORAGATO
 	db MEGANIUM
 	db CYNDAQUIL
 	db QUILAVA
