@@ -296,12 +296,13 @@ KrabbyEggMoves:
 	db SLAM
 	db -1 ; end
 
-ExeggcuteEggMoves:
-	db SYNTHESIS
-	db MOONLIGHT
-	db REFLECT
-	db MEGA_DRAIN
-	db ANCIENTPOWER
+RioluEggMoves:
+	db AGILITY
+	db BITE
+	db CRUNCH
+	db DETECT
+	db HI_JUMP_KICK
+	db LOW_KICK
 	db -1 ; end
 
 CuboneEggMoves:

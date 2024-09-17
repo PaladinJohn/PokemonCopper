@@ -101,7 +101,7 @@ AnimationPointers:
 	dw KinglerAnimation
 	dw VoltorbAnimation
 	dw ElectrodeAnimation
-	dw ExeggcuteAnimation
+	dw RioluAnimation
 	dw ExeggutorAnimation
 	dw CuboneAnimation
 	dw MarowakAnimation

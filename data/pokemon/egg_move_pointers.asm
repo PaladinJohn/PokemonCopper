@@ -101,7 +101,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ExeggcuteEggMoves
+	dw RioluEggMoves
 	dw NoEggMoves
 	dw CuboneEggMoves
 	dw NoEggMoves

@@ -101,7 +101,7 @@ BitmasksPointers:
 	dw KinglerBitmasks
 	dw VoltorbBitmasks
 	dw ElectrodeBitmasks
-	dw ExeggcuteBitmasks
+	dw RioluBitmasks
 	dw ExeggutorBitmasks
 	dw CuboneBitmasks
 	dw MarowakBitmasks

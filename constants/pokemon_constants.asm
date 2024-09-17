@@ -120,7 +120,7 @@
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
-	const EXEGGCUTE  ; 66
+	const RIOLU      ; 66
 	const EXEGGUTOR  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69

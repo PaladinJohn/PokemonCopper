@@ -101,7 +101,7 @@ PokemonNames::
 	db "KINGLER@@@"
 	db "VOLTORB@@@"
 	db "ELECTRODE@"
-	db "EXEGGCUTE@"
+	db "RIOLU@@@@@"
 	db "EXEGGUTOR@"
 	db "CUBONE@@@@"
 	db "MAROWAK@@@"

@@ -52,7 +52,6 @@ AlphabeticalPokedexOrder:
 	db ELEKID
 	db ENTEI
 	db ESPEON
-	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
 	db FEAROW
@@ -180,6 +179,7 @@ AlphabeticalPokedexOrder:
 	db REMORAID
 	db RHYDON
 	db RHYHORN
+	db RIOLU
 	db ROCKRUFF
 	db ROOKIDEE
 	db SANDSHREW

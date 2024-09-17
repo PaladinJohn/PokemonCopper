@@ -1374,18 +1374,17 @@ ElectrodeEvosAttacks:
 	db 48, MIRROR_COAT
 	db 0 ; no more level-up moves
 
-ExeggcuteEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR
+RioluEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BARRAGE
-	db 1, HYPNOSIS
-	db 7, REFLECT
-	db 13, LEECH_SEED
-	db 19, CONFUSION
-	db 25, STUN_SPORE
-	db 31, POISONPOWDER
-	db 37, SLEEP_POWDER
-	db 43, SOLARBEAM
+	db 1, QUICK_ATTACK
+	db 1, FORESIGHT
+	db 7, ENDURE
+	db 13, COUNTER
+	db 19, REVERSAL
+	db 25, METAL_CLAW
+	db 31, BONE_RUSH
+	db 37, SCREECH
+	db 43, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 ExeggutorEvosAttacks:

@@ -107,7 +107,7 @@ PokemonCries::
 	mon_cry CRY_KRABBY,      238,  352 ; KINGLER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
-	mon_cry CRY_DIGLETT,       0,  256 ; EXEGGCUTE
+	mon_cry CRY_KANGASKHAN, 2739,  529 ; RIOLU
 	mon_cry CRY_DROWZEE,       0,  256 ; EXEGGUTOR
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_ODDISH,       79,  224 ; MAROWAK

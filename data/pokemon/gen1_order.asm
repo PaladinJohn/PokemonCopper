@@ -11,7 +11,7 @@ Pokered_MonIndices:
 	db IVYSAUR
 	db EXEGGUTOR
 	db LICKITUNG
-	db EXEGGCUTE
+	db RIOLU
 	db GRIMER
 	db GENGAR
 	db NIDORAN_F
