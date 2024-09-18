@@ -116,7 +116,7 @@ NewPokedexOrder:
 	db SUNKERN
 	db SUNFLORA
 	db RIOLU
-	db EXEGGUTOR
+	db LUCARIO
 	db SUDOWOODO
 	db WOBBUFFET
 	db SNOM

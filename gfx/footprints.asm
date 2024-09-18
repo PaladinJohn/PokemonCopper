@@ -234,7 +234,7 @@ INCBIN "gfx/footprints/kingler.1bpp",    footprint_top
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
 INCBIN "gfx/footprints/riolu.1bpp",      footprint_top
-INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_top
+INCBIN "gfx/footprints/lucario.1bpp",    footprint_top
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_top
 ; 097-104 bottom halves
 INCBIN "gfx/footprints/hypno.1bpp",      footprint_bottom
@@ -243,7 +243,7 @@ INCBIN "gfx/footprints/kingler.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/riolu.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/lucario.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_bottom
 ; 105-112 top halves
 INCBIN "gfx/footprints/marowak.1bpp",    footprint_top

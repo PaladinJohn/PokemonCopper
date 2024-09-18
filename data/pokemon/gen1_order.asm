@@ -9,7 +9,7 @@ Pokered_MonIndices:
 	db NIDOKING
 	db SLOWBRO
 	db IVYSAUR
-	db EXEGGUTOR
+	db LUCARIO
 	db LICKITUNG
 	db RIOLU
 	db GRIMER

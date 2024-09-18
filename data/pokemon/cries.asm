@@ -108,7 +108,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_KANGASKHAN, 2739,  529 ; RIOLU
-	mon_cry CRY_DROWZEE,       0,  256 ; EXEGGUTOR
+	mon_cry CRY_KANGASKHAN, -235,  513 ; LUCARIO
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_ODDISH,       79,  224 ; MAROWAK
 	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE

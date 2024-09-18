@@ -102,7 +102,7 @@ AnimationPointers:
 	dw VoltorbAnimation
 	dw ElectrodeAnimation
 	dw RioluAnimation
-	dw ExeggutorAnimation
+	dw LucarioAnimation
 	dw CuboneAnimation
 	dw MarowakAnimation
 	dw HitmonleeAnimation

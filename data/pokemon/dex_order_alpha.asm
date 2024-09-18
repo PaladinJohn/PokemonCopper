@@ -52,7 +52,6 @@ AlphabeticalPokedexOrder:
 	db ELEKID
 	db ENTEI
 	db ESPEON
-	db EXEGGUTOR
 	db FARFETCH_D
 	db FEAROW
 	db FERALIGATR
@@ -109,6 +108,7 @@ AlphabeticalPokedexOrder:
 	db LEDIAN
 	db LEDYBA
 	db LICKITUNG
+	db LUCARIO
 	db LUGIA
 	db LUXIO
 	db MACHAMP

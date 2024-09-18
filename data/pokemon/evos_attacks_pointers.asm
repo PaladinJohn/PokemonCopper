@@ -104,7 +104,7 @@ EvosAttacksPointers::
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw RioluEvosAttacks
-	dw ExeggutorEvosAttacks
+	dw LucarioEvosAttacks
 	dw CuboneEvosAttacks
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks

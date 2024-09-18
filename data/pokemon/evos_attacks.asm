@@ -1375,6 +1375,7 @@ ElectrodeEvosAttacks:
 	db 0 ; no more level-up moves
 
 RioluEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_MORNDAY, LUCARIO
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, FORESIGHT
@@ -1387,13 +1388,19 @@ RioluEvosAttacks:
 	db 43, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-ExeggutorEvosAttacks:
+LucarioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BARRAGE
-	db 1, HYPNOSIS
-	db 1, CONFUSION
-	db 19, STOMP
-	db 31, EGG_BOMB
+	db 1, QUICK_ATTACK
+	db 1, FORESIGHT
+	db 7, ENDURE
+	db 13, COUNTER
+	db 19, REVERSAL
+	db 20, DETECT
+	db 25, METAL_CLAW
+	db 31, BONE_RUSH
+	db 33, SWORDS_DANCE
+	db 37, SCREECH
+	db 43, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:

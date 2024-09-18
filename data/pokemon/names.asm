@@ -102,7 +102,7 @@ PokemonNames::
 	db "VOLTORB@@@"
 	db "ELECTRODE@"
 	db "RIOLU@@@@@"
-	db "EXEGGUTOR@"
+	db "LUCARIO@@@"
 	db "CUBONE@@@@"
 	db "MAROWAK@@@"
 	db "HITMONLEE@"

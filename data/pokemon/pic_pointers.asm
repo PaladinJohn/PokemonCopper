@@ -207,8 +207,8 @@ PokemonPicPointers::
 	dba_pic ElectrodeBackpic
 	dba_pic RioluFrontpic
 	dba_pic RioluBackpic
-	dba_pic ExeggutorFrontpic
-	dba_pic ExeggutorBackpic
+	dba_pic LucarioFrontpic
+	dba_pic LucarioBackpic
 	dba_pic CuboneFrontpic
 	dba_pic CuboneBackpic
 	dba_pic MarowakFrontpic

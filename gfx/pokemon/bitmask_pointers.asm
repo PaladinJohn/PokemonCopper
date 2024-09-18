@@ -102,7 +102,7 @@ BitmasksPointers:
 	dw VoltorbBitmasks
 	dw ElectrodeBitmasks
 	dw RioluBitmasks
-	dw ExeggutorBitmasks
+	dw LucarioBitmasks
 	dw CuboneBitmasks
 	dw MarowakBitmasks
 	dw HitmonleeBitmasks
