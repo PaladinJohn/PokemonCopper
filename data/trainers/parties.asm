@@ -348,14 +348,15 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER (3)
-	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db  8, ZUBAT
+	db "STEVEN@", TRAINERTYPE_NORMAL
+	db  7, FLETCHLING
+	db  9, SMOLIV
 	db -1 ; end
 
 	; YOUNGSTER (4)
-	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db "ROBERT@", TRAINERTYPE_NORMAL
+	db  6, RATTATA
+	db 11, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (5)
@@ -647,10 +648,10 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	; BIRD_KEEPER (13)
-	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, FLETCHLING
-	db  6, FLETCHLING
-	db  8, SPEAROW
+	db "STUART@", TRAINERTYPE_NORMAL
+	db  7, FLETCHLING
+	db  7, FARFETCH_D
+	db  9, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -1615,16 +1616,16 @@ BugCatcherGroup:
 
 FisherGroup:
 	; FISHER (1)
-	db "JUSTIN@", TRAINERTYPE_NORMAL
-	db  5, MAGIKARP
-	db  5, MAGIKARP
+	db "MARK@", TRAINERTYPE_NORMAL
+	db  6, SHELLDER
+	db  6, TENTACOOL
 	db 15, MAGIKARP
-	db  5, MAGIKARP
+	db  6, CHINCHOU
 	db -1 ; end
 
 	; FISHER (2)
-	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, GOLDEEN
+	db "PAUL@", TRAINERTYPE_NORMAL
+	db 15, MAGIKARP
 	db -1 ; end
 
 	; FISHER (3)
@@ -1640,9 +1641,9 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (5)
-	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, ROCKRUFF
-	db  8, ROCKRUFF
+	db "SCOTT@", TRAINERTYPE_NORMAL
+	db  9, STARYU
+	db  9, HORSEA
 	db -1 ; end
 
 	; FISHER (6)
@@ -2761,8 +2762,9 @@ PsychicGroup:
 
 PicnickerGroup:
 	; PICNICKER (1)
-	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db "LAURA@", TRAINERTYPE_NORMAL
+	db  6, MEOWTH
+	db  10, NIDORAN_F
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -2916,8 +2918,9 @@ PicnickerGroup:
 
 CamperGroup:
 	; CAMPER (1)
-	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
+	db "MICHAEL@", TRAINERTYPE_NORMAL
+	db   6, SPEAROW
+	db  10, NIDORAN_M
 	db -1 ; end
 
 	; CAMPER (2)
