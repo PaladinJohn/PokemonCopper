@@ -2591,7 +2591,7 @@ PlayerAttackDamage:
 .specialcrit
 	ld hl, wBattleMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .done
+	jr c, .lightball
 
 	ld hl, wEnemySpDef
 	ld a, [hli]
@@ -2599,6 +2599,11 @@ PlayerAttackDamage:
 	ld c, [hl]
 	ld hl, wPlayerSpAtk
 
+.lightball
+; Note: Returns player special attack at hl in hl.
+	call LightBallBoost
+	jr .done
+	
 .thickclub
 ; Note: Returns player attack at hl in hl.
 	call ThickClubBoost
@@ -2720,6 +2725,20 @@ ThickClubBoost:
 	pop bc
 	ret
 
+LightBallBoost:
+; Return in hl the stat value at hl.
+; If the attacking monster is Pikachu and it's
+; holding a Light Ball, double it.
+	push bc
+	push de
+	ld b, LUXIO
+	ld c, LUXIO
+	ld d, LIGHT_BALL
+	call SpeciesItemBoost
+	pop de
+	pop bc
+	ret
+	
 SpeciesItemBoost:
 ; Return in hl the stat value at hl.
 
@@ -2825,13 +2844,17 @@ EnemyAttackDamage:
 .specialcrit
 	ld hl, wEnemyMonSpclAtk
 	call CheckDamageStatsCritical
-	jr c, .done
+	jr c, .lightball
 	ld hl, wPlayerSpDef
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
 	ld hl, wEnemySpAtk
 
+.lightball
+	call LightBallBoost
+	jr .done
+	
 .thickclub
 	call ThickClubBoost
 
