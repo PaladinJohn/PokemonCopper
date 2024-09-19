@@ -431,7 +431,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 7, ONIX
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
@@ -439,7 +439,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 7, ONIX
 	; nite
 	db 6, GEODUDE
 	db 6, RATTATA
@@ -447,7 +447,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 7, ZUBAT
 	db 6, ONIX
-	db 6, ONIX
+	db 7, ONIX
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
@@ -459,7 +459,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 7, RATTATA
 	; day
 	db 8, GEODUDE
 	db 6, ZUBAT
@@ -467,7 +467,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 7, RATTATA
 	; nite
 	db 8, GEODUDE
 	db 6, ZUBAT
@@ -475,7 +475,7 @@ JohtoGrassWildMons:
 	db 8, ONIX
 	db 6, RATTATA
 	db 8, RATTATA
-	db 8, RATTATA
+	db 7, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -515,7 +515,7 @@ JohtoGrassWildMons:
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 7, SLOWPOKE
 	; day
 	db 5, ZUBAT
 	db 6, ZUBAT
@@ -523,7 +523,7 @@ JohtoGrassWildMons:
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 7, SLOWPOKE
 	; nite
 	db 5, ZUBAT
 	db 6, ZUBAT
@@ -531,7 +531,7 @@ JohtoGrassWildMons:
 	db 6, SLOWPOKE
 	db 8, ZUBAT
 	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 7, SLOWPOKE
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
@@ -1321,20 +1321,20 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
+	db 4, RIOLU
 	db 5, RATTATA
 	db 7, BELLSPROUT
 	db 6, SMOLIV
 	db 7, FLETCHLING
-	db 7, SMOLIV
+	db 7, MAREEP
 	db 7, SMOLIV
 	; day
-	db 4, EKANS
+	db 4, RIOLU
 	db 5, RATTATA
 	db 7, BELLSPROUT
 	db 6, SMOLIV
 	db 7, FLETCHLING
-	db 7, SMOLIV
+	db 7, MAREEP
 	db 7, SMOLIV
 	; nite
 	db 4, WOOPER
@@ -1343,7 +1343,7 @@ JohtoGrassWildMons:
 	db 6, ZUBAT
 	db 7, HOOTHOOT
 	db 7, GASTLY
-	db 7, GASTLY
+	db 7, MAREEP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
@@ -1353,25 +1353,25 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, GEODUDE
 	db 6, SMOLIV
-	db 7, EKANS
+	db 7, RIOLU
 	db 7, SMOLIV
-	db 7, SMOLIV
+	db 8, SMOLIV
 	; day
 	db 6, RATTATA
 	db 6, SPEAROW
 	db 6, GEODUDE
 	db 6, SMOLIV
-	db 7, EKANS
+	db 7, RIOLU
 	db 7, SMOLIV
-	db 7, SMOLIV
+	db 8, SMOLIV
 	; nite
 	db 6, RATTATA
 	db 6, ZUBAT
 	db 6, GEODUDE
-	db 6, ZUBAT
+	db 7, ZUBAT
 	db 7, RATTATA
-	db 7, RATTATA
-	db 7, RATTATA
+	db 8, RATTATA
+	db 9, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
