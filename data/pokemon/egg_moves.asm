@@ -152,7 +152,7 @@ DiglettEggMoves:
 MeowthEggMoves:
 	db SPITE
 	db CHARM
-	db HYPNOSIS
+	db FLAIL
 	db AMNESIA
 	db -1 ; end
 

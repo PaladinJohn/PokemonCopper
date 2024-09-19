@@ -686,9 +686,9 @@ MeowthEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
-	db 11, BITE
+	db 11, METAL_CLAW
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
+	db 28, SWAGGER
 	db 35, SCREECH
 	db 41, FURY_SWIPES
 	db 46, SLASH

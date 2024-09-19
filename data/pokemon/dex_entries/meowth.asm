@@ -1,10 +1,10 @@
 	db "SCRATCHCAT@" ; species name
-	dw 104, 90 ; height, weight
+	dw 104, 165 ; height, weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db   "Living with a"
+	next "savage, seafaring"
+	next "people has"
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	page "toughened this"
+	next "#MON's body so"
+	next "much it is iron.@"
