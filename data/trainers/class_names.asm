@@ -27,8 +27,8 @@ TrainerClassNames::
 	li "BIRD KEEPER"
 	li "LASS"
 	li "LEADER"
-	li "COOLTRAINER"
-	li "COOLTRAINER"
+	li "ACE TRAINER"
+	li "ACE TRAINER"
 	li "BEAUTY"
 	li "#MANIAC"
 	li "ROCKET"
@@ -67,5 +67,5 @@ TrainerClassNames::
 	li "LEADER"
 	li "OFFICER"
 	li "ROCKET"
-	li "MYSTICALMAN"
+	li "MYSTERY MAN"
 	assert_list_length NUM_TRAINER_CLASSES

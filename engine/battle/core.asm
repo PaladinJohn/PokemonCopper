@@ -4167,7 +4167,7 @@ SpikesDamage:
 
 	push bc
 
-	ld hl, BattleText_UserHurtBySpikes ; "hurt by SPIKES!"
+	ld hl, BattleText_UserHurtBySpikes ; "hurt by Spikes!"
 	call StdBattleTextbox
 
 	call GetEighthMaxHP
