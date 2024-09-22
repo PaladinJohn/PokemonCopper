@@ -1626,6 +1626,7 @@ FisherGroup:
 	; FISHER (2)
 	db "PAUL@", TRAINERTYPE_NORMAL
 	db 15, MAGIKARP
+	db 15, MAGIKARP
 	db -1 ; end
 
 	; FISHER (3)
@@ -2054,8 +2055,8 @@ SailorGroup:
 
 	; SAILOR (5)
 	db "ERNEST@", TRAINERTYPE_NORMAL
-	db 18, MACHOP
-	db 18, MACHOP
+	db 18, TIMBURR
+	db 18, TIMBURR
 	db 18, POLIWHIRL
 	db -1 ; end
 
@@ -2072,15 +2073,15 @@ SailorGroup:
 
 	; SAILOR (8)
 	db "KENNETH@", TRAINERTYPE_NORMAL
-	db 28, MACHOP
-	db 28, MACHOP
+	db 28, TIMBURR
+	db 28, TIMBURR
 	db 28, POLIWRATH
-	db 28, MACHOP
+	db 28, TIMBURR
 	db -1 ; end
 
 	; SAILOR (9)
 	db "STANLY@", TRAINERTYPE_NORMAL
-	db 31, MACHOP
+	db 31, TIMBURR
 	db 33, MACHOKE
 	db 26, PSYDUCK
 	db -1 ; end
@@ -2292,13 +2293,13 @@ HikerGroup:
 	; HIKER (4)
 	db "LEONARD@", TRAINERTYPE_NORMAL
 	db 23, GEODUDE
-	db 25, MACHOP
+	db 25, TIMBURR
 	db -1 ; end
 
 	; HIKER (5)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
 	db 11, GEODUDE
-	db 11, MACHOP
+	db 11, TIMBURR
 	db -1 ; end
 
 	; HIKER (6)
@@ -2310,9 +2311,9 @@ HikerGroup:
 
 	; HIKER (7)
 	db "ERIK@", TRAINERTYPE_NORMAL
-	db 24, MACHOP
+	db 24, TIMBURR
 	db 27, GRAVELER
-	db 27, MACHOP
+	db 27, TIMBURR
 	db -1 ; end
 
 	; HIKER (8)
@@ -2629,7 +2630,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (5)
 	db "NOB@", TRAINERTYPE_MOVES
-	db 25, MACHOP,     LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
+	db 25, TIMBURR,     LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
 	db 25, MACHOKE,    LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
 	db -1 ; end
 

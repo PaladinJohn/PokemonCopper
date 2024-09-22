@@ -194,10 +194,11 @@ AbraEggMoves:
 	db BARRIER
 	db -1 ; end
 
-MachopEggMoves:
-	db LIGHT_SCREEN
-	db MEDITATE
-	db ENCORE
+TimburrEggMoves:
+	db COUNTER
+	db DETECT
+	db ENDURE
+	db FORESIGHT
 	db -1 ; end
 
 BellsproutEggMoves:

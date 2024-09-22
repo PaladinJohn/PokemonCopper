@@ -65,7 +65,7 @@ PokemonNames::
 	db "ABRA@@@@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"
-	db "MACHOP@@@@"
+	db "TIMBURR@@@"
 	db "MACHOKE@@@"
 	db "MACHAMP@@@"
 	db "BELLSPROUT"

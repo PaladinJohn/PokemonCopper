@@ -147,7 +147,7 @@ NewPokedexOrder:
 	db PERSIAN
 	db PSYDUCK
 	db GOLDUCK
-	db MACHOP
+	db TIMBURR
 	db MACHOKE
 	db MACHAMP
 	db TYROGUE

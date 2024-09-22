@@ -862,19 +862,18 @@ AlakazamEvosAttacks:
 	db 45, REFLECT
 	db 0 ; no more level-up moves
 
-MachopEvosAttacks:
-	db EVOLVE_LEVEL, 28, MACHOKE
+TimburrEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LOW_KICK
+	db 1, POUND
 	db 1, LEER
 	db 7, FOCUS_ENERGY
-	db 13, KARATE_CHOP
-	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
-	db 31, VITAL_THROW
-	db 37, CROSS_CHOP
-	db 43, SCARY_FACE
-	db 49, SUBMISSION
+	db 13, BIDE
+	db 19, LOW_KICK
+	db 25, ROCK_THROW
+	db 31, ROCK_SLIDE
+	db 37, SLAM
+	db 43, DYNAMICPUNCH
+	db 49, SCARY_FACE
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:

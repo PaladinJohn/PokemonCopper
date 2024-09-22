@@ -66,7 +66,7 @@ PokedexDataPointerTable:
 	dw AbraPokedexEntry
 	dw KadabraPokedexEntry
 	dw AlakazamPokedexEntry
-	dw MachopPokedexEntry
+	dw TimburrPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
 	dw BellsproutPokedexEntry

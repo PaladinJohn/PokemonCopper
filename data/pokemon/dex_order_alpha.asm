@@ -113,7 +113,6 @@ AlphabeticalPokedexOrder:
 	db LUXIO
 	db MACHAMP
 	db MACHOKE
-	db MACHOP
 	db MAGBY
 	db MAGCARGO
 	db MAGIKARP
@@ -226,6 +225,7 @@ AlphabeticalPokedexOrder:
 	db TEDDIURSA
 	db TENTACOOL
 	db TENTACRUEL
+	db TIMBURR
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
