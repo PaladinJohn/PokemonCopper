@@ -178,7 +178,7 @@ NewPokedexOrder:
 	db STARMIE
 	db SHELLDER
 	db CLOYSTER
-	db CORSOLA
+	db ZORUA
 	db REMORAID
 	db OCTILLERY
 	db CHINCHOU

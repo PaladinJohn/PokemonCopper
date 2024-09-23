@@ -222,7 +222,7 @@ PokedexDataPointerTable:
 	dw MagcargoPokedexEntry
 	dw SwinubPokedexEntry
 	dw PiloswinePokedexEntry
-	dw CorsolaPokedexEntry
+	dw ZoruaPokedexEntry
 	dw RemoraidPokedexEntry
 	dw OctilleryPokedexEntry
 	dw DelibirdPokedexEntry

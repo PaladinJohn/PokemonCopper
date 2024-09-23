@@ -221,7 +221,7 @@ FramesPointers:
 	dw MagcargoFrames
 	dw SwinubFrames
 	dw PiloswineFrames
-	dw CorsolaFrames
+	dw ZoruaFrames
 	dw RemoraidFrames
 	dw OctilleryFrames
 	dw DelibirdFrames

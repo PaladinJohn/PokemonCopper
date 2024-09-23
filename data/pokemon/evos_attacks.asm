@@ -2978,16 +2978,16 @@ PiloswineEvosAttacks:
 	db 70, AMNESIA
 	db 0 ; no more level-up moves
 
-CorsolaEvosAttacks:
+ZoruaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 7, HARDEN
-	db 13, BUBBLE
-	db 19, RECOVER
-	db 25, BUBBLEBEAM
-	db 31, SPIKE_CANNON
-	db 37, MIRROR_COAT
-	db 43, ANCIENTPOWER
+	db 1, SCRATCH
+	db 7, LEER
+	db 13, PURSUIT
+	db 19, COUNTER
+	db 25, FURY_SWIPES
+	db 31, FAINT_ATTACK
+	db 37, SCARY_FACE
+	db 43, AGILITY
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:

@@ -134,7 +134,7 @@ BattleTowerMons:
 	bigdw 28 ; SDef
 	db "GARU-RA@@@@"
 
-	db CORSOLA
+	db ZORUA
 	db SCOPE_LENS
 	db SURF, PSYCHIC_M, RECOVER, ANCIENTPOWER
 	dw 0 ; OT ID

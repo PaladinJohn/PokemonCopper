@@ -223,7 +223,7 @@ MonMenuIcons:
 	db ICON_BLOB        ; MAGCARGO
 	db ICON_EQUINE      ; SWINUB
 	db ICON_EQUINE      ; PILOSWINE
-	db ICON_SHELL       ; CORSOLA
+	db ICON_FOX         ; ZORUA
 	db ICON_FISH        ; REMORAID
 	db ICON_FISH        ; OCTILLERY
 	db ICON_MONSTER     ; DELIBIRD

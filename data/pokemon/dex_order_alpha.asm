@@ -28,7 +28,6 @@ AlphabeticalPokedexOrder:
 	db CLEFAIRY
 	db CLEFFA
 	db CLOYSTER
-	db CORSOLA
 	db CROBAT
 	db CROCONAW
 	db CUBONE
@@ -252,5 +251,6 @@ AlphabeticalPokedexOrder:
 	db XATU
 	db YANMA
 	db ZAPDOS
+	db ZORUA
 	db ZUBAT
 	assert_table_length NUM_POKEMON

@@ -209,8 +209,8 @@ FishGroups:
 
 TimeFishGroups:
 	;  day              nite
-	db CORSOLA,    20,  STARYU,     20 ; 0
-	db CORSOLA,    40,  STARYU,     40 ; 1
+	db ZORUA,      20,  STARYU,     20 ; 0
+	db ZORUA,      40,  STARYU,     40 ; 1
 	db SHELLDER,   20,  SHELLDER,   20 ; 2
 	db SHELLDER,   40,  SHELLDER,   40 ; 3
 	db CHINCHOU,   20,  CHINCHOU,   20 ; 4

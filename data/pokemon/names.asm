@@ -221,7 +221,7 @@ PokemonNames::
 	db "MAGCARGO@@"
 	db "SWINUB@@@@"
 	db "PILOSWINE@"
-	db "CORSOLA@@@"
+	db "ZORUA@@@@@"
 	db "REMORAID@@"
 	db "OCTILLERY@"
 	db "DELIBIRD@@"

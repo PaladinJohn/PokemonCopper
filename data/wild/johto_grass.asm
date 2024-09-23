@@ -566,28 +566,28 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, SCATTERBUG
-	db 5, ROOKIDEE
-	db 7, SPEWPA
-	db 7, KAKUNA
+	db 5, ZORUA
+	db 7, SCATTERBUG
+	db 7, ZORUA
+	db 6, PARAS
 	db 7, FLETCHLING
-	db 6, PARAS
-	db 6, PARAS
+	db 7, PARAS
 	; day
 	db 5, SCATTERBUG
-	db 5, ROOKIDEE
-	db 7, SPEWPA
-	db 7, KAKUNA
+	db 5, ZORUA
+	db 7, SCATTERBUG
+	db 7, ZORUA
+	db 6, PARAS
 	db 7, FLETCHLING
-	db 6, PARAS
-	db 6, PARAS
+	db 7, PARAS
 	; nite
 	db 5, ODDISH
-	db 5, SNOM
+	db 5, PAWMI
 	db 7, ODDISH
 	db 7, PSYDUCK
+	db 6, PARAS
 	db 7, HOOTHOOT
-	db 6, PARAS
-	db 6, PARAS
+	db 7, PARAS
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE

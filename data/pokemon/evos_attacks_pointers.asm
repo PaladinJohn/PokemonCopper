@@ -223,7 +223,7 @@ EvosAttacksPointers::
 	dw MagcargoEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
-	dw CorsolaEvosAttacks
+	dw ZoruaEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
 	dw DelibirdEvosAttacks

@@ -1155,7 +1155,7 @@ BeautyGroup:
 
 	; BEAUTY (17)
 	db "OLIVIA@", TRAINERTYPE_NORMAL
-	db 19, CORSOLA
+	db 19, ZORUA
 	db -1 ; end
 
 PokemaniacGroup:

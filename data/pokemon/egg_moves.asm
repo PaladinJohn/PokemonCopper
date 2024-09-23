@@ -688,12 +688,8 @@ SwinubEggMoves:
 	db ANCIENTPOWER
 	db -1 ; end
 
-CorsolaEggMoves:
-	db ROCK_SLIDE
-	db SAFEGUARD
-	db SCREECH
-	db MIST
-	db AMNESIA
+ZoruaEggMoves:
+	db DETECT
 	db -1 ; end
 
 RemoraidEggMoves:

@@ -221,7 +221,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SwinubEggMoves
 	dw NoEggMoves
-	dw CorsolaEggMoves
+	dw ZoruaEggMoves
 	dw RemoraidEggMoves
 	dw NoEggMoves
 	dw DelibirdEggMoves

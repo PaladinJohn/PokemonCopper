@@ -241,7 +241,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const MAGCARGO   ; db
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
-	const CORSOLA    ; de
+	const ZORUA      ; de
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
 	const DELIBIRD   ; e1
