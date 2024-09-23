@@ -2298,9 +2298,9 @@ HikerGroup:
 	db -1 ; end
 
 	; HIKER (5)
-	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11, GEODUDE
-	db 11, TIMBURR
+	db "JAMIE@", TRAINERTYPE_NORMAL
+	db 12, GEODUDE
+	db 12, PHANPY
 	db -1 ; end
 
 	; HIKER (6)
