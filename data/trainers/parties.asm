@@ -1243,14 +1243,15 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 14, KOFFING
+	db 10, RATTATA
+	db 15, KOFFING
 	db -1 ; end
 
 	; GRUNTM (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
-	db  9, ZUBAT
+	db 10, RATTATA
+	db 10, SANDSHREW
+	db 10, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3)
@@ -1415,8 +1416,8 @@ GruntMGroup:
 
 	; GRUNTM (29)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db 10, RATTATA
+	db 10, RATTATA
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -3467,8 +3468,8 @@ OfficerGroup:
 GruntFGroup:
 	; GRUNTF (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 10, ZUBAT
+	db 12, DROWZEE
 	db -1 ; end
 
 	; GRUNTF (2)
