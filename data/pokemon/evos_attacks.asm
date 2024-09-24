@@ -1655,19 +1655,18 @@ StarmieEvosAttacks:
 	db 37, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
-MrMimeEvosAttacks:
+CapsakidEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BARRIER
-	db 6, CONFUSION
-	db 11, SUBSTITUTE
-	db 16, MEDITATE
-	db 21, DOUBLESLAP
-	db 26, LIGHT_SCREEN
-	db 26, REFLECT
-	db 31, ENCORE
-	db 36, PSYBEAM
-	db 41, BATON_PASS
-	db 46, SAFEGUARD
+	db 1, LEAFAGE
+	db 6, LEER
+	db 11, BITE
+	db 16, GROWTH
+	db 21, RAZOR_LEAF
+	db 26, SUNNY_DAY
+	db 26, TACKLE
+	db 31, HEADBUTT
+	db 41, CRUNCH
+	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:

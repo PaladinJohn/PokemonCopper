@@ -121,7 +121,7 @@ FramesPointers:
 	dw SeakingFrames
 	dw StaryuFrames
 	dw StarmieFrames
-	dw MrMimeFrames
+	dw CapsakidFrames
 	dw ScytherFrames
 	dw JynxFrames
 	dw ElectabuzzFrames

@@ -163,7 +163,7 @@ NewPokedexOrder:
 	db JYNX
 	db ELEKID
 	db ELECTABUZZ
-	db MR__MIME
+	db CAPSAKID
 	db SMEARGLE
 	db FARFETCH_D
 	db NATU

@@ -121,7 +121,7 @@ AnimationPointers:
 	dw SeakingAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
-	dw MrMimeAnimation
+	dw CapsakidAnimation
 	dw ScytherAnimation
 	dw JynxAnimation
 	dw ElectabuzzAnimation

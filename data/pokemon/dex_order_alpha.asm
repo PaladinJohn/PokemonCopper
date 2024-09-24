@@ -18,6 +18,7 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
+	db CAPSAKID
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -130,7 +131,6 @@ AlphabeticalPokedexOrder:
 	db MILTANK
 	db MISDREAVUS
 	db MOLTRES
-	db MR__MIME
 	db MUK
 	db MURKROW
 	db NATU

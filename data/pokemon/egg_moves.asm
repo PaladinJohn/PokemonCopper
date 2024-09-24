@@ -377,10 +377,8 @@ GoldeenEggMoves:
 	db HYDRO_PUMP
 	db -1 ; end
 
-MrMimeEggMoves:
-	db FUTURE_SIGHT
-	db HYPNOSIS
-	db MIMIC
+CapsakidEggMoves:
+	db LEECH_SEED
 	db -1 ; end
 
 ScytherEggMoves:

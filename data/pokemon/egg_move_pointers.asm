@@ -121,7 +121,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MrMimeEggMoves
+	dw CapsakidEggMoves
 	dw ScytherEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

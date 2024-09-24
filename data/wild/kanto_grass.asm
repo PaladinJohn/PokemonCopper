@@ -653,17 +653,17 @@ KantoGrassWildMons:
 	db 25, RATTATA
 	db 35, TANGELA
 	db 20, RATICATE
-	db 30, MR__MIME
-	db 28, MR__MIME
-	db 28, MR__MIME
+	db 30, CAPSAKID
+	db 28, CAPSAKID
+	db 28, CAPSAKID
 	; day
 	db 30, TANGELA
 	db 25, RATTATA
 	db 35, TANGELA
 	db 20, RATICATE
-	db 28, MR__MIME
-	db 30, MR__MIME
-	db 30, MR__MIME
+	db 28, CAPSAKID
+	db 30, CAPSAKID
+	db 30, CAPSAKID
 	; nite
 	db 30, TANGELA
 	db 25, RATTATA

@@ -41,7 +41,7 @@ Pokered_MonIndices:
 	db GRAVELER
 	db CHANSEY
 	db MACHOKE
-	db MR__MIME
+	db CAPSAKID
 	db HITMONLEE
 	db HITMONCHAN
 	db ARBOK

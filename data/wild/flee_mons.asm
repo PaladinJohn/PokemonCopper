@@ -2,10 +2,10 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
+	db FLETCHLING
 	db MAGNEMITE
 	db GRIMER
 	db TANGELA
-	db MR__MIME
 	db EEVEE
 	db PORYGON
 	db DRATINI
