@@ -185,7 +185,7 @@ DEF ASH EQU __trainer_class__
 	const MICHELLE
 	const DANA1
 	const ELLEN
-	const CONNIE2 ; unused
+	const CONNIE2 ; Claire; Azalea Gym
 	const CONNIE3 ; unused
 	const DANA2
 	const DANA3
@@ -243,8 +243,8 @@ DEF ASH EQU __trainer_class__
 	trainerclass BEAUTY ; 1d
 	const VICTORIA
 	const SAMANTHA
-	const JULIE ; unused
-	const JACLYN ; unused
+	const JULIE ; Nicola; Azalea Gym
+	const JACLYN ; Jennifer; Azalea Gym
 	const BRENDA ; unused
 	const CASSIE
 	const CAROLINE ; unused
@@ -333,9 +333,9 @@ DEF ASH EQU __trainer_class__
 	const ROB
 	const ED
 	const WADE1
-	const BUG_CATCHER_BENNY
-	const AL
-	const JOSH
+	const BUG_CATCHER_BENNY ; unused
+	const AL ; unused
+	const JOSH ; unused
 	const ARNIE1
 	const KEN
 	const WADE2
@@ -582,6 +582,7 @@ DEF ASH EQU __trainer_class__
 	const GINA4
 	const GINA5
 	const TIFFANY4
+	const SARAH
 
 	trainerclass CAMPER ; 36
 	const ROLAND
@@ -664,10 +665,10 @@ DEF ASH EQU __trainer_class__
 	const MIKI
 
 	trainerclass TWINS ; 3d
-	const AMYANDMAY1
+	const AMYANDMAY1 ; unused
 	const ANNANDANNE1
 	const ANNANDANNE2
-	const AMYANDMAY2
+	const AMYANDMAY2 ; unused
 	const JOANDZOE1
 	const JOANDZOE2
 	const MEGANDPEG1
@@ -679,7 +680,6 @@ DEF ASH EQU __trainer_class__
 	const BEVERLY1
 	const RUTH
 	const BEVERLY2 ; unused
-	const BEVERLY3 ; unused
 	const GEORGIA
 	const JAIME
 
