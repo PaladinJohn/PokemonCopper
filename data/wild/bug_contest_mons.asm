@@ -3,7 +3,7 @@ ContestMons:
 	db 20, SCATTERBUG,  7, 18
 	db 20, ROOKIDEE,    7, 18
 	db 10, SPEWPA,      9, 18
-	db 10, KAKUNA,      9, 18
+	db 10, CORVISQUIR,  9, 18
 	db  5, VIVILLON,   12, 15
 	db  5, BEEDRILL,   12, 15
 	db 10, SNOM,       10, 16

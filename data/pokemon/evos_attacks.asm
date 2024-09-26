@@ -203,6 +203,7 @@ VivillonEvosAttacks:
 	db 0 ; no more level-up moves
 
 RookideeEvosAttacks:
+	db EVOLVE_LEVEL, 18, CORVISQUIR
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -215,11 +216,17 @@ RookideeEvosAttacks:
 	db 40, SWAGGER
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+CorvisquirEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HARDEN
-	db 7, HARDEN
+	db 1, PECK
+	db 1, LEER
+	db 7, THIEF
+	db 10, SHARPEN
+	db 15, FURY_ATTACK
+	db 21, WING_ATTACK
+	db 27, SCARY_FACE
+	db 33, DRILL_PECK
+	db 44, SWAGGER
 	db 0 ; no more level-up moves
 
 BeedrillEvosAttacks:

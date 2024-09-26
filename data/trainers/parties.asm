@@ -1531,7 +1531,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (5)
 	db "BENNY@", TRAINERTYPE_NORMAL
 	db  7, ROOKIDEE
-	db  9, KAKUNA
+	db  9, CORVISQUIR
 	db 12, BEEDRILL
 	db -1 ; end
 
@@ -1561,7 +1561,7 @@ BugCatcherGroup:
 	db "JAMES@", TRAINERTYPE_NORMAL
 	db  9, SPEWPA
 	db  9, SPEWPA
-	db 10, KAKUNA
+	db 10, CORVISQUIR
 	db  9, SPEWPA
 	db -1 ; end
 

@@ -13,7 +13,7 @@ PokemonNames::
 	db "SPEWPA@@@@"
 	db "VIVILLON@@"
 	db "ROOKIDEE@@"
-	db "KAKUNA@@@@"
+	db "CORVISQUIR"
 	db "BEEDRILL@@"
 	db "FLETCHLING"
 	db "FLETCHINDR"

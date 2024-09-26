@@ -29,8 +29,8 @@ PokemonPicPointers::
 	dba_pic VivillonBackpic
 	dba_pic RookideeFrontpic
 	dba_pic RookideeBackpic
-	dba_pic KakunaFrontpic
-	dba_pic KakunaBackpic
+	dba_pic CorvisquirFrontpic
+	dba_pic CorvisquirBackpic
 	dba_pic BeedrillFrontpic
 	dba_pic BeedrillBackpic
 	dba_pic FletchlingFrontpic

@@ -5,7 +5,7 @@ AsleepTreeMonsNite:
 	db SPEWPA
 	db VIVILLON
 	db ROOKIDEE
-	db KAKUNA
+	db CORVISQUIR
 	db BEEDRILL
 	db SPEAROW
 	db EKANS

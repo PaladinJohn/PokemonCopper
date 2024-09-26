@@ -19,7 +19,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,    -505,  296 ; SPEWPA
 	mon_cry CRY_RATTATA,     -63,  575 ; VIVILLON
 	mon_cry CRY_ENTEI,       289,  121 ; ROOKIDEE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
+	mon_cry CRY_ENTEI,       -54,   61 ; CORVISQUIR
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
 	mon_cry CRY_MARILL,     1870,  413 ; FLETCHLING
 	mon_cry CRY_GLIGAR,     3658,  239 ; FLETCHINDR

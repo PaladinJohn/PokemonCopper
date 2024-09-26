@@ -13,7 +13,7 @@ AnimationIdlePointers:
 	dw SpewpaAnimationIdle
 	dw VivillonAnimationIdle
 	dw RookideeAnimationIdle
-	dw KakunaAnimationIdle
+	dw CorvisquirAnimationIdle
 	dw BeedrillAnimationIdle
 	dw FletchlingAnimationIdle
 	dw FletchindrAnimationIdle

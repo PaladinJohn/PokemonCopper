@@ -15,7 +15,7 @@ EvosAttacksPointers::
 	dw SpewpaEvosAttacks
 	dw VivillonEvosAttacks
 	dw RookideeEvosAttacks
-	dw KakunaEvosAttacks
+	dw CorvisquirEvosAttacks
 	dw BeedrillEvosAttacks
 	dw FletchlingEvosAttacks
 	dw FletchindrEvosAttacks

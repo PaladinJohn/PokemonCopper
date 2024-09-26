@@ -32,7 +32,7 @@
 	const SPEWPA     ; 0b
 	const VIVILLON   ; 0c
 	const ROOKIDEE   ; 0d
-	const KAKUNA     ; 0e
+	const CORVISQUIR ; 0e
 	const BEEDRILL   ; 0f
 	const FLETCHLING ; 10
 	const FLETCHINDR ; 11

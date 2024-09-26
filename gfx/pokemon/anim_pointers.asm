@@ -13,7 +13,7 @@ AnimationPointers:
 	dw SpewpaAnimation
 	dw VivillonAnimation
 	dw RookideeAnimation
-	dw KakunaAnimation
+	dw CorvisquirAnimation
 	dw BeedrillAnimation
 	dw FletchlingAnimation
 	dw FletchindrAnimation

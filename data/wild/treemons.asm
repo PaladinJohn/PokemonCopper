@@ -122,7 +122,7 @@ TreeMonSet_Forest:
 	db 15, ROOKIDEE,   10
 	db 10, HOOTHOOT,   10
 	db  5, SPEWPA,     10
-	db  5, KAKUNA,     10
+	db  5, CORVISQUIR, 10
 	db -1
 
 TreeMonSet_Rock:

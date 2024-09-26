@@ -14,7 +14,7 @@ PokedexDataPointerTable:
 	dw SpewpaPokedexEntry
 	dw VivillonPokedexEntry
 	dw RookideePokedexEntry
-	dw KakunaPokedexEntry
+	dw CorvisquirPokedexEntry
 	dw BeedrillPokedexEntry
 	dw FletchlingPokedexEntry
 	dw FletchindrPokedexEntry

@@ -13,7 +13,7 @@ FramesPointers:
 	dw SpewpaFrames
 	dw VivillonFrames
 	dw RookideeFrames
-	dw KakunaFrames
+	dw CorvisquirFrames
 	dw BeedrillFrames
 	dw FletchlingFrames
 	dw FletchindrFrames

@@ -13,7 +13,7 @@ BitmasksPointers:
 	dw SpewpaBitmasks
 	dw VivillonBitmasks
 	dw RookideeBitmasks
-	dw KakunaBitmasks
+	dw CorvisquirBitmasks
 	dw BeedrillBitmasks
 	dw FletchlingBitmasks
 	dw FletchindrBitmasks
