@@ -2641,7 +2641,7 @@ QuagsireEvosAttacks:
 	db 1, TAIL_WHIP
 	db 11, SLAM
 	db 23, AMNESIA
-	db 35, EARTHQUAKE
+	db 35, PETAL_DANCE
 	db 47, RAIN_DANCE
 	db 59, MIST
 	db 59, HAZE
