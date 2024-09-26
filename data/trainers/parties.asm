@@ -586,7 +586,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
 	db 12, FLETCHLING
-	db 14, PIDGEOTTO
+	db 14, FLETCHINDR
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
@@ -614,8 +614,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 25, PIDGEOTTO
-	db 25, PIDGEOTTO
+	db 25, FLETCHINDR
+	db 25, FLETCHINDR
 	db -1 ; end
 
 	; BIRD_KEEPER (8)
@@ -666,7 +666,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (16)
 	db "BRET@", TRAINERTYPE_NORMAL
-	db 32, PIDGEOTTO
+	db 32, FLETCHINDR
 	db 32, FEAROW
 	db -1 ; end
 
@@ -677,8 +677,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 32, PIDGEOTTO
-	db 32, PIDGEOTTO
+	db 32, FLETCHINDR
+	db 32, FLETCHINDR
 	db -1 ; end
 
 	; BIRD_KEEPER (19)
@@ -728,7 +728,7 @@ LassGroup:
 	; LASS (7)
 	db "LAURA@", TRAINERTYPE_NORMAL
 	db 28, GLOOM
-	db 31, PIDGEOTTO
+	db 31, FLETCHINDR
 	db 31, BELLOSSOM
 	db -1 ; end
 

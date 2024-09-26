@@ -35,7 +35,7 @@
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f
 	const FLETCHLING ; 10
-	const PIDGEOTTO  ; 11
+	const FLETCHINDR ; 11
 	const PIDGEOT    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14

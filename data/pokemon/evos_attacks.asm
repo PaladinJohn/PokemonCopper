@@ -235,6 +235,7 @@ BeedrillEvosAttacks:
 	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
+	db EVOLVE_LEVEL, 17, FLETCHINDR
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, GROWL
@@ -245,19 +246,16 @@ FletchlingEvosAttacks:
 	db 47, RAZOR_WIND
 	db 0 ; no more level-up moves
 
-PidgeottoEvosAttacks:
-	db EVOLVE_LEVEL, 36, PIDGEOT
+FletchindrEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 43, AGILITY
-	db 55, MIRROR_MOVE
+	db 5, GROWL
+	db 9, QUICK_ATTACK
+	db 15, PECK
+	db 23, AGILITY
+	db 33, FLAIL
+	db 43, EMBER
+	db 55, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 PidgeotEvosAttacks:

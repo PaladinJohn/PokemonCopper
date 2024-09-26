@@ -48,7 +48,7 @@ NewPokedexOrder:
 	db PHANPY
 	db DONPHAN
 	db FLETCHLING
-	db PIDGEOTTO
+	db FLETCHINDR
 	db PIDGEOT
 	db SCATTERBUG
 	db SPEWPA

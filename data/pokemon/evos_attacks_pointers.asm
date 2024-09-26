@@ -18,7 +18,7 @@ EvosAttacksPointers::
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
 	dw FletchlingEvosAttacks
-	dw PidgeottoEvosAttacks
+	dw FletchindrEvosAttacks
 	dw PidgeotEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks

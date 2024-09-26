@@ -213,7 +213,7 @@ KantoGrassWildMons:
 	db 3, FLETCHLING
 	db 5, FLETCHLING
 	db 7, VIVILLON
-	db 7, PIDGEOTTO
+	db 7, FLETCHINDR
 	db 4, LUXIO
 	db 4, LUXIO
 	; nite
@@ -287,7 +287,7 @@ KantoGrassWildMons:
 	; morn
 	db 13, FLETCHLING
 	db 13, SNUBBULL
-	db 15, PIDGEOTTO
+	db 15, FLETCHINDR
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -295,7 +295,7 @@ KantoGrassWildMons:
 	; day
 	db 13, FLETCHLING
 	db 13, SNUBBULL
-	db 15, PIDGEOTTO
+	db 15, FLETCHINDR
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -370,7 +370,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, SNUBBULL
-	db 19, PIDGEOTTO
+	db 19, FLETCHINDR
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -378,7 +378,7 @@ KantoGrassWildMons:
 	db 18, KADABRA
 	; day
 	db 17, SNUBBULL
-	db 19, PIDGEOTTO
+	db 19, FLETCHINDR
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -456,7 +456,7 @@ KantoGrassWildMons:
 	db 14, SMOLIV
 	db 13, RATICATE
 	db 15, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 16, RATTATA
 	db 16, SMOLIV
 	db 16, SMOLIV
@@ -464,7 +464,7 @@ KantoGrassWildMons:
 	db 14, SMOLIV
 	db 13, RATICATE
 	db 15, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 16, RATTATA
 	db 16, SMOLIV
 	db 16, SMOLIV
@@ -483,7 +483,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FLETCHINDR
 	db 25, SMOLIV
 	db 27, SMOLIV
 	db 27, SMOLIV
@@ -491,7 +491,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FLETCHINDR
 	db 25, SMOLIV
 	db 27, SMOLIV
 	db 27, SMOLIV
@@ -511,7 +511,7 @@ KantoGrassWildMons:
 	; morn
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, FLETCHINDR
 	db 28, SMOLIV
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -519,7 +519,7 @@ KantoGrassWildMons:
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, FLETCHINDR
 	db 28, SMOLIV
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -539,7 +539,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FLETCHINDR
 	db 25, SMOLIV
 	db 27, SMOLIV
 	db 27, SMOLIV
@@ -547,7 +547,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FLETCHINDR
 	db 25, SMOLIV
 	db 27, SMOLIV
 	db 27, SMOLIV
@@ -735,7 +735,7 @@ KantoGrassWildMons:
 	; morn
 	db 10, SCATTERBUG
 	db 10, FLETCHLING
-	db 12, PIDGEOTTO
+	db 12, FLETCHINDR
 	db 12, SPEWPA
 	db 10, BELLSPROUT
 	db 14, VIVILLON
@@ -743,7 +743,7 @@ KantoGrassWildMons:
 	; day
 	db 10, SCATTERBUG
 	db 10, FLETCHLING
-	db 12, PIDGEOTTO
+	db 12, FLETCHINDR
 	db 12, SPEWPA
 	db 10, BELLSPROUT
 	db 14, VIVILLON

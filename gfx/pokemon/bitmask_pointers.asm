@@ -16,7 +16,7 @@ BitmasksPointers:
 	dw KakunaBitmasks
 	dw BeedrillBitmasks
 	dw FletchlingBitmasks
-	dw PidgeottoBitmasks
+	dw FletchindrBitmasks
 	dw PidgeotBitmasks
 	dw RattataBitmasks
 	dw RaticateBitmasks

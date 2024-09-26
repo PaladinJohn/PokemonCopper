@@ -16,7 +16,7 @@ FramesPointers:
 	dw KakunaFrames
 	dw BeedrillFrames
 	dw FletchlingFrames
-	dw PidgeottoFrames
+	dw FletchindrFrames
 	dw PidgeotFrames
 	dw RattataFrames
 	dw RaticateFrames

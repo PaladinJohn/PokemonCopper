@@ -57,6 +57,7 @@ AlphabeticalPokedexOrder:
 	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
+	db FLETCHINDR
 	db FLETCHLING
 	db FLORAGATO
 	db FORRETRESS
@@ -153,7 +154,6 @@ AlphabeticalPokedexOrder:
 	db PERSIAN
 	db PHANPY
 	db PIDGEOT
-	db PIDGEOTTO
 	db PILOSWINE
 	db PINECO
 	db PINSIR

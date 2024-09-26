@@ -1465,7 +1465,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, FLETCHLING
 	db 16, GROWLITHE
-	db 15, PIDGEOTTO
+	db 15, FLETCHINDR
 	db 15, LEDIAN
 	db 15, LEDIAN
 	; day
@@ -1473,7 +1473,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, FLETCHLING
 	db 16, GROWLITHE
-	db 15, PIDGEOTTO
+	db 15, FLETCHINDR
 	db 15, FLETCHLING
 	db 15, FLETCHLING
 	; nite
@@ -1492,7 +1492,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1500,7 +1500,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1520,7 +1520,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1528,7 +1528,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1574,7 +1574,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, RATICATE
@@ -1582,7 +1582,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	; day
 	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 16, FLETCHINDR
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, RATICATE
