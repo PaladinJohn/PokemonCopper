@@ -38,7 +38,6 @@ AlphabeticalPokedexOrder:
 	db DEWGONG
 	db DIGLETT
 	db DITTO
-	db DODRIO
 	db DONPHAN
 	db DRAGONAIR
 	db DRAGONITE
@@ -151,6 +150,7 @@ AlphabeticalPokedexOrder:
 	db PARAS
 	db PARASECT
 	db PAWMI
+	db PAWMO
 	db PERSIAN
 	db PHANPY
 	db PIDGEOT

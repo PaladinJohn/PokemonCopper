@@ -115,7 +115,7 @@ Pokered_MonIndices:
 	db CORVISQUIR
 	db BEEDRILL
 	db HOUNDOOM ; MISSINGNO.
-	db DODRIO
+	db PAWMO
 	db PRIMEAPE
 	db DUGTRIO
 	db VENOMOTH

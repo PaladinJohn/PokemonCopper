@@ -78,7 +78,7 @@ OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 
-DodrioFrontpic:      INCBIN "gfx/pokemon/dodrio/front.animated.2bpp.lz"
+PawmoFrontpic:       INCBIN "gfx/pokemon/pawmo/front.animated.2bpp.lz"
 SlowkingFrontpic:    INCBIN "gfx/pokemon/slowking/front.animated.2bpp.lz"
 HitmontopFrontpic:   INCBIN "gfx/pokemon/hitmontop/front.animated.2bpp.lz"
 OnixFrontpic:        INCBIN "gfx/pokemon/onix/front.animated.2bpp.lz"
@@ -288,7 +288,7 @@ UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
 
 SECTION "Pics 11", ROMX
 
-DodrioBackpic:       INCBIN "gfx/pokemon/dodrio/back.2bpp.lz"
+PawmoBackpic:        INCBIN "gfx/pokemon/pawmo/back.2bpp.lz"
 ClefairyFrontpic:    INCBIN "gfx/pokemon/clefairy/front.animated.2bpp.lz"
 SlugmaFrontpic:      INCBIN "gfx/pokemon/slugma/front.animated.2bpp.lz"
 GrowlitheFrontpic:   INCBIN "gfx/pokemon/growlithe/front.animated.2bpp.lz"

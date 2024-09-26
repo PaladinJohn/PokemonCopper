@@ -84,7 +84,7 @@ PokemonNames::
 	db "MAGNETON@@"
 	db "FARFETCH'D"
 	db "PAWMI@@@@@"
-	db "DODRIO@@@@"
+	db "PAWMO@@@@@"
 	db "SEEL@@@@@@"
 	db "DEWGONG@@@"
 	db "GRIMER@@@@"

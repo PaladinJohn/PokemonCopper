@@ -85,7 +85,7 @@ PokedexDataPointerTable:
 	dw MagnetonPokedexEntry
 	dw FarfetchDPokedexEntry
 	dw PawmiPokedexEntry
-	dw DodrioPokedexEntry
+	dw PawmoPokedexEntry
 	dw SeelPokedexEntry
 	dw DewgongPokedexEntry
 	dw GrimerPokedexEntry

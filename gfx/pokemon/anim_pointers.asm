@@ -84,7 +84,7 @@ AnimationPointers:
 	dw MagnetonAnimation
 	dw FarfetchDAnimation
 	dw PawmiAnimation
-	dw DodrioAnimation
+	dw PawmoAnimation
 	dw SeelAnimation
 	dw DewgongAnimation
 	dw GrimerAnimation

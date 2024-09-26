@@ -794,16 +794,16 @@ KantoGrassWildMons:
 	db 30, RATICATE
 	db 30, PAWMI
 	db 32, PONYTA
-	db 30, DODRIO
-	db 30, DODRIO
+	db 30, PAWMO
+	db 30, PAWMO
 	; day
 	db 28, PAWMI
 	db 28, ARBOK
 	db 30, RATICATE
 	db 30, PAWMI
 	db 32, PONYTA
-	db 30, DODRIO
-	db 30, DODRIO
+	db 30, PAWMO
+	db 30, PAWMO
 	; nite
 	db 28, QUAGSIRE
 	db 28, NOCTOWL
@@ -822,16 +822,16 @@ KantoGrassWildMons:
 	db 40, RAPIDASH
 	db 42, ARBOK
 	db 41, PAWMI
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, PAWMO
+	db 43, PAWMO
 	; day
 	db 39, TANGELA
 	db 40, PONYTA
 	db 40, RAPIDASH
 	db 42, ARBOK
 	db 41, PAWMI
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, PAWMO
+	db 43, PAWMO
 	; nite
 	db 39, TANGELA
 	db 40, POLIWHIRL

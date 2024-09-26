@@ -84,7 +84,7 @@ FramesPointers:
 	dw MagnetonFrames
 	dw FarfetchDFrames
 	dw PawmiFrames
-	dw DodrioFrames
+	dw PawmoFrames
 	dw SeelFrames
 	dw DewgongFrames
 	dw GrimerFrames

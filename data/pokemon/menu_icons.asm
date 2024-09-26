@@ -86,7 +86,7 @@ MonMenuIcons:
 	db ICON_VOLTORB     ; MAGNETON
 	db ICON_BIRD        ; FARFETCH_D
 	db ICON_FOX         ; PAWMI
-	db ICON_BIRD        ; DODRIO
+	db ICON_MONSTER     ; PAWMO
 	db ICON_LAPRAS      ; SEEL
 	db ICON_LAPRAS      ; DEWGONG
 	db ICON_BLOB        ; GRIMER

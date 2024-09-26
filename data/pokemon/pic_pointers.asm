@@ -171,8 +171,8 @@ PokemonPicPointers::
 	dba_pic FarfetchDBackpic
 	dba_pic PawmiFrontpic
 	dba_pic PawmiBackpic
-	dba_pic DodrioFrontpic
-	dba_pic DodrioBackpic
+	dba_pic PawmoFrontpic
+	dba_pic PawmoBackpic
 	dba_pic SeelFrontpic
 	dba_pic SeelBackpic
 	dba_pic DewgongFrontpic

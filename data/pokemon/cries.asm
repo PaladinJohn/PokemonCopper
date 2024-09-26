@@ -90,7 +90,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
 	mon_cry CRY_PSYDUCK,    3036,  355 ; PAWMI
-	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
+	mon_cry CRY_PSYDUCK,    1290,  346 ; PAWMO
 	mon_cry CRY_SEEL,        136,  320 ; SEEL
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
 	mon_cry CRY_GRIMER,        0,  256 ; GRIMER

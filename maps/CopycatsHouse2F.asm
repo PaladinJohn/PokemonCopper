@@ -242,7 +242,7 @@ Copycat:
 CopycatsDodrio:
 	opentext
 	writetext CopycatsDodrioText1
-	cry DODRIO
+	cry PAWMO
 	promptbutton
 	writetext CopycatsDodrioText2
 	waitbutton

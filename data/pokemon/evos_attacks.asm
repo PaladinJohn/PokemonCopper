@@ -1132,6 +1132,7 @@ FarfetchDEvosAttacks:
 	db 0 ; no more level-up moves
 
 PawmiEvosAttacks:
+	db EVOLVE_LEVEL, 18, PAWMO
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -1143,18 +1144,16 @@ PawmiEvosAttacks:
 	db 37, BITE
 	db 0 ; no more level-up moves
 
-DodrioEvosAttacks:
+PawmoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
+	db 1, SCRATCH
 	db 1, GROWL
-	db 1, PURSUIT
-	db 1, FURY_ATTACK
-	db 9, PURSUIT
-	db 13, FURY_ATTACK
-	db 21, TRI_ATTACK
-	db 25, RAGE
-	db 38, DRILL_PECK
-	db 47, AGILITY
+	db 9, THUNDERSHOCK
+	db 13, QUICK_ATTACK
+	db 22, CHARGE
+	db 27, VINE_WHIP
+	db 38, DIG
+	db 47, BITE
 	db 0 ; no more level-up moves
 
 SeelEvosAttacks:

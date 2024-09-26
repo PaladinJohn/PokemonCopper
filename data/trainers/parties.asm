@@ -634,7 +634,7 @@ BirdKeeperGroup:
 	db "BORIS@", TRAINERTYPE_NORMAL
 	db 30, PAWMI
 	db 28, PAWMI
-	db 32, DODRIO
+	db 32, PAWMO
 	db -1 ; end
 
 	; BIRD_KEEPER (11)

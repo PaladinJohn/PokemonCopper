@@ -56,7 +56,7 @@ NewPokedexOrder:
 	db CORVISQUIR
 	db BEEDRILL
 	db PAWMI
-	db DODRIO
+	db PAWMO
 	db SMOLIV
 	db SKIPLOOM
 	db JUMPLUFF
