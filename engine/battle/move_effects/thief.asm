@@ -1,7 +1,8 @@
 BattleCommand_Thief:
+; The enemy can't steal items.
 	ldh a, [hBattleTurn]
 	and a
-	jr nz, .enemy
+	ret nz
 
 ; The player needs to be able to steal an item.
 
@@ -43,47 +44,6 @@ BattleCommand_Thief:
 	ld [de], a
 
 	call .playeritem
-	ld a, [wNamedObjectIndex]
-	ld [hl], a
-	ld [de], a
-	jr .stole
-
-.enemy
-
-; The enemy can't already have an item.
-
-	call .enemyitem
-	ld a, [hl]
-	and a
-	ret nz
-
-; The player must have an item to steal.
-
-	call .playeritem
-	ld a, [hl]
-	and a
-	ret z
-
-; Can't steal mail!
-
-	ld [wNamedObjectIndex], a
-	ld d, a
-	farcall ItemIsMail
-	ret c
-
-	ld a, [wEffectFailed]
-	and a
-	ret nz
-
-; If the enemy steals your item,
-; it's gone for good if you don't get it back.
-
-	call .playeritem
-	xor a
-	ld [hl], a
-	ld [de], a
-
-	call .enemyitem
 	ld a, [wNamedObjectIndex]
 	ld [hl], a
 	ld [de], a
