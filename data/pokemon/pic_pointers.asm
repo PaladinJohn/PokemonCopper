@@ -31,8 +31,8 @@ PokemonPicPointers::
 	dba_pic RookideeBackpic
 	dba_pic CorvisquirFrontpic
 	dba_pic CorvisquirBackpic
-	dba_pic BeedrillFrontpic
-	dba_pic BeedrillBackpic
+	dba_pic PawmotFrontpic
+	dba_pic PawmotBackpic
 	dba_pic FletchlingFrontpic
 	dba_pic FletchlingBackpic
 	dba_pic FletchindrFrontpic

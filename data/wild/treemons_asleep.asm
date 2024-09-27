@@ -6,7 +6,7 @@ AsleepTreeMonsNite:
 	db VIVILLON
 	db ROOKIDEE
 	db CORVISQUIR
-	db BEEDRILL
+	db PAWMOT
 	db SPEAROW
 	db EKANS
 	db RIOLU

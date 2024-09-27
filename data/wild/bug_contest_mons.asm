@@ -5,7 +5,7 @@ ContestMons:
 	db 10, SPEWPA,      9, 18
 	db 10, CORVISQUIR,  9, 18
 	db  5, VIVILLON,   12, 15
-	db  5, BEEDRILL,   12, 15
+	db  5, PAWMOT,     12, 15
 	db 10, SNOM,       10, 16
 	db 10, PARAS,      10, 17
 	db  5, SCYTHER,    13, 14

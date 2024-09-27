@@ -14,7 +14,7 @@ PokemonNames::
 	db "VIVILLON@@"
 	db "ROOKIDEE@@"
 	db "CORVISQUIR"
-	db "BEEDRILL@@"
+	db "PAWMOT@@@@"
 	db "FLETCHLING"
 	db "FLETCHINDR"
 	db "PIDGEOT@@@"

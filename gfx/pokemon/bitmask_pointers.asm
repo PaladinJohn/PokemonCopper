@@ -14,7 +14,7 @@ BitmasksPointers:
 	dw VivillonBitmasks
 	dw RookideeBitmasks
 	dw CorvisquirBitmasks
-	dw BeedrillBitmasks
+	dw PawmotBitmasks
 	dw FletchlingBitmasks
 	dw FletchindrBitmasks
 	dw PidgeotBitmasks

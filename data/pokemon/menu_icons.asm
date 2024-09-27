@@ -16,7 +16,7 @@ MonMenuIcons:
 	db ICON_MOTH        ; VIVILLON
 	db ICON_BIRD        ; ROOKIDEE
 	db ICON_BIRD        ; CORVISQUIR
-	db ICON_BUG         ; BEEDRILL
+	db ICON_MONSTER     ; PAWMOT
 	db ICON_BIRD        ; FLETCHLING
 	db ICON_BIRD        ; FLETCHINDR
 	db ICON_BIRD        ; PIDGEOT

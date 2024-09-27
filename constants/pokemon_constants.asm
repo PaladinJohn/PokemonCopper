@@ -33,7 +33,7 @@
 	const VIVILLON   ; 0c
 	const ROOKIDEE   ; 0d
 	const CORVISQUIR ; 0e
-	const BEEDRILL   ; 0f
+	const PAWMOT     ; 0f
 	const FLETCHLING ; 10
 	const FLETCHINDR ; 11
 	const PIDGEOT    ; 12

@@ -14,7 +14,7 @@ FramesPointers:
 	dw VivillonFrames
 	dw RookideeFrames
 	dw CorvisquirFrames
-	dw BeedrillFrames
+	dw PawmotFrames
 	dw FletchlingFrames
 	dw FletchindrFrames
 	dw PidgeotFrames

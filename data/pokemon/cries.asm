@@ -20,7 +20,7 @@ PokemonCries::
 	mon_cry CRY_RATTATA,     -63,  575 ; VIVILLON
 	mon_cry CRY_ENTEI,       289,  121 ; ROOKIDEE
 	mon_cry CRY_ENTEI,       -54,   61 ; CORVISQUIR
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
+	mon_cry CRY_BULBASAUR,  2823,  392 ; PAWMOT
 	mon_cry CRY_MARILL,     1870,  413 ; FLETCHLING
 	mon_cry CRY_GLIGAR,     3658,  239 ; FLETCHINDR
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT

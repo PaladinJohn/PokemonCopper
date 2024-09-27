@@ -54,9 +54,9 @@ NewPokedexOrder:
 	db VIVILLON
 	db ROOKIDEE
 	db CORVISQUIR
-	db BEEDRILL
 	db PAWMI
 	db PAWMO
+	db PAWMOT
 	db SMOLIV
 	db SKIPLOOM
 	db JUMPLUFF

@@ -16,7 +16,7 @@ EvosAttacksPointers::
 	dw VivillonEvosAttacks
 	dw RookideeEvosAttacks
 	dw CorvisquirEvosAttacks
-	dw BeedrillEvosAttacks
+	dw PawmotEvosAttacks
 	dw FletchlingEvosAttacks
 	dw FletchindrEvosAttacks
 	dw PidgeotEvosAttacks

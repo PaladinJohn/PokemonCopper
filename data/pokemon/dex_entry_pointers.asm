@@ -15,7 +15,7 @@ PokedexDataPointerTable:
 	dw VivillonPokedexEntry
 	dw RookideePokedexEntry
 	dw CorvisquirPokedexEntry
-	dw BeedrillPokedexEntry
+	dw PawmotPokedexEntry
 	dw FletchlingPokedexEntry
 	dw FletchindrPokedexEntry
 	dw PidgeotPokedexEntry

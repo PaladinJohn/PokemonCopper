@@ -229,16 +229,16 @@ CorvisquirEvosAttacks:
 	db 44, SWAGGER
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
+PawmotEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
-	db 10, FURY_ATTACK
-	db 15, FOCUS_ENERGY
-	db 20, TACKLE
-	db 25, RAGE
-	db 30, PURSUIT
-	db 35, PIN_MISSILE
-	db 40, AGILITY
+	db 1, SCRATCH
+	db 1, GROWL
+	db 9, THUNDERSHOCK
+	db 13, QUICK_ATTACK
+	db 22, CHARGE
+	db 27, VINE_WHIP
+	db 38, DIG
+	db 47, BITE
 	db 0 ; no more level-up moves
 
 FletchlingEvosAttacks:
@@ -1145,6 +1145,7 @@ PawmiEvosAttacks:
 	db 0 ; no more level-up moves
 
 PawmoEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_ANYTIME, PAWMOT
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL

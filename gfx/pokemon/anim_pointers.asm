@@ -14,7 +14,7 @@ AnimationPointers:
 	dw VivillonAnimation
 	dw RookideeAnimation
 	dw CorvisquirAnimation
-	dw BeedrillAnimation
+	dw PawmotAnimation
 	dw FletchlingAnimation
 	dw FletchindrAnimation
 	dw PidgeotAnimation

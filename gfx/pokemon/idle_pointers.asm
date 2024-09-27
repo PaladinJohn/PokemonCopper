@@ -14,7 +14,7 @@ AnimationIdlePointers:
 	dw VivillonAnimationIdle
 	dw RookideeAnimationIdle
 	dw CorvisquirAnimationIdle
-	dw BeedrillAnimationIdle
+	dw PawmotAnimationIdle
 	dw FletchlingAnimationIdle
 	dw FletchindrAnimationIdle
 	dw PidgeotAnimationIdle

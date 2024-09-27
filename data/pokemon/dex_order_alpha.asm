@@ -12,7 +12,6 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
-	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
 	db BLASTOISE
@@ -151,6 +150,7 @@ AlphabeticalPokedexOrder:
 	db PARASECT
 	db PAWMI
 	db PAWMO
+	db PAWMOT
 	db PERSIAN
 	db PHANPY
 	db PIDGEOT
