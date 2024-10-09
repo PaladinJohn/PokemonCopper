@@ -3187,17 +3187,14 @@ SmoochumEvosAttacks:
 	db 49, BLIZZARD
 	db 0 ; no more level-up moves
 
-ElekidEvosAttacks:
-	db EVOLVE_LEVEL, 30, ELECTABUZZ
+VenipedeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, QUICK_ATTACK
-	db 1, LEER
-	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
-	db 25, SWIFT
-	db 33, SCREECH
-	db 41, THUNDERBOLT
-	db 49, THUNDER
+	db 1, DEFENSE_CURL
+	db 1, ROLLOUT
+	db 9, POISON_STING
+	db 17, SCREECH
+	db 25, PURSUIT
+	db 33, PROTECT
 	db 0 ; no more level-up moves
 
 MagbyEvosAttacks:

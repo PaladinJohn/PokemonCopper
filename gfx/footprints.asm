@@ -540,7 +540,7 @@ INCBIN "gfx/footprints/smeargle.1bpp",   footprint_top
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_top
-INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
+INCBIN "gfx/footprints/venipede.1bpp",   footprint_top
 INCBIN "gfx/footprints/magby.1bpp",      footprint_top
 ; 233-240 bottom halves
 INCBIN "gfx/footprints/porygon2.1bpp",   footprint_bottom
@@ -549,7 +549,7 @@ INCBIN "gfx/footprints/smeargle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/elekid.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/venipede.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/magby.1bpp",      footprint_bottom
 ; 241-248 top halves
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_top

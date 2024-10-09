@@ -238,7 +238,7 @@ AnimationPointers:
 	dw TyrogueAnimation
 	dw HitmontopAnimation
 	dw SmoochumAnimation
-	dw ElekidAnimation
+	dw VenipedeAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation
 	dw BlisseyAnimation

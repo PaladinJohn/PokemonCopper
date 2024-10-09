@@ -240,7 +240,7 @@ EvosAttacksPointers::
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
-	dw ElekidEvosAttacks
+	dw VenipedeEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
 	dw BlisseyEvosAttacks

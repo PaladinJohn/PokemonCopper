@@ -296,7 +296,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db VENIPEDE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -322,7 +322,7 @@ OddEggs:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db VENIPEDE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 00512 ; OT ID

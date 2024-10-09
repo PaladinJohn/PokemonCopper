@@ -167,7 +167,7 @@ NewPokedexOrder:
 	db MAGMAR
 	db SMOOCHUM
 	db JYNX
-	db ELEKID
+	db VENIPEDE
 	db ELECTABUZZ
 	db CAPSAKID
 	db SMEARGLE

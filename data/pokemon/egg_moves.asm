@@ -756,11 +756,8 @@ SmoochumEggMoves:
 	db MEDITATE
 	db -1 ; end
 
-ElekidEggMoves:
-	db KARATE_CHOP
-	db BARRIER
-	db MEDITATE
-	db CROSS_CHOP
+VenipedeEggMoves:
+	db TAKE_DOWN
 	db -1 ; end
 
 MagbyEggMoves:

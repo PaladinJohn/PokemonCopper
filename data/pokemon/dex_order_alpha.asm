@@ -48,7 +48,6 @@ AlphabeticalPokedexOrder:
 	db EKANS
 	db ELECTABUZZ
 	db ELECTRODE
-	db ELEKID
 	db ENTEI
 	db ESPEON
 	db FARFETCH_D
@@ -235,6 +234,7 @@ AlphabeticalPokedexOrder:
 	db UNOWN
 	db URSARING
 	db VAPOREON
+	db VENIPEDE
 	db VENOMOTH
 	db VENUSAUR
 	db VICTREEBEL

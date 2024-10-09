@@ -258,7 +258,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
-	const ELEKID     ; ef
+	const VENIPEDE   ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
 	const BLISSEY    ; f2

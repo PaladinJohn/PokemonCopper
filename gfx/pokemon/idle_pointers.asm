@@ -238,7 +238,7 @@ AnimationIdlePointers:
 	dw TyrogueAnimationIdle
 	dw HitmontopAnimationIdle
 	dw SmoochumAnimationIdle
-	dw ElekidAnimationIdle
+	dw VenipedeAnimationIdle
 	dw MagbyAnimationIdle
 	dw MiltankAnimationIdle
 	dw BlisseyAnimationIdle
