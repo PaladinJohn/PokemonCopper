@@ -228,7 +228,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const DUNSPARCE  ; ce
 	const GLIGAR     ; cf
 	const STEELIX    ; d0
-	const SNUBBULL   ; d1
+	const MINCCINO   ; d1
 	const GRANBULL   ; d2
 	const QWILFISH   ; d3
 	const SCIZOR     ; d4

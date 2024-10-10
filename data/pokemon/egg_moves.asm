@@ -629,15 +629,13 @@ GligarEggMoves:
 	db COUNTER
 	db -1 ; end
 
-SnubbullEggMoves:
-	db METRONOME
-	db FAINT_ATTACK
-	db REFLECT
-	db PRESENT
-	db CRUNCH
-	db HEAL_BELL
-	db LICK
-	db LEER
+MinccinoEggMoves:
+	db ENDURE
+	db FLAIL
+	db IRON_TAIL
+	db MUD_SLAP
+	db SLEEP_TALK
+	db TAIL_WHIP
 	db -1 ; end
 
 QwilfishEggMoves:

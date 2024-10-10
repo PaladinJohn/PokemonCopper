@@ -140,7 +140,7 @@ NewPokedexOrder:
 	db VOLTORB
 	db ELECTRODE
 	db AIPOM
-	db SNUBBULL
+	db MINCCINO
 	db GRANBULL
 	db STANTLER
 	db MARILL

@@ -208,7 +208,7 @@ PokemonNames::
 	db "DUNSPARCE@"
 	db "GLIGAR@@@@"
 	db "STEELIX@@@"
-	db "SNUBBULL@@"
+	db "MINCCINO@@"
 	db "GRANBULL@@"
 	db "QWILFISH@@"
 	db "SCIZOR@@@@"

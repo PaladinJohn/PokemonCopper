@@ -1377,7 +1377,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, SNUBBULL
+	db 10, MINCCINO
 	db 11, RATTATA
 	db 12, FLETCHLING
 	db 10, ABRA
@@ -1385,7 +1385,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 10, DITTO
 	; day
-	db 10, SNUBBULL
+	db 10, MINCCINO
 	db 11, RATTATA
 	db 12, FLETCHLING
 	db 10, ABRA
@@ -1405,7 +1405,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, SNUBBULL
+	db 12, MINCCINO
 	db 14, FLETCHLING
 	db 13, GROWLITHE
 	db 10, ABRA
@@ -1413,7 +1413,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 12, YANMA
 	; day
-	db 12, SNUBBULL
+	db 12, MINCCINO
 	db 14, FLETCHLING
 	db 13, GROWLITHE
 	db 10, ABRA

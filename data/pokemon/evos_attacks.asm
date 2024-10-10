@@ -2808,18 +2808,17 @@ SteelixEvosAttacks:
 	db 49, CRUNCH
 	db 0 ; no more level-up moves
 
-SnubbullEvosAttacks:
-	db EVOLVE_LEVEL, 23, GRANBULL
+MinccinoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SCARY_FACE
-	db 4, TAIL_WHIP
-	db 8, CHARM
-	db 13, BITE
-	db 19, LICK
-	db 26, ROAR
-	db 34, RAGE
-	db 43, TAKE_DOWN
+	db 1, POUND
+	db 1, GROWL
+	db 4, TACKLE
+	db 8, DOUBLESLAP
+	db 13, ENCORE
+	db 19, SWIFT
+	db 26, SING
+	db 34, CHARM
+	db 43, SLAM
 	db 0 ; no more level-up moves
 
 GranbullEvosAttacks:

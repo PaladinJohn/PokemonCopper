@@ -127,6 +127,7 @@ AlphabeticalPokedexOrder:
 	db MEW
 	db MEWTWO
 	db MILTANK
+	db MINCCINO
 	db MISDREAVUS
 	db MOLTRES
 	db MUK
@@ -203,7 +204,6 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNOM
 	db SNORLAX
-	db SNUBBULL
 	db SPEAROW
 	db SPEWPA
 	db SPINARAK

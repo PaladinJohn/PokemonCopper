@@ -690,7 +690,7 @@ BirdKeeperGroup:
 LassGroup:
 	; LASS (1)
 	db "CARRIE@", TRAINERTYPE_MOVES
-	db 18, SNUBBULL,   SCARY_FACE, CHARM, BITE, LICK
+	db 18, MINCCINO,   SCARY_FACE, CHARM, BITE, LICK
 	db -1 ; end
 
 	; LASS (2)
@@ -3270,7 +3270,7 @@ PokefanMGroup:
 
 	; POKEFANM (7)
 	db "BRANDON@", TRAINERTYPE_ITEM
-	db 13, SNUBBULL,   BERRY
+	db 13, MINCCINO,   BERRY
 	db -1 ; end
 
 	; POKEFANM (8)
@@ -3409,7 +3409,7 @@ TwinsGroup:
 PokefanFGroup:
 	; POKEFANF (1)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 14, SNUBBULL,   BERRY
+	db 14, MINCCINO,   BERRY
 	db -1 ; end
 
 	; POKEFANF (2)
@@ -3419,7 +3419,7 @@ PokefanFGroup:
 
 	; POKEFANF (3)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 18, SNUBBULL,   BERRY
+	db 18, MINCCINO,   BERRY
 	db -1 ; end
 
 	; POKEFANF (5)
