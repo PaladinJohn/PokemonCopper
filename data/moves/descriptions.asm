@@ -140,7 +140,7 @@ MoveDescriptions::
 	dw GlareDescription
 	dw DreamEaterDescription
 	dw PoisonGasDescription
-	dw BarrageDescription
+	dw TickleDescription
 	dw LeechLifeDescription
 	dw LovelyKissDescription
 	dw SkyAttackDescription
@@ -823,9 +823,9 @@ PoisonGasDescription:
 	db   "A move that may"
 	next "poison the foe.@"
 
-BarrageDescription:
-	db   "Throws orbs to hit"
-	next "2-5 times.@"
+TickleDescription:
+	db   "The foe laughs."
+	next "Lowers ATK. & DEF.@"
 
 LeechLifeDescription:
 	db   "Steals 1/2 of the"

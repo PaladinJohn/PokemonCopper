@@ -1238,6 +1238,19 @@ TrapTarget:
 	buildopponentrage
 	traptarget
 	endmove
+	
+Tickle:
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	attackdown
+	statdownanim
+	statdownmessage
+	defensedown
+	statdownmessage
+	statdownfailtext
+	endmove
 
 SuperFang:
 Psywave:

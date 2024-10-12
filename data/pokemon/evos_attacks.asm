@@ -2812,7 +2812,7 @@ MinccinoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
-	db 4, TACKLE
+	db 4, TICKLE
 	db 8, DOUBLESLAP
 	db 13, ENCORE
 	db 19, SWIFT

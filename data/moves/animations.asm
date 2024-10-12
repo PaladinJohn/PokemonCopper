@@ -141,7 +141,7 @@ BattleAnimations::
 	dw BattleAnim_Glare
 	dw BattleAnim_DreamEater
 	dw BattleAnim_PoisonGas
-	dw BattleAnim_Barrage
+	dw BattleAnim_Tickle
 	dw BattleAnim_LeechLife
 	dw BattleAnim_LovelyKiss
 	dw BattleAnim_SkyAttack
@@ -2380,14 +2380,14 @@ BattleAnim_PetalDance:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Barrage:
-	anim_2gfx BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_EXPLOSION
-	anim_sound 6, 2, SFX_THROW_BALL
-	anim_obj BATTLE_ANIM_OBJ_SLUDGE_BOMB, 64, 92, $10
-	anim_wait 36
-	anim_sound 0, 1, SFX_EGG_BOMB
-	anim_obj BATTLE_ANIM_OBJ_EXPLOSION2, 136, 56, $0
-	anim_wait 16
+BattleAnim_Tickle:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_call BattleAnim_UserObj_1Row
+	anim_bgeffect BATTLE_BG_EFFECT_WOBBLE_MON, $0, BG_EFFECT_TARGET, $0
+	anim_sound 0, 1, SFX_SUBMISSION
+	anim_wait 32
+	anim_incbgeffect BATTLE_BG_EFFECT_WOBBLE_MON
+	anim_call BattleAnim_ShowMon_1
 	anim_ret
 
 BattleAnim_PayDay:
