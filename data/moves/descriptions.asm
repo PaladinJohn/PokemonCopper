@@ -142,7 +142,7 @@ MoveDescriptions::
 	dw PoisonGasDescription
 	dw TickleDescription
 	dw LeechLifeDescription
-	dw LovelyKissDescription
+	dw NuzzleDescription
 	dw SkyAttackDescription
 	dw TransformDescription
 	dw BubbleDescription
@@ -831,9 +831,9 @@ LeechLifeDescription:
 	db   "Steals 1/2 of the"
 	next "damage inflicted.@"
 
-LovelyKissDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+NuzzleDescription:
+	db   "A move that may"
+	next "cause paralysis.@"
 
 SkyAttackDescription:
 	db   "1st turn: Prepare"

@@ -155,7 +155,7 @@ Moves:
 	move POISON_GAS,   EFFECT_POISON,              0, POISON,        55, 40,   0
 	move TICKLE,       EFFECT_TICKLE,              0, NORMAL,       100, 20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          20, BUG,          100, 15,   0
-	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,        75, 10,   0
+	move NUZZLE,       EFFECT_PARALYZE_HIT,       20, ELECTRIC,     100, 20, 100
 	move SKY_ATTACK,   EFFECT_SKY_ATTACK,        140, FLYING,        90,  5,   0
 	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL,       100, 10,   0
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,        100, 30,  10

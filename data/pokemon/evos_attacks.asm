@@ -236,7 +236,7 @@ PawmotEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 13, QUICK_ATTACK
 	db 22, CHARGE
-	db 27, VINE_WHIP
+	db 27, NUZZLE
 	db 38, DIG
 	db 47, BITE
 	db 0 ; no more level-up moves
@@ -1093,7 +1093,7 @@ YamperEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, TAIL_WHIP
-	db 11, SUPERSONIC
+	db 11, NUZZLE
 	db 16, BITE
 	db 21, ROAR
 	db 27, SPARK
@@ -1138,7 +1138,7 @@ PawmiEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 13, QUICK_ATTACK
 	db 21, CHARGE
-	db 25, VINE_WHIP
+	db 25, NUZZLE
 	db 33, DIG
 	db 37, BITE
 	db 0 ; no more level-up moves
@@ -1151,7 +1151,7 @@ PawmoEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 13, QUICK_ATTACK
 	db 22, CHARGE
-	db 27, VINE_WHIP
+	db 27, NUZZLE
 	db 38, DIG
 	db 47, BITE
 	db 0 ; no more level-up moves
@@ -1692,9 +1692,9 @@ JynxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LICK
-	db 1, LOVELY_KISS
+	db 1, NUZZLE
 	db 1, POWDER_SNOW
-	db 9, LOVELY_KISS
+	db 9, NUZZLE
 	db 13, POWDER_SNOW
 	db 21, DOUBLESLAP
 	db 25, ICE_PUNCH

@@ -147,7 +147,7 @@
 	const POISON_GAS   ; 8b
 	const TICKLE       ; 8c
 	const LEECH_LIFE   ; 8d
-	const LOVELY_KISS  ; 8e
+	const NUZZLE       ; 8e
 	const SKY_ATTACK   ; 8f
 	const TRANSFORM    ; 90
 	const BUBBLE       ; 91

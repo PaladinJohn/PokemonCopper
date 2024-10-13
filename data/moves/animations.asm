@@ -143,7 +143,7 @@ BattleAnimations::
 	dw BattleAnim_PoisonGas
 	dw BattleAnim_Tickle
 	dw BattleAnim_LeechLife
-	dw BattleAnim_LovelyKiss
+	dw BattleAnim_Nuzzle
 	dw BattleAnim_SkyAttack
 	dw BattleAnim_Transform
 	dw BattleAnim_Bubble
@@ -2416,14 +2416,28 @@ BattleAnim_Mimic:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_LovelyKiss:
-	anim_2gfx BATTLE_ANIM_GFX_OBJECTS, BATTLE_ANIM_GFX_ANGELS
-	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
-	anim_obj BATTLE_ANIM_OBJ_LOVELY_KISS, 152, 40, $0
-	anim_wait 32
-	anim_sound 0, 1, SFX_LICK
-	anim_obj BATTLE_ANIM_OBJ_HEART, 128, 40, $0
-	anim_wait 40
+BattleAnim_Nuzzle:
+	anim_2gfx BATTLE_ANIM_GFX_LIGHTNING, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 0, 0, SFX_ZAP_CANNON
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $4, $3
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_WAVE, 48, 92, $0
+	anim_wait 24
+	anim_setobj $1, $3
+	anim_wait 1
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect BATTLE_BG_EFFECT_TACKLE, $0, BG_EFFECT_USER, $0
+	anim_sound 0, 0, SFX_SPARK
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_TARGET, $0
+	anim_wait 4
+	anim_incobj 2
+	anim_wait 1
+	anim_sound 0, 1, SFX_THUNDERSHOCK
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_WAVE, 136, 56, $0
+	anim_wait 20
+	anim_bgp $1b
+	anim_incobj 1
+	anim_wait 96
 	anim_ret
 
 BattleAnim_Bonemerang:
