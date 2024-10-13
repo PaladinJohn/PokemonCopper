@@ -81,7 +81,7 @@ PokedexDataPointerTable:
 	dw RapidashPokedexEntry
 	dw SlowpokePokedexEntry
 	dw SlowbroPokedexEntry
-	dw MagnemitePokedexEntry
+	dw YamperPokedexEntry
 	dw MagnetonPokedexEntry
 	dw FarfetchDPokedexEntry
 	dw PawmiPokedexEntry

@@ -80,7 +80,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SlowpokeEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw YamperEggMoves
 	dw NoEggMoves
 	dw FarfetchDEggMoves
 	dw PawmiEggMoves

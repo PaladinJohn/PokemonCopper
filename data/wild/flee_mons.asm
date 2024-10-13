@@ -3,7 +3,7 @@ FleeMons:
 
 SometimesFleeMons:
 	db FLETCHLING
-	db MAGNEMITE
+	db YAMPER
 	db GRIMER
 	db TANGELA
 	db EEVEE

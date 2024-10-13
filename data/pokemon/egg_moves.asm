@@ -237,6 +237,12 @@ SlowpokeEggMoves:
 	db FUTURE_SIGHT
 	db STOMP
 	db -1 ; end
+	
+YamperEggMoves:
+	db DOUBLE_EDGE
+	db SHARPEN
+	db SAND_ATTACK
+	db -1 ; end
 
 FarfetchDEggMoves:
 	db FORESIGHT

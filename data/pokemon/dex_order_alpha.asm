@@ -115,7 +115,6 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MAGNEMITE
 	db MAGNETON
 	db MANKEY
 	db MANTINE
@@ -249,6 +248,7 @@ AlphabeticalPokedexOrder:
 	db WOBBUFFET
 	db WOOPER
 	db XATU
+	db YAMPER
 	db YANMA
 	db ZAPDOS
 	db ZORUA

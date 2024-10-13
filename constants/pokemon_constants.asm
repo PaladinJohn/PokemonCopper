@@ -99,7 +99,7 @@
 	const RAPIDASH   ; 4e
 	const SLOWPOKE   ; 4f
 	const SLOWBRO    ; 50
-	const MAGNEMITE  ; 51
+	const YAMPER     ; 51
 	const MAGNETON   ; 52
 	const FARFETCH_D ; 53
 	const PAWMI      ; 54

@@ -80,7 +80,7 @@ AnimationPointers:
 	dw RapidashAnimation
 	dw SlowpokeAnimation
 	dw SlowbroAnimation
-	dw MagnemiteAnimation
+	dw YamperAnimation
 	dw MagnetonAnimation
 	dw FarfetchDAnimation
 	dw PawmiAnimation
