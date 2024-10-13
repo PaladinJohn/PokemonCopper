@@ -38,7 +38,7 @@ TreeMonSet_Canyon:
 TreeMonSet_Town:
 ; common
 	db 50, SPEAROW,    10
-	db 15, EKANS,      10
+	db 15, FLETCHLING, 10
 	db 15, SPEAROW,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
@@ -56,73 +56,73 @@ TreeMonSet_Town:
 TreeMonSet_Route:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, SPINARAK,   10
+	db 15, ROOKIDEE,   10
 	db 15, LEDYBA,     10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 15, MINCCINO,   10
+	db 15, MINCCINO,   10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 
 TreeMonSet_Kanto:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, EKANS,      10
+	db 15, FLETCHLING, 10
 	db 15, HOOTHOOT,   10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 15, MINCCINO,   10
+	db 15, MINCCINO,   10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 
 TreeMonSet_Lake:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, SNOM,       10
+	db 15, SMOLIV,     10
 	db 15, HOOTHOOT,   10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, RIOLU,      10
-	db  5, RIOLU,      10
-	db  5, RIOLU,      10
+	db 15, MINCCINO,   10
+	db 15, MINCCINO,   10
+	db 10, VENIPEDE,   10
+	db  5, VENIPEDE,   10
+	db  5, VENIPEDE,   10
 	db -1
 
 TreeMonSet_Forest:
 ; common
 	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, NOCTOWL,    10
-	db  5, VIVILLON,   10
-	db  5, PAWMOT,     10
+	db 15, MINCCINO,   10
+	db 15, MINCCINO,   10
+	db 10, HOOTHOOT,   10
+	db  5, SPEWPA,     10
+	db  5, ZUBAT,      10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, SCATTERBUG, 10
-	db 15, ROOKIDEE,   10
+	db 15, SPEWPA,     10
+	db 15, ZUBAT,      10
 	db 10, HOOTHOOT,   10
 	db  5, SPEWPA,     10
-	db  5, CORVISQUIR, 10
+	db  5, ZUBAT,      10
 	db -1
 
 TreeMonSet_Rock:

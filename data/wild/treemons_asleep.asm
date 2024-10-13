@@ -1,31 +1,26 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	db SCATTERBUG
 	db SPEWPA
-	db VIVILLON
-	db ROOKIDEE
-	db CORVISQUIR
-	db PAWMOT
 	db SPEAROW
-	db EKANS
-	db RIOLU
+	db FLETCHLING
+	db VENIPEDE
 	db LEDYBA
 	db AIPOM
+	db MINCCINO
+	db SMOLIV
 	db -1 ; end
 
 AsleepTreeMonsDay:
-	db SNOM
+	db ROOKIDEE
+	db ZUBAT
 	db HOOTHOOT
-	db NOCTOWL
-	db SPINARAK
 	db HERACROSS
 	db -1 ; end
 
 AsleepTreeMonsMorn:
-	db SNOM
+	db ROOKIDEE
+	db ZUBAT
 	db HOOTHOOT
-	db NOCTOWL
-	db SPINARAK
 	db HERACROSS
 	db -1 ; end
