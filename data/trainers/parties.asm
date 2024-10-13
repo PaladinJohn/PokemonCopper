@@ -1615,9 +1615,9 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (19)
-	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
-	db 10, PARAS
+	db "MARTIN@", TRAINERTYPE_NORMAL
+	db 10, SPEWPA
+	db 10, SPEWPA
 	db -1 ; end
 
 FisherGroup:
