@@ -360,17 +360,17 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER (5)
-	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db 10, SANDSHREW
-	db  8, SPEAROW
-	db  8, SPEAROW
+	db "RYAN@", TRAINERTYPE_NORMAL
+	db 12, GEODUDE
+	db 12, PHANPY
+	db 12, ZUBAT
+	db 12, HOOTHOOT
 	db -1 ; end
 
 	; YOUNGSTER (6)
-	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, MANKEY
-	db 12, DIGLETT
+	db "GRAEME@", TRAINERTYPE_NORMAL
+	db 12, LEDYBA
+	db 12, SHINX
 	db -1 ; end
 
 	; YOUNGSTER (7)
@@ -2777,9 +2777,9 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (2)
-	db "GINA@", TRAINERTYPE_NORMAL
-	db  9, SMOLIV
-	db  9, SMOLIV
+	db "EMMA@", TRAINERTYPE_NORMAL
+	db 12, SMOLIV
+	db 12, TANGELA
 	db 12, BULBASAUR
 	db -1 ; end
 
@@ -2939,7 +2939,8 @@ CamperGroup:
 	db -1 ; end
 
 	; CAMPER (2)
-	db "TODD@", TRAINERTYPE_NORMAL
+	db "DANIEL@", TRAINERTYPE_NORMAL
+	db 12, CHARMANDER
 	db 14, PSYDUCK
 	db -1 ; end
 
@@ -3269,8 +3270,9 @@ PokefanMGroup:
 	db -1 ; end
 
 	; POKEFANM (7)
-	db "BRANDON@", TRAINERTYPE_ITEM
-	db 13, MINCCINO,   BERRY
+	db "ALAN@", TRAINERTYPE_ITEM
+	db 12, TEDDIURSA,  BERRY
+	db 13, BULBASAUR,  BERRY
 	db -1 ; end
 
 	; POKEFANM (8)
@@ -3460,7 +3462,8 @@ BlueGroup:
 
 OfficerGroup:
 	; OFFICER (1)
-	db "KEITH@", TRAINERTYPE_NORMAL
+	db "THOMAS@", TRAINERTYPE_NORMAL
+	db 12, GROWLITHE
 	db 17, GROWLITHE
 	db -1 ; end
 
