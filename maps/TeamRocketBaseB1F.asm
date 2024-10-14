@@ -447,11 +447,11 @@ ExplodingTrap22:
 
 VoltorbExplodingTrap:
 	special FadeOutToWhite
-	cry VOLTORB
+	cry BLITZLE
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 23
+	loadwildmon BLITZLE, 23
 	startbattle
 	end
 

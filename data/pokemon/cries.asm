@@ -105,7 +105,7 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
 	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
 	mon_cry CRY_KRABBY,      238,  352 ; KINGLER
-	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
+	mon_cry CRY_NIDORAN_M,  3617,  391 ; BLITZLE
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
 	mon_cry CRY_KANGASKHAN, 2739,  529 ; RIOLU
 	mon_cry CRY_KANGASKHAN, -235,  513 ; LUCARIO

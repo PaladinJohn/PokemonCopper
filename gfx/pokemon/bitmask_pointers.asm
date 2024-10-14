@@ -99,7 +99,7 @@ BitmasksPointers:
 	dw HypnoBitmasks
 	dw KrabbyBitmasks
 	dw KinglerBitmasks
-	dw VoltorbBitmasks
+	dw BlitzleBitmasks
 	dw ElectrodeBitmasks
 	dw RioluBitmasks
 	dw LucarioBitmasks

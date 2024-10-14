@@ -101,7 +101,7 @@ EvosAttacksPointers::
 	dw HypnoEvosAttacks
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
-	dw VoltorbEvosAttacks
+	dw BlitzleEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw RioluEvosAttacks
 	dw LucarioEvosAttacks

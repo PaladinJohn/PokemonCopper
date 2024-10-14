@@ -99,7 +99,7 @@ AnimationPointers:
 	dw HypnoAnimation
 	dw KrabbyAnimation
 	dw KinglerAnimation
-	dw VoltorbAnimation
+	dw BlitzleAnimation
 	dw ElectrodeAnimation
 	dw RioluAnimation
 	dw LucarioAnimation

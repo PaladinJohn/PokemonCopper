@@ -99,7 +99,7 @@ PokemonNames::
 	db "HYPNO@@@@@"
 	db "KRABBY@@@@"
 	db "KINGLER@@@"
-	db "VOLTORB@@@"
+	db "BLITZLE@@@"
 	db "ELECTRODE@"
 	db "RIOLU@@@@@"
 	db "LUCARIO@@@"

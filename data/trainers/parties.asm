@@ -419,14 +419,14 @@ SchoolboyGroup:
 	; SCHOOLBOY (1)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 12, ODDISH
-	db 15, VOLTORB
+	db 15, BLITZLE
 	db -1 ; end
 
 	; SCHOOLBOY (2)
 	db "KIPP@", TRAINERTYPE_NORMAL
-	db 27, VOLTORB
+	db 27, BLITZLE
 	db 27, YAMPER
-	db 31, VOLTORB
+	db 31, BLITZLE
 	db 31, MAGNETON
 	db -1 ; end
 
@@ -494,7 +494,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (13)
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 14, ODDISH
-	db 17, VOLTORB
+	db 17, BLITZLE
 	db -1 ; end
 
 	; SCHOOLBOY (14)
@@ -2173,7 +2173,7 @@ SuperNerdGroup:
 	; SUPER_NERD (10)
 	db "TERU@", TRAINERTYPE_NORMAL
 	db  7, YAMPER
-	db 11, VOLTORB
+	db 11, BLITZLE
 	db  7, YAMPER
 	db  9, YAMPER
 	db -1 ; end
@@ -2270,7 +2270,7 @@ GuitaristGroup:
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
 	db 27, YAMPER
-	db 33, VOLTORB
+	db 33, BLITZLE
 	db 32, YAMPER
 	db 32, YAMPER
 	db -1 ; end
@@ -2564,10 +2564,10 @@ FirebreatherGroup:
 JugglerGroup:
 	; JUGGLER (1)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  2, VOLTORB
-	db  6, VOLTORB
-	db 10, VOLTORB
-	db 14, VOLTORB
+	db  2, BLITZLE
+	db  6, BLITZLE
+	db 10, BLITZLE
+	db 14, BLITZLE
 	db -1 ; end
 
 	; JUGGLER (2)
@@ -2587,25 +2587,25 @@ JugglerGroup:
 
 	; JUGGLER (4)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  6, VOLTORB
-	db 10, VOLTORB
-	db 14, VOLTORB
-	db 18, VOLTORB
+	db  6, BLITZLE
+	db 10, BLITZLE
+	db 14, BLITZLE
+	db 18, BLITZLE
 	db -1 ; end
 
 	; JUGGLER (5)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 18, VOLTORB
-	db 22, VOLTORB
-	db 26, VOLTORB
+	db 18, BLITZLE
+	db 22, BLITZLE
+	db 26, BLITZLE
 	db 30, ELECTRODE
 	db -1 ; end
 
 	; JUGGLER (6)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 18, VOLTORB
-	db 22, VOLTORB
-	db 26, VOLTORB
+	db 18, BLITZLE
+	db 22, BLITZLE
+	db 26, BLITZLE
 	db 30, ELECTRODE
 	db -1 ; end
 

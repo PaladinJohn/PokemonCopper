@@ -1347,18 +1347,17 @@ KinglerEvosAttacks:
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
 
-VoltorbEvosAttacks:
-	db EVOLVE_LEVEL, 30, ELECTRODE
+BlitzleEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 9, SCREECH
-	db 17, SONICBOOM
-	db 23, SELFDESTRUCT
-	db 29, ROLLOUT
-	db 33, LIGHT_SCREEN
-	db 37, SWIFT
-	db 39, EXPLOSION
-	db 41, MIRROR_COAT
+	db 1, QUICK_ATTACK
+	db 9, TAIL_WHIP
+	db 17, CHARGE
+	db 23, THUNDER_WAVE
+	db 29, PURSUIT
+	db 33, SPARK
+	db 37, STOMP
+	db 39, AGILITY
+	db 41, THRASH
 	db 0 ; no more level-up moves
 
 ElectrodeEvosAttacks:

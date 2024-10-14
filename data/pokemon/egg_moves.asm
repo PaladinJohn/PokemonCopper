@@ -302,6 +302,16 @@ KrabbyEggMoves:
 	db FLAIL
 	db SLAM
 	db -1 ; end
+	
+BlitzleEggMoves:
+	db DOUBLE_EDGE
+	db DOUBLE_KICK
+	db ENDURE
+	db RAGE
+	db SAND_ATTACK
+	db SCREECH
+	db TAKE_DOWN
+	db -1 ; end
 
 RioluEggMoves:
 	db AGILITY

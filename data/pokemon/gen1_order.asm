@@ -5,7 +5,7 @@ Pokered_MonIndices:
 	db NIDORAN_M
 	db CLEFAIRY
 	db SPEAROW
-	db VOLTORB
+	db BLITZLE
 	db NIDOKING
 	db SLOWBRO
 	db IVYSAUR

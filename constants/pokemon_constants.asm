@@ -118,7 +118,7 @@
 	const HYPNO      ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
-	const VOLTORB    ; 64
+	const BLITZLE    ; 64
 	const ELECTRODE  ; 65
 	const RIOLU      ; 66
 	const LUCARIO    ; 67

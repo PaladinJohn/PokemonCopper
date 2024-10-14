@@ -99,7 +99,7 @@ FramesPointers:
 	dw HypnoFrames
 	dw KrabbyFrames
 	dw KinglerFrames
-	dw VoltorbFrames
+	dw BlitzleFrames
 	dw ElectrodeFrames
 	dw RioluFrames
 	dw LucarioFrames

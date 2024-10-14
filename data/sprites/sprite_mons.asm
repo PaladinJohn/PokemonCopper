@@ -28,7 +28,7 @@ SpriteMons:
 	db TENTACOOL
 	db TAUROS
 	db TIMBURR
-	db VOLTORB
+	db ELECTRODE
 	db LAPRAS
 	db RHYDON
 	db MOLTRES

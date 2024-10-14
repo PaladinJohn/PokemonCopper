@@ -100,7 +100,7 @@ PokedexDataPointerTable:
 	dw HypnoPokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
-	dw VoltorbPokedexEntry
+	dw BlitzlePokedexEntry
 	dw ElectrodePokedexEntry
 	dw RioluPokedexEntry
 	dw LucarioPokedexEntry

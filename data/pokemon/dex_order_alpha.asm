@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
+	db BLITZLE
 	db BULBASAUR
 	db CAPSAKID
 	db CELEBI
@@ -239,7 +240,6 @@ AlphabeticalPokedexOrder:
 	db VICTREEBEL
 	db VILEPLUME
 	db VIVILLON
-	db VOLTORB
 	db VULPIX
 	db WARTORTLE
 	db WEEPINBELL

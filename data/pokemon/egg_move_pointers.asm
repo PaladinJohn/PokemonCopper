@@ -99,7 +99,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw KrabbyEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw BlitzleEggMoves
 	dw NoEggMoves
 	dw RioluEggMoves
 	dw NoEggMoves

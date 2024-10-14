@@ -137,7 +137,7 @@ NewPokedexOrder:
 	db MUK
 	db YAMPER
 	db MAGNETON
-	db VOLTORB
+	db BLITZLE
 	db ELECTRODE
 	db AIPOM
 	db MINCCINO
