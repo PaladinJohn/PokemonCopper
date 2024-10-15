@@ -2,6 +2,18 @@ IconPointers:
 ; entries correspond to ICON_* constants (see constants/icon_constants.asm)
 	table_width 2, IconPointers
 	dw NullIcon
+	dw BulbasaurIcon
+	dw VenusaurIcon
+	dw CharizardIcon
+	dw BlastoiseIcon
+	dw RaticateIcon
+	dw FearowIcon
+	dw SandslashIcon
+	dw NidoqueenIcon
+	dw NidokingIcon
+	dw ClefableIcon
+	dw NinetalesIcon
+	dw WigglytuffIcon
 	dw PoliwagIcon
 	dw JigglypuffIcon
 	dw DiglettIcon
@@ -23,7 +35,6 @@ IconPointers:
 	dw SerpentIcon
 	dw VoltorbIcon
 	dw SquirtleIcon
-	dw BulbasaurIcon
 	dw CharmanderIcon
 	dw CaterpillarIcon
 	dw UnownIcon
@@ -34,7 +45,6 @@ IconPointers:
 	dw MothIcon
 	dw BatIcon
 	dw SnorlaxIcon
-	dw HoOhIcon
 	dw LugiaIcon
 	dw GyaradosIcon
 	dw SlowpokeIcon

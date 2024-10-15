@@ -1,6 +1,18 @@
 ; IconPointers indexes (see data/icon_pointers.asm)
 	const_def
 	const ICON_NULL
+	const ICON_BULBASAUR
+	const ICON_VENUSAUR
+	const ICON_CHARIZARD
+	const ICON_BLASTOISE
+	const ICON_RATICATE
+	const ICON_FEAROW
+	const ICON_SANDSLASH
+	const ICON_NIDOQUEEN
+	const ICON_NIDOKING
+	const ICON_CLEFABLE
+	const ICON_NINETALES
+	const ICON_WIGGLYTUFF
 	const ICON_POLIWAG
 	const ICON_JIGGLYPUFF
 	const ICON_DIGLETT
@@ -22,7 +34,6 @@
 	const ICON_SERPENT
 	const ICON_VOLTORB
 	const ICON_SQUIRTLE
-	const ICON_BULBASAUR
 	const ICON_CHARMANDER
 	const ICON_CATERPILLAR
 	const ICON_UNOWN
@@ -33,7 +44,6 @@
 	const ICON_MOTH
 	const ICON_BAT
 	const ICON_SNORLAX
-	const ICON_HO_OH
 	const ICON_LUGIA
 	const ICON_GYARADOS
 	const ICON_SLOWPOKE
