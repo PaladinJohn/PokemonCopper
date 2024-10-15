@@ -49,7 +49,31 @@ DayCareManScript_Inside:
 	end
 
 .AlreadyHaveOddEgg:
+	checkitem EGG_TICKET
+	iftrue .EggTicket
 	special DayCareMan
+	waitbutton
+	closetext
+	end
+	
+.EggTicket:
+	writetext DayCareManText_GiveTicket
+	yesorno
+	iffalse .refused
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, .PartyFull
+	special GiveOddEgg
+	opentext
+	writetext DayCareText_GotOddEgg
+	playsound SFX_KEY_ITEM
+	waitsfx
+	writetext DayCareText_DescribeOddEgg
+	waitbutton
+	closetext
+	end
+	
+.refused
+	writetext DayCareManText_Disappointed
 	waitbutton
 	closetext
 	end
@@ -151,6 +175,15 @@ DayCareText_DescribeOddEgg:
 DayCareText_PartyFull:
 	text "You've no room for"
 	line "this."
+	done
+	
+DayCareManText_GiveTicket:
+	text "Give me the"
+	line "ticket."
+	done
+	
+DayCareManText_Disappointed:
+	text "DISAPPOINTED."
 	done
 
 DayCare_MapEvents:

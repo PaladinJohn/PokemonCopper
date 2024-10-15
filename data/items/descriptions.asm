@@ -759,8 +759,8 @@ MachinePartDesc:
 	next "the POWER PLANT.@"
 
 EggTicketDesc:
-	db   "May use at Golden-"
-	next "rod trade corner.@"
+	db   "May exchange for"
+	next "eggs at DAY-CARE.@"
 
 LostItemDesc:
 	db   "The # DOLL lost"

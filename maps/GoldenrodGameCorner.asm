@@ -1,6 +1,7 @@
 DEF GOLDENRODGAMECORNER_TM25_COINS      EQU 5500
 DEF GOLDENRODGAMECORNER_TM14_COINS      EQU 5500
 DEF GOLDENRODGAMECORNER_TM38_COINS      EQU 5500
+DEF GOLDENRODGAMECORNER_EGGTICKET_COINS EQU 1000
 DEF GOLDENRODGAMECORNER_ABRA_COINS      EQU 100
 DEF GOLDENRODGAMECORNER_CUBONE_COINS    EQU 800
 DEF GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 1500
@@ -72,6 +73,7 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	ifequal 1, .Thunder
 	ifequal 2, .Blizzard
 	ifequal 3, .FireBlast
+	ifequal 4, .EggTicket
 	sjump GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 
 .Thunder:
@@ -105,6 +107,17 @@ GoldenrodGameCornerTMVendor_LoopScript:
 	giveitem TM_FIRE_BLAST
 	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
 	takecoins GOLDENRODGAMECORNER_TM38_COINS
+	sjump GoldenrodGameCornerTMVendor_FinishScript
+	
+.EggTicket:
+	checkcoins GOLDENRODGAMECORNER_EGGTICKET_COINS
+	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
+	getitemname STRING_BUFFER_3, EGG_TICKET
+	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
+	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
+	giveitem EGG_TICKET
+	iffalse GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
+	takecoins GOLDENRODGAMECORNER_EGGTICKET_COINS
 	sjump GoldenrodGameCornerTMVendor_FinishScript
 
 GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript:
@@ -145,16 +158,17 @@ GoldenrodGameCornerPrizeVendor_NoCoinCaseScript:
 
 GoldenrodGameCornerTMVendorMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	menu_coords 0, 2, 17, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "TM25    5500@"
-	db "TM14    5500@"
-	db "TM38    5500@"
+	db "TM25       5500@"
+	db "TM14       5500@"
+	db "TM38       5500@"
+	db "EGGTICKET  1000@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
