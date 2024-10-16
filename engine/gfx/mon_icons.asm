@@ -345,9 +345,9 @@ endr
 GetIconBank:
 	;ld a, [wCurIcon]
 	;cp ICON_BIGMON ; first icon in Icons2
-	;lb bc, BANK("Mon Icons 1"), 8
+	lb bc, BANK("Mon Icons 1"), 8
 	;ret c
-	ld b, BANK("Mon Icons 1")
+	;ld b, BANK("Mon Icons 2")
 	ret
 
 GetGFXUnlessMobile:
