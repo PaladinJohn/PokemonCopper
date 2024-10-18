@@ -7,6 +7,7 @@
 	const GOLDENRODDEPTSTOREROOF_POKEFAN_M
 	const GOLDENRODDEPTSTOREROOF_TEACHER
 	const GOLDENRODDEPTSTOREROOF_BUG_CATCHER
+	const GOLDENRODDEPTSTOREROOF_MYSTERY_GIFT
 
 GoldenrodDeptStoreRoof_MapScripts:
 	def_scene_scripts
@@ -91,6 +92,66 @@ Binoculars3:
 
 PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
+	
+GoldenrodDeptStoreRoofMysteryGiftScript:
+	opentext
+	checkflag ENGINE_DAILY_MYSTERY_GIFT_1
+	iftrue .NoGift
+	writetext MysteryGiftText
+	yesorno
+	iffalse .Decline
+	checkcode ITEM_POCKET
+	ifgreater 16, .ItemsNearlyFull
+.AskSave
+	setflag ENGINE_DAILY_MYSTERY_GIFT_1
+	writetext MysteryGift_SaveGame
+	yesorno
+	iffalse .Decline
+	special TryQuickSave
+	iffalse .Decline
+	writetext MysteryGiftLinkUp
+	playsound SFX_MOVE_DELETED
+	waitsfx
+	scall FindMysteryGiftItem
+	iffalse .NoRoom
+	writetext MysteryGiftReceivedText
+	waitbutton
+	closetext
+	end
+
+.NoRoom
+	writetext MysterGiftNoRoom
+	waitbutton
+	closetext
+	end
+
+.NoGift
+	writetext NoMysteryGiftText
+	waitbutton
+	closetext
+	end
+	
+.Decline
+	clearflag ENGINE_DAILY_MYSTERY_GIFT_1
+	writetext DeclineMysteryGiftText
+	waitbutton
+	closetext
+	end
+
+.ItemsNearlyFull
+	writetext MysteryGiftItemPocketWarningText
+	waitbutton
+	jump .AskContinueAnyway
+
+.AskContinueAnyway
+	writetext MysteryGiftAnywayText
+	yesorno
+	iffalse .Decline
+	jump .AskSave
+
+FindMysteryGiftItem:
+	jumpstd MysteryGiftScript
+	end
 
 GoldenrodDeptStoreRoofPokefanFText:
 	text "Whew, I'm tired."
@@ -209,6 +270,72 @@ PokeDollVendingMachineText:
 	line "empty…"
 	done
 
+; Mystery Gift text from pokemon Peridot. Must be updated in the script.
+	
+MysteryGiftText:
+	text "MYSTERY GIFT!"
+	line "MYSTERY GIFT!"
+	
+	para "Do you want to"
+	line "share a MYSTERY"
+	cont "GIFT?"
+	done
+	
+MysteryGift_SaveGame:
+	text "You need to save"
+	line "your game before"
+	cont "we share, 'kay?"
+	done
+	
+MysteryGiftLinkUp:
+	text "Okay! Let's link"
+	line "up for a sec!"
+	done
+
+MysterGiftNoRoom:
+	text "I guess too many"
+	line "people shared with"
+	cont "you! Hehe!"
+	done
+	
+MysteryGiftItemPocketWarningText:
+	text "…You don't have"
+	line "much space in your"
+	cont "ITEM POCKET."
+	done
+
+MysteryGiftAnywayText:
+	text "Do you want to"
+	line "use MYSTERY GIFT"
+	cont "anyway?"
+	done
+	
+MysteryGiftReceivedText:
+	text "Wow, I got really"
+	line "cool items today!"
+	cont "I hope you got"
+	cont "something good!"
+	
+	para "Let's do this"
+	line "again tomorrow!"
+	done
+	
+NoMysteryGiftText:
+	text "We've already"
+	line "shared today."
+	
+	para "But I'd be happy"
+	line "to share again"
+	cont "tomorrow."
+	done
+	
+DeclineMysteryGiftText:
+	text "Oh..."
+	
+	para "Some other time,"
+	line "okay?"
+	done
+	
 GoldenrodDeptStoreRoof_MapEvents:
 	db 0, 0 ; filler
 
@@ -232,3 +359,4 @@ GoldenrodDeptStoreRoof_MapEvents:
 	object_event  7,  0, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofPokefanMScript, EVENT_GOLDENROD_SALE_OFF
 	object_event  5,  3, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofTeacherScript, EVENT_GOLDENROD_SALE_OFF
 	object_event  1,  6, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofBugCatcherScript, EVENT_GOLDENROD_SALE_OFF
+	object_event  4,  0, SPRITE_OLD_LINK_RECEPTIONIST, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodDeptStoreRoofMysteryGiftScript, -1

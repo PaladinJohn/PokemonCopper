@@ -304,6 +304,10 @@ DEF CELEBIEVENT_FOREST_IS_RESTLESS_F EQU 2
 	const SWARMFLAGS_DUNSPARCE_SWARM_F           ; 2
 	const SWARMFLAGS_YANMA_SWARM_F               ; 3
 	const SWARMFLAGS_MOBILE_4_F                  ; 4
+	
+; wDailyFlags3::
+	const_def
+	const DAILYFLAGS3_MYSTERY_GIFT_1           ; 0
 
 ; wLuckyNumberShowFlag::
 DEF LUCKYNUMBERSHOW_GAME_OVER_F EQU 0
