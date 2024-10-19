@@ -18,7 +18,7 @@ MomItems_2:
 	momitem   2000,  1000, MOM_DOLL, DECO_JIGGLYPUFF_DOLL ; Mystery Gift
 	momitem   3000,  1000, MOM_DOLL, DECO_POLIWAG_DOLL ; Mystery Gift
 	momitem   4000,   270, MOM_ITEM, REPEL
-	momitem   5000,  1000, MOM_DOLL, DECO_DIGLETT_DOLL ; Mystery Gift
+	momitem   5000,  1000, MOM_DOLL, DECO_SPRIGATITO_DOLL ; Mystery Gift
 	momitem   6000,  1000, MOM_DOLL, DECO_STARYU_DOLL ; Mystery Gift
 	momitem   7000,   600, MOM_ITEM, SUPER_POTION
 	momitem  10000,  1800, MOM_DOLL, DECO_CHARMANDER_DOLL

@@ -49,7 +49,7 @@ AnimationPointers:
 	dw ParasectAnimation
 	dw SnomAnimation
 	dw VenomothAnimation
-	dw DiglettAnimation
+	dw MudbrayAnimation
 	dw DugtrioAnimation
 	dw MeowthAnimation
 	dw PersianAnimation

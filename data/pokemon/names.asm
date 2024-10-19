@@ -49,7 +49,7 @@ PokemonNames::
 	db "PARASECT@@"
 	db "SNOM@@@@@@"
 	db "VENOMOTH@@"
-	db "DIGLETT@@@"
+	db "MUDBRAY@@@"
 	db "DUGTRIO@@@"
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"

@@ -658,17 +658,16 @@ VenomothEvosAttacks:
 	db 52, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-DiglettEvosAttacks:
-	db EVOLVE_LEVEL, 26, DUGTRIO
+MudbrayEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 33, SLASH
+	db 1, MUD_SLAP
+	db 5, ROCK_SMASH
+	db 9, DOUBLE_KICK
+	db 17, STOMP
+	db 25, BIDE
+	db 33, COUNTER
 	db 41, EARTHQUAKE
-	db 49, FISSURE
+	db 49, MEGA_KICK
 	db 0 ; no more level-up moves
 
 DugtrioEvosAttacks:

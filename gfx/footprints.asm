@@ -121,7 +121,7 @@ INCBIN "gfx/footprints/parasect.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/snom.1bpp",       footprint_bottom
 ; 049-056 top halves
 INCBIN "gfx/footprints/venomoth.1bpp",   footprint_top
-INCBIN "gfx/footprints/diglett.1bpp",    footprint_top
+INCBIN "gfx/footprints/mudbray.1bpp",    footprint_top
 INCBIN "gfx/footprints/dugtrio.1bpp",    footprint_top
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
 INCBIN "gfx/footprints/persian.1bpp",    footprint_top
@@ -130,7 +130,7 @@ INCBIN "gfx/footprints/golduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
 ; 049-056 bottom halves
 INCBIN "gfx/footprints/venomoth.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/diglett.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/mudbray.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dugtrio.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/persian.1bpp",    footprint_bottom

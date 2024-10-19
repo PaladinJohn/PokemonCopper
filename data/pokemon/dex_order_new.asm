@@ -145,7 +145,7 @@ NewPokedexOrder:
 	db STANTLER
 	db MARILL
 	db AZUMARILL
-	db DIGLETT
+	db MUDBRAY
 	db DUGTRIO
 	db MANKEY
 	db PRIMEAPE

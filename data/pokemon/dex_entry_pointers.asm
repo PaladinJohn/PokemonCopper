@@ -50,7 +50,7 @@ PokedexDataPointerTable:
 	dw ParasectPokedexEntry
 	dw SnomPokedexEntry
 	dw VenomothPokedexEntry
-	dw DiglettPokedexEntry
+	dw MudbrayPokedexEntry
 	dw DugtrioPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry

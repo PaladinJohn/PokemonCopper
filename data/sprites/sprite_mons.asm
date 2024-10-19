@@ -13,7 +13,7 @@ SpriteMons:
 	db SQUIRTLE
 	db TOGEPI
 	db VIVILLON
-	db DIGLETT
+	db DUGTRIO
 	db POLIWHIRL
 	db RAICHU
 	db CLEFAIRY

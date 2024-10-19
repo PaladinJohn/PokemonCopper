@@ -49,7 +49,7 @@ BitmasksPointers:
 	dw ParasectBitmasks
 	dw SnomBitmasks
 	dw VenomothBitmasks
-	dw DiglettBitmasks
+	dw MudbrayBitmasks
 	dw DugtrioBitmasks
 	dw MeowthBitmasks
 	dw PersianBitmasks

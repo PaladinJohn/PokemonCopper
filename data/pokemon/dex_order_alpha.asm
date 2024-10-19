@@ -36,7 +36,6 @@ AlphabeticalPokedexOrder:
 	db CYNDAQUIL
 	db DELIBIRD
 	db DEWGONG
-	db DIGLETT
 	db DITTO
 	db DONPHAN
 	db DRAGONAIR
@@ -130,6 +129,7 @@ AlphabeticalPokedexOrder:
 	db MINCCINO
 	db MISDREAVUS
 	db MOLTRES
+	db MUDBRAY
 	db MUK
 	db MURKROW
 	db NATU

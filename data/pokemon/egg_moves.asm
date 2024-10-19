@@ -141,12 +141,10 @@ SnomEggMoves:
 	db MIRROR_COAT
 	db -1 ; end
 
-DiglettEggMoves:
-	db FAINT_ATTACK
-	db SCREECH
-	db ANCIENTPOWER
-	db PURSUIT
-	db BEAT_UP
+MudbrayEggMoves:
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db MAGNITUDE
 	db -1 ; end
 
 MeowthEggMoves:

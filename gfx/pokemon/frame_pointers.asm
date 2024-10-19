@@ -49,7 +49,7 @@ FramesPointers:
 	dw ParasectFrames
 	dw SnomFrames
 	dw VenomothFrames
-	dw DiglettFrames
+	dw MudbrayFrames
 	dw DugtrioFrames
 	dw MeowthFrames
 	dw PersianFrames

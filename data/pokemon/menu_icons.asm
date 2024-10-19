@@ -51,7 +51,7 @@ MonMenuIcons:
 	db ICON_BUG         ; PARASECT
 	db ICON_CATERPILLAR ; SNOM
 	db ICON_MOTH        ; VENOMOTH
-	db ICON_DIGLETT     ; DIGLETT
+	db ICON_EQUINE      ; MUDBRAY
 	db ICON_DIGLETT     ; DUGTRIO
 	db ICON_FOX         ; MEOWTH
 	db ICON_FOX         ; PERSIAN

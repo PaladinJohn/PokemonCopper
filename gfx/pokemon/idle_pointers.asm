@@ -49,7 +49,7 @@ AnimationIdlePointers:
 	dw ParasectAnimationIdle
 	dw SnomAnimationIdle
 	dw VenomothAnimationIdle
-	dw DiglettAnimationIdle
+	dw MudbrayAnimationIdle
 	dw DugtrioAnimationIdle
 	dw MeowthAnimationIdle
 	dw PersianAnimationIdle
