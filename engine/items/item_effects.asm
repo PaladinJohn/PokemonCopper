@@ -914,8 +914,6 @@ MoonBallMultiplier:
 	ret nz
 
 	inc hl
-	inc hl
-	inc hl
 
 ; BUG (FIXED): Moon Ball does not boost catch rate (see docs/bugs_and_glitches.md)
 	push bc
