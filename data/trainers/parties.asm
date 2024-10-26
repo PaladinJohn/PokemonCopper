@@ -414,6 +414,13 @@ YoungsterGroup:
 	db "DAVID@", TRAINERTYPE_MOVES
 	db 37, RATICATE,   HYPER_BEAM, QUICK_ATTACK, HYPER_FANG, PURSUIT
 	db -1 ; end
+	
+	; YOUNGSTER (15)
+	db "ALEX@", TRAINERTYPE_NORMAL
+	db 13, SWINUB
+	db 13, SANDSHREW
+	db 17, GEODUDE
+	db -1 ; end
 
 SchoolboyGroup:
 	; SCHOOLBOY (1)
@@ -882,10 +889,9 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	; COOLTRAINERM (13)
-	db "ERICK@", TRAINERTYPE_NORMAL
-	db 10, BULBASAUR
-	db 10, CHARMANDER
-	db 10, SQUIRTLE
+	db "IAIN@", TRAINERTYPE_NORMAL
+	db 13, PHANPY
+	db 18, RHYHORN
 	db -1 ; end
 
 	; COOLTRAINERM (14)
@@ -1530,10 +1536,10 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (5)
-	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, ROOKIDEE
-	db  9, CORVISQUIR
-	db 12, PAWMOT
+	db "LEE@", TRAINERTYPE_NORMAL
+	db 15, ONIX
+	db 15, MUDBRAY
+	db 15, GLIGAR
 	db -1 ; end
 
 	; BUG_CATCHER (6)
@@ -2612,11 +2618,9 @@ JugglerGroup:
 
 BlackbeltGroup:
 	; BLACKBELT_T (1)
-	db "KENJI@", TRAINERTYPE_NORMAL
-	db 27, ONIX
-	db 30, HITMONLEE
-	db 27, ONIX
-	db 32, MACHOKE
+	db "PETER@", TRAINERTYPE_NORMAL
+	db 16, LARVITAR
+	db 16, CUBONE
 	db -1 ; end
 
 	; BLACKBELT_T (2)

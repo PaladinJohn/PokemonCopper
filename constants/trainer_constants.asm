@@ -125,6 +125,7 @@ DEF ASH EQU __trainer_class__
 	const JASON
 	const JOEY4
 	const JOEY5
+	const ALEXANDER ; Alex; Goldenrod Gym
 
 	trainerclass SCHOOLBOY ; 17
 	const JACK1
@@ -174,8 +175,8 @@ DEF ASH EQU __trainer_class__
 	const VANCE3
 
 	trainerclass LASS ; 19
-	const CARRIE
-	const BRIDGET
+	const CARRIE ; unused
+	const BRIDGET ; unused
 	const ALICE
 	const KRISE
 	const CONNIE1
@@ -208,7 +209,7 @@ DEF ASH EQU __trainer_class__
 	const GAVEN3
 	const BLAKE
 	const BRIAN
-	const ERICK ; unused
+	const ERICK ; Iain; Goldenrod Gym
 	const ANDY ; unused
 	const TYLER ; unused
 	const SEAN
@@ -241,8 +242,8 @@ DEF ASH EQU __trainer_class__
 	const CARA
 
 	trainerclass BEAUTY ; 1d
-	const VICTORIA
-	const SAMANTHA
+	const VICTORIA ; unused
+	const SAMANTHA ; unused
 	const JULIE ; Nicola; Azalea Gym
 	const JACLYN ; Jennifer; Azalea Gym
 	const BRENDA ; unused
@@ -333,7 +334,7 @@ DEF ASH EQU __trainer_class__
 	const ROB
 	const ED
 	const WADE1
-	const BUG_CATCHER_BENNY ; unused
+	const BUG_CATCHER_BENNY ; Lee; Goldenrod Gym
 	const AL ; unused
 	const JOSH ; unused
 	const ARNIE1
@@ -525,7 +526,7 @@ DEF ASH EQU __trainer_class__
 	const IRWIN4 ; unused
 
 	trainerclass BLACKBELT_T ; 32
-	const KENJI1 ; unused
+	const KENJI1 ; Peter; Goldenrod Gym
 	const YOSHI
 	const KENJI2 ; unused
 	const LAO
