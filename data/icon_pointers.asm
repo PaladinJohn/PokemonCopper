@@ -4,6 +4,7 @@ IconPointers:
 	dw NullIcon
 	dw BulbasaurIcon
 	dw VenusaurIcon
+	dw CharmanderIcon
 	dw CharizardIcon
 	dw BlastoiseIcon
 	dw RaticateIcon
@@ -14,10 +15,21 @@ IconPointers:
 	dw ClefableIcon
 	dw NinetalesIcon
 	dw WigglytuffIcon
+	dw VileplumeIcon
+	dw ParasectIcon
+	dw GolduckIcon
+	dw ArcanineIcon
 	dw PoliwagIcon
 	dw JigglypuffIcon
 	dw DiglettIcon
 	dw PikachuIcon
+	dw AlakazamIcon
+	dw VictreebelIcon
+	dw TentacruelIcon
+	dw GolemIcon
+	dw RapidashIcon
+	dw SlowbroIcon
+	dw FarfetchDIcon
 	dw StaryuIcon
 	dw FishIcon
 	dw BirdIcon
@@ -35,14 +47,12 @@ IconPointers:
 	dw SerpentIcon
 	dw VoltorbIcon
 	dw SquirtleIcon
-	dw CharmanderIcon
 	dw CaterpillarIcon
 	dw UnownIcon
 	dw GeodudeIcon
 	dw FighterIcon
 	dw EggIcon
 	dw JellyfishIcon
-	dw MothIcon
 	dw BatIcon
 	dw SnorlaxIcon
 	dw LugiaIcon
