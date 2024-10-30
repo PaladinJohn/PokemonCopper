@@ -15,11 +15,11 @@ IsHMMove::
 	jp IsInArray
 
 .HMMoves:
-	db CUT
-	db FLY
-	db SURF
-	db STRENGTH
-	db THUNDER_WAVE
-	db WATERFALL
-	db WHIRLPOOL
+	;db CUT
+	;db FLY
+	;db SURF
+	;db STRENGTH
+	;db THUNDER_WAVE
+	;db WATERFALL
+	;db WHIRLPOOL
 	db -1 ; end
