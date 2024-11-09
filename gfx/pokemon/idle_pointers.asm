@@ -124,7 +124,7 @@ AnimationIdlePointers:
 	dw CapsakidAnimationIdle
 	dw ScytherAnimationIdle
 	dw JynxAnimationIdle
-	dw ElectabuzzAnimationIdle
+	dw WhirlipedeAnimationIdle
 	dw MagmarAnimationIdle
 	dw PinsirAnimationIdle
 	dw TaurosAnimationIdle

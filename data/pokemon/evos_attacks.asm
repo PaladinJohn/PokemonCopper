@@ -1696,17 +1696,14 @@ JynxEvosAttacks:
 	db 57, BLIZZARD
 	db 0 ; no more level-up moves
 
-ElectabuzzEvosAttacks:
+WhirlipedeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, QUICK_ATTACK
-	db 1, LEER
-	db 1, THUNDERPUNCH
-	db 9, THUNDERPUNCH
-	db 17, LIGHT_SCREEN
-	db 25, SWIFT
-	db 36, SCREECH
-	db 47, THUNDERBOLT
-	db 58, THUNDER
+	db 1, DEFENSE_CURL
+	db 1, ROLLOUT
+	db 9, POISON_STING
+	db 17, SCREECH
+	db 26, PURSUIT
+	db 36, PROTECT
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
@@ -3181,6 +3178,7 @@ SmoochumEvosAttacks:
 	db 0 ; no more level-up moves
 
 VenipedeEvosAttacks:
+	db EVOLVE_LEVEL, 22, WHIRLIPEDE
 	db 0 ; no more evolutions
 	db 1, DEFENSE_CURL
 	db 1, ROLLOUT

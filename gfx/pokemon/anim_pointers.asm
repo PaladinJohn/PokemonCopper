@@ -124,7 +124,7 @@ AnimationPointers:
 	dw CapsakidAnimation
 	dw ScytherAnimation
 	dw JynxAnimation
-	dw ElectabuzzAnimation
+	dw WhirlipedeAnimation
 	dw MagmarAnimation
 	dw PinsirAnimation
 	dw TaurosAnimation

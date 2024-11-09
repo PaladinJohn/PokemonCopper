@@ -125,7 +125,7 @@ PokedexDataPointerTable:
 	dw CapsakidPokedexEntry
 	dw ScytherPokedexEntry
 	dw JynxPokedexEntry
-	dw ElectabuzzPokedexEntry
+	dw WhirlipedePokedexEntry
 	dw MagmarPokedexEntry
 	dw PinsirPokedexEntry
 	dw TaurosPokedexEntry

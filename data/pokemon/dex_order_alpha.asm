@@ -46,7 +46,6 @@ AlphabeticalPokedexOrder:
 	db DUNSPARCE
 	db EEVEE
 	db EKANS
-	db ELECTABUZZ
 	db ELECTRODE
 	db ENTEI
 	db ESPEON
@@ -244,6 +243,7 @@ AlphabeticalPokedexOrder:
 	db WARTORTLE
 	db WEEPINBELL
 	db WEEZING
+	db WHIRLIPEDE
 	db WIGGLYTUFF
 	db WOBBUFFET
 	db WOOPER

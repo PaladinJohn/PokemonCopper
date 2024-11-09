@@ -143,7 +143,7 @@
 	const CAPSAKID   ; 7a
 	const SCYTHER    ; 7b
 	const JYNX       ; 7c
-	const ELECTABUZZ ; 7d
+	const WHIRLIPEDE ; 7d
 	const MAGMAR     ; 7e
 	const PINSIR     ; 7f
 	const TAUROS     ; 80

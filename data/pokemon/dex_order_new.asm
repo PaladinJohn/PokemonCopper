@@ -110,7 +110,7 @@ NewPokedexOrder:
 	db AIPOM
 	db HERACROSS
 	db VENIPEDE
-	db ELECTABUZZ
+	db WHIRLIPEDE
 	db ZORUA
 	db MINCCINO
 	db GRANBULL

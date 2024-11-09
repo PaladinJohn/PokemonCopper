@@ -124,7 +124,7 @@ FramesPointers:
 	dw CapsakidFrames
 	dw ScytherFrames
 	dw JynxFrames
-	dw ElectabuzzFrames
+	dw WhirlipedeFrames
 	dw MagmarFrames
 	dw PinsirFrames
 	dw TaurosFrames

@@ -124,7 +124,7 @@ BitmasksPointers:
 	dw CapsakidBitmasks
 	dw ScytherBitmasks
 	dw JynxBitmasks
-	dw ElectabuzzBitmasks
+	dw WhirlipedeBitmasks
 	dw MagmarBitmasks
 	dw PinsirBitmasks
 	dw TaurosBitmasks

@@ -124,7 +124,7 @@ PokemonNames::
 	db "CAPSAKID@@"
 	db "SCYTHER@@@"
 	db "JYNX@@@@@@"
-	db "ELECTABUZZ"
+	db "WHIRLIPEDE"
 	db "MAGMAR@@@@"
 	db "PINSIR@@@@"
 	db "TAUROS@@@@"
