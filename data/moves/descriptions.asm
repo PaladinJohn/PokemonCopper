@@ -253,14 +253,13 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw HeatWaveDescription
+	dw SandTombDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1273,3 +1272,7 @@ BeatUpDescription:
 HeatWaveDescription:
 	db   "An attack that may"
 	next "inflict a burn.@"
+	
+SandTombDescription:
+	db   "Traps foe in sand"
+	next "for 2-5 turns.@"

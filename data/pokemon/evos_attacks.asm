@@ -127,8 +127,6 @@ WartortleEvosAttacks:
 	db EVOLVE_LEVEL, 36, BLASTOISE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, BUBBLE
 	db 4, TAIL_WHIP
 	db 7, BUBBLE
 	db 10, WITHDRAW
@@ -144,9 +142,6 @@ WartortleEvosAttacks:
 BlastoiseEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
-	db 1, BUBBLE
-	db 1, WITHDRAW
 	db 4, TAIL_WHIP
 	db 7, BUBBLE
 	db 10, WITHDRAW
@@ -191,8 +186,9 @@ VivillonEvosAttacks:
 	db 18, STRUGGLE_BUG
 	db 23, PSYBEAM
 	db 28, SUPERSONIC
-	db 34, HEAL_BELL
-	db 40, SAFEGUARD
+	db 34, CUT
+	db 40, HEAL_BELL
+	db 47, SAFEGUARD
 	db 0 ; no more level-up moves
 
 RookideeEvosAttacks:
@@ -204,9 +200,10 @@ RookideeEvosAttacks:
 	db 10, SHARPEN
 	db 15, FURY_ATTACK
 	db 20, WING_ATTACK
-	db 25, SCARY_FACE
-	db 30, DRILL_PECK
-	db 40, SWAGGER
+	db 25, SAND_ATTACK
+	db 30, SCARY_FACE
+	db 35, DRILL_PECK
+	db 45, SWAGGER
 	db 0 ; no more level-up moves
 
 CorvisquirEvosAttacks:
@@ -217,9 +214,10 @@ CorvisquirEvosAttacks:
 	db 10, SHARPEN
 	db 15, FURY_ATTACK
 	db 21, WING_ATTACK
-	db 27, SCARY_FACE
-	db 33, DRILL_PECK
-	db 44, SWAGGER
+	db 27, SAND_ATTACK
+	db 33, SCARY_FACE
+	db 39, DRILL_PECK
+	db 50, SWAGGER
 	db 0 ; no more level-up moves
 
 PawmotEvosAttacks:
@@ -240,9 +238,9 @@ FletchlingEvosAttacks:
 	db 1, TACKLE
 	db 5, GROWL
 	db 9, QUICK_ATTACK
-	db 15, PECK
-	db 21, AGILITY
-	db 29, FLAIL
+	db 13, PECK
+	db 19, AGILITY
+	db 25, FLAIL
 	db 47, RAZOR_WIND
 	db 0 ; no more level-up moves
 
@@ -251,10 +249,10 @@ FletchindrEvosAttacks:
 	db 1, TACKLE
 	db 5, GROWL
 	db 9, QUICK_ATTACK
-	db 15, PECK
-	db 23, AGILITY
-	db 33, FLAIL
-	db 43, EMBER
+	db 13, PECK
+	db 20, AGILITY
+	db 27, FLAIL
+	db 34, EMBER
 	db 55, RAZOR_WIND
 	db 0 ; no more level-up moves
 
@@ -1276,9 +1274,12 @@ OnixEvosAttacks:
 	db 8, BIND
 	db 12, ROCK_THROW
 	db 19, HARDEN
-	db 27, RAGE
-	db 36, SANDSTORM
-	db 40, SLAM
+	db 23, RAGE
+	db 30, DRAGONBREATH
+	db 34, SANDSTORM
+	db 41, SLAM
+	db 45, IRON_TAIL
+	db 52, SAND_TOMB
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -2789,13 +2790,16 @@ SteelixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
-	db 10, BIND
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 27, RAGE
-	db 36, SANDSTORM
-	db 40, SLAM
+	db 8, BIND
+	db 12, ROCK_THROW
+	db 19, HARDEN
+	db 23, RAGE
+	db 30, DRAGONBREATH
+	db 34, SANDSTORM
+	db 41, SLAM
+	db 45, IRON_TAIL
 	db 49, CRUNCH
+	db 52, SAND_TOMB
 	db 0 ; no more level-up moves
 
 MinccinoEvosAttacks:

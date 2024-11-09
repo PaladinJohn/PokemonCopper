@@ -254,8 +254,8 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
 	dw BattleAnim_HeatWave
+	dw BattleAnim_SandTomb
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
@@ -4642,6 +4642,11 @@ BattleAnim_HeatWave:
 	anim_wait 4
 	anim_incobj 9
 	anim_wait 8
+	anim_ret
+	
+BattleAnim_SandTomb:
+	anim_1gfx BATTLE_ANIM_GFX_SAND
+	anim_call BattleAnimSub_SandOrMud
 	anim_ret
 
 BattleAnimSub_Drain:
