@@ -81,7 +81,7 @@ FramesPointers:
 	dw SlowpokeFrames
 	dw SlowbroFrames
 	dw YamperFrames
-	dw MagnetonFrames
+	dw BoltundFrames
 	dw FarfetchDFrames
 	dw PawmiFrames
 	dw PawmoFrames

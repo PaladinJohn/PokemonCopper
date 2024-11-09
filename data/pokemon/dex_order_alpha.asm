@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BLITZLE
+	db BOLTUND
 	db BULBASAUR
 	db CAPSAKID
 	db CELEBI
@@ -114,7 +115,6 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MAGNETON
 	db MANKEY
 	db MANTINE
 	db MAREEP

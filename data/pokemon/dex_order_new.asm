@@ -115,7 +115,7 @@ NewPokedexOrder:
 	db MINCCINO
 	db GRANBULL
 	db YAMPER
-	db MAGNETON
+	db BOLTUND
 	db SPINARAK
 	db ARIADOS
 	db CLEFFA

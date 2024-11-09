@@ -1080,6 +1080,7 @@ SlowbroEvosAttacks:
 	db 0 ; no more level-up moves
 
 YamperEvosAttacks:
+	db EVOLVE_LEVEL, 25, BOLTUND
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 6, TAIL_WHIP
@@ -1092,20 +1093,17 @@ YamperEvosAttacks:
 	db 45, CHARGE
 	db 0 ; no more level-up moves
 
-MagnetonEvosAttacks:
+BoltundEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, THUNDERSHOCK
-	db 1, SUPERSONIC
-	db 1, SONICBOOM
-	db 6, THUNDERSHOCK
-	db 11, SUPERSONIC
-	db 16, SONICBOOM
-	db 21, THUNDER_WAVE
-	db 27, LOCK_ON
-	db 35, TRI_ATTACK
-	db 43, SCREECH
-	db 53, ZAP_CANNON
+	db 6, TAIL_WHIP
+	db 11, NUZZLE
+	db 16, BITE
+	db 21, ROAR
+	db 28, SPARK
+	db 35, CHARM
+	db 43, CRUNCH
+	db 53, CHARGE
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:

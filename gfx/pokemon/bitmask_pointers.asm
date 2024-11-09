@@ -81,7 +81,7 @@ BitmasksPointers:
 	dw SlowpokeBitmasks
 	dw SlowbroBitmasks
 	dw YamperBitmasks
-	dw MagnetonBitmasks
+	dw BoltundBitmasks
 	dw FarfetchDBitmasks
 	dw PawmiBitmasks
 	dw PawmoBitmasks

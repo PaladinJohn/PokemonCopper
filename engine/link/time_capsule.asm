@@ -36,11 +36,6 @@ ValidateOTTrademon:
 	add hl, bc
 	ld a, [hl]
 
-	; Magnemite and Magneton's types changed
-	; from Electric to Electric/Steel.
-	cp MAGNETON
-	jr z, .normal
-
 	ld [wCurSpecies], a
 	call GetBaseData
 	ld hl, wLinkOTPartyMonTypes

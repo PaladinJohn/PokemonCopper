@@ -87,7 +87,7 @@ PokemonCries::
 	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE
 	mon_cry CRY_GROWLITHE,     0,  256 ; SLOWBRO
 	mon_cry CRY_TOTODILE,   -673,  390 ; YAMPER
-	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
+	mon_cry CRY_SLOWPOKE,    704,  239 ; BOLTUND
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
 	mon_cry CRY_PSYDUCK,    3036,  355 ; PAWMI
 	mon_cry CRY_PSYDUCK,    1290,  346 ; PAWMO

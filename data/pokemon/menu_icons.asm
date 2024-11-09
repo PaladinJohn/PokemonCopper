@@ -83,7 +83,7 @@ MonMenuIcons:
 	db ICON_SLOWPOKE    ; SLOWPOKE
 	db ICON_SLOWBRO
 	db ICON_FOX         ; YAMPER
-	db ICON_VOLTORB     ; MAGNETON
+	db ICON_FOX         ; BOLTUND
 	db ICON_FARFETCH_D
 	db ICON_FOX         ; PAWMI
 	db ICON_MONSTER     ; PAWMO

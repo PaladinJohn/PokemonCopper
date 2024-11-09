@@ -100,7 +100,7 @@
 	const SLOWPOKE   ; 4f
 	const SLOWBRO    ; 50
 	const YAMPER     ; 51
-	const MAGNETON   ; 52
+	const BOLTUND    ; 52
 	const FARFETCH_D ; 53
 	const PAWMI      ; 54
 	const PAWMO      ; 55

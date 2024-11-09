@@ -81,7 +81,7 @@ AnimationIdlePointers:
 	dw SlowpokeAnimationIdle
 	dw SlowbroAnimationIdle
 	dw YamperAnimationIdle
-	dw MagnetonAnimationIdle
+	dw BoltundAnimationIdle
 	dw FarfetchDAnimationIdle
 	dw PawmiAnimationIdle
 	dw PawmoAnimationIdle

@@ -83,7 +83,7 @@ EvosAttacksPointers::
 	dw SlowpokeEvosAttacks
 	dw SlowbroEvosAttacks
 	dw YamperEvosAttacks
-	dw MagnetonEvosAttacks
+	dw BoltundEvosAttacks
 	dw FarfetchDEvosAttacks
 	dw PawmiEvosAttacks
 	dw PawmoEvosAttacks

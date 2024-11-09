@@ -81,7 +81,7 @@ PokemonNames::
 	db "SLOWPOKE@@"
 	db "SLOWBRO@@@"
 	db "YAMPER@@@@"
-	db "MAGNETON@@"
+	db "BOLTUND@@@"
 	db "FARFETCH'D"
 	db "PAWMI@@@@@"
 	db "PAWMO@@@@@"

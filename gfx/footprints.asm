@@ -193,7 +193,7 @@ INCBIN "gfx/footprints/slowpoke.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/slowbro.1bpp",    footprint_bottom
 ; 081-088 top halves
 INCBIN "gfx/footprints/yamper.1bpp",     footprint_top
-INCBIN "gfx/footprints/magneton.1bpp",   footprint_top
+INCBIN "gfx/footprints/boltund.1bpp",    footprint_top
 INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_top
 INCBIN "gfx/footprints/pawmi.1bpp",      footprint_top
 INCBIN "gfx/footprints/pawmo.1bpp",      footprint_top
@@ -202,7 +202,7 @@ INCBIN "gfx/footprints/dewgong.1bpp",    footprint_top
 INCBIN "gfx/footprints/grimer.1bpp",     footprint_top
 ; 081-088 bottom halves
 INCBIN "gfx/footprints/yamper.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/magneton.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/boltund.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_bottom
 INCBIN "gfx/footprints/pawmi.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/pawmo.1bpp",      footprint_bottom

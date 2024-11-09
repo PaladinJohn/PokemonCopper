@@ -81,7 +81,7 @@ AnimationPointers:
 	dw SlowpokeAnimation
 	dw SlowbroAnimation
 	dw YamperAnimation
-	dw MagnetonAnimation
+	dw BoltundAnimation
 	dw FarfetchDAnimation
 	dw PawmiAnimation
 	dw PawmoAnimation

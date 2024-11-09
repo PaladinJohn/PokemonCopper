@@ -89,7 +89,7 @@ EZChat_SortedPokemon:
 .ra:       db RAIKOU, RAICHU, CHANSEY, RATICATE, LAPRAS, VILEPLUME, LANTURN, -1
 .ri:       db CHARMELEON, CHARIZARD, URSARING, -1
 .ru:       db JYNX, LUGIA, -1
-.re:       db MAGNETON, LEDIAN, LEDYBA, -1
+.re:       db BOLTUND, LEDIAN, LEDYBA, -1
 .ro:       db VULPIX, -1
 .wa:       db JUMPLUFF, TOTODILE, TIMBURR ;, -1
 .end:      db -1
