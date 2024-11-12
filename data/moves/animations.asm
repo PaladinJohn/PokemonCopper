@@ -149,7 +149,7 @@ BattleAnimations::
 	dw BattleAnim_Bubble
 	dw BattleAnim_DizzyPunch
 	dw BattleAnim_Spore
-	dw BattleAnim_Flash
+	dw BattleAnim_ShadowPunch
 	dw BattleAnim_Psywave
 	dw BattleAnim_Splash
 	dw BattleAnim_AcidArmor
@@ -2549,27 +2549,19 @@ BattleAnim_Guillotine:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_Flash:
-	anim_1gfx BATTLE_ANIM_GFX_SPEED
-	anim_sound 0, 1, SFX_FLASH
-	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $6, $20
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $0
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $8
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $10
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $18
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $20
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $28
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $30
-	anim_wait 4
-	anim_obj BATTLE_ANIM_OBJ_FLASH, 136, 56, $38
-	anim_wait 32
+BattleAnim_ShadowPunch:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_wait 48
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+.loop
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_wait 6
+	anim_loop 3, .loop
 	anim_ret
 
 BattleAnim_Substitute:

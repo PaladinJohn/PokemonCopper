@@ -147,7 +147,7 @@ MoveNames::
 	li "Bubble"
 	li "Dizzy Punch"
 	li "Spore"
-	li "Flash"
+	li "Shadow Punch"
 	li "Psywave"
 	li "Splash"
 	li "Acid Armor"

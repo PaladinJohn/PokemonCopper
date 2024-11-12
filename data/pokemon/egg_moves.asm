@@ -267,6 +267,7 @@ GrimerEggMoves:
 	db HAZE
 	db MEAN_LOOK
 	db LICK
+	db SHADOW_PUNCH
 	db -1 ; end
 
 ShellderEggMoves:
