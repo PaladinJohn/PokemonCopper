@@ -187,7 +187,7 @@ AnimationPointers:
 	dw SudowoodoAnimation
 	dw PolitoedAnimation
 	dw SmolivAnimation
-	dw SkiploomAnimation
+	dw DollivAnimation
 	dw JumpluffAnimation
 	dw AipomAnimation
 	dw SunkernAnimation

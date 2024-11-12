@@ -2520,6 +2520,7 @@ PolitoedEvosAttacks:
 	db 0 ; no more level-up moves
 
 SmolivEvosAttacks:
+	db EVOLVE_LEVEL, 25, DOLLIV
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SWEET_SCENT
@@ -2531,22 +2532,16 @@ SmolivEvosAttacks:
 	db 30, LEECH_SEED
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
-	db EVOLVE_LEVEL, 27, JUMPLUFF
+DollivEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 1, SYNTHESIS
-	db 1, TAIL_WHIP
 	db 1, TACKLE
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 22, LEECH_SEED
-	db 29, COTTON_SPORE
-	db 36, MEGA_DRAIN
+	db 5, SWEET_SCENT
+	db 5, ABSORB
+	db 10, GROWTH
+	db 13, RAZOR_LEAF
+	db 15, FLAIL
+	db 17, MEGA_DRAIN
+	db 36, LEECH_SEED
 	db 0 ; no more level-up moves
 
 JumpluffEvosAttacks:

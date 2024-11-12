@@ -38,6 +38,7 @@ AlphabeticalPokedexOrder:
 	db DELIBIRD
 	db DEWGONG
 	db DITTO
+	db DOLLIV
 	db DONPHAN
 	db DRAGONAIR
 	db DRAGONITE
@@ -192,7 +193,6 @@ AlphabeticalPokedexOrder:
 	db SHINX
 	db SHUCKLE
 	db SKARMORY
-	db SKIPLOOM
 	db SLOWBRO
 	db SLOWKING
 	db SLOWPOKE

@@ -187,7 +187,7 @@ FramesPointers:
 	dw SudowoodoFrames
 	dw PolitoedFrames
 	dw SmolivFrames
-	dw SkiploomFrames
+	dw DollivFrames
 	dw JumpluffFrames
 	dw AipomFrames
 	dw SunkernFrames

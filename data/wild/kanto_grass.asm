@@ -513,16 +513,16 @@ KantoGrassWildMons:
 	db 26, NIDORINA
 	db 28, FLETCHINDR
 	db 28, SMOLIV
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, DOLLIV
+	db 30, DOLLIV
 	db 28, CHANSEY
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, FLETCHINDR
 	db 28, SMOLIV
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, DOLLIV
+	db 30, DOLLIV
 	db 28, CHANSEY
 	; nite
 	db 26, SNOM

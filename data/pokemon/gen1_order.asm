@@ -227,7 +227,7 @@ Pokered_MonIndices:
 	db SUDOWOODO
 	db POLITOED
 	db SMOLIV
-	db SKIPLOOM
+	db DOLLIV
 	db JUMPLUFF
 	db AIPOM
 	db SUNKERN

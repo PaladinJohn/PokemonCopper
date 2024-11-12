@@ -58,7 +58,7 @@ NewPokedexOrder:
 	db PAWMO
 	db PAWMOT
 	db SMOLIV
-	db SKIPLOOM
+	db DOLLIV
 	db JUMPLUFF
 	db SANDSHREW
 	db SANDSLASH

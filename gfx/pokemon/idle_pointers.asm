@@ -187,7 +187,7 @@ AnimationIdlePointers:
 	dw SudowoodoAnimationIdle
 	dw PolitoedAnimationIdle
 	dw SmolivAnimationIdle
-	dw SkiploomAnimationIdle
+	dw DollivAnimationIdle
 	dw JumpluffAnimationIdle
 	dw AipomAnimationIdle
 	dw SunkernAnimationIdle

@@ -187,7 +187,7 @@ BitmasksPointers:
 	dw SudowoodoBitmasks
 	dw PolitoedBitmasks
 	dw SmolivBitmasks
-	dw SkiploomBitmasks
+	dw DollivBitmasks
 	dw JumpluffBitmasks
 	dw AipomBitmasks
 	dw SunkernBitmasks
