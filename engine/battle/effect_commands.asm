@@ -693,7 +693,7 @@ BattleCommand_CheckObedience:
 	jr nz, .getlevel
 
 	; no badges
-	ld a, 10
+	ld a, 14
 
 .getlevel
 ; c = obedience level
