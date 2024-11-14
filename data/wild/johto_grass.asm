@@ -1405,21 +1405,21 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, MINCCINO
+	db 12, YAMPER
 	db 14, FLETCHLING
 	db 13, GROWLITHE
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
+	db 12, MUDBRAY
 	; day
-	db 12, MINCCINO
+	db 12, YAMPER
 	db 14, FLETCHLING
 	db 13, GROWLITHE
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
+	db 12, MUDBRAY
 	; nite
 	db 12, DROWZEE
 	db 14, HOOTHOOT
@@ -1427,7 +1427,7 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
+	db 12, MUDBRAY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_36

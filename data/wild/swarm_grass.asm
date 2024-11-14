@@ -36,24 +36,24 @@ SwarmGrassWildMons:
 	; morn
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
+	db 12, MUDBRAY
+	db 14, MUDBRAY
 	db 14, FLETCHLING
 	db 10, DITTO
 	db 10, DITTO
 	; day
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
+	db 12, MUDBRAY
+	db 14, MUDBRAY
 	db 14, FLETCHLING
 	db 10, DITTO
 	db 10, DITTO
 	; nite
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, YANMA
-	db 14, YANMA
+	db 12, MUDBRAY
+	db 14, MUDBRAY
 	db 14, HOOTHOOT
 	db 10, DITTO
 	db 10, DITTO
