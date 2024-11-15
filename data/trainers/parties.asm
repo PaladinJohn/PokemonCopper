@@ -592,9 +592,9 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
-	db "BRYAN@", TRAINERTYPE_NORMAL
-	db 12, FLETCHLING
-	db 14, FLETCHINDR
+	db "ADAM@", TRAINERTYPE_NORMAL
+	db 13, HOOTHOOT
+	db 14, FLETCHLING
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
@@ -1555,8 +1555,9 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (8)
-	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 15, SNOM
+	db "BARRY@", TRAINERTYPE_NORMAL
+	db 13, VENIPEDE
+	db 15, VENIPEDE
 	db -1 ; end
 
 	; BUG_CATCHER (9)
@@ -2551,9 +2552,9 @@ FirebreatherGroup:
 	db -1 ; end
 
 	; FIREBREATHER (6)
-	db "WALT@", TRAINERTYPE_NORMAL
-	db 11, MAGMAR
-	db 13, MAGMAR
+	db "MATT@", TRAINERTYPE_NORMAL
+	db 13, SLUGMA
+	db 13, MAGBY
 	db -1 ; end
 
 	; FIREBREATHER (7)
@@ -2571,11 +2572,11 @@ FirebreatherGroup:
 
 JugglerGroup:
 	; JUGGLER (1)
-	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  2, BLITZLE
-	db  6, BLITZLE
-	db 10, BLITZLE
-	db 14, BLITZLE
+	db "GRAHAM@", TRAINERTYPE_NORMAL
+	db 13, DROWZEE
+	db 13, GASTLY
+	db 13, MAGBY
+	db 14, GASTLY
 	db -1 ; end
 
 	; JUGGLER (2)
@@ -2790,12 +2791,14 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (3)
-	db "BROOKE@", TRAINERTYPE_MOVES
-	db 16, LUXIO,    THUNDERSHOCK, GROWL, QUICK_ATTACK, DOUBLE_TEAM
+	db "LISA@", TRAINERTYPE_NORMAL
+	db 13, BULBASAUR
+	db 16, BELLSPROUT
 	db -1 ; end
 
 	; PICNICKER (4)
-	db "KIM@", TRAINERTYPE_NORMAL
+	db "KIRSTY@", TRAINERTYPE_NORMAL
+	db 13, CLEFAIRY
 	db 15, VULPIX
 	db -1 ; end
 
@@ -2951,14 +2954,14 @@ CamperGroup:
 	db -1 ; end
 
 	; CAMPER (3)
-	db "IVAN@", TRAINERTYPE_NORMAL
-	db 10, MUDBRAY
-	db 10, ZUBAT
-	db 14, MUDBRAY
+	db "BRIAN@", TRAINERTYPE_NORMAL
+	db 13, GROWLITHE
+	db 13, ZUBAT
+	db 14, TAUROS
 	db -1 ; end
 
 	; CAMPER (4)
-	db "ELLIOT@", TRAINERTYPE_NORMAL
+	db "IAN@", TRAINERTYPE_NORMAL
 	db 13, SANDSHREW
 	db 15, MARILL
 	db -1 ; end
@@ -3474,8 +3477,8 @@ OfficerGroup:
 	db -1 ; end
 
 	; OFFICER (2)
-	db "DIRK@", TRAINERTYPE_NORMAL
-	db 14, GROWLITHE
+	db "GORDON@", TRAINERTYPE_NORMAL
+	db 14, RIOLU
 	db 14, GROWLITHE
 	db -1 ; end
 
