@@ -593,8 +593,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (3)
 	db "ADAM@", TRAINERTYPE_NORMAL
-	db 13, HOOTHOOT
-	db 14, FLETCHLING
+	db 14, HOOTHOOT
+	db 16, FLETCHLING
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
@@ -1227,13 +1227,13 @@ PokemaniacGroup:
 	; POKEMANIAC (11)
 	db "RICHARD@", TRAINERTYPE_NORMAL
 	db 12, CHARMANDER
-	db 12, BULBASAUR
+	db 17, IVYSAUR
 	db -1 ; end
 
 	; POKEMANIAC (12)
 	db "COLIN@", TRAINERTYPE_MOVES
-	db 12, CHARMANDER, SCRATCH, GROWL, EMBER, SWIFT
-	db 12, NIDORAN_M,  MUD_SLAP, TACKLE, HORN_ATTACK, DOUBLE_KICK
+	db 16, CHARMELEON, SCRATCH, BITE, EMBER, METAL_CLAW
+	db 16, NIDORINO,   CONFUSION, TACKLE, HORN_ATTACK, DOUBLE_KICK
 	db -1 ; end
 
 	; POKEMANIAC (13)
@@ -1557,7 +1557,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (8)
 	db "BARRY@", TRAINERTYPE_NORMAL
 	db 13, VENIPEDE
-	db 15, VENIPEDE
+	db 17, VENIPEDE
 	db -1 ; end
 
 	; BUG_CATCHER (9)
@@ -1625,8 +1625,8 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (19)
 	db "MARTIN@", TRAINERTYPE_NORMAL
-	db 10, SPEWPA
-	db 10, SPEWPA
+	db 13, SPEWPA
+	db 15, VIVILLON
 	db -1 ; end
 
 FisherGroup:
@@ -2132,8 +2132,8 @@ SuperNerdGroup:
 
 	; SUPER_NERD (2)
 	db "DARREN@", TRAINERTYPE_NORMAL
-	db 12, GRIMER
-	db 12, PORYGON
+	db 15, GRIMER
+	db 15, PORYGON
 	db -1 ; end
 
 	; SUPER_NERD (3)
@@ -2182,9 +2182,9 @@ SuperNerdGroup:
 	; SUPER_NERD (10)
 	db "SEAN@", TRAINERTYPE_NORMAL
 	db 12, GRIMER
-	db 12, HORSEA
+	db 16, HORSEA
 	db 12, SLOWPOKE
-	db 12, SLOWPOKE
+	db 14, SLOWPOKE
 	db -1 ; end
 
 	; SUPER_NERD (11)
@@ -2554,7 +2554,7 @@ FirebreatherGroup:
 	; FIREBREATHER (6)
 	db "MATT@", TRAINERTYPE_NORMAL
 	db 13, SLUGMA
-	db 13, MAGBY
+	db 15, MAGMAR
 	db -1 ; end
 
 	; FIREBREATHER (7)
@@ -2576,7 +2576,7 @@ JugglerGroup:
 	db 13, DROWZEE
 	db 13, GASTLY
 	db 13, MAGBY
-	db 14, GASTLY
+	db 16, GASTLY
 	db -1 ; end
 
 	; JUGGLER (2)
@@ -2791,15 +2791,15 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (3)
-	db "LISA@", TRAINERTYPE_NORMAL
-	db 13, BULBASAUR
-	db 16, BELLSPROUT
+	db "LISA@", TRAINERTYPE_MOVES
+	db 13, BULBASAUR,  TACKLE, GROWL, LEECH_SEED, VINE_WHIP
+	db 18, BELLSPROUT, VINE_WHIP, GROWTH, WRAP, SLEEP_POWDER
 	db -1 ; end
 
 	; PICNICKER (4)
 	db "KIRSTY@", TRAINERTYPE_NORMAL
 	db 13, CLEFAIRY
-	db 15, VULPIX
+	db 17, VULPIX
 	db -1 ; end
 
 	; PICNICKER (5)
@@ -2957,13 +2957,13 @@ CamperGroup:
 	db "BRIAN@", TRAINERTYPE_NORMAL
 	db 13, GROWLITHE
 	db 13, ZUBAT
-	db 14, TAUROS
+	db 16, TAUROS
 	db -1 ; end
 
 	; CAMPER (4)
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 13, SANDSHREW
-	db 15, MARILL
+	db 15, SANDSHREW
+	db 17, MARILL
 	db -1 ; end
 
 	; CAMPER (5)
@@ -3478,8 +3478,8 @@ OfficerGroup:
 
 	; OFFICER (2)
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 14, RIOLU
-	db 14, GROWLITHE
+	db 16, RIOLU
+	db 16, GROWLITHE
 	db -1 ; end
 
 GruntFGroup:
