@@ -345,25 +345,25 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_F
 	db 14, LEDYBA
 	db 13, FLETCHLING
-	db 10, SCATTERBUG
-	db 10, ROOKIDEE
-	db 10, ROOKIDEE
+	db 10, SPEWPA
+	db 10, SHINX
+	db 11, SHINX
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, FLETCHLING
 	db 10, SCATTERBUG
-	db 10, ROOKIDEE
-	db 10, ROOKIDEE
+	db 10, SHINX
+	db 11, SHINX
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
-	db 14, SPINARAK
+	db 14, ROOKIDEE
 	db 15, HOOTHOOT
-	db 10, SNOM
-	db 12, SNOM
-	db 12, SNOM
+	db 10, PAWMI
+	db 12, PAWMI
+	db 11, PAWMI
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
