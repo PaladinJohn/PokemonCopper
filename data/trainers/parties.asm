@@ -425,9 +425,9 @@ YoungsterGroup:
 
 SchoolboyGroup:
 	; SCHOOLBOY (1)
-	db "JACK@", TRAINERTYPE_NORMAL
-	db 12, ODDISH
-	db 15, BLITZLE
+	db "JONATHAN@", TRAINERTYPE_NORMAL
+	db 15, ODDISH
+	db 18, DITTO
 	db -1 ; end
 
 	; SCHOOLBOY (2)
@@ -716,9 +716,9 @@ LassGroup:
 	db -1 ; end
 
 	; LASS (4)
-	db "KRISE@", TRAINERTYPE_NORMAL
-	db 12, ODDISH
-	db 15, CUBONE
+	db "LOUISE@", TRAINERTYPE_NORMAL
+	db 15, ODDISH
+	db 18, CUBONE
 	db -1 ; end
 
 	; LASS (5)
@@ -3242,8 +3242,9 @@ BoarderGroup:
 
 PokefanMGroup:
 	; POKEFANM (1)
-	db "WILLIAM@", TRAINERTYPE_ITEM
-	db 14, RAICHU,     BERRY
+	db "GAVIN@", TRAINERTYPE_ITEM
+	db 13, DELIBIRD,   BERRY
+	db 17, CHARMELEON, BERRY
 	db -1 ; end
 
 	; POKEFANM (2)
@@ -3419,8 +3420,9 @@ TwinsGroup:
 
 PokefanFGroup:
 	; POKEFANF (1)
-	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 14, MINCCINO,   BERRY
+	db "MICHELLE@", TRAINERTYPE_ITEM
+	db 13, MARILL,     BERRY
+	db 17, MEOWTH,     BERRY
 	db -1 ; end
 
 	; POKEFANF (2)
