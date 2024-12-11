@@ -140,7 +140,7 @@ NewPokedexOrder:
 	db VENOMOTH
 	db SCYTHER
 	db SCIZOR
-	db PINSIR
+	db DURANT
 	db KOFFING
 	db WEEZING
 	db GRIMER

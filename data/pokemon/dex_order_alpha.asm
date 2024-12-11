@@ -46,6 +46,7 @@ AlphabeticalPokedexOrder:
 	db DROWZEE
 	db DUGTRIO
 	db DUNSPARCE
+	db DURANT
 	db EEVEE
 	db EKANS
 	db ELECTRODE
@@ -156,7 +157,6 @@ AlphabeticalPokedexOrder:
 	db PIDGEOT
 	db PILOSWINE
 	db PINECO
-	db PINSIR
 	db POLITOED
 	db POLIWHIRL
 	db POLIWRATH

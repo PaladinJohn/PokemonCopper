@@ -145,7 +145,7 @@
 	const JYNX       ; 7c
 	const WHIRLIPEDE ; 7d
 	const MAGMAR     ; 7e
-	const PINSIR     ; 7f
+	const DURANT     ; 7f
 	const TAUROS     ; 80
 	const MAGIKARP   ; 81
 	const GYARADOS   ; 82

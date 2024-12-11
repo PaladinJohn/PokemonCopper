@@ -255,8 +255,8 @@ PokemonPicPointers::
 	dba_pic WhirlipedeBackpic
 	dba_pic MagmarFrontpic
 	dba_pic MagmarBackpic
-	dba_pic PinsirFrontpic
-	dba_pic PinsirBackpic
+	dba_pic DurantFrontpic
+	dba_pic DurantBackpic
 	dba_pic TaurosFrontpic
 	dba_pic TaurosBackpic
 	dba_pic MagikarpFrontpic

@@ -127,7 +127,7 @@ PokedexDataPointerTable:
 	dw JynxPokedexEntry
 	dw WhirlipedePokedexEntry
 	dw MagmarPokedexEntry
-	dw PinsirPokedexEntry
+	dw DurantPokedexEntry
 	dw TaurosPokedexEntry
 	dw MagikarpPokedexEntry
 	dw GyaradosPokedexEntry

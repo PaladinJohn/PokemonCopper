@@ -126,7 +126,7 @@ BitmasksPointers:
 	dw JynxBitmasks
 	dw WhirlipedeBitmasks
 	dw MagmarBitmasks
-	dw PinsirBitmasks
+	dw DurantBitmasks
 	dw TaurosBitmasks
 	dw MagikarpBitmasks
 	dw GyaradosBitmasks

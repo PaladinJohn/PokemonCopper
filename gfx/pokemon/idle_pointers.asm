@@ -126,7 +126,7 @@ AnimationIdlePointers:
 	dw JynxAnimationIdle
 	dw WhirlipedeAnimationIdle
 	dw MagmarAnimationIdle
-	dw PinsirAnimationIdle
+	dw DurantAnimationIdle
 	dw TaurosAnimationIdle
 	dw MagikarpAnimationIdle
 	dw GyaradosAnimationIdle

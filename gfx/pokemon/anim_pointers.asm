@@ -126,7 +126,7 @@ AnimationPointers:
 	dw JynxAnimation
 	dw WhirlipedeAnimation
 	dw MagmarAnimation
-	dw PinsirAnimation
+	dw DurantAnimation
 	dw TaurosAnimation
 	dw MagikarpAnimation
 	dw GyaradosAnimation

@@ -132,7 +132,7 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
 	mon_cry CRY_SLOWKING,   3197,  268 ; WHIRLIPEDE
 	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
-	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
+	mon_cry CRY_SLOWPOKE,   2809,  171 ; DURANT
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
 	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS

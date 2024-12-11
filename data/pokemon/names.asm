@@ -126,7 +126,7 @@ PokemonNames::
 	db "JYNX@@@@@@"
 	db "WHIRLIPEDE"
 	db "MAGMAR@@@@"
-	db "PINSIR@@@@"
+	db "DURANT@@@@"
 	db "TAUROS@@@@"
 	db "MAGIKARP@@"
 	db "GYARADOS@@"

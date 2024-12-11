@@ -405,9 +405,11 @@ ScytherEggMoves:
 	db LIGHT_SCREEN
 	db -1 ; end
 
-PinsirEggMoves:
-	db FURY_ATTACK
-	db FLAIL
+DurantEggMoves:
+	db BATON_PASS
+	db ENDURE
+	db FAINT_ATTACK
+	db SCREECH
 	db -1 ; end
 
 LaprasEggMoves:

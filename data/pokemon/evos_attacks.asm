@@ -1729,16 +1729,16 @@ MagmarEvosAttacks:
 	db 57, FIRE_BLAST
 	db 0 ; no more level-up moves
 
-PinsirEvosAttacks:
+DurantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
-	db 7, FOCUS_ENERGY
-	db 13, BIND
-	db 19, SEISMIC_TOSS
-	db 25, HARDEN
-	db 31, GUILLOTINE
-	db 37, SUBMISSION
-	db 43, SWORDS_DANCE
+	db 7, SAND_ATTACK
+	db 13, FURY_CUTTER
+	db 19, BITE
+	db 25, AGILITY
+	db 31, METAL_CLAW
+	db 37, CRUNCH
+	db 43, DIG
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:

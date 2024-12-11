@@ -130,7 +130,7 @@ ScytherPokedexEntry::    INCLUDE "data/pokemon/dex_entries/scyther.asm"
 JynxPokedexEntry::       INCLUDE "data/pokemon/dex_entries/jynx.asm"
 WhirlipedePokedexEntry:: INCLUDE "data/pokemon/dex_entries/whirlipede.asm"
 MagmarPokedexEntry::     INCLUDE "data/pokemon/dex_entries/magmar.asm"
-PinsirPokedexEntry::     INCLUDE "data/pokemon/dex_entries/pinsir.asm"
+DurantPokedexEntry::     INCLUDE "data/pokemon/dex_entries/durant.asm"
 TaurosPokedexEntry::     INCLUDE "data/pokemon/dex_entries/tauros.asm"
 
 

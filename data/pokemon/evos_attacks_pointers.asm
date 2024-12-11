@@ -128,7 +128,7 @@ EvosAttacksPointers::
 	dw JynxEvosAttacks
 	dw WhirlipedeEvosAttacks
 	dw MagmarEvosAttacks
-	dw PinsirEvosAttacks
+	dw DurantEvosAttacks
 	dw TaurosEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks

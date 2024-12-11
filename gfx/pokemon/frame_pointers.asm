@@ -126,7 +126,7 @@ FramesPointers:
 	dw JynxFrames
 	dw WhirlipedeFrames
 	dw MagmarFrames
-	dw PinsirFrames
+	dw DurantFrames
 	dw TaurosFrames
 	dw MagikarpFrames
 	dw GyaradosFrames
