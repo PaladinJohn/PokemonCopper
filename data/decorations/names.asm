@@ -20,7 +20,7 @@ DecorationNames:
 	li " DOLL"
 	li "BIG "
 	li "FEATHERY"
-	li "PIKACHU"
+	li "FLAREON"
 	li "PINK"
 	li "POLKADOT"
 	li "RED"

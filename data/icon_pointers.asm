@@ -8,6 +8,7 @@ IconPointers:
 	dw CharizardIcon
 	dw SquirtleIcon
 	dw BlastoiseIcon
+	dw FoxIcon
 	dw RaticateIcon
 	dw FearowIcon
 	dw SandslashIcon
@@ -22,7 +23,6 @@ IconPointers:
 	dw ArcanineIcon
 	dw PoliwagIcon
 	dw JigglypuffIcon
-	dw PikachuIcon
 	dw AlakazamIcon
 	dw VictreebelIcon
 	dw TentacruelIcon
@@ -44,6 +44,8 @@ IconPointers:
 	dw KangaskhanIcon
 	dw StaryuIcon
 	dw StarmieIcon
+	dw MagmarIcon
+	dw TaurosIcon
 	dw FishIcon
 	dw BirdIcon
 	dw ClefairyIcon
@@ -51,13 +53,21 @@ IconPointers:
 	dw BugIcon
 	dw LaprasIcon
 	dw HumanshapeIcon
-	dw FoxIcon
 	dw EquineIcon
 	dw ShellIcon
 	dw BlobIcon
 	dw SerpentIcon
+	dw DittoIcon
+	dw VaporeonIcon
+	dw JolteonIcon
+	dw FlareonIcon
 	dw VoltorbIcon
 	dw CaterpillarIcon
+	dw KabutopsIcon
+	dw AerodactylIcon
+	dw ArticunoIcon
+	dw DragoniteIcon
+	dw MewtwoIcon
 	dw UnownIcon
 	dw GeodudeIcon
 	dw FighterIcon

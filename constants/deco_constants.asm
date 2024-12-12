@@ -38,7 +38,7 @@ DEF NUM_DECO_TYPES EQU const_value - 1
 	const _DOLL
 	const BIG_
 	const FEATHERY_BED
-	const PIKACHU_BED
+	const FLAREON_BED
 	const PINK_BED
 	const POLKADOT_BED
 	const RED_CARPET
@@ -70,7 +70,7 @@ DEF NUM_DECO_ACTIONS EQU const_value - 1
 	const DECOFLAG_FEATHERY_BED
 	const DECOFLAG_PINK_BED
 	const DECOFLAG_POLKADOT_BED
-	const DECOFLAG_PIKACHU_BED
+	const DECOFLAG_FLAREON_BED
 	const DECOFLAG_RED_CARPET
 	const DECOFLAG_BLUE_CARPET
 	const DECOFLAG_YELLOW_CARPET
@@ -79,14 +79,14 @@ DEF NUM_DECO_ACTIONS EQU const_value - 1
 	const DECOFLAG_TROPICPLANT
 	const DECOFLAG_JUMBOPLANT
 	const DECOFLAG_TOWN_MAP
-	const DECOFLAG_PIKACHU_POSTER
+	const DECOFLAG_BULBASAUR_POSTER
 	const DECOFLAG_CLEFAIRY_POSTER
 	const DECOFLAG_JIGGLYPUFF_POSTER
 	const DECOFLAG_FAMICOM
 	const DECOFLAG_SNES
 	const DECOFLAG_N64
 	const DECOFLAG_VIRTUAL_BOY
-	const DECOFLAG_PIKACHU_DOLL
+	const DECOFLAG_TOTODILE_DOLL
 	const DECOFLAG_SURF_PIKACHU_DOLL
 	const DECOFLAG_CLEFAIRY_DOLL
 	const DECOFLAG_JIGGLYPUFF_DOLL
@@ -123,7 +123,7 @@ DEF NUM_DECOS EQU const_value
 	const DECO_FEATHERY_BED
 	const DECO_PINK_BED
 	const DECO_POLKADOT_BED
-	const DECO_PIKACHU_BED
+	const DECO_FLAREON_BED
 ; FindOwnedCarpets.carpets values (see engine/overworld/decorations.asm)
 	const CARPETS
 	const DECO_RED_CARPET
@@ -138,7 +138,7 @@ DEF NUM_DECOS EQU const_value
 ; FindOwnedPosters.posters values (see engine/overworld/decorations.asm)
 	const POSTERS
 	const DECO_TOWN_MAP
-	const DECO_PIKACHU_POSTER
+	const DECO_BULBASAUR_POSTER
 	const DECO_CLEFAIRY_POSTER
 	const DECO_JIGGLYPUFF_POSTER
 ; FindOwnedConsoles.consoles values (see engine/overworld/decorations.asm)
@@ -154,7 +154,7 @@ DEF NUM_DECOS EQU const_value
 	const DECO_BIG_LAPRAS_DOLL
 ; FindOwnedOrnaments.ornaments values (see engine/overworld/decorations.asm)
 	const DOLLS
-	const DECO_PIKACHU_DOLL
+	const DECO_TOTODILE_DOLL
 	const DECO_SURF_PIKACHU_DOLL
 	const DECO_CLEFAIRY_DOLL
 	const DECO_JIGGLYPUFF_DOLL
