@@ -21,7 +21,7 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	dbw CORVISQUIR, 300
+	dbw LEDIAN,     300
 	dbw SPEWPA,     285
 	dbw SCATTERBUG, 226
 
@@ -41,19 +41,19 @@ BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
 	dbw DURANT,     332
 	dbw VIVILLON,   324
-	dbw SNOM,       321
+	dbw HERACROSS,  321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
 	dbw VIVILLON,   318
-	dbw ROOKIDEE,   295
+	dbw LEDIAN,     295
 	dbw SCATTERBUG, 285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw DURANT,     366
-	dbw SNOM,       329
-	dbw CORVISQUIR, 314
+	dbw HERACROSS,  329
+	dbw LEDIAN,     314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
@@ -69,12 +69,12 @@ BugContestant_BugCatcherJosh:
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
-	dbw ROOKIDEE,   270
+	dbw VENIPEDE,   270
 	dbw DURANT,     282
 	dbw SCATTERBUG, 251
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
-	dbw SNOM,       267
+	dbw VENIPEDE,   267
 	dbw PARAS,      254
-	dbw CORVISQUIR, 259
+	dbw LEDYBA,     259
