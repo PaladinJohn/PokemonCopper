@@ -35,11 +35,11 @@ BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	dbw SCYTHER,    357
 	dbw VIVILLON,   349
-	dbw DURANT,     368
+	dbw DURANT,     363
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	dbw DURANT,     332
+	dbw DURANT,     327
 	dbw VIVILLON,   324
 	dbw HERACROSS,  321
 
@@ -51,7 +51,7 @@ BugContestant_BugCatcherBenny:
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	dbw DURANT,     366
+	dbw DURANT,     361
 	dbw HERACROSS,  329
 	dbw LEDIAN,     314
 
