@@ -2802,6 +2802,7 @@ SteelixEvosAttacks:
 	db 0 ; no more level-up moves
 
 MinccinoEvosAttacks:
+	db EVOLVE_ITEM, SUN_STONE, CINCCINO
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
@@ -2814,17 +2815,17 @@ MinccinoEvosAttacks:
 	db 43, SLAM
 	db 0 ; no more level-up moves
 
-GranbullEvosAttacks:
+CinccinoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SCARY_FACE
-	db 4, TAIL_WHIP
-	db 8, CHARM
-	db 13, BITE
-	db 19, LICK
-	db 28, ROAR
-	db 38, RAGE
-	db 51, TAKE_DOWN
+	db 1, POUND
+	db 1, GROWL
+	db 4, TICKLE
+	db 8, DOUBLESLAP
+	db 13, ENCORE
+	db 19, SWIFT
+	db 26, SING
+	db 34, CHARM
+	db 43, SLAM
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:

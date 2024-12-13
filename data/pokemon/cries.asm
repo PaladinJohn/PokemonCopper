@@ -215,7 +215,7 @@ PokemonCries::
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
 	mon_cry CRY_MAGCARGO,   2028,  358 ; MINCCINO
-	mon_cry CRY_DUNSPARCE,     0,  384 ; GRANBULL
+	mon_cry CRY_MAGCARGO,   1480,  551 ; CINCCINO
 	mon_cry CRY_SLOWKING,    352,  224 ; QWILFISH
 	mon_cry CRY_AMPHAROS,      0,  352 ; SCIZOR
 	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE

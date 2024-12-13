@@ -113,7 +113,7 @@ NewPokedexOrder:
 	db WHIRLIPEDE
 	db ZORUA
 	db MINCCINO
-	db GRANBULL
+	db CINCCINO
 	db YAMPER
 	db BOLTUND
 	db SPINARAK

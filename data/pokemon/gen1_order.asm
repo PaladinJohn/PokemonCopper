@@ -249,7 +249,7 @@ Pokered_MonIndices:
 	db GLIGAR
 	db STEELIX
 	db MINCCINO
-	db GRANBULL
+	db CINCCINO
 	db QWILFISH
 	db WOBBUFFET
 	db WOBBUFFET

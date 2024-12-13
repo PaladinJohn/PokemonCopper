@@ -26,6 +26,7 @@ AlphabeticalPokedexOrder:
 	db CHARMANDER
 	db CHARMELEON
 	db CHINCHOU
+	db CINCCINO
 	db CLEFABLE
 	db CLEFAIRY
 	db CLEFFA
@@ -72,7 +73,6 @@ AlphabeticalPokedexOrder:
 	db GOLDEEN
 	db GOLDUCK
 	db GOLEM
-	db GRANBULL
 	db GRAVELER
 	db GRIMER
 	db GROWLITHE

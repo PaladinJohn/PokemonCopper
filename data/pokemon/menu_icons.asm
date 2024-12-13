@@ -211,7 +211,7 @@ MonMenuIcons:
 	db ICON_BUG         ; GLIGAR
 	db ICON_SERPENT     ; STEELIX
 	db ICON_RHYDON      ; MINCCINO
-	db ICON_RHYDON      ; GRANBULL
+	db ICON_RHYDON      ; CINCCINO
 	db ICON_FISH        ; QWILFISH
 	db ICON_BUG         ; SCIZOR
 	db ICON_BUG         ; SHUCKLE

@@ -209,7 +209,7 @@ PokemonNames::
 	db "GLIGAR@@@@"
 	db "STEELIX@@@"
 	db "MINCCINO@@"
-	db "GRANBULL@@"
+	db "CINCCINO@@"
 	db "QWILFISH@@"
 	db "SCIZOR@@@@"
 	db "SHUCKLE@@@"

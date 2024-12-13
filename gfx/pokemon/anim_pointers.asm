@@ -209,7 +209,7 @@ AnimationPointers:
 	dw GligarAnimation
 	dw SteelixAnimation
 	dw MinccinoAnimation
-	dw GranbullAnimation
+	dw CinccinoAnimation
 	dw QwilfishAnimation
 	dw ScizorAnimation
 	dw ShuckleAnimation

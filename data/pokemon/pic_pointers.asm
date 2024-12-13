@@ -424,8 +424,8 @@ PokemonPicPointers::
 	dba_pic SteelixBackpic
 	dba_pic MinccinoFrontpic
 	dba_pic MinccinoBackpic
-	dba_pic GranbullFrontpic
-	dba_pic GranbullBackpic
+	dba_pic CinccinoFrontpic
+	dba_pic CinccinoBackpic
 	dba_pic QwilfishFrontpic
 	dba_pic QwilfishBackpic
 	dba_pic ScizorFrontpic
