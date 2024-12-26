@@ -1439,7 +1439,7 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, FLETCHLING
 	db 6, FLETCHLING
-	db 6, VULPIX
+	db 6, GROWLITHE
 	; day
 	db 3, FLETCHLING
 	db 4, FLETCHLING
@@ -1447,7 +1447,7 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE
 	db 5, FLETCHLING
 	db 6, FLETCHLING
-	db 6, VULPIX
+	db 6, GROWLITHE
 	; nite
 	db 4, ROOKIDEE
 	db 4, HOOTHOOT
@@ -1455,7 +1455,7 @@ JohtoGrassWildMons:
 	db 5, HOOTHOOT
 	db 6, HOOTHOOT
 	db 5, GASTLY
-	db 6, GASTLY
+	db 6, VULPIX
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_37
@@ -1465,25 +1465,25 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, FLETCHLING
 	db 16, GROWLITHE
-	db 15, FLETCHINDR
-	db 15, LEDIAN
-	db 15, LEDIAN
+	db 16, FLETCHLING
+	db 14, LEDYBA
+	db 15, LEDYBA
 	; day
 	db 13, FLETCHLING
 	db 14, GROWLITHE
-	db 15, FLETCHLING
+	db 14, FLETCHLING
 	db 16, GROWLITHE
-	db 15, FLETCHINDR
 	db 15, FLETCHLING
-	db 15, FLETCHLING
+	db 16, FLETCHLING
+	db 16, FLETCHINDR
 	; nite
-	db 13, SPINARAK
+	db 13, ROOKIDEE
 	db 14, STANTLER
 	db 15, HOOTHOOT
 	db 16, STANTLER
-	db 15, NOCTOWL
-	db 15, ARIADOS
-	db 15, ARIADOS
+	db 16, HOOTHOOT
+	db 15, VULPIX
+	db 15, ROOKIDEE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_38
