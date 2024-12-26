@@ -1475,7 +1475,7 @@ JohtoGrassWildMons:
 	db 16, GROWLITHE
 	db 15, FLETCHLING
 	db 16, FLETCHLING
-	db 16, FLETCHINDR
+	db 17, FLETCHINDR
 	; nite
 	db 13, ROOKIDEE
 	db 14, STANTLER
