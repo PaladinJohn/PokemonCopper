@@ -89,7 +89,7 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,   -673,  390 ; YAMPER
 	mon_cry CRY_SLOWPOKE,    704,  239 ; BOLTUND
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
-	mon_cry CRY_PSYDUCK,    3036,  355 ; PAWMI
+	mon_cry CRY_TOGETIC,     917,   90 ; PAWMI
 	mon_cry CRY_PSYDUCK,    1290,  346 ; PAWMO
 	mon_cry CRY_SEEL,        136,  320 ; SEEL
 	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
