@@ -801,7 +801,6 @@ RockruffEvosAttacks:
 	db 0 ; no more level-up moves
 
 PoliwhirlEvosAttacks:
-	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
 	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, BUBBLE
@@ -816,14 +815,19 @@ PoliwhirlEvosAttacks:
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-PoliwrathEvosAttacks:
+LeafeonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, HYPNOSIS
-	db 1, DOUBLESLAP
-	db 1, SUBMISSION
-	db 35, SUBMISSION
-	db 51, MIND_READER
+	db 1, TACKLE
+	db 1, TAIL_WHIP
+	db 1, GROWL
+	db 8, SAND_ATTACK
+	db 16, RAZOR_LEAF
+	db 23, QUICK_ATTACK
+	db 30, LEECH_SEED
+	db 36, SYNTHESIS
+	db 42, GIGA_DRAIN
+	db 47, SUNNY_DAY
+	db 52, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
@@ -1800,6 +1804,7 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
+	db EVOLVE_ITEM, LEAF_STONE, LEAFEON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP

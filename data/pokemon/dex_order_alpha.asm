@@ -105,6 +105,7 @@ AlphabeticalPokedexOrder:
 	db LANTURN
 	db LAPRAS
 	db LARVITAR
+	db LEAFEON
 	db LEDIAN
 	db LEDYBA
 	db LICKITUNG
@@ -159,7 +160,6 @@ AlphabeticalPokedexOrder:
 	db PINECO
 	db POLITOED
 	db POLIWHIRL
-	db POLIWRATH
 	db PONYTA
 	db PORYGON
 	db PORYGON2

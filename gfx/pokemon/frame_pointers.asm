@@ -61,7 +61,7 @@ FramesPointers:
 	dw ArcanineFrames
 	dw RockruffFrames
 	dw PoliwhirlFrames
-	dw PoliwrathFrames
+	dw LeafeonFrames
 	dw AbraFrames
 	dw KadabraFrames
 	dw AlakazamFrames

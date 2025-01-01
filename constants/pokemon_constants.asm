@@ -80,7 +80,7 @@
 	const ARCANINE   ; 3b
 	const ROCKRUFF   ; 3c
 	const POLIWHIRL  ; 3d
-	const POLIWRATH  ; 3e
+	const LEAFEON    ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41

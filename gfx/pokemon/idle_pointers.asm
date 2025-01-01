@@ -61,7 +61,7 @@ AnimationIdlePointers:
 	dw ArcanineAnimationIdle
 	dw RockruffAnimationIdle
 	dw PoliwhirlAnimationIdle
-	dw PoliwrathAnimationIdle
+	dw LeafeonAnimationIdle
 	dw AbraAnimationIdle
 	dw KadabraAnimationIdle
 	dw AlakazamAnimationIdle

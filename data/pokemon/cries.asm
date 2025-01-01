@@ -67,7 +67,7 @@ PokemonCries::
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
 	mon_cry CRY_TYPHLOSION, -100,  540 ; ROCKRUFF
 	mon_cry CRY_PIDGEY,      119,  224 ; POLIWHIRL
-	mon_cry CRY_PIDGEY,        0,  383 ; POLIWRATH
+	mon_cry CRY_VENONAT,    3480,  117 ; LEAFEON
 	mon_cry CRY_METAPOD,     192,  129 ; ABRA
 	mon_cry CRY_METAPOD,     168,  320 ; KADABRA
 	mon_cry CRY_METAPOD,     152,  383 ; ALAKAZAM

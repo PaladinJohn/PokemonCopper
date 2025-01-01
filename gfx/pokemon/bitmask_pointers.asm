@@ -61,7 +61,7 @@ BitmasksPointers:
 	dw ArcanineBitmasks
 	dw RockruffBitmasks
 	dw PoliwhirlBitmasks
-	dw PoliwrathBitmasks
+	dw LeafeonBitmasks
 	dw AbraBitmasks
 	dw KadabraBitmasks
 	dw AlakazamBitmasks

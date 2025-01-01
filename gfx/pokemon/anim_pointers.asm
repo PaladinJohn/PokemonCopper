@@ -61,7 +61,7 @@ AnimationPointers:
 	dw ArcanineAnimation
 	dw RockruffAnimation
 	dw PoliwhirlAnimation
-	dw PoliwrathAnimation
+	dw LeafeonAnimation
 	dw AbraAnimation
 	dw KadabraAnimation
 	dw AlakazamAnimation

@@ -61,7 +61,7 @@ PokemonNames::
 	db "ARCANINE@@"
 	db "ROCKRUFF@@"
 	db "POLIWHIRL@"
-	db "POLIWRATH@"
+	db "LEAFEON@@@"
 	db "ABRA@@@@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"

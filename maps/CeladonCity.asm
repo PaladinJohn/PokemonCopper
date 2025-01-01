@@ -25,7 +25,7 @@ CeladonCityFisherScript:
 CeladonCityPoliwrath:
 	opentext
 	writetext CeladonCityPoliwrathText
-	cry POLIWRATH
+	cry NINETALES
 	waitbutton
 	closetext
 	end

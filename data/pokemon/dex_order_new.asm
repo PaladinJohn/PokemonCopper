@@ -125,7 +125,7 @@ NewPokedexOrder:
 	db ARBOK
 	db ROCKRUFF
 	db POLIWHIRL
-	db POLIWRATH
+	db LEAFEON
 	db POLITOED
 	db GOLDEEN
 	db SEAKING

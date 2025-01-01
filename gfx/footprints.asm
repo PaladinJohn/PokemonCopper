@@ -143,7 +143,7 @@ INCBIN "gfx/footprints/growlithe.1bpp",  footprint_top
 INCBIN "gfx/footprints/arcanine.1bpp",   footprint_top
 INCBIN "gfx/footprints/rockruff.1bpp",   footprint_top
 INCBIN "gfx/footprints/poliwhirl.1bpp",  footprint_top
-INCBIN "gfx/footprints/poliwrath.1bpp",  footprint_top
+INCBIN "gfx/footprints/leafeon.1bpp",    footprint_top
 INCBIN "gfx/footprints/abra.1bpp",       footprint_top
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_top
 ; 057-064 bottom halves
@@ -152,7 +152,7 @@ INCBIN "gfx/footprints/growlithe.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/arcanine.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/rockruff.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/poliwhirl.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/poliwrath.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/leafeon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/abra.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_bottom
 ; 065-072 top halves

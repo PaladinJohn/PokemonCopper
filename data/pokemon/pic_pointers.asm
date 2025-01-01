@@ -125,8 +125,8 @@ PokemonPicPointers::
 	dba_pic RockruffBackpic
 	dba_pic PoliwhirlFrontpic
 	dba_pic PoliwhirlBackpic
-	dba_pic PoliwrathFrontpic
-	dba_pic PoliwrathBackpic
+	dba_pic LeafeonFrontpic
+	dba_pic LeafeonBackpic
 	dba_pic AbraFrontpic
 	dba_pic AbraBackpic
 	dba_pic KadabraFrontpic

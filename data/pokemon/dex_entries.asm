@@ -61,7 +61,7 @@ GrowlithePokedexEntry::  INCLUDE "data/pokemon/dex_entries/growlithe.asm"
 ArcaninePokedexEntry::   INCLUDE "data/pokemon/dex_entries/arcanine.asm"
 RockruffPokedexEntry::   INCLUDE "data/pokemon/dex_entries/rockruff.asm"
 PoliwhirlPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwhirl.asm"
-PoliwrathPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poliwrath.asm"
+LeafeonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/leafeon.asm"
 AbraPokedexEntry::       INCLUDE "data/pokemon/dex_entries/abra.asm"
 KadabraPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadabra.asm"
 

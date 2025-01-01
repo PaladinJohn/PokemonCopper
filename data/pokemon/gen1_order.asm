@@ -110,7 +110,7 @@ Pokered_MonIndices:
 	db EKANS
 	db PARAS
 	db POLIWHIRL
-	db POLIWRATH
+	db LEAFEON
 	db ROOKIDEE
 	db CORVISQUIR
 	db PAWMOT
