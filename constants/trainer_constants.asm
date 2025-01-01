@@ -658,7 +658,7 @@ DEF ASH EQU __trainer_class__
 	const ALLAN
 
 	trainerclass KIMONO_GIRL ; 3c
-	const NAOKO_UNUSED ; unused
+	const NAOKO_UNUSED ; Kanako; Leafeon Girl
 	const NAOKO
 	const SAYO
 	const ZUKI

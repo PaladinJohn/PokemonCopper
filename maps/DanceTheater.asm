@@ -4,6 +4,7 @@
 	const DANCETHEATER_KIMONO_GIRL3
 	const DANCETHEATER_KIMONO_GIRL4
 	const DANCETHEATER_KIMONO_GIRL5
+	const DANCETHEATER_KIMONO_GIRL6
 	const DANCETHEATER_GENTLEMAN
 	const DANCETHEATER_RHYDON
 	const DANCETHEATER_COOLTRAINER_M
@@ -68,6 +69,17 @@ TrainerKimonoGirlMiki:
 	waitbutton
 	closetext
 	end
+	
+TrainerKimonoGirlKanako:
+	trainer KIMONO_GIRL, NAOKO_UNUSED, EVENT_BEAT_KIMONO_GIRL_KANAKO, KimonoGirlKanakoSeenText, KimonoGirlKanakoBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext KimonoGirlKanakoAfterBattleText
+	waitbutton
+	closetext
+	end
 
 DanceTheaterSurfGuy:
 	faceplayer
@@ -85,6 +97,8 @@ DanceTheaterSurfGuy:
 	checkevent EVENT_BEAT_KIMONO_GIRL_KUNI
 	iffalse .KimonoGirlsUndefeated
 	checkevent EVENT_BEAT_KIMONO_GIRL_MIKI
+	iffalse .KimonoGirlsUndefeated
+	checkevent EVENT_BEAT_KIMONO_GIRL_KANAKO
 	iffalse .KimonoGirlsUndefeated
 	sjump .GetSurf
 
@@ -233,6 +247,23 @@ KimonoGirlMikiAfterBattleText:
 	para "My #MON keep my"
 	line "spirits up too."
 	done
+	
+KimonoGirlKanakoSeenText:
+	text "Y0u have l0vely"
+	line "#MON. May I see"
+	cont "them in battle?"
+	done
+
+KimonoGirlKanakoBeatenText:
+	text "Oh, you are very"
+	line "str0ng."
+	done
+
+KimonoGirlKanakoAfterBattleText:
+	text "I enj0yed that"
+	line "b0ut. I w0uld like"
+	cont "t0 see y0u again."
+	done
 
 SurfGuyNeverLeftAScratchText:
 	text "Not only are the"
@@ -352,7 +383,8 @@ DanceTheater_MapEvents:
 	def_object_events
 	object_event  0,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlNaoko, -1
 	object_event  2,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlSayo, -1
-	object_event  6,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlZuki, -1
+	object_event  4,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKanako, -1
+	object_event  7,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlZuki, -1
 	object_event  9,  1, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlKuni, -1
 	object_event 11,  2, SPRITE_KIMONO_GIRL, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, TrainerKimonoGirlMiki, -1
 	object_event  7, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DanceTheaterSurfGuy, -1
