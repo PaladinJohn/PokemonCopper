@@ -55,7 +55,7 @@ TinTower1FNPCsCallback:
 .NoRaikou:
 	disappear TINTOWER1F_RAIKOU
 .CheckEntei:
-	setval ENTEI
+	setval SPECTRIER
 	special MonCheck
 	iftrue .NoEntei
 	appear TINTOWER1F_ENTEI
@@ -86,7 +86,7 @@ TinTower1FSuicuneBattleScript:
 	pause 15
 	setval REGIROCK
 	special MonCheck
-	iftrue .Next1 ; if player caught Raikou, it doesn't appear in Tin Tower
+	iftrue .Next1 ; if player caught Regirock, it doesn't appear in Tin Tower
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouApproachesMovement
 	turnobject PLAYER, LEFT
 	cry REGIROCK
@@ -97,12 +97,12 @@ TinTower1FSuicuneBattleScript:
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next1:
-	setval ENTEI
+	setval SPECTRIER
 	special MonCheck
-	iftrue .Next2 ; if player caught Entei, it doesn't appear in Tin Tower
+	iftrue .Next2 ; if player caught Spectrier, it doesn't appear in Tin Tower
 	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiApproachesMovement
 	turnobject PLAYER, RIGHT
-	cry ENTEI
+	cry SPECTRIER
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_ENTEI, TinTower1FEnteiLeavesMovement

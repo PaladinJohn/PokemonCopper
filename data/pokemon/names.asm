@@ -243,7 +243,7 @@ PokemonNames::
 	db "MILTANK@@@"
 	db "BLISSEY@@@"
 	db "REGIROCK@@"
-	db "ENTEI@@@@@"
+	db "SPECTRIER@"
 	db "SUICUNE@@@"
 	db "LARVITAR@@"
 	db "PUPITAR@@@"

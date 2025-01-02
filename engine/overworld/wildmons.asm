@@ -497,7 +497,7 @@ InitRoamMons:
 ; species
 	ld a, REGIROCK
 	ld [wRoamMon1Species], a
-	ld a, ENTEI
+	ld a, SPECTRIER
 	ld [wRoamMon2Species], a
 
 ; level
@@ -511,7 +511,7 @@ InitRoamMons:
 	ld a, MAP_ROUTE_42
 	ld [wRoamMon1MapNumber], a
 
-; entei starting map
+; spectrier starting map
 	ld a, GROUP_ROUTE_37
 	ld [wRoamMon2MapGroup], a
 	ld a, MAP_ROUTE_37

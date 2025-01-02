@@ -244,7 +244,7 @@ PokedexDataPointerTable:
 	dw MiltankPokedexEntry
 	dw BlisseyPokedexEntry
 	dw RegirockPokedexEntry
-	dw EnteiPokedexEntry
+	dw SpectrierPokedexEntry
 	dw SuicunePokedexEntry
 	dw LarvitarPokedexEntry
 	dw PupitarPokedexEntry

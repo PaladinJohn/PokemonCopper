@@ -243,7 +243,7 @@ FramesPointers:
 	dw MiltankFrames
 	dw BlisseyFrames
 	dw RegirockFrames
-	dw EnteiFrames
+	dw SpectrierFrames
 	dw SuicuneFrames
 	dw LarvitarFrames
 	dw PupitarFrames

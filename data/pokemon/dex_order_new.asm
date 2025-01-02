@@ -240,7 +240,7 @@ NewPokedexOrder:
 	db ZAPDOS
 	db MOLTRES
 	db REGIROCK
-	db ENTEI
+	db SPECTRIER
 	db SUICUNE
 	db DRATINI
 	db DRAGONAIR

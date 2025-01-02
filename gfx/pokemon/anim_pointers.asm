@@ -243,7 +243,7 @@ AnimationPointers:
 	dw MiltankAnimation
 	dw BlisseyAnimation
 	dw RegirockAnimation
-	dw EnteiAnimation
+	dw SpectrierAnimation
 	dw SuicuneAnimation
 	dw LarvitarAnimation
 	dw PupitarAnimation

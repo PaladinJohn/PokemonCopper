@@ -51,7 +51,6 @@ AlphabeticalPokedexOrder:
 	db EEVEE
 	db EKANS
 	db ELECTRODE
-	db ENTEI
 	db ESPEON
 	db FARFETCH_D
 	db FEAROW
@@ -204,6 +203,7 @@ AlphabeticalPokedexOrder:
 	db SNOM
 	db SNORLAX
 	db SPEAROW
+	db SPECTRIER
 	db SPEWPA
 	db SPINARAK
 	db SPRIGATITO

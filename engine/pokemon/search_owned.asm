@@ -8,7 +8,7 @@ BeastsCheck:
 	call CheckOwnMonAnywhere
 	jr nc, .notexist
 
-	ld a, ENTEI
+	ld a, SPECTRIER
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere
 	jr nc, .notexist

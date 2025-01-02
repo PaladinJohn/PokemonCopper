@@ -30,5 +30,5 @@ OftenFleeMons:
 
 AlwaysFleeMons:
 	db REGIROCK
-	db ENTEI
+	db SPECTRIER
 	db -1

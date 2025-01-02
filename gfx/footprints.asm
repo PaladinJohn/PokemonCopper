@@ -554,8 +554,8 @@ INCBIN "gfx/footprints/magby.1bpp",      footprint_bottom
 ; 241-248 top halves
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_top
 INCBIN "gfx/footprints/blissey.1bpp",    footprint_top
-INCBIN "gfx/footprints/regirock.1bpp",     footprint_top
-INCBIN "gfx/footprints/entei.1bpp",      footprint_top
+INCBIN "gfx/footprints/regirock.1bpp",   footprint_top
+INCBIN "gfx/footprints/spectrier.1bpp",  footprint_top
 INCBIN "gfx/footprints/suicune.1bpp",    footprint_top
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_top
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_top
@@ -563,8 +563,8 @@ INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_top
 ; 241-248 bottom halves
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/blissey.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/regirock.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/entei.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/regirock.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/spectrier.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/suicune.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_bottom

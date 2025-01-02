@@ -3252,17 +3252,17 @@ RegirockEvosAttacks:
 	db 71, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-EnteiEvosAttacks:
+SpectrierEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, LEER
-	db 11, EMBER
-	db 21, ROAR
-	db 31, FIRE_SPIN
-	db 41, STOMP
-	db 51, FLAMETHROWER
-	db 61, SWAGGER
-	db 71, FIRE_BLAST
+	db 1, TACKLE
+	db 1, TAIL_WHIP
+	db 11, DOUBLE_KICK
+	db 21, STOMP
+	db 31, CONFUSE_RAY
+	db 41, HAZE
+	db 51, SHADOW_BALL
+	db 61, TAKE_DOWN
+	db 71, AGILITY
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
