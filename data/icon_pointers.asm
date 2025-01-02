@@ -10,6 +10,7 @@ IconPointers:
 	dw BlastoiseIcon
 	dw FoxIcon
 	dw RaticateIcon
+	dw BirdIcon
 	dw FearowIcon
 	dw SandslashIcon
 	dw NidoqueenIcon
@@ -21,7 +22,6 @@ IconPointers:
 	dw ParasectIcon
 	dw GolduckIcon
 	dw ArcanineIcon
-	dw PoliwagIcon
 	dw JigglypuffIcon
 	dw AlakazamIcon
 	dw VictreebelIcon
@@ -47,7 +47,6 @@ IconPointers:
 	dw MagmarIcon
 	dw TaurosIcon
 	dw FishIcon
-	dw BirdIcon
 	dw ClefairyIcon
 	dw OddishIcon
 	dw BugIcon
@@ -68,6 +67,17 @@ IconPointers:
 	dw ArticunoIcon
 	dw DragoniteIcon
 	dw MewtwoIcon
+	dw MewIcon
+	dw TyphlosionIcon
+	dw FeraligatrIcon
+	dw FurretIcon
+	dw NoctowlIcon
+	dw LedianIcon
+	dw CrobatIcon
+	dw LanturnIcon
+	dw TogeticIcon
+	dw XatuIcon
+	dw AmpharosIcon
 	dw UnownIcon
 	dw GeodudeIcon
 	dw FighterIcon
