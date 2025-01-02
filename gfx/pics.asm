@@ -24,7 +24,7 @@ MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
-RaikouFrontpic:      INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lz"
+RegirockFrontpic:    INCBIN "gfx/pokemon/regirock/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
@@ -648,7 +648,7 @@ UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 SECTION "Pics 18", ROMX
 
 SpinarakBackpic:     INCBIN "gfx/pokemon/spinarak/back.2bpp.lz"
-RaikouBackpic:       INCBIN "gfx/pokemon/raikou/back.2bpp.lz"
+RegirockBackpic:     INCBIN "gfx/pokemon/regirock/back.2bpp.lz"
 UnownKFrontpic:      INCBIN "gfx/pokemon/unown_k/front.animated.2bpp.lz"
 HoundourBackpic:     INCBIN "gfx/pokemon/houndour/back.2bpp.lz"
 RockruffBackpic:     INCBIN "gfx/pokemon/rockruff/back.2bpp.lz"
@@ -713,9 +713,6 @@ SECTION "Pics 19", ROMX
 
 ; Seems to be an accidental copy of the previous bank
 
-INCBIN "gfx/pokemon/dewgong/back.2bpp.lz"
-INCBIN "gfx/pokemon/unown_b/front.animated.2bpp.lz"
-INCBIN "gfx/pokemon/slowpoke/back.2bpp.lz"
 INCBIN "gfx/pokemon/dunsparce/back.2bpp.lz"
 INCBIN "gfx/pokemon/donphan/back.2bpp.lz"
 INCBIN "gfx/pokemon/wooper/back.2bpp.lz"

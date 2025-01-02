@@ -46,7 +46,7 @@ TinTower1FNPCsCallback:
 	checkevent EVENT_FOUGHT_SUICUNE
 	iftrue .FoughtSuicune
 	appear TINTOWER1F_SUICUNE
-	setval RAIKOU
+	setval REGIROCK
 	special MonCheck
 	iftrue .NoRaikou
 	appear TINTOWER1F_RAIKOU
@@ -84,12 +84,12 @@ TinTower1FStairsCallback:
 TinTower1FSuicuneBattleScript:
 	applymovement PLAYER, TinTower1FPlayerEntersMovement
 	pause 15
-	setval RAIKOU
+	setval REGIROCK
 	special MonCheck
 	iftrue .Next1 ; if player caught Raikou, it doesn't appear in Tin Tower
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouApproachesMovement
 	turnobject PLAYER, LEFT
-	cry RAIKOU
+	cry REGIROCK
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_RAIKOU, TinTower1FRaikouLeavesMovement

@@ -248,7 +248,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY
 	mon_cry CRY_GLIGAR,     -461,  416 ; MILTANK
 	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
-	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
+	mon_cry CRY_RAICHU,     2873,  527 ; REGIROCK
 	mon_cry CRY_ENTEI,         0,  416 ; ENTEI
 	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR

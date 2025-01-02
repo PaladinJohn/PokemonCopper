@@ -242,7 +242,7 @@ AnimationPointers:
 	dw MagbyAnimation
 	dw MiltankAnimation
 	dw BlisseyAnimation
-	dw RaikouAnimation
+	dw RegirockAnimation
 	dw EnteiAnimation
 	dw SuicuneAnimation
 	dw LarvitarAnimation

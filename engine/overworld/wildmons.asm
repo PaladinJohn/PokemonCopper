@@ -495,7 +495,7 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, REGIROCK
 	ld [wRoamMon1Species], a
 	ld a, ENTEI
 	ld [wRoamMon2Species], a
@@ -505,7 +505,7 @@ InitRoamMons:
 	ld [wRoamMon1Level], a
 	ld [wRoamMon2Level], a
 
-; raikou starting map
+; regirock starting map
 	ld a, GROUP_ROUTE_42
 	ld [wRoamMon1MapGroup], a
 	ld a, MAP_ROUTE_42

@@ -3239,17 +3239,17 @@ BlisseyEvosAttacks:
 	db 47, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-RaikouEvosAttacks:
+RegirockEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, LEER
-	db 11, THUNDERSHOCK
-	db 21, ROAR
-	db 31, QUICK_ATTACK
-	db 41, SPARK
-	db 51, REFLECT
-	db 61, CRUNCH
-	db 71, THUNDER
+	db 1, EXPLOSION
+	db 1, STOMP
+	db 11, ROCK_THROW
+	db 21, CURSE
+	db 31, ANCIENTPOWER
+	db 41, ROCK_SLIDE
+	db 51, ZAP_CANNON
+	db 61, LOCK_ON
+	db 71, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 EnteiEvosAttacks:

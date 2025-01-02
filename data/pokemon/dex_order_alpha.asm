@@ -170,10 +170,10 @@ AlphabeticalPokedexOrder:
 	db QUILAVA
 	db QWILFISH
 	db RAICHU
-	db RAIKOU
 	db RAPIDASH
 	db RATICATE
 	db RATTATA
+	db REGIROCK
 	db REMORAID
 	db RHYDON
 	db RHYHORN

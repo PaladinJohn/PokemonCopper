@@ -38,7 +38,7 @@ ReleaseTheBeasts:
 	pause 5
 	disappear BURNEDTOWERB1F_RAIKOU2
 	pause 15
-	cry RAIKOU
+	cry REGIROCK
 	appear BURNEDTOWERB1F_ENTEI1
 	turnobject PLAYER, UP
 	pause 5

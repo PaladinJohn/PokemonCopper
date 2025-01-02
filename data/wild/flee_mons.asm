@@ -29,6 +29,6 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db RAIKOU
+	db REGIROCK
 	db ENTEI
 	db -1

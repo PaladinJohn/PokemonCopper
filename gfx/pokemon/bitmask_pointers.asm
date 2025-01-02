@@ -242,7 +242,7 @@ BitmasksPointers:
 	dw MagbyBitmasks
 	dw MiltankBitmasks
 	dw BlisseyBitmasks
-	dw RaikouBitmasks
+	dw RegirockBitmasks
 	dw EnteiBitmasks
 	dw SuicuneBitmasks
 	dw LarvitarBitmasks

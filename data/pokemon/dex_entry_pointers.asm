@@ -243,7 +243,7 @@ PokedexDataPointerTable:
 	dw MagbyPokedexEntry
 	dw MiltankPokedexEntry
 	dw BlisseyPokedexEntry
-	dw RaikouPokedexEntry
+	dw RegirockPokedexEntry
 	dw EnteiPokedexEntry
 	dw SuicunePokedexEntry
 	dw LarvitarPokedexEntry

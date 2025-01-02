@@ -242,7 +242,7 @@ FramesPointers:
 	dw MagbyFrames
 	dw MiltankFrames
 	dw BlisseyFrames
-	dw RaikouFrames
+	dw RegirockFrames
 	dw EnteiFrames
 	dw SuicuneFrames
 	dw LarvitarFrames

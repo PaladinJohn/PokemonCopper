@@ -239,7 +239,7 @@ NewPokedexOrder:
 	db ARTICUNO
 	db ZAPDOS
 	db MOLTRES
-	db RAIKOU
+	db REGIROCK
 	db ENTEI
 	db SUICUNE
 	db DRATINI

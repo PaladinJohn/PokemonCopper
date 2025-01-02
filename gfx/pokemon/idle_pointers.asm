@@ -242,7 +242,7 @@ AnimationIdlePointers:
 	dw MagbyAnimationIdle
 	dw MiltankAnimationIdle
 	dw BlisseyAnimationIdle
-	dw RaikouAnimationIdle
+	dw RegirockAnimationIdle
 	dw EnteiAnimationIdle
 	dw SuicuneAnimationIdle
 	dw LarvitarAnimationIdle

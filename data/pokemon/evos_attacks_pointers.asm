@@ -244,7 +244,7 @@ EvosAttacksPointers::
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
 	dw BlisseyEvosAttacks
-	dw RaikouEvosAttacks
+	dw RegirockEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
 	dw LarvitarEvosAttacks

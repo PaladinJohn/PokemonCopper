@@ -490,8 +490,8 @@ PokemonPicPointers::
 	dba_pic MiltankBackpic
 	dba_pic BlisseyFrontpic
 	dba_pic BlisseyBackpic
-	dba_pic RaikouFrontpic
-	dba_pic RaikouBackpic
+	dba_pic RegirockFrontpic
+	dba_pic RegirockBackpic
 	dba_pic EnteiFrontpic
 	dba_pic EnteiBackpic
 	dba_pic SuicuneFrontpic
