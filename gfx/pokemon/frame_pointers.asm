@@ -192,7 +192,7 @@ FramesPointers:
 	dw AipomFrames
 	dw SunkernFrames
 	dw SunfloraFrames
-	dw YanmaFrames
+	dw AbsolFrames
 	dw WooperFrames
 	dw QuagsireFrames
 	dw EspeonFrames

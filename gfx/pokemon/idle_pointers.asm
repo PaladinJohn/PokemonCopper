@@ -192,7 +192,7 @@ AnimationIdlePointers:
 	dw AipomAnimationIdle
 	dw SunkernAnimationIdle
 	dw SunfloraAnimationIdle
-	dw YanmaAnimationIdle
+	dw AbsolAnimationIdle
 	dw WooperAnimationIdle
 	dw QuagsireAnimationIdle
 	dw EspeonAnimationIdle

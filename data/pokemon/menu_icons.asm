@@ -194,7 +194,7 @@ MonMenuIcons:
 	db ICON_RHYDON      ; AIPOM
 	db ICON_ODDISH      ; SUNKERN
 	db ICON_ODDISH      ; SUNFLORA
-	db ICON_BUG         ; YANMA
+	db ICON_FOX         ; ABSOL
 	db ICON_RHYDON      ; WOOPER
 	db ICON_RHYDON      ; QUAGSIRE
 	db ICON_FOX         ; ESPEON

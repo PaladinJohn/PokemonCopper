@@ -192,7 +192,7 @@ BitmasksPointers:
 	dw AipomBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks
-	dw YanmaBitmasks
+	dw AbsolBitmasks
 	dw WooperBitmasks
 	dw QuagsireBitmasks
 	dw EspeonBitmasks

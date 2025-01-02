@@ -194,7 +194,7 @@ EvosAttacksPointers::
 	dw AipomEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
-	dw YanmaEvosAttacks
+	dw AbsolEvosAttacks
 	dw WooperEvosAttacks
 	dw QuagsireEvosAttacks
 	dw EspeonEvosAttacks

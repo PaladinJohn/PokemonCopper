@@ -232,7 +232,7 @@ Pokered_MonIndices:
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA
-	db YANMA
+	db ABSOL
 	db WOOPER
 	db QUAGSIRE
 	db ESPEON

@@ -131,7 +131,7 @@ NewPokedexOrder:
 	db SEAKING
 	db PINECO
 	db FORRETRESS
-	db YANMA
+	db ABSOL
 	db SUNKERN
 	db SUNFLORA
 	db SUDOWOODO

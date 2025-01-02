@@ -387,8 +387,8 @@ PokemonPicPointers::
 	dba_pic SunkernBackpic
 	dba_pic SunfloraFrontpic
 	dba_pic SunfloraBackpic
-	dba_pic YanmaFrontpic
-	dba_pic YanmaBackpic
+	dba_pic AbsolFrontpic
+	dba_pic AbsolBackpic
 	dba_pic WooperFrontpic
 	dba_pic WooperBackpic
 	dba_pic QuagsireFrontpic

@@ -198,7 +198,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA
-	mon_cry CRY_TOTODILE,     49,  200 ; YANMA
+	mon_cry CRY_SPEAROW,    1941,  167 ; ABSOL
 	mon_cry CRY_WOOPER,      147,  175 ; WOOPER
 	mon_cry CRY_WOOPER,     -198,  320 ; QUAGSIRE
 	mon_cry CRY_AIPOM,       162,  320 ; ESPEON

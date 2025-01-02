@@ -2609,17 +2609,17 @@ SunfloraEvosAttacks:
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
-YanmaEvosAttacks:
+AbsolEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, FORESIGHT
+	db 1, SCRATCH
+	db 1, LEER
 	db 7, QUICK_ATTACK
-	db 13, DOUBLE_TEAM
-	db 19, SONICBOOM
-	db 25, DETECT
-	db 31, SUPERSONIC
-	db 37, WING_ATTACK
-	db 43, SCREECH
+	db 13, RAZOR_WIND
+	db 19, BITE
+	db 25, SWORDS_DANCE
+	db 31, DOUBLE_TEAM
+	db 37, SLASH
+	db 43, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:

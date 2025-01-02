@@ -444,7 +444,7 @@ INCBIN "gfx/footprints/aipom.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/sunkern.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/sunflora.1bpp",   footprint_bottom
 ; 193-200 top halves
-INCBIN "gfx/footprints/yanma.1bpp",      footprint_top
+INCBIN "gfx/footprints/absol.1bpp",      footprint_top
 INCBIN "gfx/footprints/wooper.1bpp",     footprint_top
 INCBIN "gfx/footprints/quagsire.1bpp",   footprint_top
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_top
@@ -453,7 +453,7 @@ INCBIN "gfx/footprints/murkrow.1bpp",    footprint_top
 INCBIN "gfx/footprints/slowking.1bpp",   footprint_top
 INCBIN "gfx/footprints/misdreavus.1bpp", footprint_top
 ; 193-200 bottom halves
-INCBIN "gfx/footprints/yanma.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/absol.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/wooper.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/quagsire.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_bottom

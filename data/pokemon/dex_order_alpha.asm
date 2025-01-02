@@ -3,6 +3,7 @@
 AlphabeticalPokedexOrder:
 	table_width 1, AlphabeticalPokedexOrder
 	db ABRA
+	db ABSOL
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM
@@ -249,7 +250,6 @@ AlphabeticalPokedexOrder:
 	db WOOPER
 	db XATU
 	db YAMPER
-	db YANMA
 	db ZAPDOS
 	db ZORUA
 	db ZUBAT

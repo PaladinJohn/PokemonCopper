@@ -590,10 +590,11 @@ AipomEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-YanmaEggMoves:
-	db WHIRLWIND
-	db REVERSAL
-	db LEECH_LIFE
+AbsolEggMoves:
+	db BATON_PASS
+	db CURSE
+	db DOUBLE_EDGE
+	db FAINT_ATTACK
 	db -1 ; end
 
 WooperEggMoves:

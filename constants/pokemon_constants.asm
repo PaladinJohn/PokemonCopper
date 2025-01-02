@@ -212,7 +212,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const AIPOM      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0
-	const YANMA      ; c1
+	const ABSOL      ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3
 	const ESPEON     ; c4

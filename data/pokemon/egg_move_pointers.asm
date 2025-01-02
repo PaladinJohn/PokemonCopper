@@ -192,7 +192,7 @@ EggMovePointers::
 	dw AipomEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw YanmaEggMoves
+	dw AbsolEggMoves
 	dw WooperEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
