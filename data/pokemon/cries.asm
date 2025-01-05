@@ -242,7 +242,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
-	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
+	mon_cry CRY_MUK,        3552,  292 ; SPIRITOMB
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
 	mon_cry CRY_SENTRET,    2738,  388 ; VENIPEDE
 	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY

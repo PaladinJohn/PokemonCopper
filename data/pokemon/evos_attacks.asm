@@ -3153,22 +3153,21 @@ SmeargleEvosAttacks:
 TyrogueEvosAttacks:
 	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
 	db EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
-	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 0 ; no more level-up moves
 
-HitmontopEvosAttacks:
+SpiritombEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 7, FOCUS_ENERGY
-	db 13, PURSUIT
-	db 19, QUICK_ATTACK
-	db 25, RAPID_SPIN
-	db 31, COUNTER
-	db 37, AGILITY
-	db 43, DETECT
-	db 49, TRIPLE_KICK
+	db 1, CURSE
+	db 7, PURSUIT
+	db 13, CONFUSE_RAY
+	db 19, SPITE
+	db 25, NIGHT_SHADE
+	db 31, FAINT_ATTACK
+	db 37, HYPNOSIS
+	db 43, DREAM_EATER
+	db 49, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:

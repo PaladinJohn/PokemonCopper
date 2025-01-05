@@ -236,7 +236,7 @@ PokemonNames::
 	db "STANTLER@@"
 	db "SMEARGLE@@"
 	db "TYROGUE@@@"
-	db "HITMONTOP@"
+	db "SPIRITOMB@"
 	db "SMOOCHUM@@"
 	db "VENIPEDE@@"
 	db "MAGBY@@@@@"

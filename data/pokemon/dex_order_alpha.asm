@@ -81,7 +81,6 @@ AlphabeticalPokedexOrder:
 	db HERACROSS
 	db HITMONCHAN
 	db HITMONLEE
-	db HITMONTOP
 	db HO_OH
 	db HOOTHOOT
 	db HORSEA
@@ -207,6 +206,7 @@ AlphabeticalPokedexOrder:
 	db SPECTRIER
 	db SPEWPA
 	db SPINARAK
+	db SPIRITOMB
 	db SPRIGATITO
 	db SQUIRTLE
 	db STANTLER

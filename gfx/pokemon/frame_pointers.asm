@@ -236,7 +236,7 @@ FramesPointers:
 	dw StantlerFrames
 	dw SmeargleFrames
 	dw TyrogueFrames
-	dw HitmontopFrames
+	dw SpiritombFrames
 	dw SmoochumFrames
 	dw VenipedeFrames
 	dw MagbyFrames

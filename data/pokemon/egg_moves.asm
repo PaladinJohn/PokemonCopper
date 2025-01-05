@@ -767,6 +767,12 @@ TyrogueEggMoves:
 	db MACH_PUNCH
 	db MIND_READER
 	db -1 ; end
+	
+SpiritombEggMoves:
+	db DESTINY_BOND
+	db PAIN_SPLIT
+	db SMOKESCREEN
+	db -1 ; end
 
 SmoochumEggMoves:
 	db MEDITATE

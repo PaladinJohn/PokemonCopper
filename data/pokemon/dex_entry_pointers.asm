@@ -237,7 +237,7 @@ PokedexDataPointerTable:
 	dw StantlerPokedexEntry
 	dw SmearglePokedexEntry
 	dw TyroguePokedexEntry
-	dw HitmontopPokedexEntry
+	dw SpiritombPokedexEntry
 	dw SmoochumPokedexEntry
 	dw VenipedePokedexEntry
 	dw MagbyPokedexEntry
