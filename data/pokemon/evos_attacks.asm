@@ -2677,14 +2677,14 @@ UmbreonEvosAttacks:
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
 
-MurkrowEvosAttacks:
+BombirdierEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 11, PURSUIT
-	db 16, HAZE
-	db 26, NIGHT_SHADE
-	db 31, FAINT_ATTACK
-	db 41, MEAN_LOOK
+	db 11, LEER
+	db 16, WING_ATTACK
+	db 26, THIEF
+	db 31, ROCK_THROW
+	db 41, WHIRLWIND
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:

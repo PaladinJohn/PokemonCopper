@@ -197,7 +197,7 @@ AnimationPointers:
 	dw QuagsireAnimation
 	dw EspeonAnimation
 	dw UmbreonAnimation
-	dw MurkrowAnimation
+	dw BombirdierAnimation
 	dw SlowkingAnimation
 	dw MisdreavusAnimation
 	dw UnownAnimation

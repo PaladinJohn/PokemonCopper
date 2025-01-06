@@ -603,12 +603,7 @@ WooperEggMoves:
 	db SAFEGUARD
 	db -1 ; end
 
-MurkrowEggMoves:
-	db WHIRLWIND
-	db DRILL_PECK
-	db QUICK_ATTACK
-	db MIRROR_MOVE
-	db WING_ATTACK
+BombirdierEggMoves:
 	db SKY_ATTACK
 	db -1 ; end
 

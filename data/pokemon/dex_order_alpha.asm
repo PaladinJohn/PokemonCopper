@@ -19,6 +19,7 @@ AlphabeticalPokedexOrder:
 	db BLISSEY
 	db BLITZLE
 	db BOLTUND
+	db BOMBIRDIER
 	db BULBASAUR
 	db CAPSAKID
 	db CELEBI
@@ -132,7 +133,6 @@ AlphabeticalPokedexOrder:
 	db MOLTRES
 	db MUDBRAY
 	db MUK
-	db MURKROW
 	db NATU
 	db NIDOKING
 	db NIDOQUEEN
