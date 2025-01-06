@@ -289,7 +289,7 @@ DEF ASH EQU __trainer_class__
 	const GRUNTM_9
 	const GRUNTM_10
 	const GRUNTM_11
-	const GRUNTM_12 ; unused
+	const GRUNTM_12 ; Kenneth; Ecuteak Gym
 	const GRUNTM_13
 	const GRUNTM_14
 	const GRUNTM_15
@@ -299,7 +299,7 @@ DEF ASH EQU __trainer_class__
 	const GRUNTM_19
 	const GRUNTM_20
 	const GRUNTM_21
-	const GRUNTM_22 ; unused
+	const GRUNTM_22 ; Kyle; Ecruteak Gym
 	const GRUNTM_23 ; unused
 	const GRUNTM_24
 	const GRUNTM_25
@@ -700,6 +700,8 @@ DEF ASH EQU __trainer_class__
 	const GRUNTF_3
 	const GRUNTF_4
 	const GRUNTF_5
+	const ASHLEY
+	const AMANDA
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE

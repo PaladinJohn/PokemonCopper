@@ -1329,8 +1329,12 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (12)
-	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 33, HOUNDOUR
+	db "KENNETH@", TRAINERTYPE_NORMAL
+	db 17, HOUNDOUR
+	db 17, ZORUA
+	db 17, SNEASEL
+	db 17, ABSOL
+	db 17, SPIRITOMB
 	db -1 ; end
 
 	; GRUNTM (13)
@@ -1390,8 +1394,9 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (22)
-	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 36, GOLBAT
+	db "KYLE@", TRAINERTYPE_NORMAL
+	db 17, SNEASEL
+	db 22, ABSOL
 	db -1 ; end
 
 	; GRUNTM (23)
@@ -3514,6 +3519,19 @@ GruntFGroup:
 	db "GRUNT@", TRAINERTYPE_MOVES
 	db 18, EKANS,      WRAP, LEER, POISON_STING, BITE
 	db 18, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
+	db -1 ; end
+	
+	;GRUNTF (6 - NEW)
+	db "ASHLEY@", TRAINERTYPE_NORMAL
+	db 20, BOMBIRDIER
+	db 20, UMBREON
+	db -1 ; end
+	
+	;GRUNTF (7 - NEW)
+	db "AMANDA@", TRAINERTYPE_NORMAL
+	db 18, BOMBIRDIER
+	db 20, BOMBIRDIER
+	db 20, BOMBIRDIER
 	db -1 ; end
 
 MysticalmanGroup:
