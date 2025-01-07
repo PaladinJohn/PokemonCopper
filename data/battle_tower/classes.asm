@@ -69,11 +69,11 @@ BattleTowerTrainers:
 	db "Johnson@@@", YOUNGSTER
 	db "Adams@@@@@", GUITARIST
 	db "Smith@@@@@", BUG_CATCHER
-	db "TAJIRI@@@@", BUG_CATCHER
-	db "BAKER@@@@@", POKEMANIAC
-	db "COLLINS@@@", SCIENTIST
-	db "SMART@@@@@", SUPER_NERD
-	db "DYKSTRA@@@", SWIMMERF
-	db "EATON@@@@@", BIKER
-	db "WONG@@@@@@", FIREBREATHER
+	db "Tajiri@@@@", BUG_CATCHER
+	db "Baker@@@@@", POKEMANIAC
+	db "Collins@@@", SCIENTIST
+	db "Smart@@@@@", SUPER_NERD
+	db "Dykstra@@@", SWIMMERF
+	db "Eaton@@@@@", BIKER
+	db "Wong@@@@@@", FIREBREATHER
 	assert_table_length BATTLETOWER_NUM_UNIQUE_TRAINERS
