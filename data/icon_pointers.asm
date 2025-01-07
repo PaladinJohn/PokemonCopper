@@ -15,6 +15,7 @@ IconPointers:
 	dw SandslashIcon
 	dw NidoqueenIcon
 	dw NidokingIcon
+	dw ClefairyIcon
 	dw ClefableIcon
 	dw NinetalesIcon
 	dw WigglytuffIcon
@@ -47,7 +48,6 @@ IconPointers:
 	dw MagmarIcon
 	dw TaurosIcon
 	dw FishIcon
-	dw ClefairyIcon
 	dw OddishIcon
 	dw BugIcon
 	dw LaprasIcon
@@ -78,9 +78,19 @@ IconPointers:
 	dw TogeticIcon
 	dw XatuIcon
 	dw AmpharosIcon
+	dw BellossomIcon
+	dw AzumarillIcon
+	dw AipomIcon
+	dw SunfloraIcon
+	dw QuagsireIcon
+	dw EspeonIcon
+	dw UmbreonIcon
+	dw SlowkingIcon
+	dw MisdreavusIcon
 	dw UnownIcon
 	dw GeodudeIcon
 	dw FighterIcon
+	dw WobbuffetIcon
 	dw EggIcon
 	dw JellyfishIcon
 	dw BatIcon
