@@ -118,7 +118,7 @@ TrainerSagePing:
 	end
 
 TrainerMediumMartha:
-	trainer GRUNTF, AMANDA, EVENT_BEAT_MEDIUM_MARTHA, MediumMarthaSeenText, MediumMarthaBeatenText, 0, .Script
+	trainer GRUNTF, R_SAMANTHA, EVENT_BEAT_MEDIUM_MARTHA, MediumMarthaSeenText, MediumMarthaBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -129,7 +129,7 @@ TrainerMediumMartha:
 	end
 
 TrainerMediumGrace:
-	trainer GRUNTF, ASHLEY, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText, 0, .Script
+	trainer GRUNTF, AMANDA, EVENT_BEAT_MEDIUM_GRACE, MediumGraceSeenText, MediumGraceBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
