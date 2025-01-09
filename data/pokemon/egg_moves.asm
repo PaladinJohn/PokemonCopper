@@ -14,8 +14,8 @@ BulbasaurEggMoves:
 	db LIGHT_SCREEN
 	db SKULL_BASH
 	db SAFEGUARD
-	db RAZOR_WIND
 	db PETAL_DANCE
+	db CURSE
 	db -1 ; end
 
 CharmanderEggMoves:
@@ -28,7 +28,6 @@ CharmanderEggMoves:
 	db -1 ; end
 
 SquirtleEggMoves:
-	db MIRROR_COAT
 	db HAZE
 	db MIST
 	db CONFUSION
@@ -58,6 +57,7 @@ RattataEggMoves:
 	db BITE
 	db COUNTER
 	db REVERSAL
+	db SWAGGER
 	db -1 ; end
 
 SpearowEggMoves:

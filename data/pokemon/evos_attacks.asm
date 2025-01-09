@@ -241,7 +241,8 @@ FletchlingEvosAttacks:
 	db 13, PECK
 	db 19, AGILITY
 	db 25, FLAIL
-	db 47, RAZOR_WIND
+	db 39, RAZOR_WIND
+	db 47, STEEL_WING
 	db 0 ; no more level-up moves
 
 FletchindrEvosAttacks:
@@ -253,7 +254,8 @@ FletchindrEvosAttacks:
 	db 20, AGILITY
 	db 27, FLAIL
 	db 34, EMBER
-	db 55, RAZOR_WIND
+	db 43, RAZOR_WIND
+	db 52, STEEL_WING
 	db 0 ; no more level-up moves
 
 PidgeotEvosAttacks:
@@ -281,18 +283,20 @@ RattataEvosAttacks:
 	db 20, FOCUS_ENERGY
 	db 27, PURSUIT
 	db 34, SUPER_FANG
+	db 41, SCREECH
 	db 0 ; no more level-up moves
 
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
+	db 1, FOCUS_ENERGY
 	db 7, QUICK_ATTACK
 	db 13, HYPER_FANG
 	db 20, SCARY_FACE
 	db 30, PURSUIT
 	db 40, SUPER_FANG
+	db 50, SCREECH
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:
@@ -3052,10 +3056,12 @@ HoundourEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
+	db 7, SHARPEN
 	db 13, SMOG
-	db 20, BITE
+	db 19, ROAR
+	db 25, BITE
 	db 27, FAINT_ATTACK
+	db 31, FORESIGHT
 	db 35, FLAMETHROWER
 	db 43, CRUNCH
 	db 0 ; no more level-up moves
@@ -3064,10 +3070,12 @@ HoundoomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, EMBER
-	db 7, ROAR
+	db 7, SHARPEN
 	db 13, SMOG
-	db 20, BITE
+	db 19, ROAR
+	db 27, BITE
 	db 30, FAINT_ATTACK
+	db 35, FORESIGHT
 	db 41, FLAMETHROWER
 	db 52, CRUNCH
 	db 0 ; no more level-up moves
