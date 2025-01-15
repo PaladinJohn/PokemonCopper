@@ -1674,7 +1674,7 @@ CapsakidEvosAttacks:
 	db 16, GROWTH
 	db 21, RAZOR_LEAF
 	db 26, SUNNY_DAY
-	db 26, TACKLE
+	db 26, BULLET_SEED
 	db 31, HEADBUTT
 	db 41, CRUNCH
 	db 46, SOLARBEAM
@@ -2835,6 +2835,7 @@ CinccinoEvosAttacks:
 	db 26, SING
 	db 34, CHARM
 	db 43, SLAM
+	db 44, BULLET_SEED
 	db 0 ; no more level-up moves
 
 QwilfishEvosAttacks:

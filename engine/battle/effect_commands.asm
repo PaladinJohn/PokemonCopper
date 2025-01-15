@@ -1912,7 +1912,8 @@ BattleCommand_LowerSub:
 	ld [wFXAnimID + 1], a
 	inc a
 	ld [wBattleAnimParam], a
-	ld a, SUBSTITUTE
+	;ld a, SUBSTITUTE
+	ld a, 0
 	jp LoadAnim
 
 .mimic_anims
@@ -2058,7 +2059,8 @@ BattleCommand_RaiseSub:
 	ld [wFXAnimID + 1], a
 	ld a, $2
 	ld [wBattleAnimParam], a
-	ld a, SUBSTITUTE
+	;ld a, SUBSTITUTE
+	ld a, 0
 	jp LoadAnim
 
 BattleCommand_FailureText:

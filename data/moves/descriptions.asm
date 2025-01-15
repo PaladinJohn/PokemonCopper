@@ -164,7 +164,7 @@ MoveDescriptions::
 	dw TriAttackDescription
 	dw SuperFangDescription
 	dw SlashDescription
-	dw SubstituteDescription
+	dw BulletSeedDescription
 	dw StruggleDescription
 	dw SketchDescription
 	dw TripleKickDescription
@@ -917,9 +917,9 @@ SlashDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
-SubstituteDescription:
-	db   "Makes a decoy with"
-	next "1/4 user's max HP.@"
+BulletSeedDescription:
+	db   "Fires seeds that"
+	next "strike 2-5 times.@"
 
 StruggleDescription:
 	db   "Used only if all"

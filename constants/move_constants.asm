@@ -169,7 +169,7 @@
 	const TRI_ATTACK   ; a1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
-	const SUBSTITUTE   ; a4
+	const BULLET_SEED  ; a4
 	const STRUGGLE     ; a5
 	const SKETCH       ; a6
 	const TRIPLE_KICK  ; a7

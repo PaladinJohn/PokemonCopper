@@ -165,7 +165,7 @@ BattleAnimations::
 	dw BattleAnim_TriAttack
 	dw BattleAnim_SuperFang
 	dw BattleAnim_Slash
-	dw BattleAnim_Substitute
+	dw BattleAnim_BulletSeed
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
 	dw BattleAnim_TripleKick
@@ -2564,44 +2564,24 @@ BattleAnim_ShadowPunch:
 	anim_loop 3, .loop
 	anim_ret
 
-BattleAnim_Substitute:
-	anim_sound 0, 0, SFX_SURF
-	anim_if_param_equal $3, .dropsub2
-	anim_if_param_equal $2, .raisesub
-	anim_if_param_equal $1, .dropsub
-	anim_1gfx BATTLE_ANIM_GFX_SMOKE
-	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 48
-	anim_raisesub
-	anim_obj BATTLE_ANIM_OBJ_BALL_POOF, 48, 96, $0
-	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 32
+BattleAnim_BulletSeed:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_if_param_equal $1, .alternate
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED, 48, 80, $20
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 48, $0
+	anim_wait 8
 	anim_ret
 
-.dropsub:
-	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 48
-	anim_dropsub
-	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 32
+.alternate:
+	anim_sound 16, 2, SFX_VINE_WHIP
+	anim_obj BATTLE_ANIM_OBJ_LEECH_SEED, 48, 80, $30
+	anim_wait 8
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 120, 48, $0
+	anim_wait 8
 	anim_ret
-
-.raisesub:
-	anim_bgeffect BATTLE_BG_EFFECT_REMOVE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 48
-	anim_raisesub
-	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 32
-	anim_ret
-
-.dropsub2:
-	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 48
-	anim_dropsub
-	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 32
-	anim_ret
-
+	
 BattleAnim_Minimize:
 	anim_sound 0, 0, SFX_SURF
 	anim_1gfx BATTLE_ANIM_GFX_HIT

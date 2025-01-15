@@ -163,7 +163,7 @@ MoveNames::
 	li "Tri Attack"
 	li "Super Fang"
 	li "Slash"
-	li "Substitute"
+	li "Bullet Seed"
 	li "Struggle"
 	li "Sketch"
 	li "Triple Kick"
