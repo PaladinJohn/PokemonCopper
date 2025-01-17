@@ -22,7 +22,7 @@ AnimationPointers:
 	dw RaticateAnimation
 	dw SpearowAnimation
 	dw FearowAnimation
-	dw EkansAnimation
+	dw ScolipedeAnimation
 	dw ArbokAnimation
 	dw LuxioAnimation
 	dw LuxrayAnimation

@@ -24,7 +24,7 @@ MonMenuIcons:
 	db ICON_RATICATE
 	db ICON_BIRD        ; SPEAROW
 	db ICON_FEAROW
-	db ICON_SERPENT     ; EKANS
+	db ICON_CATERPILLAR ; SCOLIPEDE
 	db ICON_SERPENT     ; ARBOK
 	db ICON_FOX         ; LUXIO
 	db ICON_FOX         ; LUXRAY

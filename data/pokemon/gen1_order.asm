@@ -107,7 +107,7 @@ Pokered_MonIndices:
 	db VAPOREON
 	db TIMBURR
 	db ZUBAT
-	db EKANS
+	db SCOLIPEDE
 	db PARAS
 	db POLIWHIRL
 	db LEAFEON

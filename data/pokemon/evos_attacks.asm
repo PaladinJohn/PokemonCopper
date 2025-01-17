@@ -326,17 +326,16 @@ FearowEvosAttacks:
 	db 47, AGILITY
 	db 0 ; no more level-up moves
 
-EkansEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARBOK
+ScolipedeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
+	db 1, DEFENSE_CURL
+	db 1, ROLLOUT
 	db 9, POISON_STING
-	db 15, BITE
-	db 23, GLARE
-	db 29, SCREECH
-	db 37, ACID
-	db 43, HAZE
+	db 17, SCREECH
+	db 26, PURSUIT
+	db 38, PROTECT
+	db 41, MEGAHORN
+	db 49, BATON_PASS
 	db 0 ; no more level-up moves
 
 ArbokEvosAttacks:
@@ -1718,6 +1717,7 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 WhirlipedeEvosAttacks:
+	db EVOLVE_LEVEL, 30, SCOLIPEDE
 	db 0 ; no more evolutions
 	db 1, DEFENSE_CURL
 	db 1, ROLLOUT

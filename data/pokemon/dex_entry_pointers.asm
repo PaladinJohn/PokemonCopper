@@ -23,7 +23,7 @@ PokedexDataPointerTable:
 	dw RaticatePokedexEntry
 	dw SpearowPokedexEntry
 	dw FearowPokedexEntry
-	dw EkansPokedexEntry
+	dw ScolipedePokedexEntry
 	dw ArbokPokedexEntry
 	dw LuxioPokedexEntry
 	dw LuxrayPokedexEntry

@@ -22,7 +22,7 @@ PokemonNames::
 	db "RATICATE@@"
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
-	db "EKANS@@@@@"
+	db "SCOLIPEDE@"
 	db "ARBOK@@@@@"
 	db "LUXIO@@@@@"
 	db "LUXRAY@@@@"

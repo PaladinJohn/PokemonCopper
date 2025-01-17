@@ -41,7 +41,7 @@
 	const RATICATE   ; 14
 	const SPEAROW    ; 15
 	const FEAROW     ; 16
-	const EKANS      ; 17
+	const SCOLIPEDE  ; 17
 	const ARBOK      ; 18
 	const LUXIO      ; 19
 	const LUXRAY     ; 1a

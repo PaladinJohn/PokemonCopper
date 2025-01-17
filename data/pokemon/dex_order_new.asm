@@ -105,6 +105,7 @@ NewPokedexOrder:
 	db HERACROSS
 	db VENIPEDE
 	db WHIRLIPEDE
+	db SCOLIPEDE
 	db ZORUA
 	db MINCCINO
 	db CINCCINO
@@ -140,7 +141,6 @@ NewPokedexOrder:
 	db CLEFFA
 	db CLEFAIRY
 	db CLEFABLE
-	db EKANS
 	db ARBOK
 	db ROCKRUFF
 	db POLIWHIRL

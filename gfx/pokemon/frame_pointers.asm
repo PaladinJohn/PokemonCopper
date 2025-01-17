@@ -22,7 +22,7 @@ FramesPointers:
 	dw RaticateFrames
 	dw SpearowFrames
 	dw FearowFrames
-	dw EkansFrames
+	dw ScolipedeFrames
 	dw ArbokFrames
 	dw LuxioFrames
 	dw LuxrayFrames

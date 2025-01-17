@@ -22,7 +22,7 @@ BitmasksPointers:
 	dw RaticateBitmasks
 	dw SpearowBitmasks
 	dw FearowBitmasks
-	dw EkansBitmasks
+	dw ScolipedeBitmasks
 	dw ArbokBitmasks
 	dw LuxioBitmasks
 	dw LuxrayBitmasks

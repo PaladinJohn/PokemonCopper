@@ -1545,7 +1545,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
+	db 13, SCOLIPEDE
 	db 14, SPEAROW
 	db 15, RATTATA
 	db 16, RATICATE
@@ -1553,7 +1553,7 @@ JohtoGrassWildMons:
 	db 16, FEAROW
 	db 16, FEAROW
 	; day
-	db 13, EKANS
+	db 13, SCOLIPEDE
 	db 14, SPEAROW
 	db 15, RATTATA
 	db 16, RATICATE

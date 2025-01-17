@@ -1,4 +1,4 @@
-	db VENIPEDE ; 125
+	db WHIRLIPEDE ; 125
 
 	db  40,  55,  99,  47,  40,  79
 	;   hp  atk  def  spd  sat  sdf

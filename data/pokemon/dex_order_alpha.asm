@@ -51,7 +51,6 @@ AlphabeticalPokedexOrder:
 	db DUNSPARCE
 	db DURANT
 	db EEVEE
-	db EKANS
 	db ELECTRODE
 	db ESPEON
 	db FARFETCH_D
@@ -183,6 +182,7 @@ AlphabeticalPokedexOrder:
 	db SANDSLASH
 	db SCATTERBUG
 	db SCIZOR
+	db SCOLIPEDE
 	db SCYTHER
 	db SEADRA
 	db SEAKING
