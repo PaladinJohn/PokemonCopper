@@ -25,7 +25,7 @@ AnimationIdlePointers:
 	dw EkansAnimationIdle
 	dw ArbokAnimationIdle
 	dw LuxioAnimationIdle
-	dw RaichuAnimationIdle
+	dw LuxrayAnimationIdle
 	dw SandshrewAnimationIdle
 	dw SandslashAnimationIdle
 	dw NidoranFAnimationIdle

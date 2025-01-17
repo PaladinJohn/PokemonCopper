@@ -27,7 +27,7 @@ EvosAttacksPointers::
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw LuxioEvosAttacks
-	dw RaichuEvosAttacks
+	dw LuxrayEvosAttacks
 	dw SandshrewEvosAttacks
 	dw SandslashEvosAttacks
 	dw NidoranFEvosAttacks

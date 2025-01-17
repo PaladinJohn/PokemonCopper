@@ -112,6 +112,7 @@ AlphabeticalPokedexOrder:
 	db LUCARIO
 	db LUGIA
 	db LUXIO
+	db LUXRAY
 	db MACHAMP
 	db MACHOKE
 	db MAGBY
@@ -168,7 +169,6 @@ AlphabeticalPokedexOrder:
 	db QUAGSIRE
 	db QUILAVA
 	db QWILFISH
-	db RAICHU
 	db RAPIDASH
 	db RATICATE
 	db RATTATA

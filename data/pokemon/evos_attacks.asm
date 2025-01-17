@@ -368,12 +368,19 @@ LuxioEvosAttacks:
 	db 55, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
-RaichuEvosAttacks:
+LuxrayEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, TAIL_WHIP
-	db 1, QUICK_ATTACK
-	db 1, THUNDERBOLT
+	db 1, TACKLE
+	db 1, LEER
+	db 6, THUNDERSHOCK
+	db 8, CHARGE
+	db 11, SPARK
+	db 15, BITE
+	db 21, ROAR
+	db 28, SWAGGER
+	db 38, CRUNCH
+	db 49, SCARY_FACE
+	db 61, THUNDER_WAVE
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:

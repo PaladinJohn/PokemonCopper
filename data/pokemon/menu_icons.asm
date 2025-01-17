@@ -27,7 +27,7 @@ MonMenuIcons:
 	db ICON_SERPENT     ; EKANS
 	db ICON_SERPENT     ; ARBOK
 	db ICON_FOX         ; LUXIO
-	db ICON_FOX         ; RAICHU
+	db ICON_FOX         ; LUXRAY
 	db ICON_RHYDON      ; SANDSHREW
 	db ICON_SANDSLASH
 	db ICON_FOX         ; NIDORAN_F

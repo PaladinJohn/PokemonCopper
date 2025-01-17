@@ -84,7 +84,7 @@ Pokered_MonIndices:
 	db VULPIX
 	db NINETALES
 	db LUXIO
-	db RAICHU
+	db LUXRAY
 	db DELIBIRD ; MISSINGNO.
 	db MANTINE ; MISSINGNO.
 	db DRATINI

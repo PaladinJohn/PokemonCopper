@@ -25,7 +25,7 @@ PokemonNames::
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
 	db "LUXIO@@@@@"
-	db "RAICHU@@@@"
+	db "LUXRAY@@@@"
 	db "SANDSHREW@"
 	db "SANDSLASH@"
 	db "NIDORAN♀@@"

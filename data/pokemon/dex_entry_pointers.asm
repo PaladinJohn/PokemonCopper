@@ -26,7 +26,7 @@ PokedexDataPointerTable:
 	dw EkansPokedexEntry
 	dw ArbokPokedexEntry
 	dw LuxioPokedexEntry
-	dw RaichuPokedexEntry
+	dw LuxrayPokedexEntry
 	dw SandshrewPokedexEntry
 	dw SandslashPokedexEntry
 	dw NidoranFPokedexEntry

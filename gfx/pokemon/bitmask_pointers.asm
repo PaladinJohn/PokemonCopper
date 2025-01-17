@@ -25,7 +25,7 @@ BitmasksPointers:
 	dw EkansBitmasks
 	dw ArbokBitmasks
 	dw LuxioBitmasks
-	dw RaichuBitmasks
+	dw LuxrayBitmasks
 	dw SandshrewBitmasks
 	dw SandslashBitmasks
 	dw NidoranFBitmasks

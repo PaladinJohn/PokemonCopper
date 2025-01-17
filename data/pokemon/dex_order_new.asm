@@ -45,7 +45,7 @@ NewPokedexOrder:
 	db DONPHAN
 	db SHINX
 	db LUXIO
-	db RAICHU
+	db LUXRAY
 	db FLETCHLING
 	db FLETCHINDR
 	db PIDGEOT

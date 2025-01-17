@@ -53,8 +53,8 @@ PokemonPicPointers::
 	dba_pic ArbokBackpic
 	dba_pic LuxioFrontpic
 	dba_pic LuxioBackpic
-	dba_pic RaichuFrontpic
-	dba_pic RaichuBackpic
+	dba_pic LuxrayFrontpic
+	dba_pic LuxrayBackpic
 	dba_pic SandshrewFrontpic
 	dba_pic SandshrewBackpic
 	dba_pic SandslashFrontpic

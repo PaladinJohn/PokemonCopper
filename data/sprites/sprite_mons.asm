@@ -15,7 +15,7 @@ SpriteMons:
 	db VIVILLON
 	db DUGTRIO
 	db POLIWHIRL
-	db RAICHU
+	db LUXRAY
 	db CLEFAIRY
 	db CHARMANDER
 	db JYNX

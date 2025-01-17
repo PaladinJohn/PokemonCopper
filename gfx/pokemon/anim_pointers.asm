@@ -25,7 +25,7 @@ AnimationPointers:
 	dw EkansAnimation
 	dw ArbokAnimation
 	dw LuxioAnimation
-	dw RaichuAnimation
+	dw LuxrayAnimation
 	dw SandshrewAnimation
 	dw SandslashAnimation
 	dw NidoranFAnimation

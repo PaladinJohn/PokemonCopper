@@ -25,7 +25,7 @@ FramesPointers:
 	dw EkansFrames
 	dw ArbokFrames
 	dw LuxioFrames
-	dw RaichuFrames
+	dw LuxrayFrames
 	dw SandshrewFrames
 	dw SandslashFrames
 	dw NidoranFFrames
