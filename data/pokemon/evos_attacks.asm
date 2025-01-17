@@ -1344,13 +1344,12 @@ KrabbyEvosAttacks:
 KinglerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
-	db 1, LEER
-	db 1, VICEGRIP
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
 	db 23, STOMP
 	db 27, GUILLOTINE
+	db 28, METAL_CLAW
 	db 38, PROTECT
 	db 49, CRABHAMMER
 	db 0 ; no more level-up moves
