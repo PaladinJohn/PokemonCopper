@@ -233,7 +233,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 8, SCOLIPEDE
 	db 10, RATICATE
-	db 10, ARBOK
+	db 10, ZOROARK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
@@ -241,7 +241,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 8, SCOLIPEDE
 	db 10, RATICATE
-	db 10, ARBOK
+	db 10, ZOROARK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; nite
@@ -261,7 +261,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 8, SCOLIPEDE
 	db 10, RATICATE
-	db 10, ARBOK
+	db 10, ZOROARK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; day
@@ -269,7 +269,7 @@ KantoGrassWildMons:
 	db 5, RATTATA
 	db 8, SCOLIPEDE
 	db 10, RATICATE
-	db 10, ARBOK
+	db 10, ZOROARK
 	db 10, SANDSHREW
 	db 10, SANDSHREW
 	; nite
@@ -766,16 +766,16 @@ KantoGrassWildMons:
 	db 32, PONYTA
 	db 30, RATICATE
 	db 30, PAWMI
-	db 30, ARBOK
-	db 30, ARBOK
+	db 30, ZOROARK
+	db 30, ZOROARK
 	; day
 	db 28, PAWMI
 	db 28, SANDSLASH
 	db 32, PONYTA
 	db 30, RATICATE
 	db 30, PAWMI
-	db 30, ARBOK
-	db 30, ARBOK
+	db 30, ZOROARK
+	db 30, ZOROARK
 	; nite
 	db 28, NOCTOWL
 	db 28, RATICATE
@@ -790,7 +790,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, PAWMI
-	db 28, ARBOK
+	db 28, ZOROARK
 	db 30, RATICATE
 	db 30, PAWMI
 	db 32, PONYTA
@@ -798,7 +798,7 @@ KantoGrassWildMons:
 	db 30, PAWMO
 	; day
 	db 28, PAWMI
-	db 28, ARBOK
+	db 28, ZOROARK
 	db 30, RATICATE
 	db 30, PAWMI
 	db 32, PONYTA
@@ -820,7 +820,7 @@ KantoGrassWildMons:
 	db 39, TANGELA
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, ZOROARK
 	db 41, PAWMI
 	db 43, PAWMO
 	db 43, PAWMO
@@ -828,7 +828,7 @@ KantoGrassWildMons:
 	db 39, TANGELA
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, ZOROARK
 	db 41, PAWMI
 	db 43, PAWMO
 	db 43, PAWMO

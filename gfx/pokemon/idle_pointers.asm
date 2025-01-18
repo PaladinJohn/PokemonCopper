@@ -23,7 +23,7 @@ AnimationIdlePointers:
 	dw SpearowAnimationIdle
 	dw FearowAnimationIdle
 	dw ScolipedeAnimationIdle
-	dw ArbokAnimationIdle
+	dw ZoroarkAnimationIdle
 	dw LuxioAnimationIdle
 	dw LuxrayAnimationIdle
 	dw SandshrewAnimationIdle

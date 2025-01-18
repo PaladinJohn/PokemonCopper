@@ -25,7 +25,7 @@ EvosAttacksPointers::
 	dw SpearowEvosAttacks
 	dw FearowEvosAttacks
 	dw ScolipedeEvosAttacks
-	dw ArbokEvosAttacks
+	dw ZoroarkEvosAttacks
 	dw LuxioEvosAttacks
 	dw LuxrayEvosAttacks
 	dw SandshrewEvosAttacks

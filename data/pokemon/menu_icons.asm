@@ -25,7 +25,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; SPEAROW
 	db ICON_FEAROW
 	db ICON_CATERPILLAR ; SCOLIPEDE
-	db ICON_SERPENT     ; ARBOK
+	db ICON_FOX         ; ZOROARK
 	db ICON_FOX         ; LUXIO
 	db ICON_FOX         ; LUXRAY
 	db ICON_RHYDON      ; SANDSHREW

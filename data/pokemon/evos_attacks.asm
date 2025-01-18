@@ -338,18 +338,16 @@ ScolipedeEvosAttacks:
 	db 49, BATON_PASS
 	db 0 ; no more level-up moves
 
-ArbokEvosAttacks:
+ZoroarkEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WRAP
-	db 1, LEER
-	db 1, POISON_STING
-	db 1, BITE
-	db 9, POISON_STING
-	db 15, BITE
-	db 25, GLARE
-	db 33, SCREECH
-	db 43, ACID
-	db 51, HAZE
+	db 1, SCRATCH
+	db 7, LEER
+	db 13, PURSUIT
+	db 19, COUNTER
+	db 25, FURY_SWIPES
+	db 32, FAINT_ATTACK
+	db 39, SCARY_FACE
+	db 46, AGILITY
 	db 0 ; no more level-up moves
 
 LuxioEvosAttacks:
@@ -2992,6 +2990,7 @@ PiloswineEvosAttacks:
 	db 0 ; no more level-up moves
 
 ZoruaEvosAttacks:
+	db EVOLVE_LEVEL, 30, ZOROARK
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 7, LEER

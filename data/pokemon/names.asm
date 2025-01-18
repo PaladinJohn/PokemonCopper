@@ -23,7 +23,7 @@ PokemonNames::
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
 	db "SCOLIPEDE@"
-	db "ARBOK@@@@@"
+	db "ZOROARK@@@"
 	db "LUXIO@@@@@"
 	db "LUXRAY@@@@"
 	db "SANDSHREW@"

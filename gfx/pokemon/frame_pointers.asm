@@ -23,7 +23,7 @@ FramesPointers:
 	dw SpearowFrames
 	dw FearowFrames
 	dw ScolipedeFrames
-	dw ArbokFrames
+	dw ZoroarkFrames
 	dw LuxioFrames
 	dw LuxrayFrames
 	dw SandshrewFrames

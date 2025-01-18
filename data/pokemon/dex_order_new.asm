@@ -107,6 +107,7 @@ NewPokedexOrder:
 	db WHIRLIPEDE
 	db SCOLIPEDE
 	db ZORUA
+	db ZOROARK
 	db MINCCINO
 	db CINCCINO
 	db YAMPER
@@ -141,7 +142,6 @@ NewPokedexOrder:
 	db CLEFFA
 	db CLEFAIRY
 	db CLEFABLE
-	db ARBOK
 	db ROCKRUFF
 	db POLIWHIRL
 	db POLITOED

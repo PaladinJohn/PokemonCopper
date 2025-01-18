@@ -8,7 +8,6 @@ AlphabeticalPokedexOrder:
 	db AIPOM
 	db ALAKAZAM
 	db AMPHAROS
-	db ARBOK
 	db ARCANINE
 	db ARIADOS
 	db ARTICUNO
@@ -251,6 +250,7 @@ AlphabeticalPokedexOrder:
 	db XATU
 	db YAMPER
 	db ZAPDOS
+	db ZOROARK
 	db ZORUA
 	db ZUBAT
 	assert_table_length NUM_POKEMON

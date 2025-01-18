@@ -23,7 +23,7 @@ AnimationPointers:
 	dw SpearowAnimation
 	dw FearowAnimation
 	dw ScolipedeAnimation
-	dw ArbokAnimation
+	dw ZoroarkAnimation
 	dw LuxioAnimation
 	dw LuxrayAnimation
 	dw SandshrewAnimation

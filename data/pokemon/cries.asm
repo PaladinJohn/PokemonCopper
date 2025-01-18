@@ -29,7 +29,7 @@ PokemonCries::
 	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
 	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
 	mon_cry CRY_WEEDLE,     3597,  171 ; SCOLIPEDE
-	mon_cry CRY_EKANS,       224,  144 ; ARBOK
+	mon_cry CRY_VILEPLUME,  -249,  458 ; ZOROARK
 	mon_cry CRY_CHIKORITA,  3764,  486 ; LUXIO
 	mon_cry CRY_CHIKORITA,  2258,  190 ; LUXRAY
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDSHREW

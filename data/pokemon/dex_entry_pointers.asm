@@ -24,7 +24,7 @@ PokedexDataPointerTable:
 	dw SpearowPokedexEntry
 	dw FearowPokedexEntry
 	dw ScolipedePokedexEntry
-	dw ArbokPokedexEntry
+	dw ZoroarkPokedexEntry
 	dw LuxioPokedexEntry
 	dw LuxrayPokedexEntry
 	dw SandshrewPokedexEntry

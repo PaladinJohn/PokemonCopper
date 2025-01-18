@@ -1549,7 +1549,7 @@ JohtoGrassWildMons:
 	db 14, SPEAROW
 	db 15, RATTATA
 	db 16, RATICATE
-	db 15, ARBOK
+	db 15, ZOROARK
 	db 16, FEAROW
 	db 16, FEAROW
 	; day
@@ -1557,7 +1557,7 @@ JohtoGrassWildMons:
 	db 14, SPEAROW
 	db 15, RATTATA
 	db 16, RATICATE
-	db 15, ARBOK
+	db 15, ZOROARK
 	db 16, FEAROW
 	db 16, FEAROW
 	; nite
@@ -1687,7 +1687,7 @@ JohtoGrassWildMons:
 	; morn
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, ZOROARK
 	db 44, RAPIDASH
 	db 41, PAWMI
 	db 43, PAWMO
@@ -1695,7 +1695,7 @@ JohtoGrassWildMons:
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, ZOROARK
 	db 44, RAPIDASH
 	db 41, PAWMI
 	db 43, PAWMO

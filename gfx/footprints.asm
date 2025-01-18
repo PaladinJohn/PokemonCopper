@@ -55,7 +55,7 @@ INCBIN "gfx/footprints/raticate.1bpp",   footprint_top
 INCBIN "gfx/footprints/spearow.1bpp",    footprint_top
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_top
 INCBIN "gfx/footprints/scolipede.1bpp",  footprint_top
-INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
+INCBIN "gfx/footprints/zoroark.1bpp",    footprint_top
 ; 017-024 bottom halves
 INCBIN "gfx/footprints/fletchindr.1bpp", footprint_bottom
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_bottom
@@ -64,7 +64,7 @@ INCBIN "gfx/footprints/raticate.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/spearow.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/scolipede.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/arbok.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/zoroark.1bpp",    footprint_bottom
 ; 025-032 top halves
 INCBIN "gfx/footprints/luxio.1bpp",      footprint_top
 INCBIN "gfx/footprints/luxray.1bpp",     footprint_top

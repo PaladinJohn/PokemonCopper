@@ -49,8 +49,8 @@ PokemonPicPointers::
 	dba_pic FearowBackpic
 	dba_pic ScolipedeFrontpic
 	dba_pic ScolipedeBackpic
-	dba_pic ArbokFrontpic
-	dba_pic ArbokBackpic
+	dba_pic ZoroarkFrontpic
+	dba_pic ZoroarkBackpic
 	dba_pic LuxioFrontpic
 	dba_pic LuxioBackpic
 	dba_pic LuxrayFrontpic
