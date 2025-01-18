@@ -50,7 +50,7 @@ PokemonNames::
 	db "SNOM@@@@@@"
 	db "VENOMOTH@@"
 	db "MUDBRAY@@@"
-	db "DUGTRIO@@@"
+	db "MUDSDALE@@"
 	db "MEOWTH@@@@"
 	db "PERSIAN@@@"
 	db "PSYDUCK@@@"

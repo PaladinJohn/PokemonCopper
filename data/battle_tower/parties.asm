@@ -1206,7 +1206,7 @@ BattleTowerMons:
 	bigdw 86 ; SDef
 	db "RU-ZIyuRA@@"
 
-	db DUGTRIO
+	db MUDSDALE
 	db KINGS_ROCK
 	db EARTHQUAKE, SLUDGE_BOMB, SLASH, MUD_SLAP
 	dw 0 ; OT ID
@@ -1911,7 +1911,7 @@ BattleTowerMons:
 	bigdw 102 ; SDef
 	db "HAtuSAMU@@@"
 
-	db DUGTRIO
+	db MUDSDALE
 	db KINGS_ROCK
 	db EARTHQUAKE, HYPER_BEAM, SLUDGE_BOMB, MUD_SLAP
 	dw 0 ; OT ID
@@ -2460,7 +2460,7 @@ BattleTowerMons:
 	bigdw 130 ; SDef
 	db "SUTA-MI-@@@"
 
-	db DUGTRIO
+	db MUDSDALE
 	db KINGS_ROCK
 	db EARTHQUAKE, SLASH, HYPER_BEAM, SLUDGE_BOMB
 	dw 0 ; OT ID
@@ -4289,7 +4289,7 @@ BattleTowerMons:
 	bigdw 201 ; SDef
 	db "MARUMAIN@@@"
 
-	db DUGTRIO
+	db MUDSDALE
 	db SCOPE_LENS
 	db SLASH, EARTHQUAKE, THIEF, MUD_SLAP
 	dw 0 ; OT ID

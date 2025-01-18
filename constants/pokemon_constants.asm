@@ -69,7 +69,7 @@
 	const SNOM       ; 30
 	const VENOMOTH   ; 31
 	const MUDBRAY    ; 32
-	const DUGTRIO    ; 33
+	const MUDSDALE   ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const PSYDUCK    ; 36

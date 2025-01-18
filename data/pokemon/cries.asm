@@ -56,7 +56,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,    1908,  159 ; SNOM
 	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
 	mon_cry CRY_NATU,       1756,  431 ; MUDBRAY
-	mon_cry CRY_DIGLETT,      42,  144 ; DUGTRIO
+	mon_cry CRY_CHIKORITA,  3065,  396 ; MUDSDALE
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
 	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK

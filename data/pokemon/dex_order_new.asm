@@ -136,7 +136,7 @@ NewPokedexOrder:
 	db STANTLER
 	db DURANT
 	db MUDBRAY
-	db DUGTRIO
+	db MUDSDALE
 	db SPINARAK
 	db ARIADOS
 	db CLEFFA

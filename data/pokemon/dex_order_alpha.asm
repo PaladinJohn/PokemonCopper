@@ -46,7 +46,6 @@ AlphabeticalPokedexOrder:
 	db DRAGONITE
 	db DRATINI
 	db DROWZEE
-	db DUGTRIO
 	db DUNSPARCE
 	db DURANT
 	db EEVEE
@@ -131,6 +130,7 @@ AlphabeticalPokedexOrder:
 	db MISDREAVUS
 	db MOLTRES
 	db MUDBRAY
+	db MUDSDALE
 	db MUK
 	db NATU
 	db NIDOKING

@@ -103,8 +103,8 @@ PokemonPicPointers::
 	dba_pic VenomothBackpic
 	dba_pic MudbrayFrontpic
 	dba_pic MudbrayBackpic
-	dba_pic DugtrioFrontpic
-	dba_pic DugtrioBackpic
+	dba_pic MudsdaleFrontpic
+	dba_pic MudsdaleBackpic
 	dba_pic MeowthFrontpic
 	dba_pic MeowthBackpic
 	dba_pic PersianFrontpic

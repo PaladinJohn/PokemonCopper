@@ -9,25 +9,25 @@ KantoGrassWildMons:
 	db 6, MUDBRAY
 	db 12, MUDBRAY
 	db 24, MUDBRAY
-	db 24, DUGTRIO
-	db 24, DUGTRIO
-	db 24, DUGTRIO
+	db 24, MUDSDALE
+	db 24, MUDSDALE
+	db 24, MUDSDALE
 	; day
 	db 2, MUDBRAY
 	db 4, MUDBRAY
 	db 8, MUDBRAY
 	db 16, MUDBRAY
-	db 16, DUGTRIO
-	db 16, DUGTRIO
-	db 16, DUGTRIO
+	db 16, MUDSDALE
+	db 16, MUDSDALE
+	db 16, MUDSDALE
 	; nite
 	db 4, MUDBRAY
 	db 8, MUDBRAY
 	db 16, MUDBRAY
 	db 32, MUDBRAY
-	db 32, DUGTRIO
-	db 32, DUGTRIO
-	db 32, DUGTRIO
+	db 32, MUDSDALE
+	db 32, MUDSDALE
+	db 32, MUDSDALE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MOON

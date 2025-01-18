@@ -50,7 +50,7 @@ AnimationPointers:
 	dw SnomAnimation
 	dw VenomothAnimation
 	dw MudbrayAnimation
-	dw DugtrioAnimation
+	dw MudsdaleAnimation
 	dw MeowthAnimation
 	dw PersianAnimation
 	dw PsyduckAnimation

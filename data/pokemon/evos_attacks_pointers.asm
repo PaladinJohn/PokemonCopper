@@ -52,7 +52,7 @@ EvosAttacksPointers::
 	dw SnomEvosAttacks
 	dw VenomothEvosAttacks
 	dw MudbrayEvosAttacks
-	dw DugtrioEvosAttacks
+	dw MudsdaleEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
 	dw PsyduckEvosAttacks

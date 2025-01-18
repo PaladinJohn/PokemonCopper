@@ -50,7 +50,7 @@ BitmasksPointers:
 	dw SnomBitmasks
 	dw VenomothBitmasks
 	dw MudbrayBitmasks
-	dw DugtrioBitmasks
+	dw MudsdaleBitmasks
 	dw MeowthBitmasks
 	dw PersianBitmasks
 	dw PsyduckBitmasks

@@ -63,7 +63,7 @@ EZChat_SortedPokemon:
 .su_zu:    db SUICUNE, STARMIE, SCYTHER, ZUBAT, PAWMOT, HYPNO, DROWZEE, -1
 .se_ze:    db SQUIRTLE, CELEBI, -1
 .so_zo:    db WOBBUFFET, -1
-.ta_da:    db DUGTRIO, HORSEA, RIOLU, -1
+.ta_da:    db MUDSDALE, HORSEA, RIOLU, -1
 .chi_dhi:  db SPRIGATITO, CHINCHOU, -1
 .tsu_du:   db SHUCKLE, -1
 .te_de:    db MUDBRAY, REMORAID, DELIBIRD, HOUNDOUR, AMPHAROS, -1

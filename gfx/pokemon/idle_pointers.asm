@@ -50,7 +50,7 @@ AnimationIdlePointers:
 	dw SnomAnimationIdle
 	dw VenomothAnimationIdle
 	dw MudbrayAnimationIdle
-	dw DugtrioAnimationIdle
+	dw MudsdaleAnimationIdle
 	dw MeowthAnimationIdle
 	dw PersianAnimationIdle
 	dw PsyduckAnimationIdle

@@ -50,7 +50,7 @@ FramesPointers:
 	dw SnomFrames
 	dw VenomothFrames
 	dw MudbrayFrames
-	dw DugtrioFrames
+	dw MudsdaleFrames
 	dw MeowthFrames
 	dw PersianFrames
 	dw PsyduckFrames

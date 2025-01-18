@@ -51,7 +51,7 @@ PokedexDataPointerTable:
 	dw SnomPokedexEntry
 	dw VenomothPokedexEntry
 	dw MudbrayPokedexEntry
-	dw DugtrioPokedexEntry
+	dw MudsdalePokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw PsyduckPokedexEntry

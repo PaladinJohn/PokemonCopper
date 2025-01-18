@@ -52,7 +52,7 @@ MonMenuIcons:
 	db ICON_CATERPILLAR ; SNOM
 	db ICON_BUG         ; VENOMOTH
 	db ICON_EQUINE      ; MUDBRAY
-	db ICON_EQUINE      ; DUGTRIO
+	db ICON_EQUINE      ; MUDSDALE
 	db ICON_FOX         ; MEOWTH
 	db ICON_FOX         ; PERSIAN
 	db ICON_RHYDON      ; PSYDUCK

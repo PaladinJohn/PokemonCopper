@@ -662,6 +662,7 @@ VenomothEvosAttacks:
 	db 0 ; no more level-up moves
 
 MudbrayEvosAttacks:
+	db EVOLVE_LEVEL, 30, MUDSDALE
 	db 0 ; no more evolutions
 	db 1, MUD_SLAP
 	db 5, ROCK_SMASH
@@ -673,19 +674,17 @@ MudbrayEvosAttacks:
 	db 49, MEGA_KICK
 	db 0 ; no more level-up moves
 
-DugtrioEvosAttacks:
+MudsdaleEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRI_ATTACK
-	db 1, SCRATCH
-	db 1, GROWL
-	db 1, MAGNITUDE
-	db 5, GROWL
-	db 9, MAGNITUDE
-	db 17, DIG
-	db 25, SAND_ATTACK
-	db 37, SLASH
+	db 1, MUD_SLAP
+	db 5, ROCK_SMASH
+	db 9, DOUBLE_KICK
+	db 17, STOMP
+	db 25, BIDE
+	db 30, STRENGTH
+	db 37, COUNTER
 	db 49, EARTHQUAKE
-	db 61, FISSURE
+	db 61, MEGA_KICK
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
