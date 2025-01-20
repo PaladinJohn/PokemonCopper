@@ -60,7 +60,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db CYNDAQUIL
 	db NO_ITEM
@@ -86,7 +86,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db HOOTHOOT
 	db NO_ITEM
@@ -112,7 +112,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db HOOTHOOT
 	db NO_ITEM
@@ -138,7 +138,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db HOUNDOUR
 	db NO_ITEM
@@ -164,7 +164,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db HOUNDOUR
 	db NO_ITEM
@@ -190,7 +190,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db BLITZLE
 	db NO_ITEM
@@ -216,7 +216,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db BLITZLE
 	db NO_ITEM
@@ -242,7 +242,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db TOTODILE
 	db NO_ITEM
@@ -268,7 +268,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db TOTODILE
 	db NO_ITEM
@@ -294,7 +294,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db EEVEE
 	db NO_ITEM
@@ -320,7 +320,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db EEVEE
 	db NO_ITEM
@@ -346,7 +346,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db SPRIGATITO
 	db NO_ITEM
@@ -372,7 +372,7 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	db SPRIGATITO
 	db NO_ITEM
@@ -398,6 +398,6 @@ OddEggs:
 	bigdw 6 ; Spd
 	bigdw 6 ; SAtk
 	bigdw 6 ; SDef
-	db "EGG@@@@@@@@"
+	db "Egg@@@@@@@@"
 
 	assert_table_length NUM_ODD_EGGS
