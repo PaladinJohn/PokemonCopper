@@ -21,6 +21,7 @@ SECTION "Pics 1", ROMX
 
 VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
+BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
@@ -29,14 +30,12 @@ RegirockFrontpic:    INCBIN "gfx/pokemon/regirock/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
-SpectrierFrontpic:   INCBIN "gfx/pokemon/spectrier/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
 TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
 
-BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
 RapidashFrontpic:    INCBIN "gfx/pokemon/rapidash/front.animated.2bpp.lz"
 MeganiumFrontpic:    INCBIN "gfx/pokemon/meganium/front.animated.2bpp.lz"
 NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
@@ -51,6 +50,7 @@ ZoroarkFrontpic:     INCBIN "gfx/pokemon/zoroark/front.animated.2bpp.lz"
 MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
 FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
+SpectrierFrontpic:   INCBIN "gfx/pokemon/spectrier/front.animated.2bpp.lz"
 
 
 SECTION "Pics 3", ROMX
@@ -570,7 +570,6 @@ UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
 CharmanderBackpic:   INCBIN "gfx/pokemon/charmander/back.2bpp.lz"
 RhyhornBackpic:      INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lz"
 UnownCFrontpic:      INCBIN "gfx/pokemon/unown_c/front.animated.2bpp.lz"
-MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 UnownZFrontpic:      INCBIN "gfx/pokemon/unown_z/front.animated.2bpp.lz"
 SwinubFrontpic:      INCBIN "gfx/pokemon/swinub/front.animated.2bpp.lz"
 LarvitarBackpic:     INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"
@@ -712,6 +711,7 @@ SECTION "Pics 19", ROMX
 ; Seems to be an accidental copy of the previous bank
 
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
+MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
 
 
