@@ -1490,28 +1490,28 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, RATTATA
-	db 16, RATICATE
-	db 16, YAMPER
-	db 16, FLETCHINDR
+	db 17, RATTATA
+	db 16, HOUNDOUR
+	db 16, FLETCHLING
 	db 13, TAUROS
 	db 13, MILTANK
-	db 13, MILTANK
+	db 14, MILTANK
 	; day
 	db 16, RATTATA
-	db 16, RATICATE
-	db 16, YAMPER
-	db 16, FLETCHINDR
+	db 17, RATTATA
+	db 16, HOUNDOUR
+	db 16, FLETCHLING
 	db 13, TAUROS
 	db 13, MILTANK
-	db 13, MILTANK
+	db 14, MILTANK
 	; nite
 	db 16, MEOWTH
-	db 16, RATICATE
-	db 16, YAMPER
-	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 16, RATTATA
+	db 16, HOUNDOUR
+	db 16, HOOTHOOT
+	db 17, MEOWTH
+	db 18, MEOWTH
+	db 19, MEOWTH
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
