@@ -54,7 +54,7 @@ MonMenuIcons:
 	db ICON_EQUINE      ; MUDBRAY
 	db ICON_EQUINE      ; MUDSDALE
 	db ICON_FOX         ; MEOWTH
-	db ICON_FOX         ; PERSIAN
+	db ICON_FOX         ; PERRSERKER
 	db ICON_RHYDON      ; PSYDUCK
 	db ICON_GOLDUCK
 	db ICON_FIGHTER     ; MANKEY

@@ -58,7 +58,7 @@ PokemonCries::
 	mon_cry CRY_NATU,       1756,  431 ; MUDBRAY
 	mon_cry CRY_CHIKORITA,  3065,  396 ; MUDSDALE
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
-	mon_cry CRY_CLEFAIRY,    153,  383 ; PERSIAN
+	mon_cry CRY_SENTRET,     264,  543 ; PERRSERKER
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK
 	mon_cry CRY_PSYDUCK,     255,  192 ; GOLDUCK
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY

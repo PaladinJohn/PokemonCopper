@@ -53,7 +53,7 @@ PokedexDataPointerTable:
 	dw MudbrayPokedexEntry
 	dw MudsdalePokedexEntry
 	dw MeowthPokedexEntry
-	dw PersianPokedexEntry
+	dw PerrserkerPokedexEntry
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
 	dw MankeyPokedexEntry

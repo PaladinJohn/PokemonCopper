@@ -151,7 +151,7 @@ AlphabeticalPokedexOrder:
 	db PAWMI
 	db PAWMO
 	db PAWMOT
-	db PERSIAN
+	db PERRSERKER
 	db PHANPY
 	db PIDGEOT
 	db PILOSWINE

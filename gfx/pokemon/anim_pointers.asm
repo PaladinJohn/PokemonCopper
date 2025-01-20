@@ -52,7 +52,7 @@ AnimationPointers:
 	dw MudbrayAnimation
 	dw MudsdaleAnimation
 	dw MeowthAnimation
-	dw PersianAnimation
+	dw PerrserkerAnimation
 	dw PsyduckAnimation
 	dw GolduckAnimation
 	dw MankeyAnimation

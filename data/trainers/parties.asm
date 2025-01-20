@@ -1459,7 +1459,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 33, PERSIAN
+	db 33, PERRSERKER
 	db -1 ; end
 
 	; GENTLEMAN (3)

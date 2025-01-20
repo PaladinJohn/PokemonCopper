@@ -54,7 +54,7 @@ EvosAttacksPointers::
 	dw MudbrayEvosAttacks
 	dw MudsdaleEvosAttacks
 	dw MeowthEvosAttacks
-	dw PersianEvosAttacks
+	dw PerrserkerEvosAttacks
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
 	dw MankeyEvosAttacks

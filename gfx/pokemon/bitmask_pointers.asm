@@ -52,7 +52,7 @@ BitmasksPointers:
 	dw MudbrayBitmasks
 	dw MudsdaleBitmasks
 	dw MeowthBitmasks
-	dw PersianBitmasks
+	dw PerrserkerBitmasks
 	dw PsyduckBitmasks
 	dw GolduckBitmasks
 	dw MankeyBitmasks

@@ -52,7 +52,7 @@ AnimationIdlePointers:
 	dw MudbrayAnimationIdle
 	dw MudsdaleAnimationIdle
 	dw MeowthAnimationIdle
-	dw PersianAnimationIdle
+	dw PerrserkerAnimationIdle
 	dw PsyduckAnimationIdle
 	dw GolduckAnimationIdle
 	dw MankeyAnimationIdle

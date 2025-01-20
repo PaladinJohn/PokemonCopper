@@ -360,7 +360,7 @@ KantoGrassWildMons:
 	db 17, MEOWTH
 	db 17, BOMBIRDIER
 	db 18, HOUNDOUR
-	db 18, PERSIAN
+	db 18, PERRSERKER
 	db 18, JIGGLYPUFF
 	db 16, ABRA
 	db 16, ABRA

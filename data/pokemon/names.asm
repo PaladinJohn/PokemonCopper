@@ -52,7 +52,7 @@ PokemonNames::
 	db "MUDBRAY@@@"
 	db "MUDSDALE@@"
 	db "MEOWTH@@@@"
-	db "PERSIAN@@@"
+	db "PERRSERKER"
 	db "PSYDUCK@@@"
 	db "GOLDUCK@@@"
 	db "MANKEY@@@@"

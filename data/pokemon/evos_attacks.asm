@@ -688,7 +688,7 @@ MudsdaleEvosAttacks:
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
-	db EVOLVE_LEVEL, 28, PERSIAN
+	db EVOLVE_LEVEL, 28, PERRSERKER
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -700,14 +700,13 @@ MeowthEvosAttacks:
 	db 46, SLASH
 	db 0 ; no more level-up moves
 
-PersianEvosAttacks:
+PerrserkerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
-	db 1, BITE
-	db 11, BITE
+	db 11, METAL_CLAW
 	db 20, PAY_DAY
-	db 29, FAINT_ATTACK
+	db 29, SWAGGER
 	db 38, SCREECH
 	db 46, FURY_SWIPES
 	db 53, SLASH

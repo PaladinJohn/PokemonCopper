@@ -124,7 +124,7 @@ INCBIN "gfx/footprints/venomoth.1bpp",   footprint_top
 INCBIN "gfx/footprints/mudbray.1bpp",    footprint_top
 INCBIN "gfx/footprints/mudsdale.1bpp",   footprint_top
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
-INCBIN "gfx/footprints/persian.1bpp",    footprint_top
+INCBIN "gfx/footprints/perrserker.1bpp", footprint_top
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
@@ -133,7 +133,7 @@ INCBIN "gfx/footprints/venomoth.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mudbray.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mudsdale.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/persian.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/perrserker.1bpp", footprint_bottom
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom

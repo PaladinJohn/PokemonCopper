@@ -162,7 +162,7 @@ NewPokedexOrder:
 	db MANKEY
 	db PRIMEAPE
 	db MEOWTH
-	db PERSIAN
+	db PERRSERKER
 	db TIMBURR
 	db MACHOKE
 	db MACHAMP

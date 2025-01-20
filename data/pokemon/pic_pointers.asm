@@ -107,8 +107,8 @@ PokemonPicPointers::
 	dba_pic MudsdaleBackpic
 	dba_pic MeowthFrontpic
 	dba_pic MeowthBackpic
-	dba_pic PersianFrontpic
-	dba_pic PersianBackpic
+	dba_pic PerrserkerFrontpic
+	dba_pic PerrserkerBackpic
 	dba_pic PsyduckFrontpic
 	dba_pic PsyduckBackpic
 	dba_pic GolduckFrontpic

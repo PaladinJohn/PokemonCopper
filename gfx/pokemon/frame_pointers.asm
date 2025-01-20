@@ -52,7 +52,7 @@ FramesPointers:
 	dw MudbrayFrames
 	dw MudsdaleFrames
 	dw MeowthFrames
-	dw PersianFrames
+	dw PerrserkerFrames
 	dw PsyduckFrames
 	dw GolduckFrames
 	dw MankeyFrames

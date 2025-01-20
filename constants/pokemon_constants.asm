@@ -71,7 +71,7 @@
 	const MUDBRAY    ; 32
 	const MUDSDALE   ; 33
 	const MEOWTH     ; 34
-	const PERSIAN    ; 35
+	const PERRSERKER ; 35
 	const PSYDUCK    ; 36
 	const GOLDUCK    ; 37
 	const MANKEY     ; 38
