@@ -18,12 +18,12 @@ IconPointers:
 	dw ClefairyIcon
 	dw ClefableIcon
 	dw NinetalesIcon
+	dw JigglypuffIcon
 	dw WigglytuffIcon
 	dw VileplumeIcon
 	dw ParasectIcon
 	dw GolduckIcon
 	dw ArcanineIcon
-	dw JigglypuffIcon
 	dw AlakazamIcon
 	dw VictreebelIcon
 	dw TentacruelIcon
@@ -48,9 +48,10 @@ IconPointers:
 	dw MagmarIcon
 	dw TaurosIcon
 	dw FishIcon
+	dw GyaradosIcon
+	dw LaprasIcon
 	dw OddishIcon
 	dw BugIcon
-	dw LaprasIcon
 	dw HumanshapeIcon
 	dw EquineIcon
 	dw ShellIcon
@@ -61,9 +62,9 @@ IconPointers:
 	dw JolteonIcon
 	dw FlareonIcon
 	dw VoltorbIcon
-	dw CaterpillarIcon
 	dw KabutopsIcon
 	dw AerodactylIcon
+	dw SnorlaxIcon
 	dw ArticunoIcon
 	dw DragoniteIcon
 	dw MewtwoIcon
@@ -80,6 +81,7 @@ IconPointers:
 	dw AmpharosIcon
 	dw BellossomIcon
 	dw AzumarillIcon
+	dw SudowoodoIcon
 	dw AipomIcon
 	dw SunfloraIcon
 	dw QuagsireIcon
@@ -91,13 +93,21 @@ IconPointers:
 	dw GeodudeIcon
 	dw FighterIcon
 	dw WobbuffetIcon
+	dw GirafarigIcon
+	dw DunsparceIcon
+	dw GligarIcon
+	dw SteelixIcon
+	dw QwilfishIcon
+	dw ScizorIcon
+	dw ShuckleIcon
+	dw HeracrossIcon
+	dw SneaselIcon
+	dw UrsaringIcon
+	dw MagcargoIcon
 	dw EggIcon
 	dw JellyfishIcon
 	dw BatIcon
-	dw SnorlaxIcon
 	dw LugiaIcon
-	dw GyaradosIcon
 	dw SlowpokeIcon
-	dw SudowoodoIcon
 	dw BigmonIcon
 	assert_table_length NUM_ICONS + 1
