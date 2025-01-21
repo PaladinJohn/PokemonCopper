@@ -106,7 +106,7 @@ BitmasksPointers:
 	dw CuboneBitmasks
 	dw MarowakBitmasks
 	dw HitmonleeBitmasks
-	dw HitmonchanBitmasks
+	dw SigilyphBitmasks
 	dw LickitungBitmasks
 	dw KoffingBitmasks
 	dw WeezingBitmasks

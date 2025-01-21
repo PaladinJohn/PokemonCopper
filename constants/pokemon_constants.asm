@@ -125,7 +125,7 @@
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
 	const HITMONLEE  ; 6a
-	const HITMONCHAN ; 6b
+	const SIGILYPH   ; 6b
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e

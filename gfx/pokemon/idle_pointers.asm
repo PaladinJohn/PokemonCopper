@@ -106,7 +106,7 @@ AnimationIdlePointers:
 	dw CuboneAnimationIdle
 	dw MarowakAnimationIdle
 	dw HitmonleeAnimationIdle
-	dw HitmonchanAnimationIdle
+	dw SigilyphAnimationIdle
 	dw LickitungAnimationIdle
 	dw KoffingAnimationIdle
 	dw WeezingAnimationIdle

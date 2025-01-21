@@ -77,7 +77,6 @@ AlphabeticalPokedexOrder:
 	db GYARADOS
 	db HAUNTER
 	db HERACROSS
-	db HITMONCHAN
 	db HITMONLEE
 	db HO_OH
 	db HOOTHOOT
@@ -190,6 +189,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHINX
 	db SHUCKLE
+	db SIGILYPH
 	db SKARMORY
 	db SLOWBRO
 	db SLOWKING

@@ -108,7 +108,7 @@ EvosAttacksPointers::
 	dw CuboneEvosAttacks
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks
-	dw HitmonchanEvosAttacks
+	dw SigilyphEvosAttacks
 	dw LickitungEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks

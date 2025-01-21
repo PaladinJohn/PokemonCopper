@@ -106,7 +106,7 @@ AnimationPointers:
 	dw CuboneAnimation
 	dw MarowakAnimation
 	dw HitmonleeAnimation
-	dw HitmonchanAnimation
+	dw SigilyphAnimation
 	dw LickitungAnimation
 	dw KoffingAnimation
 	dw WeezingAnimation

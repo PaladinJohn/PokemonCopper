@@ -43,7 +43,7 @@ Pokered_MonIndices:
 	db MACHOKE
 	db CAPSAKID
 	db HITMONLEE
-	db HITMONCHAN
+	db SIGILYPH
 	db ZOROARK
 	db PARASECT
 	db PSYDUCK

@@ -1463,18 +1463,18 @@ HitmonleeEvosAttacks:
 	db 51, REVERSAL
 	db 0 ; no more level-up moves
 
-HitmonchanEvosAttacks:
+SigilyphEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
-	db 7, AGILITY
-	db 13, PURSUIT
-	db 26, THUNDERPUNCH
-	db 26, ICE_PUNCH
-	db 26, FIRE_PUNCH
-	db 32, MACH_PUNCH
-	db 38, MEGA_PUNCH
-	db 44, DETECT
-	db 50, COUNTER
+	db 1, GUST
+	db 7, HYPNOSIS
+	db 13, PSYWAVE
+	db 26, WHIRLWIND
+	db 27, PSYBEAM
+	db 28, LIGHT_SCREEN
+	db 32, REFLECT
+	db 38, MIRROR_MOVE
+	db 44, PSYCHIC_M
+	;db 50, COSMIC_POWER
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:
@@ -3163,7 +3163,6 @@ SmeargleEvosAttacks:
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:
-	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
 	db EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
 	db 0 ; no more evolutions
 	db 1, TACKLE

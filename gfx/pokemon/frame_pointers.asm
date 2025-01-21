@@ -106,7 +106,7 @@ FramesPointers:
 	dw CuboneFrames
 	dw MarowakFrames
 	dw HitmonleeFrames
-	dw HitmonchanFrames
+	dw SigilyphFrames
 	dw LickitungFrames
 	dw KoffingFrames
 	dw WeezingFrames

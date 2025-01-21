@@ -106,7 +106,7 @@ EggMovePointers::
 	dw CuboneEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw SigilyphEggMoves
 	dw LickitungEggMoves
 	dw KoffingEggMoves
 	dw NoEggMoves

@@ -106,7 +106,7 @@ PokemonNames::
 	db "CUBONE@@@@"
 	db "MAROWAK@@@"
 	db "HITMONLEE@"
-	db "HITMONCHAN"
+	db "SIGILYPH@@"
 	db "LICKITUNG@"
 	db "KOFFING@@@"
 	db "WEEZING@@@"

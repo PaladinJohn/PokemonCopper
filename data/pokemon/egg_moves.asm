@@ -331,6 +331,11 @@ CuboneEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
+SigilyphEggMoves:
+	db ANCIENTPOWER
+	db STEEL_WING
+	db -1 ; end
+	
 LickitungEggMoves:
 	db BELLY_DRUM
 	db MAGNITUDE
