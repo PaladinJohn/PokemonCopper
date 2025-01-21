@@ -2053,10 +2053,10 @@ SwimmerFGroup:
 
 SailorGroup:
 	; SAILOR (1)
-	db "EUGENE@", TRAINERTYPE_NORMAL
-	db 17, POLIWHIRL
-	db 17, RATICATE
-	db 19, KRABBY
+	db "JOSEPH@", TRAINERTYPE_NORMAL
+	db 20, QUAGSIRE
+	db 20, RATICATE
+	db 22, KRABBY
 	db -1 ; end
 
 	; SAILOR (2)
@@ -2743,9 +2743,9 @@ PsychicGroup:
 	db -1 ; end
 
 	; PSYCHIC_T (6)
-	db "NORMAN@", TRAINERTYPE_MOVES
-	db 17, SLOWPOKE,   TACKLE, GROWL, WATER_GUN, NO_MOVE
-	db 20, SLOWPOKE,   CURSE, BODY_SLAM, WATER_GUN, CONFUSION
+	db "LIAM@", TRAINERTYPE_MOVES
+	db 20, SIGILYPH,   GUST, HYPNOSIS, PSYWAVE, NO_MOVE
+	db 23, SLOWPOKE,   CURSE, BODY_SLAM, WATER_GUN, CONFUSION
 	db -1 ; end
 
 	; PSYCHIC_T (7)
@@ -3259,8 +3259,9 @@ PokefanMGroup:
 	db -1 ; end
 
 	; POKEFANM (2)
-	db "DEREK@", TRAINERTYPE_ITEM
-	db 17, LUXIO,    BERRY
+	db "ANTHONY@", TRAINERTYPE_ITEM
+	db 18, IVYSAUR,   BERRY
+	db 20, QUAGSIRE,  BERRY
 	db -1 ; end
 
 	; POKEFANM (3)
@@ -3435,8 +3436,9 @@ PokefanFGroup:
 	db -1 ; end
 
 	; POKEFANF (2)
-	db "RUTH@", TRAINERTYPE_ITEM
-	db 17, LUXIO,    BERRY
+	db "KAREN@", TRAINERTYPE_ITEM
+	db 18, AZUMARILL,  BERRY
+	db 20, AIPOM,      BERRY
 	db -1 ; end
 
 	; POKEFANF (3)
@@ -3454,8 +3456,9 @@ PokefanFGroup:
 	db -1 ; end
 
 	; POKEFANF (6)
-	db "JAIME@", TRAINERTYPE_ITEM
-	db 16, MEOWTH,     BERRY
+	db "GEMMA@", TRAINERTYPE_ITEM
+	db 18, AZUMARILL,  BERRY
+	db 19, MEOWTH,     BERRY
 	db -1 ; end
 
 RedGroup:
