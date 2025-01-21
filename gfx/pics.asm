@@ -22,11 +22,11 @@ SECTION "Pics 1", ROMX
 VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
+FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
-RegirockFrontpic:    INCBIN "gfx/pokemon/regirock/front.animated.2bpp.lz"
 LugiaFrontpic:       INCBIN "gfx/pokemon/lugia/front.animated.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
@@ -48,8 +48,8 @@ MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
 ZapdosFrontpic:      INCBIN "gfx/pokemon/zapdos/front.animated.2bpp.lz"
 ZoroarkFrontpic:     INCBIN "gfx/pokemon/zoroark/front.animated.2bpp.lz"
 MewtwoFrontpic:      INCBIN "gfx/pokemon/mewtwo/front.animated.2bpp.lz"
-FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 QuilavaFrontpic:     INCBIN "gfx/pokemon/quilava/front.animated.2bpp.lz"
+RegirockFrontpic:    INCBIN "gfx/pokemon/regirock/front.animated.2bpp.lz"
 SpectrierFrontpic:   INCBIN "gfx/pokemon/spectrier/front.animated.2bpp.lz"
 
 
@@ -323,7 +323,6 @@ SlowkingBackpic:     INCBIN "gfx/pokemon/slowking/back.2bpp.lz"
 VenipedeBackpic:     INCBIN "gfx/pokemon/venipede/back.2bpp.lz"
 CelebiBackpic:       INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
 KrabbyBackpic:       INCBIN "gfx/pokemon/krabby/back.2bpp.lz"
-BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 
 
@@ -711,6 +710,7 @@ SECTION "Pics 19", ROMX
 ; Seems to be an accidental copy of the previous bank
 
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
+BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
 
