@@ -20,6 +20,7 @@ IconPointers:
 	dw NinetalesIcon
 	dw JigglypuffIcon
 	dw WigglytuffIcon
+	dw BatIcon
 	dw VileplumeIcon
 	dw ParasectIcon
 	dw GolduckIcon
@@ -104,10 +105,19 @@ IconPointers:
 	dw SneaselIcon
 	dw UrsaringIcon
 	dw MagcargoIcon
+	dw PiloswineIcon
+	dw OctilleryIcon
+	dw DelibirdIcon
+	dw SkarmoryIcon
+	dw HoundoomIcon
+	dw KingdraIcon
+	dw DonphanIcon
+	dw Porygon2Icon
+	dw StantlerIcon
+	dw SmeargleIcon
+	dw MiltankIcon
 	dw EggIcon
 	dw JellyfishIcon
-	dw BatIcon
 	dw LugiaIcon
 	dw SlowpokeIcon
-	dw BigmonIcon
 	assert_table_length NUM_ICONS + 1
