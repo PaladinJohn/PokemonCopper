@@ -427,6 +427,11 @@ wBattleReward:: ds 3
 
 wBattleAnimParam:: db
 
+wPartyBackupItems::
+; Back up of party items before a battle. Modified in-battle for consumed/harvested.
+; Berries and items stolen from wild Pokémon since those changes are retained.
+	ds PARTY_LENGTH
+
 wBattleScriptBuffer:: ds 40
 
 wBattleScriptBufferAddress:: dw
