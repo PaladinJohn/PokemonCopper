@@ -123,7 +123,7 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
-	mon_cry CRY_CATERPIE,    128,  192 ; GOLDEEN
+	mon_cry CRY_KANGASKHAN,  -48,  292 ; MAREANIE
 	mon_cry CRY_CATERPIE,     16,  383 ; SEAKING
 	mon_cry CRY_PARAS,         2,  160 ; STARYU
 	mon_cry CRY_PARAS,         0,  256 ; STARMIE

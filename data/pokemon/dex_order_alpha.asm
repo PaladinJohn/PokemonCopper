@@ -68,7 +68,6 @@ AlphabeticalPokedexOrder:
 	db GLIGAR
 	db GLOOM
 	db GOLBAT
-	db GOLDEEN
 	db GOLDUCK
 	db GOLEM
 	db GRAVELER
@@ -117,6 +116,7 @@ AlphabeticalPokedexOrder:
 	db MAGMAR
 	db MANKEY
 	db MANTINE
+	db MAREANIE
 	db MAREEP
 	db MARILL
 	db MAROWAK

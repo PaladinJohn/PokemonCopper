@@ -119,7 +119,7 @@ MonMenuIcons:
 	db ICON_KANGASKHAN
 	db ICON_FISH        ; HORSEA
 	db ICON_FISH        ; SEADRA
-	db ICON_FISH        ; GOLDEEN
+	db ICON_STARYU      ; MAREANIE
 	db ICON_FISH        ; SEAKING
 	db ICON_STARYU      ; STARYU
 	db ICON_STARMIE

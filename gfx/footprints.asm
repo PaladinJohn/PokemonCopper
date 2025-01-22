@@ -269,7 +269,7 @@ INCBIN "gfx/footprints/tangela.1bpp",    footprint_top
 INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_top
 INCBIN "gfx/footprints/horsea.1bpp",     footprint_top
 INCBIN "gfx/footprints/seadra.1bpp",     footprint_top
-INCBIN "gfx/footprints/goldeen.1bpp",    footprint_top
+INCBIN "gfx/footprints/mareanie.1bpp",   footprint_top
 INCBIN "gfx/footprints/seaking.1bpp",    footprint_top
 INCBIN "gfx/footprints/staryu.1bpp",     footprint_top
 ; 113-120 bottom halves
@@ -278,7 +278,7 @@ INCBIN "gfx/footprints/tangela.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_bottom
 INCBIN "gfx/footprints/horsea.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/seadra.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/goldeen.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/mareanie.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/seaking.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/staryu.1bpp",     footprint_bottom
 ; 121-128 top halves

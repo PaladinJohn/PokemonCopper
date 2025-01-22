@@ -145,7 +145,7 @@ NewPokedexOrder:
 	db ROCKRUFF
 	db POLIWHIRL
 	db POLITOED
-	db GOLDEEN
+	db MAREANIE
 	db SEAKING
 	db PINECO
 	db FORRETRESS

@@ -118,7 +118,7 @@ PokedexDataPointerTable:
 	dw KangaskhanPokedexEntry
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry
-	dw GoldeenPokedexEntry
+	dw MareaniePokedexEntry
 	dw SeakingPokedexEntry
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry

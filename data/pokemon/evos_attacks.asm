@@ -1615,18 +1615,17 @@ SeadraEvosAttacks:
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-GoldeenEvosAttacks:
-	db EVOLVE_LEVEL, 33, SEAKING
+MareanieEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POISON_STING
 	db 1, PECK
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, HORN_ATTACK
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 38, WATERFALL
-	db 43, HORN_DRILL
-	db 52, AGILITY
+	db 10, BITE
+	db 15, HAZE
+	db 24, PROTECT
+	db 29, TOXIC
+	db 38, SPIKE_CANNON
+	db 43, RECOVER
+	db 52, PIN_MISSILE
 	db 0 ; no more level-up moves
 
 SeakingEvosAttacks:

@@ -136,7 +136,7 @@
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75
-	const GOLDEEN    ; 76
+	const MAREANIE   ; 76
 	const SEAKING    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79

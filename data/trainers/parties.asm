@@ -976,7 +976,7 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (6)
 	db "IRENE@", TRAINERTYPE_NORMAL
-	db 22, GOLDEEN
+	db 22, MAREANIE
 	db 24, SEAKING
 	db -1 ; end
 
@@ -1698,8 +1698,8 @@ FisherGroup:
 
 	; FISHER (10)
 	db "WILTON@", TRAINERTYPE_NORMAL
-	db 23, GOLDEEN
-	db 23, GOLDEEN
+	db 23, MAREANIE
+	db 23, MAREANIE
 	db 25, SEAKING
 	db -1 ; end
 
@@ -1740,13 +1740,13 @@ FisherGroup:
 
 	; FISHER (16)
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 17, GOLDEEN
+	db 17, MAREANIE
 	db -1 ; end
 
 	; FISHER (17)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 17, QWILFISH
-	db 19, GOLDEEN
+	db 19, MAREANIE
 	db -1 ; end
 
 	; FISHER (18)
@@ -1756,15 +1756,15 @@ FisherGroup:
 
 	; FISHER (19)
 	db "TULLY@", TRAINERTYPE_NORMAL
-	db 32, GOLDEEN
-	db 32, GOLDEEN
+	db 32, MAREANIE
+	db 32, MAREANIE
 	db 32, QWILFISH
 	db -1 ; end
 
 	; FISHER (20)
 	db "WILTON@", TRAINERTYPE_NORMAL
-	db 29, GOLDEEN
-	db 29, GOLDEEN
+	db 29, MAREANIE
+	db 29, MAREANIE
 	db 32, SEAKING
 	db -1 ; end
 
@@ -1785,7 +1785,7 @@ FisherGroup:
 	; FISHER (23)
 	db "RALPH@", TRAINERTYPE_NORMAL
 	db 30, QWILFISH
-	db 32, GOLDEEN
+	db 32, MAREANIE
 	db -1 ; end
 
 	; FISHER (24)
@@ -1893,7 +1893,7 @@ SwimmerMGroup:
 	db 26, SEADRA
 	db 28, TENTACOOL
 	db 30, TENTACRUEL
-	db 28, GOLDEEN
+	db 28, MAREANIE
 	db -1 ; end
 
 	; SWIMMERM (15)
@@ -1956,15 +1956,15 @@ SwimmerFGroup:
 
 	; SWIMMERF (3)
 	db "KAYLEE@", TRAINERTYPE_NORMAL
-	db 18, GOLDEEN
-	db 20, GOLDEEN
+	db 18, MAREANIE
+	db 20, MAREANIE
 	db 20, SEAKING
 	db -1 ; end
 
 	; SWIMMERF (4)
 	db "SUSIE@", TRAINERTYPE_MOVES
 	db 20, PSYDUCK,    SCRATCH, TAIL_WHIP, DISABLE, CONFUSION
-	db 22, GOLDEEN,    PECK, TAIL_WHIP, SUPERSONIC, HORN_ATTACK
+	db 22, MAREANIE,    PECK, TAIL_WHIP, SUPERSONIC, HORN_ATTACK
 	db -1 ; end
 
 	; SWIMMERF (5)
