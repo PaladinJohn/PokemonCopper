@@ -38,7 +38,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw PokeBallEffect      ; NET_BALL
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -735,6 +735,7 @@ BallMultiplierFunctionTable:
 ; which ball is used in a certain situation.
 	dbw ULTRA_BALL,  UltraBallMultiplier
 	dbw GREAT_BALL,  GreatBallMultiplier
+	dbw NET_BALL,    NetBallMultiplier
 	dbw SAFARI_BALL, SafariBallMultiplier ; Safari Ball, leftover from RBY
 	dbw HEAVY_BALL,  HeavyBallMultiplier
 	dbw LEVEL_BALL,  LevelBallMultiplier
@@ -764,6 +765,34 @@ ParkBallMultiplier:
 	ld b, $ff
 	ret
 
+NetBallMultiplier:
+; multiply catch rate by 3.5 if mon is water or bug type
+	ld a, [wEnemyMonType1]
+	cp WATER
+	jr z, .ok
+	cp BUG
+	jr z, .ok
+	ld a, [wEnemyMonType2]
+	cp WATER
+	jr z, .ok
+	cp BUG
+	ret nz
+
+.ok
+	ld a, b
+	add a
+	jr c, .max
+
+	add b
+	jr c, .max
+
+	ld b, a
+	ret
+
+.max
+	ld b, $ff
+	ret
+	
 HeavyBall_GetDexEntryBank:
 ; BUG (FIXED): Heavy Ball uses wrong weight value for three Pokémon (see docs/bugs_and_glitches.md)
 	push hl
