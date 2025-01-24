@@ -36,7 +36,7 @@ MomItems_2:
 	momitem  43000,  4800, MOM_DOLL, DECO_JIGGLYPUFF_POSTER ; Mystery Gift
 	momitem  50000,  8000, MOM_DOLL, DECO_TOTODILE_DOLL
 	momitem  54000,  8000, MOM_DOLL, DECO_SNES ; Mystery Gift
-	momitem  58000,  8000, MOM_DOLL, DECO_WEEDLE_DOLL ; Mystery Gift
+	momitem  58000,  8000, MOM_DOLL, DECO_CYNDAQUIL_DOLL ; Mystery Gift
 	momitem  62000,  8000, MOM_DOLL, DECO_GEODUDE_DOLL ; Mystery Gift
 	momitem  66000,  8000, MOM_DOLL, DECO_MACHOP_DOLL ; Mystery Gift
 	momitem  71000, 10000, MOM_DOLL, DECO_MAGNAPLANT ; Mystery Gift
