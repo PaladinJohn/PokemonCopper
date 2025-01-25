@@ -46,13 +46,13 @@ FishGroups:
 .Ocean_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     TENTACOOL,  20
-	db  90 percent + 1, CHINCHOU,   20
+	db  90 percent + 1, HORSEA,     20
 	db 100 percent,     time_group 2
 .Ocean_Super:
-	db  40 percent,     CHINCHOU,   40
+	db  40 percent,     HORSEA,     40
 	db  70 percent,     time_group 3
 	db  90 percent + 1, TENTACRUEL, 40
-	db 100 percent,     LANTURN,    40
+	db 100 percent,     SEADRA,     40
 
 .Lake_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -209,8 +209,8 @@ FishGroups:
 
 TimeFishGroups:
 	;  day              nite
-	db ZORUA,      20,  STARYU,     20 ; 0
-	db ZORUA,      40,  STARYU,     40 ; 1
+	db MAREANIE,   20,  STARYU,     20 ; 0
+	db MAREANIE,   40,  STARYU,     40 ; 1
 	db SHELLDER,   20,  SHELLDER,   20 ; 2
 	db SHELLDER,   40,  SHELLDER,   40 ; 3
 	db CHINCHOU,   20,  CHINCHOU,   20 ; 4
