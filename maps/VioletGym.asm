@@ -35,7 +35,7 @@ VioletGymEmeryScript:
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
 	setmapscene ELMS_LAB, SCENE_ELMSLAB_NOOP
-	specialphonecall SPECIALCALL_ASSISTANT
+	;specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
 	verbosegiveitem TM_SANDSTORM
@@ -111,56 +111,55 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
+	text "I'm EMERY, the"
 	line "VIOLET #MON GYM"
 	cont "leader!"
 
-	para "People say you can"
-	line "clip flying-type"
+	para "I'm an expert on"
+	line "rock-type #MON."
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "My #MON are im-"
+	line "pervious to most"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "physical attacks."
+	line "You'll have a hard"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "time inflicting"
+	line "any damage."
 
-	para "magnificent bird"
-	line "#MON!"
+	para "Come on!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "Your #MON's"
+	line "powerful attacks"
+	cont "overcame my rock-"
+	cont "hard defense…"
 
 	para "All right."
 	line "Take this."
 
 	para "It's the official"
 	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	cont "BOULDERBADGE."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	line "BOULDERBADGE."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
+	text "BOULDERBADGE"
 	line "raises the attack"
 	cont "power of #MON."
 
 	para "It also enables"
 	line "#MON to use"
 
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "Thunder Wave, if"
+	line "they have it,"
+	cont "anytime."
 
 	para "Here--take this"
 	line "too."
@@ -177,18 +176,18 @@ FalknerTMMudSlapText:
 	line "act--a TM can be"
 	cont "used only once."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "TM37 contains"
+	line "Sandstorm."
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "It's a move that"
+	line "inflicts damage on"
+	cont "both battlers."
 
-	para "while it causes"
-	line "damage."
+	para "It's for advanced"
+	line "trainers only."
 
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "Use it if you"
+	line "dare. Good luck!"
 	done
 
 FalknerFightDoneText:
@@ -200,11 +199,10 @@ FalknerFightDoneText:
 	line "your skills at"
 	cont "these GYMS."
 
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "Just wait and see."
+	line "I'm going to be-"
+	cont "come a lot strong-"
+	cont "er too."
 	done
 
 BirdKeeperRodSeenText:
@@ -214,7 +212,7 @@ BirdKeeperRodSeenText:
 	para "Those here are"
 	line "training night and"
 
-	para "day to become bird"
+	para "day to become rock"
 	line "#MON masters."
 
 	para "Come on!"
@@ -225,7 +223,7 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
+	text "EMERY's skills"
 	line "are for real!"
 
 	para "Don't get cocky"
@@ -236,7 +234,7 @@ BirdKeeperRodAfterBattleText:
 BirdKeeperAbeSeenText:
 	text "Let me see if you"
 	line "are good enough to"
-	cont "face FALKNER!"
+	cont "face EMERY!"
 	done
 
 BirdKeeperAbeBeatenText:
@@ -255,7 +253,7 @@ VioletGymGuideText:
 	line "er but I can give"
 	cont "some advice!"
 
-	para "Believe me!"
+	para "Believe it!"
 	line "If you believe, a"
 
 	para "championship dream"
@@ -264,11 +262,12 @@ VioletGymGuideText:
 	para "You believe?"
 	line "Then listen."
 
-	para "The grass-type is"
-	line "weak against the"
+	para "The rock type is"
+	line "very durable, but"
 
-	para "flying-type. Keep"
-	line "this in mind."
+	para "it can't stand"
+	line "water-type and"
+	cont "grass-type moves."
 	done
 
 VioletGymGuideWinText:
@@ -283,17 +282,17 @@ VioletGym_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  4, 15, VIOLET_CITY, 2
-	warp_event  5, 15, VIOLET_CITY, 2
+	warp_event  4, 13, VIOLET_CITY, 2
+	warp_event  5, 13, VIOLET_CITY, 2
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  3, 13, BGEVENT_READ, VioletGymStatue
-	bg_event  6, 13, BGEVENT_READ, VioletGymStatue
+	bg_event  2, 11, BGEVENT_READ, VioletGymStatue
+	bg_event  7, 11, BGEVENT_READ, VioletGymStatue
 
 	def_object_events
 	object_event  5,  1, SPRITE_EMERY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletGymEmeryScript, -1
-	object_event  7,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperRod, -1
-	object_event  2, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperAbe, -1
-	object_event  7, 13, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletGymGuideScript, -1
+	object_event  8,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerBirdKeeperRod, -1
+	object_event  2,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerBirdKeeperAbe, -1
+	object_event  6, 11, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletGymGuideScript, -1

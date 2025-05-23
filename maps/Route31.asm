@@ -398,10 +398,11 @@ Route31YoungsterText:
 
 	para "I'm going to raise"
 	line "it to take on"
-	cont "FALKNER."
+	cont "EMERY."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "She's the leader"
+	line "of VIOLET CITY's"
+	cont "GYM."
 	done
 
 Route31SignText:
