@@ -5,7 +5,7 @@
 ; accounted for prior to the list check.
 
 GymLeaders:
-	db FALKNER
+	db EMERY
 	db WHITNEY
 	db BUGSY
 	db MORTY

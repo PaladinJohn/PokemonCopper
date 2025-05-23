@@ -10,8 +10,8 @@ Trainers:
 ;    * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
 ; - db -1 ; end
 
-FalknerGroup:
-	; FALKNER (1)
+EmeryGroup:
+	; EMERY (1)
 	db "EMERY@", TRAINERTYPE_MOVES
 	db  8, ROCKRUFF,  TACKLE, LEER, SWAGGER, NO_MOVE
 	db  10, RHYHORN,  HORN_ATTACK, TAIL_WHIP, SANDSTORM, PURSUIT
