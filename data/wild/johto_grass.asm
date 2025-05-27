@@ -1438,16 +1438,16 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
 	db 5, FLETCHLING
-	db 6, FLETCHLING
-	db 6, GROWLITHE
+	db 4, RIOLU
+	db 6, VULPIX
 	; day
 	db 3, FLETCHLING
 	db 4, FLETCHLING
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
 	db 5, FLETCHLING
-	db 6, FLETCHLING
-	db 6, GROWLITHE
+	db 4, RIOLU
+	db 6, VULPIX
 	; nite
 	db 4, ROOKIDEE
 	db 4, HOOTHOOT

@@ -3157,7 +3157,7 @@ SageGroup:
 	; SAGE (7)
 	db "KENJI@", TRAINERTYPE_NORMAL
 	db  4, RATTATA
-	db  4, RATTATA
+	db  4, SENTRET
 	db  4, BELLSPROUT
 	db -1 ; end
 
