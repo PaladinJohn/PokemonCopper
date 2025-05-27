@@ -566,17 +566,17 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, SCATTERBUG
-	db 5, ZORUA
+	db 5, MINCCINO
 	db 7, SCATTERBUG
-	db 7, ZORUA
+	db 7, MINCCINO
 	db 6, PARAS
 	db 7, FLETCHLING
 	db 7, PARAS
 	; day
 	db 5, SCATTERBUG
-	db 5, ZORUA
+	db 5, MINCCINO
 	db 7, SCATTERBUG
-	db 7, ZORUA
+	db 7, MINCCINO
 	db 6, PARAS
 	db 7, FLETCHLING
 	db 7, PARAS
@@ -1321,7 +1321,7 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, RIOLU
+	db 4, ZORUA
 	db 5, RATTATA
 	db 7, BELLSPROUT
 	db 6, SMOLIV
@@ -1329,7 +1329,7 @@ JohtoGrassWildMons:
 	db 7, MAREEP
 	db 7, SMOLIV
 	; day
-	db 4, RIOLU
+	db 4, ZORUA
 	db 5, RATTATA
 	db 7, BELLSPROUT
 	db 6, SMOLIV
@@ -1353,7 +1353,7 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, GEODUDE
 	db 6, SMOLIV
-	db 7, RIOLU
+	db 7, ZORUA
 	db 7, SMOLIV
 	db 8, SMOLIV
 	; day
@@ -1361,7 +1361,7 @@ JohtoGrassWildMons:
 	db 6, SPEAROW
 	db 6, GEODUDE
 	db 6, SMOLIV
-	db 7, RIOLU
+	db 7, ZORUA
 	db 7, SMOLIV
 	db 8, SMOLIV
 	; nite

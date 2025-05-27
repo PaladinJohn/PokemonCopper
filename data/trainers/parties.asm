@@ -375,13 +375,13 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER (7)
-	db "DAVID@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
+	db "JOEY@", TRAINERTYPE_NORMAL
+	db 17, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (8)
-	db "DAVID@", TRAINERTYPE_MOVES
-	db 21, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
+	db "JOEY@", TRAINERTYPE_MOVES
+	db 24, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, FOCUS_ENERGY
 	db -1 ; end
 
 	; YOUNGSTER (9)
@@ -1577,10 +1577,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (10)
 	db "JAMES@", TRAINERTYPE_NORMAL
-	db  9, SPEWPA
-	db  9, SPEWPA
-	db 10, CORVISQUIR
-	db  9, SPEWPA
+	db 16, SNOM
+	db 16, SNOM
+	db 17, VIVILLON
+	db 16, SPEWPA
 	db -1 ; end
 
 	; BUG_CATCHER (11)
@@ -1740,8 +1740,9 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (16)
-	db "RALPH@", TRAINERTYPE_NORMAL
-	db 17, MAREANIE
+	db "PAUL@", TRAINERTYPE_NORMAL
+	db 19, MAGIKARP
+	db 19, MAGIKARP
 	db -1 ; end
 
 	; FISHER (17)
@@ -2791,7 +2792,7 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1)
 	db "LAURA@", TRAINERTYPE_NORMAL
-	db  6, MEOWTH
+	db  6, BELLSPROUT
 	db  10, NIDORAN_F
 	db -1 ; end
 
@@ -2849,9 +2850,9 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (11)
-	db "LIZ@", TRAINERTYPE_NORMAL
-	db 15, WEEPINBELL
-	db 15, NIDORINA
+	db "LAURA@", TRAINERTYPE_NORMAL
+	db 19, BELLSPROUT
+	db 19, NIDORINA
 	db -1 ; end
 
 	; PICNICKER (12)
