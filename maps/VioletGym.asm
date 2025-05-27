@@ -35,7 +35,7 @@ VioletGymEmeryScript:
 	setevent EVENT_BEAT_BIRD_KEEPER_ROD
 	setevent EVENT_BEAT_BIRD_KEEPER_ABE
 	setmapscene ELMS_LAB, SCENE_ELMSLAB_NOOP
-	;specialphonecall SPECIALCALL_ASSISTANT
+	specialphonecall SPECIALCALL_ASSISTANT
 	writetext FalknerZephyrBadgeText
 	promptbutton
 	verbosegiveitem TM_SANDSTORM
@@ -151,15 +151,11 @@ ReceivedZephyrBadgeText:
 
 FalknerZephyrBadgeText:
 	text "BOULDERBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	line "enables #MON to"
+	cont "use Thunder Wave,"
 
-	para "It also enables"
-	line "#MON to use"
-
-	para "Thunder Wave, if"
-	line "they have it,"
-	cont "anytime."
+	para "if they have it,"
+	line "anytime."
 
 	para "Here--take this"
 	line "too."
