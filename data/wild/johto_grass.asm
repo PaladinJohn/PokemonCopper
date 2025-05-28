@@ -509,29 +509,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
 	db 6, ZUBAT
 	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
 	db 7, SLOWPOKE
+	db 9, ZUBAT
+	db 9, SLOWPOKE
+	db 8, SLOWPOKE
 	; day
-	db 5, ZUBAT
 	db 6, ZUBAT
 	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
 	db 7, SLOWPOKE
+	db 9, ZUBAT
+	db 9, SLOWPOKE
+	db 8, SLOWPOKE
 	; nite
-	db 5, ZUBAT
 	db 6, ZUBAT
 	db 7, ZUBAT
-	db 6, SLOWPOKE
 	db 8, ZUBAT
-	db 8, SLOWPOKE
 	db 7, SLOWPOKE
+	db 9, ZUBAT
+	db 9, SLOWPOKE
+	db 8, SLOWPOKE
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F
@@ -565,29 +565,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, SCATTERBUG
-	db 5, MINCCINO
 	db 7, SCATTERBUG
 	db 7, MINCCINO
-	db 6, PARAS
-	db 7, FLETCHLING
-	db 7, PARAS
+	db 9, SPEWPA
+	db 9, MINCCINO
+	db 8, PARAS
+	db 9, FLETCHLING
+	db 9, PARAS
 	; day
-	db 5, SCATTERBUG
-	db 5, MINCCINO
 	db 7, SCATTERBUG
 	db 7, MINCCINO
-	db 6, PARAS
-	db 7, FLETCHLING
-	db 7, PARAS
+	db 9, SPEWPA
+	db 9, MINCCINO
+	db 8, PARAS
+	db 9, FLETCHLING
+	db 9, PARAS
 	; nite
-	db 5, ODDISH
-	db 5, PAWMI
 	db 7, ODDISH
-	db 7, PSYDUCK
-	db 6, PARAS
-	db 7, HOOTHOOT
-	db 7, PARAS
+	db 7, PAWMI
+	db 9, ODDISH
+	db 9, PSYDUCK
+	db 8, PARAS
+	db 9, HOOTHOOT
+	db 9, PARAS
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE

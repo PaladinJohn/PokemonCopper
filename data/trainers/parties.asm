@@ -108,7 +108,7 @@ Rival1Group:
 	db "?@", TRAINERTYPE_NORMAL
 	db 12, ROOKIDEE
 	db 14, PAWMI
-	db 16, CROCONAW
+	db 16, TOTODILE
 	db -1 ; end
 
 	; RIVAL1 (7)
