@@ -7,7 +7,6 @@ AsleepTreeMonsNite:
 	db VENIPEDE
 	db LEDYBA
 	db AIPOM
-	db MINCCINO
 	db SMOLIV
 	db -1 ; end
 
@@ -16,6 +15,7 @@ AsleepTreeMonsDay:
 	db ZUBAT
 	db HOOTHOOT
 	db HERACROSS
+	db NOIBAT
 	db -1 ; end
 
 AsleepTreeMonsMorn:
@@ -23,4 +23,5 @@ AsleepTreeMonsMorn:
 	db ZUBAT
 	db HOOTHOOT
 	db HERACROSS
+	db NOIBAT
 	db -1 ; end

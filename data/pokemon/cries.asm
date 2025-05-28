@@ -241,7 +241,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
 	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
-	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
+	mon_cry CRY_SEEL,       2813,  246 ; NOIBAT
 	mon_cry CRY_MUK,        3552,  292 ; SPIRITOMB
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
 	mon_cry CRY_SENTRET,    2738,  388 ; VENIPEDE

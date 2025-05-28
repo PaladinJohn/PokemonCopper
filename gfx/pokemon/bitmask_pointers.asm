@@ -235,7 +235,7 @@ BitmasksPointers:
 	dw Porygon2Bitmasks
 	dw StantlerBitmasks
 	dw SmeargleBitmasks
-	dw TyrogueBitmasks
+	dw NoibatBitmasks
 	dw SpiritombBitmasks
 	dw SmoochumBitmasks
 	dw VenipedeBitmasks

@@ -235,7 +235,7 @@ FramesPointers:
 	dw Porygon2Frames
 	dw StantlerFrames
 	dw SmeargleFrames
-	dw TyrogueFrames
+	dw NoibatFrames
 	dw SpiritombFrames
 	dw SmoochumFrames
 	dw VenipedeFrames

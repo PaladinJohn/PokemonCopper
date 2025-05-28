@@ -3161,10 +3161,19 @@ SmeargleEvosAttacks:
 	db 91, SKETCH
 	db 0 ; no more level-up moves
 
-TyrogueEvosAttacks:
-	db EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
+NoibatEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, SCREECH
+	db 6, SUPERSONIC
+	db 11, TACKLE
+	db 16, LEECH_LIFE
+	db 21, GUST
+	db 26, BITE
+	db 31, WING_ATTACK
+	db 36, AGILITY
+	db 41, RAZOR_WIND
+	db 46, WHIRLWIND
+	db 51, SUPER_FANG
 	db 0 ; no more level-up moves
 
 SpiritombEvosAttacks:

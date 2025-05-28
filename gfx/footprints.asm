@@ -537,7 +537,7 @@ INCBIN "gfx/footprints/donphan.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/porygon2.1bpp",   footprint_top
 INCBIN "gfx/footprints/stantler.1bpp",   footprint_top
 INCBIN "gfx/footprints/smeargle.1bpp",   footprint_top
-INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
+INCBIN "gfx/footprints/noibat.1bpp",     footprint_top
 INCBIN "gfx/footprints/spiritomb.1bpp",  footprint_top
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_top
 INCBIN "gfx/footprints/venipede.1bpp",   footprint_top
@@ -546,7 +546,7 @@ INCBIN "gfx/footprints/magby.1bpp",      footprint_top
 INCBIN "gfx/footprints/porygon2.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/stantler.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/smeargle.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/noibat.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/spiritomb.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/venipede.1bpp",   footprint_bottom

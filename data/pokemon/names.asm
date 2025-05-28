@@ -235,7 +235,7 @@ PokemonNames::
 	db "PORYGON2@@"
 	db "STANTLER@@"
 	db "SMEARGLE@@"
-	db "TYROGUE@@@"
+	db "NOIBAT@@@@"
 	db "SPIRITOMB@"
 	db "SMOOCHUM@@"
 	db "VENIPEDE@@"

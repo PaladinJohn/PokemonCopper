@@ -140,6 +140,7 @@ AlphabeticalPokedexOrder:
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL
+	db NOIBAT
 	db OCTILLERY
 	db ODDISH
 	db OMANYTE
@@ -228,7 +229,6 @@ AlphabeticalPokedexOrder:
 	db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
-	db TYROGUE
 	db UMBREON
 	db UNOWN
 	db URSARING

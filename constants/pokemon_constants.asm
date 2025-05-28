@@ -255,7 +255,7 @@ DEF JOHTO_POKEMON EQU const_value
 	const PORYGON2   ; e9
 	const STANTLER   ; ea
 	const SMEARGLE   ; eb
-	const TYROGUE    ; ec
+	const NOIBAT     ; ec
 	const SPIRITOMB  ; ed
 	const SMOOCHUM   ; ee
 	const VENIPEDE   ; ef

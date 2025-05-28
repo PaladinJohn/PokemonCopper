@@ -46,6 +46,8 @@ NewPokedexOrder:
 	db SHINX
 	db LUXIO
 	db LUXRAY
+	db RIOLU
+	db LUCARIO
 	db FLETCHLING
 	db FLETCHINDR
 	db PIDGEOT
@@ -82,8 +84,8 @@ NewPokedexOrder:
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE
-	db RIOLU
-	db LUCARIO
+	db ZORUA
+	db ZOROARK
 	db IGGLYBUFF
 	db JIGGLYPUFF
 	db WIGGLYTUFF
@@ -106,10 +108,9 @@ NewPokedexOrder:
 	db VENIPEDE
 	db WHIRLIPEDE
 	db SCOLIPEDE
-	db ZORUA
-	db ZOROARK
 	db MINCCINO
 	db CINCCINO
+	db NOIBAT
 	db YAMPER
 	db BOLTUND
 	db NIDORAN_F
@@ -137,6 +138,8 @@ NewPokedexOrder:
 	db DURANT
 	db MUDBRAY
 	db MUDSDALE
+	db MEOWTH
+	db PERRSERKER
 	db SPINARAK
 	db ARIADOS
 	db CLEFFA
@@ -161,12 +164,9 @@ NewPokedexOrder:
 	db AZUMARILL
 	db MANKEY
 	db PRIMEAPE
-	db MEOWTH
-	db PERRSERKER
 	db TIMBURR
 	db MACHOKE
 	db MACHAMP
-	db TYROGUE
 	db HITMONLEE
 	db SIGILYPH
 	db SPIRITOMB

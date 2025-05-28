@@ -235,7 +235,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw StantlerEggMoves
 	dw NoEggMoves
-	dw TyrogueEggMoves
+	dw NoibatEggMoves
 	dw SpiritombEggMoves
 	dw SmoochumEggMoves
 	dw VenipedeEggMoves

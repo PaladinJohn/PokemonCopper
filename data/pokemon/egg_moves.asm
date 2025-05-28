@@ -759,11 +759,8 @@ StantlerEggMoves:
 	db BITE
 	db -1 ; end
 
-TyrogueEggMoves:
-	db RAPID_SPIN
-	db HI_JUMP_KICK
-	db MACH_PUNCH
-	db MIND_READER
+NoibatEggMoves:
+	db SKY_ATTACK
 	db -1 ; end
 	
 SpiritombEggMoves:
