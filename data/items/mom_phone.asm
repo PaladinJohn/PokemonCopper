@@ -16,21 +16,21 @@ MomItems_1:
 MomItems_2:
 	momitem    900,   600, MOM_ITEM, SUPER_POTION
 	;momitem   2000,  1000, MOM_DOLL, DECO_JIGGLYPUFF_DOLL ; Mystery Gift/Need to put elsewhere.
-	momitem   3000,  1000, MOM_DOLL, DECO_EEVEE_DOLL ; Mystery Gift
+	;momitem   3000,  1000, MOM_DOLL, DECO_EEVEE_DOLL ; Mystery Gift/Need to put elsewhere.
+	momitem   3000,  1000, MOM_DOLL, DECO_STARYU_DOLL ; Mystery Gift
 	momitem   4000,   270, MOM_ITEM, REPEL
-	momitem   5000,  1000, MOM_DOLL, DECO_SPRIGATITO_DOLL ; Mystery Gift
-	momitem   6000,  1000, MOM_DOLL, DECO_STARYU_DOLL ; Mystery Gift
+	;momitem   5000,  1000, MOM_DOLL, DECO_SPRIGATITO_DOLL ; Mystery Gift/Need to put elsewhere.
+	momitem   6000,  1000, MOM_DOLL, DECO_MAGIKARP_DOLL ; Mystery Gift
 	momitem   7000,   600, MOM_ITEM, SUPER_POTION
-	momitem   8000,  1000, MOM_DOLL, DECO_MAGIKARP_DOLL ; Mystery Gift
-	momitem   9000,  1800, MOM_DOLL, DECO_ODDISH_DOLL ; Mystery Gift
+	momitem   8000,  1000, MOM_DOLL, DECO_ODDISH_DOLL ; Mystery Gift
+	momitem   9000,  1000, MOM_DOLL, DECO_GENGAR_DOLL ; Mystery Gift
 	momitem  10000,  1800, MOM_DOLL, DECO_CHARMANDER_DOLL
-	momitem  12000,  2000, MOM_DOLL, DECO_GENGAR_DOLL ; Mystery Gift
-	momitem  14000,  2000, MOM_DOLL, DECO_SHELLDER_DOLL ; Mystery Gift
+	momitem  12000,  2000, MOM_DOLL, DECO_SHELLDER_DOLL ; Mystery Gift
+	momitem  14000,  2000, MOM_DOLL, DECO_GRIMER_DOLL ; Mystery Gift
 	momitem  15000,  3000, MOM_ITEM, MOON_STONE
-	momitem  18000,  3000, MOM_DOLL, DECO_GRIMER_DOLL ; Mystery Gift
+	momitem  18000,  2000, MOM_DOLL, DECO_VOLTORB_DOLL ; Mystery Gift
 	momitem  19000,   600, MOM_ITEM, SUPER_POTION
-	momitem  21000,  3000, MOM_DOLL, DECO_VOLTORB_DOLL ; Mystery Gift
-	momitem  24000,  3000, MOM_DOLL, DECO_CLEFAIRY_POSTER ; Mystery Gift
+	momitem  24000,  2000, MOM_DOLL, DECO_CLEFAIRY_POSTER ; Mystery Gift
 	momitem  27000,  3000, MOM_DOLL, DECO_JIGGLYPUFF_POSTER ; Mystery Gift
 	momitem  30000,  4800, MOM_DOLL, DECO_CLEFAIRY_DOLL
 	momitem  34000,  4800, MOM_DOLL, DECO_SNES ; Mystery Gift
@@ -38,7 +38,7 @@ MomItems_2:
 	momitem  40000,   900, MOM_ITEM, HYPER_POTION
 	momitem  48000,  4800, MOM_DOLL, DECO_GEODUDE_DOLL ; Mystery Gift
 	momitem  50000,  8000, MOM_DOLL, DECO_TOTODILE_DOLL
-	momitem  60000,  8000, MOM_DOLL, DECO_MACHOP_DOLL ; Mystery Gift
+	momitem  60000,  8000, MOM_DOLL, DECO_HOUNDOUR_DOLL ; Mystery Gift
 	momitem  67000,  8000, MOM_DOLL, DECO_MAGNAPLANT ; Mystery Gift
 	momitem  75000,  8000, MOM_DOLL, DECO_TROPICPLANT ; Mystery Gift
 	momitem  83000,  8000, MOM_DOLL, DECO_FAMICOM ; Mystery Gift

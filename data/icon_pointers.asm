@@ -21,6 +21,7 @@ IconPointers:
 	dw JigglypuffIcon
 	dw WigglytuffIcon
 	dw BatIcon
+	dw OddishIcon
 	dw VileplumeIcon
 	dw ParasectIcon
 	dw GolduckIcon
@@ -51,7 +52,6 @@ IconPointers:
 	dw FishIcon
 	dw GyaradosIcon
 	dw LaprasIcon
-	dw OddishIcon
 	dw BugIcon
 	dw HumanshapeIcon
 	dw EquineIcon
@@ -92,7 +92,6 @@ IconPointers:
 	dw MisdreavusIcon
 	dw UnownIcon
 	dw GeodudeIcon
-	dw FighterIcon
 	dw WobbuffetIcon
 	dw GirafarigIcon
 	dw DunsparceIcon
@@ -116,8 +115,19 @@ IconPointers:
 	dw StantlerIcon
 	dw SmeargleIcon
 	dw MiltankIcon
+	dw BlisseyIcon
+	dw TyranitarIcon
 	dw EggIcon
 	dw JellyfishIcon
 	dw LugiaIcon
 	dw SlowpokeIcon
+	dw SwalotIcon
+	dw AbsolIcon
+	dw RegirockIcon
+	dw LuxrayIcon
+	dw SpiritombIcon
+	dw LucarioIcon
+	dw LeafeonIcon
+	dw VictiniIcon
+	dw ZebstrikaIcon
 	assert_table_length NUM_ICONS + 1

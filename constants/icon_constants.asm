@@ -20,6 +20,7 @@
 	const ICON_JIGGLYPUFF
 	const ICON_WIGGLYTUFF
 	const ICON_BAT
+	const ICON_ODDISH
 	const ICON_VILEPLUME
 	const ICON_PARASECT
 	const ICON_GOLDUCK
@@ -50,7 +51,6 @@
 	const ICON_FISH
 	const ICON_GYARADOS
 	const ICON_LAPRAS
-	const ICON_ODDISH
 	const ICON_BUG
 	const ICON_HUMANSHAPE
 	const ICON_EQUINE
@@ -91,7 +91,6 @@
 	const ICON_MISDREAVUS
 	const ICON_UNOWN
 	const ICON_GEODUDE
-	const ICON_FIGHTER
 	const ICON_WOBBUFFET
 	const ICON_GIRAFARIG
 	const ICON_DUNSPARCE
@@ -115,10 +114,21 @@
 	const ICON_STANTLER
 	const ICON_SMEARGLE
 	const ICON_MILTANK
+	const ICON_BLISSEY
+	const ICON_TYRANITAR
 	const ICON_EGG
 	const ICON_JELLYFISH
 	const ICON_LUGIA
 	const ICON_SLOWPOKE
+	const ICON_SWALOT
+	const ICON_ABSOL
+	const ICON_REGIROCK
+	const ICON_LUXRAY
+	const ICON_SPIRITOMB
+	const ICON_LUCARIO
+	const ICON_LEAFEON
+	const ICON_VICTINI
+	const ICON_ZEBSTRIKA
 DEF NUM_ICONS EQU const_value - 1
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
