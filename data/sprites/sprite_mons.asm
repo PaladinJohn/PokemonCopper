@@ -27,7 +27,7 @@ SpriteMons:
 	db PARAS
 	db TENTACOOL
 	db MILTANK
-	db TIMBURR
+	db LUCARIO
 	db ELECTRODE
 	db LAPRAS
 	db RHYDON
