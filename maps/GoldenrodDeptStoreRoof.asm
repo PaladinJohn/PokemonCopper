@@ -90,8 +90,89 @@ Binoculars2:
 Binoculars3:
 	jumptext Binoculars3Text
 
+;Pokedoll script from Polished Crystal
 PokeDollVendingMachine:
-	jumptext PokeDollVendingMachineText
+	;jumptext PokeDollVendingMachineText
+	opentext
+	writetext PokeDollVendingMachineText
+	special PlaceMoneyTopRight
+.Start:
+	loadmenu .MenuData
+	verticalmenu
+	closewindow
+	ifequal $1, .JigglypuffDoll
+	ifequal $2, .EeveeDoll
+	ifequal $3, .SprigatitoDoll
+	closetext
+
+.JigglypuffDoll:
+	checkmoney YOUR_MONEY, 2400
+	ifequal HAVE_LESS, .NotEnoughMoney
+	checkevent EVENT_DECO_JIGGLYPUFF_DOLL
+	iftrue .AlreadyBought
+	takemoney YOUR_MONEY, 2400
+	setevent EVENT_DECO_JIGGLYPUFF_DOLL
+	writetext BoughtJigglypuffDollText
+	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
+	waitbutton
+	writetext JigglypuffDollSentText
+	waitbutton
+	sjump .Start
+
+.EeveeDoll:
+	checkmoney YOUR_MONEY, 2400
+	ifequal HAVE_LESS, .NotEnoughMoney
+	checkevent EVENT_DECO_EEVEE_DOLL
+	iftrue .AlreadyBought
+	takemoney YOUR_MONEY, 2400
+	setevent EVENT_DECO_EEVEE_DOLL
+	writetext BoughtEeveeDollText
+	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
+	waitbutton
+	writetext EeveeDollSentText
+	waitbutton
+	sjump .Start
+
+.SprigatitoDoll:
+	checkmoney YOUR_MONEY, 2400
+	ifequal HAVE_LESS, .NotEnoughMoney
+	checkevent EVENT_DECO_SPRIGATITO_DOLL
+	iftrue .AlreadyBought
+	takemoney YOUR_MONEY, 2400
+	setevent EVENT_DECO_SPRIGATITO_DOLL
+	writetext BoughtSprigatitoDollText
+	playsound SFX_TRANSACTION
+	special PlaceMoneyTopRight
+	waitbutton
+	writetext SprigatitoDollSentText
+	waitbutton
+	sjump .Start
+
+.NotEnoughMoney:
+	writetext PokeDollVendingMachineNoMoneyText
+	waitbutton
+	sjump .Start
+
+.AlreadyBought:
+	writetext PokeDollVendingMachineAlreadyBoughtText
+	waitbutton
+	sjump .Start
+
+.MenuData:
+	db MENU_BACKUP_TILES
+	menu_coords 0, 2, 19, 11
+	dw .MenuData2
+	db 1 ; default option
+
+.MenuData2:
+	db $80 ; flags
+	db 4 ; items
+	db "Jigglypuff  ¥2400@"
+	db "Eevee       ¥2400@"
+	db "Sprigatito  ¥2400@"
+	db "Cancel@"
 	
 GoldenrodDeptStoreRoofMysteryGiftScript:
 	opentext
@@ -120,7 +201,7 @@ GoldenrodDeptStoreRoofMysteryGiftScript:
 	end
 
 .NoRoom
-	writetext MysterGiftNoRoom
+	writetext MysteryGiftNoRoom
 	waitbutton
 	closetext
 	end
@@ -261,13 +342,45 @@ Binoculars3Text:
 
 PokeDollVendingMachineText:
 	text "A vending machine"
-	line "for #MON dolls?"
+	line "for #mon dolls!"
+	done
 
-	para "Insert money, then"
-	line "turn the crank…"
+PokeDollVendingMachineNoMoneyText:
+	text "It costs too much!"
+	done
 
-	para "But it's almost"
-	line "empty…"
+PokeDollVendingMachineAlreadyBoughtText:
+	text "It's a duplicate!"
+	done
+
+BoughtJigglypuffDollText:
+	text "<PLAYER> bought"
+	line "Jigglypuff Doll."
+	done
+
+JigglypuffDollSentText:
+	text "Jigglypuff Doll"
+	line "was sent home."
+	done
+
+BoughtEeveeDollText:
+	text "<PLAYER> bought"
+	line "Eevee Doll."
+	done
+
+EeveeDollSentText:
+	text "Eevee Doll"
+	line "was sent home."
+	done
+
+BoughtSprigatitoDollText:
+	text "<PLAYER> bought"
+	line "Sprigatito Doll."
+	done
+
+SprigatitoDollSentText:
+	text "Sprigatito Doll"
+	line "was sent home."
 	done
 
 ; Mystery Gift text from pokemon Peridot. Must be updated in the script.
@@ -292,7 +405,7 @@ MysteryGiftLinkUp:
 	line "up for a sec!"
 	done
 
-MysterGiftNoRoom:
+MysteryGiftNoRoom:
 	text "I guess too many"
 	line "people shared with"
 	cont "you! Hehe!"
