@@ -104,6 +104,7 @@ PokeDollVendingMachine:
 	ifequal $2, .EeveeDoll
 	ifequal $3, .SprigatitoDoll
 	closetext
+	end
 
 .JigglypuffDoll:
 	checkmoney YOUR_MONEY, 2400
@@ -167,7 +168,7 @@ PokeDollVendingMachine:
 	db 1 ; default option
 
 .MenuData2:
-	db $80 ; flags
+	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "Jigglypuff  ¥2400@"
 	db "Eevee       ¥2400@"
