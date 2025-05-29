@@ -683,13 +683,13 @@ _CGB_TrainerCard:
 	jr z, .kris2
 	dec a
 	jr z, .ash2
-	ld a, $3 ; may
+	ld a, $1 ; may
 	jr .got_gender2
 .chris2
 	ld a, $0 ; chris
 	jr .got_gender2
 .kris2
-	ld a, $1 ; kris
+	ld a, $4 ; kris
 	jr .got_gender2
 .ash2
 	ld a, $2 ; ash
