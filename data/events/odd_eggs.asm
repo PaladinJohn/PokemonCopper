@@ -13,21 +13,24 @@ DEF prob_total = 0
 	prob 8
 	prob 1
 ; Hoothoot
-	prob 16
+	prob 14
 	prob 3
 ; Houndour
-	prob 16
+	prob 14
 	prob 3
 ; Blitzle
-	prob 16
-	prob 3
+	prob 13
+	prob 2
 ; Totodile
 	prob 8
 	prob 1
 ; Eevee
-	prob 14
+	prob 13
 	prob 2
 ; Sprigatito
+	prob 8
+	prob 1
+; Minccino
 	prob 8
 	prob 1
 	assert_table_length NUM_ODD_EGGS
@@ -400,4 +403,56 @@ OddEggs:
 	bigdw 6 ; SDef
 	db "Egg@@@@@@@@"
 
+	db MINCCINO
+	db NO_ITEM
+	db POUND, GROWL, SAFEGUARD, 0
+	dw 02560 ; OT ID
+	dt 0 ; Exp
+	; Stat exp
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	dn 4, 5, 14, 5 ; DVs
+	db 35, 40, 25, 0 ; PP
+	db 15 ; Step cycles to hatch
+	db 0, 0, 0 ; Pokerus, Caught data
+	db EGG_LEVEL ; Level
+	db 0, 0 ; Status
+	bigdw 0 ; HP
+	bigdw 10 ; Max HP
+	bigdw 6 ; Atk
+	bigdw 6 ; Def
+	bigdw 6 ; Spd
+	bigdw 6 ; SAtk
+	bigdw 6 ; SDef
+	db "Egg@@@@@@@@"
+
+	db MINCCINO
+	db NO_ITEM
+	db POUND, GROWL, 0, 0
+	dw 02560 ; OT ID
+	dt 0 ; Exp
+	; Stat exp
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	bigdw 0
+	dn 15, 10, 10, 10 ; DVs
+	db 35, 40, 0, 0 ; PP
+	db 15 ; Step cycles to hatch
+	db 0, 0, 0 ; Pokerus, Caught data
+	db EGG_LEVEL ; Level
+	db 0, 0 ; Status
+	bigdw 0 ; HP
+	bigdw 10 ; Max HP
+	bigdw 6 ; Atk
+	bigdw 6 ; Def
+	bigdw 6 ; Spd
+	bigdw 6 ; SAtk
+	bigdw 6 ; SDef
+	db "Egg@@@@@@@@"
+	
 	assert_table_length NUM_ODD_EGGS
