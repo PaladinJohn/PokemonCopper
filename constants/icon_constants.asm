@@ -22,6 +22,7 @@
 	const ICON_BAT
 	const ICON_ODDISH
 	const ICON_VILEPLUME
+	const ICON_BUG
 	const ICON_PARASECT
 	const ICON_GOLDUCK
 	const ICON_ARCANINE
@@ -51,7 +52,6 @@
 	const ICON_FISH
 	const ICON_GYARADOS
 	const ICON_LAPRAS
-	const ICON_BUG
 	const ICON_HUMANSHAPE
 	const ICON_EQUINE
 	const ICON_SHELL
@@ -116,8 +116,6 @@
 	const ICON_MILTANK
 	const ICON_BLISSEY
 	const ICON_TYRANITAR
-	const ICON_EGG
-	const ICON_JELLYFISH
 	const ICON_LUGIA
 	const ICON_SLOWPOKE
 	const ICON_SWALOT
@@ -129,6 +127,18 @@
 	const ICON_LEAFEON
 	const ICON_VICTINI
 	const ICON_ZEBSTRIKA
+	const ICON_CONKELDURR
+	const ICON_SCOLIPEDE
+	const ICON_SIGILYPH
+	const ICON_CARRACOSTA
+	const ICON_ZOROARK
+	const ICON_CINCCINO
+	const ICON_DURANT
+	const ICON_RESHIRAM
+	const ICON_TALONFLAME
+	const ICON_VIVILLON
+	const ICON_HAWLUCHA
+	const ICON_EGG
 DEF NUM_ICONS EQU const_value - 1
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
