@@ -42,8 +42,8 @@ MonMenuIcons:
 	db ICON_NINETALES
 	db ICON_JIGGLYPUFF
 	db ICON_WIGGLYTUFF
-	db ICON_BAT         ; ZUBAT
-	db ICON_BAT         ; GOLBAT
+	db ICON_CROBAT      ; ZUBAT
+	db ICON_CROBAT      ; GOLBAT
 	db ICON_ODDISH      ; ODDISH
 	db ICON_ODDISH      ; GLOOM
 	db ICON_VILEPLUME
@@ -52,7 +52,7 @@ MonMenuIcons:
 	db ICON_BUG         ; SNOM
 	db ICON_BUG         ; VENOMOTH
 	db ICON_EQUINE      ; MUDBRAY
-	db ICON_EQUINE      ; MUDSDALE
+	db ICON_MUDSDALE
 	db ICON_FOX         ; MEOWTH
 	db ICON_FOX         ; PERRSERKER
 	db ICON_RHYDON      ; PSYDUCK
@@ -83,7 +83,7 @@ MonMenuIcons:
 	db ICON_SLOWPOKE    ; SLOWPOKE
 	db ICON_SLOWBRO
 	db ICON_FOX         ; YAMPER
-	db ICON_FOX         ; BOLTUND
+	db ICON_BOLTUND
 	db ICON_FARFETCH_D
 	db ICON_FOX         ; PAWMI
 	db ICON_RHYDON      ; PAWMO
@@ -237,7 +237,7 @@ MonMenuIcons:
 	db ICON_PORYGON2
 	db ICON_STANTLER
 	db ICON_SMEARGLE
-	db ICON_BAT         ; NOIBAT
+	db ICON_NOIVERN     ; NOIBAT
 	db ICON_SPIRITOMB
 	db ICON_HUMANSHAPE  ; SMOOCHUM
 	db ICON_BUG         ; VENIPEDE

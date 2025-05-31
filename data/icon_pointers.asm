@@ -20,13 +20,13 @@ IconPointers:
 	dw NinetalesIcon
 	dw JigglypuffIcon
 	dw WigglytuffIcon
-	dw BatIcon
 	dw OddishIcon
 	dw VileplumeIcon
 	dw BugIcon
 	dw ParasectIcon
 	dw GolduckIcon
 	dw ArcanineIcon
+	dw HumanshapeIcon
 	dw AlakazamIcon
 	dw VictreebelIcon
 	dw TentacruelIcon
@@ -53,7 +53,6 @@ IconPointers:
 	dw FishIcon
 	dw GyaradosIcon
 	dw LaprasIcon
-	dw HumanshapeIcon
 	dw EquineIcon
 	dw ShellIcon
 	dw BlobIcon
@@ -139,5 +138,16 @@ IconPointers:
 	dw TalonflameIcon
 	dw VivillonIcon
 	dw HawluchaIcon
+	dw NoivernIcon
+	dw LycanrocIcon
+	dw ToxapexIcon
+	dw MudsdaleIcon
+	dw BewearIcon
+	dw MimikyuIcon
+	dw SolgaleoIcon
+	dw LunalaIcon
+	dw NihilegoIcon
+	dw CorviknightIcon
+	dw BoltundIcon
 	dw EggIcon
 	assert_table_length NUM_ICONS + 1
