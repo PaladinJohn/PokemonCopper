@@ -353,7 +353,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, FLETCHLING
-	db 10, SCATTERBUG
+	db 10, SPEWPA
 	db 10, SHINX
 	db 11, SHINX
 	; nite
