@@ -3,6 +3,7 @@ IconPointers:
 	table_width 2, IconPointers
 	dw NullIcon
 	dw BulbasaurIcon
+	dw IvysaurIcon
 	dw VenusaurIcon
 	dw CharmanderIcon
 	dw CharizardIcon
@@ -30,6 +31,7 @@ IconPointers:
 	dw AlakazamIcon
 	dw VictreebelIcon
 	dw TentacruelIcon
+	dw GeodudeIcon
 	dw GolemIcon
 	dw RapidashIcon
 	dw SlowbroIcon
@@ -90,7 +92,6 @@ IconPointers:
 	dw SlowkingIcon
 	dw MisdreavusIcon
 	dw UnownIcon
-	dw GeodudeIcon
 	dw WobbuffetIcon
 	dw GirafarigIcon
 	dw DunsparceIcon
@@ -117,7 +118,6 @@ IconPointers:
 	dw BlisseyIcon
 	dw TyranitarIcon
 	dw LugiaIcon
-	dw SlowpokeIcon
 	dw SwalotIcon
 	dw AbsolIcon
 	dw RegirockIcon
@@ -149,5 +149,15 @@ IconPointers:
 	dw NihilegoIcon
 	dw CorviknightIcon
 	dw BoltundIcon
+	dw PerrserkerIcon
+	dw FrosmothIcon
+	dw ArctozoltIcon
+	dw SpectrierIcon
+	dw MeowscaradaIcon
+	dw PawmotIcon
+	dw ArbolivaIcon
+	dw ScovillainIcon
+	dw BombirdierIcon
+	dw HoundstoneIcon
 	dw EggIcon
 	assert_table_length NUM_ICONS + 1
