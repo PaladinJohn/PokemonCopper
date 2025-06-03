@@ -209,7 +209,7 @@ DEF KRIS EQU __trainer_class__
 	const BLAKE
 	const BRIAN
 	const ERICK ; Iain; Goldenrod Gym
-	const ANDY ; unused
+	const ANDY ; Pat; Cianwood Gym
 	const TYLER ; unused
 	const SEAN
 	const KEVIN
@@ -334,7 +334,7 @@ DEF KRIS EQU __trainer_class__
 	const ED
 	const WADE1
 	const BUG_CATCHER_BENNY ; Lee; Goldenrod Gym
-	const AL ; unused
+	const AL ; Philip; Cianwood Gym
 	const JOSH ; unused
 	const ARNIE1
 	const KEN
@@ -528,10 +528,10 @@ DEF KRIS EQU __trainer_class__
 	const KENJI1 ; Peter; Goldenrod Gym
 	const YOSHI
 	const KENJI2 ; unused
-	const LAO
-	const NOB
+	const LAO ; unused
+	const NOB ; unused
 	const KIYO
-	const LUNG
+	const LUNG ; unused
 	const KENJI3
 	const WAI
 
@@ -617,7 +617,7 @@ DEF KRIS EQU __trainer_class__
 	const NICO
 	const JIN
 	const TROY
-	const JEFFREY ; unused
+	const JEFFREY ; Katsuhisa; Cianwood Gym
 	const PING ; unused
 	const EDMOND
 	const NEAL
