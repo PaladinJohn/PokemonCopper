@@ -124,6 +124,7 @@ EngineFlags:
 	engine_flag wDailyFlags2, DAILYFLAGS2_BUENAS_PASSWORD_F
 	
 	engine_flag wDailyFlags3, DAILYFLAGS3_MYSTERY_GIFT_1
+	engine_flag wDailyFlags3, DAILYFLAGS3_MYSTERY_GIFT_2
 
 	engine_flag wSwarmFlags, SWARMFLAGS_BUENAS_PASSWORD_F
 	engine_flag wSwarmFlags, SWARMFLAGS_GOLDENROD_DEPT_STORE_SALE_F
