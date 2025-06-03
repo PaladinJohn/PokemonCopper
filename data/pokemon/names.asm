@@ -166,7 +166,7 @@ PokemonNames::
 	db "Noctowl@@@"
 	db "Ledyba@@@@"
 	db "Ledian@@@@"
-	db "Spinarak@@"
+	db "Arctozolt@"
 	db "Ariados@@@"
 	db "Crobat@@@@"
 	db "Chinchou@@"

@@ -167,7 +167,7 @@ PokedexDataPointerTable:
 	dw NoctowlPokedexEntry
 	dw LedybaPokedexEntry
 	dw LedianPokedexEntry
-	dw SpinarakPokedexEntry
+	dw ArctozoltPokedexEntry
 	dw AriadosPokedexEntry
 	dw CrobatPokedexEntry
 	dw ChinchouPokedexEntry

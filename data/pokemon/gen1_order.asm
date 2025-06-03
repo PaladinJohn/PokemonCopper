@@ -206,7 +206,7 @@ Pokered_MonIndices:
 	db NOCTOWL
 	db LEDYBA
 	db LEDIAN
-	db SPINARAK
+	db ARCTOZOLT
 	db ARIADOS
 	db CROBAT
 	db CHINCHOU

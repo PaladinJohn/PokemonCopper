@@ -168,7 +168,7 @@ MonMenuIcons:
 	db ICON_NOCTOWL
 	db ICON_BUG         ; LEDYBA
 	db ICON_LEDIAN
-	db ICON_BUG         ; SPINARAK
+	db ICON_ARCTOZOLT
 	db ICON_BUG         ; ARIADOS
 	db ICON_CROBAT
 	db ICON_FISH        ; CHINCHOU

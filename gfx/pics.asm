@@ -560,7 +560,7 @@ ZoruaBackpic:        INCBIN "gfx/pokemon/zorua/back.2bpp.lz"
 ChinchouBackpic:     INCBIN "gfx/pokemon/chinchou/back.2bpp.lz"
 ChanseyBackpic:      INCBIN "gfx/pokemon/chansey/back.2bpp.lz"
 DollivBackpic:       INCBIN "gfx/pokemon/dolliv/back.2bpp.lz"
-SpinarakFrontpic:    INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lz"
+ArctozoltFrontpic:   INCBIN "gfx/pokemon/arctozolt/front.animated.2bpp.lz"
 Rival2Pic:           INCBIN "gfx/trainers/rival2.2bpp.lz"
 UnownWFrontpic:      INCBIN "gfx/pokemon/unown_w/front.animated.2bpp.lz"
 CharmanderBackpic:   INCBIN "gfx/pokemon/charmander/back.2bpp.lz"
@@ -640,7 +640,7 @@ UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 
 SECTION "Pics 18", ROMX
 
-SpinarakBackpic:     INCBIN "gfx/pokemon/spinarak/back.2bpp.lz"
+ArctozoltBackpic:    INCBIN "gfx/pokemon/arctozolt/back.2bpp.lz"
 RegirockBackpic:     INCBIN "gfx/pokemon/regirock/back.2bpp.lz"
 UnownKFrontpic:      INCBIN "gfx/pokemon/unown_k/front.animated.2bpp.lz"
 HoundourBackpic:     INCBIN "gfx/pokemon/houndour/back.2bpp.lz"

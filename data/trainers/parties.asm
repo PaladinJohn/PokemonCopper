@@ -3378,7 +3378,7 @@ KimonoGirlGroup:
 TwinsGroup:
 	; TWINS (1)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, SPINARAK
+	db 10, ARCTOZOLT
 	db 10, LEDYBA
 	db -1 ; end
 
@@ -3397,7 +3397,7 @@ TwinsGroup:
 	; TWINS (4)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
 	db 10, LEDYBA
-	db 10, SPINARAK
+	db 10, ARCTOZOLT
 	db -1 ; end
 
 	; TWINS (5)

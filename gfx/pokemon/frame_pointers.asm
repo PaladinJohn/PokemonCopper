@@ -166,7 +166,7 @@ FramesPointers:
 	dw NoctowlFrames
 	dw LedybaFrames
 	dw LedianFrames
-	dw SpinarakFrames
+	dw ArctozoltFrames
 	dw AriadosFrames
 	dw CrobatFrames
 	dw ChinchouFrames

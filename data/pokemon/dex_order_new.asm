@@ -123,6 +123,8 @@ NewPokedexOrder:
 	db WEEZING
 	db SCYTHER
 	db SCIZOR
+	db MAGBY
+	db MAGMAR
 	db EEVEE
 	db VAPOREON
 	db JOLTEON
@@ -140,7 +142,7 @@ NewPokedexOrder:
 	db MUDSDALE
 	db MEOWTH
 	db PERRSERKER
-	db SPINARAK
+	db ARCTOZOLT
 	db ARIADOS
 	db CLEFFA
 	db CLEFAIRY
@@ -173,8 +175,6 @@ NewPokedexOrder:
 	db GIRAFARIG
 	db TAUROS
 	db MILTANK
-	db MAGBY
-	db MAGMAR
 	db SMOOCHUM
 	db JYNX
 	db CAPSAKID

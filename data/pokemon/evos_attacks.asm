@@ -2286,19 +2286,19 @@ LedianEvosAttacks:
 	db 60, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-SpinarakEvosAttacks:
-	db EVOLVE_LEVEL, 22, ARIADOS
+ArctozoltEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
-	db 6, SCARY_FACE
-	db 11, CONSTRICT
-	db 17, NIGHT_SHADE
-	db 23, LEECH_LIFE
-	db 30, FURY_SWIPES
-	db 37, SPIDER_WEB
-	db 45, AGILITY
-	db 53, PSYCHIC_M
+	db 1, POWDER_SNOW
+	db 1, THUNDERSHOCK
+	db 6, CHARGE
+	db 11, POUND
+	db 17, ANCIENTPOWER
+	db 25, WING_ATTACK
+	db 34, ICY_WIND
+	db 43, AURORA_BEAM
+	db 45, SLAM
+	db 53, THUNDERPUNCH
+	db 63, BLIZZARD
 	db 0 ; no more level-up moves
 
 AriadosEvosAttacks:

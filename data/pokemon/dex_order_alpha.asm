@@ -9,6 +9,7 @@ AlphabeticalPokedexOrder:
 	db ALAKAZAM
 	db AMPHAROS
 	db ARCANINE
+	db ARCTOZOLT
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
@@ -205,7 +206,6 @@ AlphabeticalPokedexOrder:
 	db SPEAROW
 	db SPECTRIER
 	db SPEWPA
-	db SPINARAK
 	db SPIRITOMB
 	db SPRIGATITO
 	db SQUIRTLE
