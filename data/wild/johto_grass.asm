@@ -369,28 +369,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 19, NATU
+	db 21, NATU
+	db 23, NATU
 	db 20, SMEARGLE
-	db 22, SMEARGLE
+	db 20, SIGILYPH
+	db 21, SMEARGLE
 	db 22, SMEARGLE
 	; day
-	db 20, NATU
-	db 22, NATU
-	db 18, NATU
-	db 24, NATU
+	db 19, NATU
+	db 21, NATU
+	db 23, NATU
 	db 20, SMEARGLE
-	db 22, SMEARGLE
+	db 20, SIGILYPH
+	db 21, SMEARGLE
 	db 22, SMEARGLE
 	; nite
+	db 18, NATU
 	db 20, NATU
 	db 22, NATU
-	db 18, NATU
 	db 24, NATU
-	db 22, WOOPER
-	db 22, QUAGSIRE
+	db 22, SIGILYPH
+	db 20, QUAGSIRE
 	db 22, QUAGSIRE
 	end_grass_wildmons
 
@@ -481,29 +481,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
 	db 22, GOLBAT
-	db 22, ZUBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 24, ONIX
 	; day
-	db 22, ZUBAT
 	db 22, GOLBAT
-	db 22, ZUBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 24, ONIX
 	; nite
-	db 22, ZUBAT
 	db 22, GOLBAT
+	db 23, GOLBAT
 	db 22, QUAGSIRE
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 24, ONIX
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
@@ -537,28 +537,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, ZUBAT
-	db 23, ZUBAT
 	db 19, ZUBAT
+	db 20, ZUBAT
+	db 21, ZUBAT
 	db 21, SLOWPOKE
 	db 23, GOLBAT
-	db 23, SLOWPOKE
+	db 22, SLOWPOKE
 	db 23, SLOWPOKE
 	; day
-	db 21, ZUBAT
-	db 23, ZUBAT
 	db 19, ZUBAT
+	db 20, ZUBAT
+	db 21, ZUBAT
 	db 21, SLOWPOKE
 	db 23, GOLBAT
-	db 23, SLOWPOKE
+	db 22, SLOWPOKE
 	db 23, SLOWPOKE
 	; nite
-	db 21, ZUBAT
-	db 23, ZUBAT
 	db 19, ZUBAT
+	db 20, ZUBAT
+	db 21, ZUBAT
 	db 21, SLOWPOKE
 	db 23, GOLBAT
-	db 23, SLOWPOKE
+	db 22, SLOWPOKE
 	db 23, SLOWPOKE
 	end_grass_wildmons
 
