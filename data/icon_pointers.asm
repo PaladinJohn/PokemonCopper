@@ -6,24 +6,33 @@ IconPointers:
 	dw IvysaurIcon
 	dw VenusaurIcon
 	dw CharmanderIcon
+	dw CharmeleonIcon
 	dw CharizardIcon
 	dw SquirtleIcon
+	dw WartortleIcon
 	dw BlastoiseIcon
-	dw FoxIcon
+	dw RattataIcon
 	dw RaticateIcon
-	dw BirdIcon
+	dw SpearowIcon
 	dw FearowIcon
+	dw SandshrewIcon
 	dw SandslashIcon
+	dw FoxIcon
+	dw NidorinaIcon
 	dw NidoqueenIcon
+	dw NidorinoIcon
 	dw NidokingIcon
 	dw ClefairyIcon
 	dw ClefableIcon
+	dw VulpixIcon
 	dw NinetalesIcon
 	dw JigglypuffIcon
 	dw WigglytuffIcon
+	dw GolbatIcon
 	dw OddishIcon
+	dw GloomIcon
 	dw VileplumeIcon
-	dw BugIcon
+	dw ParasIcon
 	dw ParasectIcon
 	dw GolduckIcon
 	dw ArcanineIcon
@@ -33,6 +42,7 @@ IconPointers:
 	dw TentacruelIcon
 	dw GeodudeIcon
 	dw GolemIcon
+	dw EquineIcon
 	dw RapidashIcon
 	dw SlowbroIcon
 	dw FarfetchDIcon
@@ -50,12 +60,12 @@ IconPointers:
 	dw KangaskhanIcon
 	dw StaryuIcon
 	dw StarmieIcon
+	dw BugIcon
 	dw MagmarIcon
 	dw TaurosIcon
 	dw FishIcon
 	dw GyaradosIcon
 	dw LaprasIcon
-	dw EquineIcon
 	dw ShellIcon
 	dw BlobIcon
 	dw SerpentIcon
@@ -63,7 +73,6 @@ IconPointers:
 	dw VaporeonIcon
 	dw JolteonIcon
 	dw FlareonIcon
-	dw VoltorbIcon
 	dw KabutopsIcon
 	dw AerodactylIcon
 	dw SnorlaxIcon
@@ -74,6 +83,7 @@ IconPointers:
 	dw TyphlosionIcon
 	dw FeraligatrIcon
 	dw FurretIcon
+	dw BirdIcon
 	dw NoctowlIcon
 	dw LedianIcon
 	dw CrobatIcon
