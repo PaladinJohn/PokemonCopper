@@ -72,6 +72,7 @@ AlphabeticalPokedexOrder:
 	db GOLDUCK
 	db GOLEM
 	db GRAVELER
+	db GREAVARD
 	db GRIMER
 	db GROWLITHE
 	db GYARADOS
@@ -115,7 +116,6 @@ AlphabeticalPokedexOrder:
 	db MAGCARGO
 	db MAGIKARP
 	db MAGMAR
-	db MANKEY
 	db MANTINE
 	db MAREANIE
 	db MAREEP

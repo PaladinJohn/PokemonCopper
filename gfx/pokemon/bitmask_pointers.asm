@@ -55,7 +55,7 @@ BitmasksPointers:
 	dw PerrserkerBitmasks
 	dw PsyduckBitmasks
 	dw GolduckBitmasks
-	dw MankeyBitmasks
+	dw GreavardBitmasks
 	dw PrimeapeBitmasks
 	dw GrowlitheBitmasks
 	dw ArcanineBitmasks

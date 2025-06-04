@@ -55,7 +55,7 @@ AnimationPointers:
 	dw PerrserkerAnimation
 	dw PsyduckAnimation
 	dw GolduckAnimation
-	dw MankeyAnimation
+	dw GreavardAnimation
 	dw PrimeapeAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation

@@ -55,7 +55,7 @@ PokemonNames::
 	db "Perrserker"
 	db "Psyduck@@@"
 	db "Golduck@@@"
-	db "Mankey@@@@"
+	db "Greavard@@"
 	db "Primeape@@"
 	db "Growlithe@"
 	db "Arcanine@@"

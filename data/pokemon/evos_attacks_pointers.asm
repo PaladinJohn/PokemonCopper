@@ -57,7 +57,7 @@ EvosAttacksPointers::
 	dw PerrserkerEvosAttacks
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
-	dw MankeyEvosAttacks
+	dw GreavardEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks

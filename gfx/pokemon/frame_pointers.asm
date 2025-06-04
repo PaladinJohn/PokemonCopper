@@ -55,7 +55,7 @@ FramesPointers:
 	dw PerrserkerFrames
 	dw PsyduckFrames
 	dw GolduckFrames
-	dw MankeyFrames
+	dw GreavardFrames
 	dw PrimeapeFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames

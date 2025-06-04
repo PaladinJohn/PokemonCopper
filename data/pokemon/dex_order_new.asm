@@ -164,7 +164,7 @@ NewPokedexOrder:
 	db ELECTRODE
 	db MARILL
 	db AZUMARILL
-	db MANKEY
+	db GREAVARD
 	db PRIMEAPE
 	db TIMBURR
 	db MACHOKE

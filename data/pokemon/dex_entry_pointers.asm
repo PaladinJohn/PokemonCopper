@@ -56,7 +56,7 @@ PokedexDataPointerTable:
 	dw PerrserkerPokedexEntry
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
-	dw MankeyPokedexEntry
+	dw GreavardPokedexEntry
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry

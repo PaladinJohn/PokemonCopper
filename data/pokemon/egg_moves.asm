@@ -165,13 +165,10 @@ PsyduckEggMoves:
 	db CROSS_CHOP
 	db -1 ; end
 
-MankeyEggMoves:
-	db ROCK_SLIDE
-	db FORESIGHT
-	db MEDITATE
-	db COUNTER
-	db REVERSAL
-	db BEAT_UP
+GreavardEggMoves:
+	db DESTINY_BOND
+	db DISABLE
+	db SHARPEN
 	db -1 ; end
 
 GrowlitheEggMoves:

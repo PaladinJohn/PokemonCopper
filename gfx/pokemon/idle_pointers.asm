@@ -55,7 +55,7 @@ AnimationIdlePointers:
 	dw PerrserkerAnimationIdle
 	dw PsyduckAnimationIdle
 	dw GolduckAnimationIdle
-	dw MankeyAnimationIdle
+	dw GreavardAnimationIdle
 	dw PrimeapeAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle

@@ -127,7 +127,7 @@ INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
 INCBIN "gfx/footprints/perrserker.1bpp", footprint_top
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_top
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_top
-INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
+INCBIN "gfx/footprints/greavard.1bpp",   footprint_top
 ; 049-056 bottom halves
 INCBIN "gfx/footprints/venomoth.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mudbray.1bpp",    footprint_bottom
@@ -136,7 +136,7 @@ INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/perrserker.1bpp", footprint_bottom
 INCBIN "gfx/footprints/psyduck.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/golduck.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/greavard.1bpp",   footprint_bottom
 ; 057-064 top halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_top
 INCBIN "gfx/footprints/growlithe.1bpp",  footprint_top

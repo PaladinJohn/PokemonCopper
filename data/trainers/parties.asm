@@ -2677,8 +2677,8 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (7) - REMOVED
 	db "LUNG@", TRAINERTYPE_NORMAL
-	db 23, MANKEY
-	db 23, MANKEY
+	db 23, GREAVARD
+	db 23, GREAVARD
 	db 25, PRIMEAPE
 	db -1 ; end
 
