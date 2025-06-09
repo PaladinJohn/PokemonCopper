@@ -164,7 +164,7 @@ MoveNames::
 	li "Super Fang"
 	li "Slash"
 	li "Bullet Seed"
-	li "Struggle"
+	li "Aerial Ace"
 	li "Sketch"
 	li "Triple Kick"
 	li "Thief"
@@ -254,4 +254,5 @@ MoveNames::
 	li "Heat Wave"
 	li "Sand Tomb"
 	li "Mud Shot"
+	li "Struggle"
 	assert_list_length NUM_ATTACKS

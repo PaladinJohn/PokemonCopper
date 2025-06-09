@@ -178,7 +178,7 @@ Moves:
 	move SUPER_FANG,   EFFECT_SUPER_FANG,          1, NORMAL,        90, 10,   0
 	move SLASH,        EFFECT_NORMAL_HIT,         70, NORMAL,       100, 20,   0
 	move BULLET_SEED,  EFFECT_MULTI_HIT,          11, GRASS,        100, 30,   0
-	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL,       100,  1,   0
+	move AERIAL_ACE,   EFFECT_ALWAYS_HIT,         60, FLYING,       100, 20,   0
 	move SKETCH,       EFFECT_SKETCH,              0, NORMAL,       100,  1,   0
 	move TRIPLE_KICK,  EFFECT_TRIPLE_KICK,        10, FIGHTING,      90, 10,   0
 	move THIEF,        EFFECT_THIEF,              40, DARK,         100, 10, 100
@@ -268,4 +268,5 @@ Moves:
 	move HEAT_WAVE,    EFFECT_BURN_HIT,          100, FIRE,          90, 10,  10
 	move SAND_TOMB,    EFFECT_TRAP_TARGET,        15, GROUND,        70, 15,   0
 	move MUD_SHOT,     EFFECT_SPEED_DOWN_HIT,     55, GROUND,        95, 15, 100
+	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL,       100,  1,   0
 	assert_table_length NUM_ATTACKS

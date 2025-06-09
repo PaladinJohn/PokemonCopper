@@ -165,7 +165,7 @@ MoveDescriptions::
 	dw SuperFangDescription
 	dw SlashDescription
 	dw BulletSeedDescription
-	dw StruggleDescription
+	dw AerialAceDescription
 	dw SketchDescription
 	dw TripleKickDescription
 	dw ThiefDescription
@@ -255,8 +255,8 @@ MoveDescriptions::
 	dw HeatWaveDescription
 	dw SandTombDescription
 	dw MudShotDescription
+	dw StruggleDescription
 	assert_table_length NUM_ATTACKS
-	dw MoveFFDescription
 	dw Move00Description
 	assert_table_length $100
 
@@ -920,9 +920,9 @@ BulletSeedDescription:
 	db   "Fires seeds that"
 	next "strike 2-5 times.@"
 
-StruggleDescription:
-	db   "Used only if all"
-	next "PP are exhausted.@"
+AerialAceDescription:
+	db   "An attack that"
+	next "never misses.@"
 
 SketchDescription:
 	db   "Copies the foe's"
@@ -1279,3 +1279,7 @@ SandTombDescription:
 MudShotDescription:
 	db   "Hurls mud at the"
 	next "foe. Lowers Speed.@"
+	
+StruggleDescription:
+	db   "Used only if all"
+	next "PP are exhausted.@"

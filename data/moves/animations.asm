@@ -166,7 +166,7 @@ BattleAnimations::
 	dw BattleAnim_SuperFang
 	dw BattleAnim_Slash
 	dw BattleAnim_BulletSeed
-	dw BattleAnim_Struggle
+	dw BattleAnim_AerialAce
 	dw BattleAnim_Sketch
 	dw BattleAnim_TripleKick
 	dw BattleAnim_Thief
@@ -256,10 +256,11 @@ BattleAnimations::
 	dw BattleAnim_HeatWave
 	dw BattleAnim_SandTomb
 	dw BattleAnim_MudShot
+	dw BattleAnim_Struggle
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
+	dw BattleAnim_SweetScent2
 	dw BattleAnim_ThrowPokeBall
 	dw BattleAnim_SendOutMon
 	dw BattleAnim_ReturnMon
@@ -1542,6 +1543,7 @@ BattleAnim_FurySwipes:
 	anim_ret
 
 BattleAnim_Cut:
+BattleAnim_AerialAce:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0

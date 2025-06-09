@@ -3,7 +3,6 @@
 MetronomeExcepts:
 	db NO_MOVE
 	db METRONOME
-	db STRUGGLE
 	db SKETCH
 	db MIMIC
 	db COUNTER
@@ -13,5 +12,4 @@ MetronomeExcepts:
 	db ENDURE
 	db DESTINY_BOND
 	db SLEEP_TALK
-	db THIEF
 	db -1

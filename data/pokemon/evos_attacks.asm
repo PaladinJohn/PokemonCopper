@@ -307,6 +307,7 @@ SpearowEvosAttacks:
 	db 7, LEER
 	db 13, FURY_ATTACK
 	db 19, PURSUIT
+	db 25, AERIAL_ACE
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
@@ -316,10 +317,10 @@ FearowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, GROWL
-	db 1, LEER
 	db 7, LEER
 	db 13, FURY_ATTACK
 	db 19, PURSUIT
+	db 26, AERIAL_ACE
 	db 32, MIRROR_MOVE
 	db 40, DRILL_PECK
 	db 47, AGILITY
@@ -1336,8 +1337,8 @@ KrabbyEvosAttacks:
 	db 12, VICEGRIP
 	db 16, HARDEN
 	db 23, MUD_SHOT
-	db 24, STOMP
-	db 27, GUILLOTINE
+	db 27, STOMP
+	db 28, GUILLOTINE
 	db 34, PROTECT
 	db 41, CRABHAMMER
 	db 0 ; no more level-up moves
@@ -1349,8 +1350,8 @@ KinglerEvosAttacks:
 	db 12, VICEGRIP
 	db 16, HARDEN
 	db 23, MUD_SHOT
-	db 24, STOMP
-	db 27, GUILLOTINE
+	db 27, STOMP
+	db 28, GUILLOTINE
 	db 28, METAL_CLAW
 	db 38, PROTECT
 	db 49, CRABHAMMER

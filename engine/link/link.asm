@@ -2145,7 +2145,7 @@ CheckTimeCapsuleCompatibility:
 	ld c, NUM_MOVES
 .move_next
 	ld a, [hli]
-	cp STRUGGLE + 1
+	cp AERIAL_ACE + 1
 	jr nc, .move_too_new
 	dec c
 	jr nz, .move_next
