@@ -34,27 +34,40 @@ IconPointers:
 	dw VileplumeIcon
 	dw ParasIcon
 	dw ParasectIcon
+	dw MeowthIcon
+	dw PsyduckIcon
 	dw GolduckIcon
+	dw GrowlitheIcon
 	dw ArcanineIcon
 	dw HumanshapeIcon
+	dw KadabraIcon
 	dw AlakazamIcon
+	dw WeepinbellIcon
 	dw VictreebelIcon
+	dw TentacoolIcon
 	dw TentacruelIcon
 	dw GeodudeIcon
+	dw GravelerIcon
 	dw GolemIcon
-	dw EquineIcon
+	dw PonytaIcon
 	dw RapidashIcon
+	dw SlowpokeIcon
 	dw SlowbroIcon
 	dw FarfetchDIcon
+	dw SeelIcon
 	dw DewgongIcon
+	dw GrimerIcon
 	dw MukIcon
+	dw ShellderIcon
 	dw CloysterIcon
+	dw HaunterIcon
 	dw GengarIcon
 	dw HypnoIcon
 	dw KinglerIcon
 	dw MarowakIcon
 	dw LickitungIcon
 	dw WeezingIcon
+	dw EquineIcon
 	dw RhydonIcon
 	dw TangelaIcon
 	dw KangaskhanIcon
@@ -66,9 +79,6 @@ IconPointers:
 	dw FishIcon
 	dw GyaradosIcon
 	dw LaprasIcon
-	dw ShellIcon
-	dw BlobIcon
-	dw SerpentIcon
 	dw DittoIcon
 	dw VaporeonIcon
 	dw JolteonIcon
