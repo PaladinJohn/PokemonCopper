@@ -253,4 +253,5 @@ MoveNames::
 	li "Beat Up"
 	li "Heat Wave"
 	li "Sand Tomb"
+	li "Mud Shot"
 	assert_list_length NUM_ATTACKS

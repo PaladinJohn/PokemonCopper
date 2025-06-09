@@ -306,7 +306,7 @@ SpearowEvosAttacks:
 	db 1, GROWL
 	db 7, LEER
 	db 13, FURY_ATTACK
-	db 25, PURSUIT
+	db 19, PURSUIT
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
@@ -317,10 +317,9 @@ FearowEvosAttacks:
 	db 1, PECK
 	db 1, GROWL
 	db 1, LEER
-	db 1, FURY_ATTACK
 	db 7, LEER
 	db 13, FURY_ATTACK
-	db 26, PURSUIT
+	db 19, PURSUIT
 	db 32, MIRROR_MOVE
 	db 40, DRILL_PECK
 	db 47, AGILITY
@@ -1336,7 +1335,8 @@ KrabbyEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
-	db 23, STOMP
+	db 23, MUD_SHOT
+	db 24, STOMP
 	db 27, GUILLOTINE
 	db 34, PROTECT
 	db 41, CRABHAMMER
@@ -1348,7 +1348,8 @@ KinglerEvosAttacks:
 	db 5, LEER
 	db 12, VICEGRIP
 	db 16, HARDEN
-	db 23, STOMP
+	db 23, MUD_SHOT
+	db 24, STOMP
 	db 27, GUILLOTINE
 	db 28, METAL_CLAW
 	db 38, PROTECT

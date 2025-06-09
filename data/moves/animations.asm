@@ -255,8 +255,8 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_HeatWave
 	dw BattleAnim_SandTomb
+	dw BattleAnim_MudShot
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_Dummy
 	dw BattleAnim_SweetScent2
 	assert_table_length $100
 ; $100
@@ -3502,6 +3502,7 @@ BattleAnim_SludgeBomb:
 	anim_ret
 
 BattleAnim_MudSlap:
+BattleAnim_MudShot:
 	anim_1gfx BATTLE_ANIM_GFX_SAND
 	anim_obp0 $fc
 	anim_call BattleAnimSub_SandOrMud

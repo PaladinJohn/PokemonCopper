@@ -267,4 +267,5 @@ Moves:
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,         100, 10,   0
 	move HEAT_WAVE,    EFFECT_BURN_HIT,          100, FIRE,          90, 10,  10
 	move SAND_TOMB,    EFFECT_TRAP_TARGET,        15, GROUND,        70, 15,   0
+	move MUD_SHOT,     EFFECT_SPEED_DOWN_HIT,     55, GROUND,        95, 15, 100
 	assert_table_length NUM_ATTACKS

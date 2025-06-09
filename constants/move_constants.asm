@@ -259,6 +259,7 @@
 	const BEAT_UP      ; fb
 	const HEAT_WAVE    ; fc
 	const SAND_TOMB    ; fd
+	const MUD_SHOT     ; fe
 DEF NUM_ATTACKS EQU const_value - 1
 
 ; Battle animations use the same constants as the moves up to this point
