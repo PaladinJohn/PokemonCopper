@@ -113,7 +113,7 @@ SquirtleEvosAttacks:
 	db 1, TACKLE
 	db 4, TAIL_WHIP
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 18, BITE
 	db 23, RAPID_SPIN
@@ -129,7 +129,7 @@ WartortleEvosAttacks:
 	db 1, TACKLE
 	db 4, TAIL_WHIP
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, RAPID_SPIN
@@ -144,7 +144,7 @@ BlastoiseEvosAttacks:
 	db 1, TACKLE
 	db 4, TAIL_WHIP
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, RAPID_SPIN
@@ -801,8 +801,8 @@ RockruffEvosAttacks:
 	db 19, BITE
 	db 25, SHARPEN
 	db 31, ROCK_THROW
-	db 37, ROAR
-	db 43, ROCK_SLIDE
+	db 37, ROCK_TOMB
+	db 43, ROAR
 	db 0 ; no more level-up moves
 
 PoliwhirlEvosAttacks:
@@ -1089,7 +1089,7 @@ SlowbroEvosAttacks:
 	db 20, CONFUSION
 	db 29, DISABLE
 	db 34, HEADBUTT
-	db 37, WITHDRAW
+	db 37, DEFENSE_CURL
 	db 46, AMNESIA
 	db 54, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -1217,7 +1217,7 @@ ShellderEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, CLOYSTER
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, WITHDRAW
+	db 1, DEFENSE_CURL
 	db 9, SUPERSONIC
 	db 17, AURORA_BEAM
 	db 25, PROTECT
@@ -1228,7 +1228,7 @@ ShellderEvosAttacks:
 
 CloysterEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WITHDRAW
+	db 1, DEFENSE_CURL
 	db 1, SUPERSONIC
 	db 1, AURORA_BEAM
 	db 1, PROTECT
@@ -1338,9 +1338,10 @@ KrabbyEvosAttacks:
 	db 16, HARDEN
 	db 23, MUD_SHOT
 	db 27, STOMP
-	db 28, GUILLOTINE
-	db 34, PROTECT
-	db 41, CRABHAMMER
+	db 34, GUILLOTINE
+	db 38, PROTECT
+	db 45, CRABHAMMER
+	db 49, FLAIL
 	db 0 ; no more level-up moves
 
 KinglerEvosAttacks:
@@ -1351,10 +1352,11 @@ KinglerEvosAttacks:
 	db 16, HARDEN
 	db 23, MUD_SHOT
 	db 27, STOMP
-	db 28, GUILLOTINE
 	db 28, METAL_CLAW
-	db 38, PROTECT
-	db 49, CRABHAMMER
+	db 38, GUILLOTINE
+	db 42, PROTECT
+	db 57, CRABHAMMER
+	db 65, FLAIL
 	db 0 ; no more level-up moves
 
 BlitzleEvosAttacks:
@@ -1742,9 +1744,9 @@ MagmarEvosAttacks:
 DurantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
-	db 7, SAND_ATTACK
-	db 13, FURY_CUTTER
-	db 19, BITE
+	db 1, SAND_ATTACK
+	db 7, FURY_CUTTER
+	db 13, BITE
 	db 25, AGILITY
 	db 31, METAL_CLAW
 	db 37, CRUNCH
@@ -1886,7 +1888,7 @@ OmanyteEvosAttacks:
 	db EVOLVE_LEVEL, 40, OMASTAR
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
-	db 1, WITHDRAW
+	db 1, DEFENSE_CURL
 	db 13, BITE
 	db 19, WATER_GUN
 	db 31, LEER
@@ -1898,7 +1900,7 @@ OmanyteEvosAttacks:
 OmastarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
-	db 1, WITHDRAW
+	db 1, DEFENSE_CURL
 	db 1, BITE
 	db 13, BITE
 	db 19, WATER_GUN
@@ -2870,7 +2872,7 @@ ScizorEvosAttacks:
 ShuckleEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
-	db 1, WITHDRAW
+	db 1, DEFENSE_CURL
 	db 9, WRAP
 	db 14, ENCORE
 	db 23, SAFEGUARD
