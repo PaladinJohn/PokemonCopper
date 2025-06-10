@@ -166,7 +166,7 @@ MoveNames::
 	li "Bullet Seed"
 	li "Aerial Ace"
 	li "Sketch"
-	li "Triple Kick"
+	li "Air Cutter"
 	li "Thief"
 	li "Spider Web"
 	li "Mind Reader"

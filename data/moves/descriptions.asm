@@ -167,7 +167,7 @@ MoveDescriptions::
 	dw BulletSeedDescription
 	dw AerialAceDescription
 	dw SketchDescription
-	dw TripleKickDescription
+	dw AirCutterDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw MindReaderDescription
@@ -928,9 +928,9 @@ SketchDescription:
 	db   "Copies the foe's"
 	next "move permanently.@"
 
-TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+AirCutterDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 ThiefDescription:
 	db   "An attack that may"

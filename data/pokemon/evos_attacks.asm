@@ -390,60 +390,63 @@ SandshrewEvosAttacks:
 	db 23, SLASH
 	db 30, SWIFT
 	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 45, SAND_TOMB
+	db 53, SANDSTORM
 	db 0 ; no more level-up moves
 
 SandslashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, DEFENSE_CURL
-	db 1, SAND_ATTACK
 	db 6, DEFENSE_CURL
 	db 11, SAND_ATTACK
 	db 17, POISON_STING
 	db 24, SLASH
 	db 33, SWIFT
 	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 52, SAND_TOMB
+	db 62, SANDSTORM
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
+	db 1, SCRATCH
+	db 8, TAIL_WHIP
 	db 12, DOUBLE_KICK
 	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
+	db 20, BITE
+	db 23, FOCUS_ENERGY
+	db 30, FURY_SWIPES
+	db 38, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
+	db 1, SCRATCH
+	db 8, TAIL_WHIP
 	db 12, DOUBLE_KICK
 	db 19, POISON_STING
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
+	db 22, BITE
+	db 26, FOCUS_ENERGY
+	db 34, FURY_SWIPES
+	db 43, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TACKLE
-	db 8, SCRATCH
+	db 1, SCRATCH
+	db 8, TAIL_WHIP
 	db 12, DOUBLE_KICK
 	db 19, POISON_STING
+	db 22, BITE
 	db 23, BODY_SLAM
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
+	db 26, FOCUS_ENERGY
+	db 34, FURY_SWIPES
+	db 43, CONFUSE_RAY
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -1473,11 +1476,11 @@ SigilyphEvosAttacks:
 	db 13, PSYWAVE
 	db 26, WHIRLWIND
 	db 27, PSYBEAM
-	db 28, LIGHT_SCREEN
-	db 32, REFLECT
-	db 38, MIRROR_MOVE
-	db 44, PSYCHIC_M
-	;db 50, COSMIC_POWER
+	db 28, AIR_CUTTER
+	db 32, LIGHT_SCREEN
+	db 38, REFLECT
+	db 44, MIRROR_MOVE
+	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 LickitungEvosAttacks:
@@ -1747,10 +1750,12 @@ DurantEvosAttacks:
 	db 1, SAND_ATTACK
 	db 7, FURY_CUTTER
 	db 13, BITE
-	db 25, AGILITY
-	db 31, METAL_CLAW
-	db 37, CRUNCH
-	db 43, DIG
+	db 19, AGILITY
+	db 25, METAL_CLAW
+	db 31, CRUNCH
+	db 37, DIG
+	db 43, BARRIER
+	db 49, GUILLOTINE
 	db 0 ; no more level-up moves
 
 TaurosEvosAttacks:
@@ -3050,10 +3055,11 @@ SkarmoryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
-	db 13, SAND_ATTACK
-	db 19, SWIFT
-	db 25, AGILITY
-	db 37, FURY_ATTACK
+	db 10, SAND_ATTACK
+	db 13, SWIFT
+	db 16, AGILITY
+	db 26, FURY_ATTACK
+	db 29, AIR_CUTTER
 	db 49, STEEL_WING
 	db 0 ; no more level-up moves
 
@@ -3174,9 +3180,9 @@ NoibatEvosAttacks:
 	db 26, BITE
 	db 31, WING_ATTACK
 	db 36, AGILITY
-	db 41, RAZOR_WIND
-	db 46, WHIRLWIND
-	db 51, SUPER_FANG
+	db 41, AIR_CUTTER
+	db 46, RAZOR_WIND
+	db 51, WHIRLWIND
 	db 0 ; no more level-up moves
 
 SpiritombEvosAttacks:
