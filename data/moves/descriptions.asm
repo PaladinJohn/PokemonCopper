@@ -169,7 +169,7 @@ MoveDescriptions::
 	dw SketchDescription
 	dw AirCutterDescription
 	dw ThiefDescription
-	dw SpiderWebDescription
+	dw MetalSoundDescription
 	dw MindReaderDescription
 	dw NightmareDescription
 	dw FlameWheelDescription
@@ -936,9 +936,9 @@ ThiefDescription:
 	db   "An attack that may"
 	next "steal a held item.@"
 
-SpiderWebDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+MetalSoundDescription:
+	db   "Sharply reduces"
+	next "the foe's S.Def.@"
 
 MindReaderDescription:
 	db   "Ensures the next"

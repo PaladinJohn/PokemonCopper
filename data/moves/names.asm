@@ -168,7 +168,7 @@ MoveNames::
 	li "Sketch"
 	li "Air Cutter"
 	li "Thief"
-	li "Spider Web"
+	li "Metal Sound"
 	li "Mind Reader"
 	li "Nightmare"
 	li "Flame Wheel"

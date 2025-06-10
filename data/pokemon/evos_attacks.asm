@@ -196,28 +196,26 @@ RookideeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
-	db 7, THIEF
-	db 10, SHARPEN
-	db 15, FURY_ATTACK
-	db 20, WING_ATTACK
-	db 25, SAND_ATTACK
-	db 30, SCARY_FACE
-	db 35, DRILL_PECK
-	db 45, SWAGGER
+	db 7, SHARPEN
+	db 10, FURY_ATTACK
+	db 15, WING_ATTACK
+	db 20, SAND_ATTACK
+	db 25, SCARY_FACE
+	db 30, DRILL_PECK
+	db 35, SWAGGER
 	db 0 ; no more level-up moves
 
 CorvisquirEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
-	db 7, THIEF
-	db 10, SHARPEN
-	db 15, FURY_ATTACK
-	db 21, WING_ATTACK
-	db 27, SAND_ATTACK
-	db 33, SCARY_FACE
-	db 39, DRILL_PECK
-	db 50, SWAGGER
+	db 7, SHARPEN
+	db 10, FURY_ATTACK
+	db 15, WING_ATTACK
+	db 21, SAND_ATTACK
+	db 27, SCARY_FACE
+	db 33, DRILL_PECK
+	db 39, SWAGGER
 	db 0 ; no more level-up moves
 
 PawmotEvosAttacks:
@@ -334,8 +332,8 @@ ScolipedeEvosAttacks:
 	db 17, SCREECH
 	db 26, PURSUIT
 	db 38, PROTECT
-	db 41, MEGAHORN
-	db 49, BATON_PASS
+	db 48, BARRIER
+	db 58, MEGAHORN
 	db 0 ; no more level-up moves
 
 ZoroarkEvosAttacks:
@@ -419,6 +417,7 @@ NidoranFEvosAttacks:
 	db 23, FOCUS_ENERGY
 	db 30, FURY_SWIPES
 	db 38, CONFUSE_RAY
+	db 47, CRUNCH
 	db 0 ; no more level-up moves
 
 NidorinaEvosAttacks:
@@ -433,6 +432,7 @@ NidorinaEvosAttacks:
 	db 26, FOCUS_ENERGY
 	db 34, FURY_SWIPES
 	db 43, CONFUSE_RAY
+	db 53, CRUNCH
 	db 0 ; no more level-up moves
 
 NidoqueenEvosAttacks:
@@ -447,13 +447,15 @@ NidoqueenEvosAttacks:
 	db 26, FOCUS_ENERGY
 	db 34, FURY_SWIPES
 	db 43, CONFUSE_RAY
+	db 44, CROSS_CHOP
+	db 53, CRUNCH
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
+	db 1, PECK
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 17, POISON_STING
@@ -466,7 +468,7 @@ NidorinoEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, NIDOKING
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, TACKLE
+	db 1, PECK
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 19, POISON_STING
@@ -477,7 +479,8 @@ NidorinoEvosAttacks:
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	db 1, LEER
+	db 1, PECK
 	db 1, HORN_ATTACK
 	db 1, DOUBLE_KICK
 	db 1, POISON_STING
@@ -668,10 +671,10 @@ MudbrayEvosAttacks:
 	db EVOLVE_LEVEL, 30, MUDSDALE
 	db 0 ; no more evolutions
 	db 1, MUD_SLAP
-	db 5, ROCK_SMASH
-	db 9, DOUBLE_KICK
-	db 17, STOMP
-	db 25, BIDE
+	db 5, DOUBLE_KICK
+	db 9, STOMP
+	db 17, BIDE
+	db 25, BARRIER
 	db 33, COUNTER
 	db 41, EARTHQUAKE
 	db 49, MEGA_KICK
@@ -680,10 +683,10 @@ MudbrayEvosAttacks:
 MudsdaleEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, MUD_SLAP
-	db 5, ROCK_SMASH
-	db 9, DOUBLE_KICK
-	db 17, STOMP
-	db 25, BIDE
+	db 5, DOUBLE_KICK
+	db 9, STOMP
+	db 17, BIDE
+	db 25, BARRIER
 	db 30, STRENGTH
 	db 37, COUNTER
 	db 49, EARTHQUAKE
@@ -1415,7 +1418,7 @@ LucarioEvosAttacks:
 	db 20, DETECT
 	db 25, METAL_CLAW
 	db 31, BONE_RUSH
-	db 33, SWORDS_DANCE
+	db 33, METAL_SOUND
 	db 37, SCREECH
 	db 43, EXTREMESPEED
 	db 0 ; no more level-up moves
@@ -1726,6 +1729,7 @@ WhirlipedeEvosAttacks:
 	db 17, SCREECH
 	db 26, PURSUIT
 	db 36, PROTECT
+	db 47, BARRIER
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
@@ -2320,7 +2324,7 @@ AriadosEvosAttacks:
 	db 17, NIGHT_SHADE
 	db 25, LEECH_LIFE
 	db 34, FURY_SWIPES
-	db 43, SPIDER_WEB
+	;db 43, SPIDER_WEB
 	db 53, AGILITY
 	db 63, PSYCHIC_M
 	db 0 ; no more level-up moves
@@ -3060,7 +3064,9 @@ SkarmoryEvosAttacks:
 	db 16, AGILITY
 	db 26, FURY_ATTACK
 	db 29, AIR_CUTTER
-	db 49, STEEL_WING
+	db 32, STEEL_WING
+	db 42, SPIKES
+	db 45, METAL_SOUND
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -3269,11 +3275,11 @@ BlisseyEvosAttacks:
 RegirockEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EXPLOSION
-	db 1, STOMP
-	db 11, ROCK_THROW
-	db 21, CURSE
+	db 1, ROCK_THROW
+	db 11, CURSE
+	db 21, CROSS_CHOP
 	db 31, ANCIENTPOWER
-	db 41, ROCK_SLIDE
+	db 41, BARRIER
 	db 51, ZAP_CANNON
 	db 61, LOCK_ON
 	db 71, HYPER_BEAM

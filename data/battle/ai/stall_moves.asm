@@ -18,7 +18,6 @@ StallMoves:
 	db MIMIC
 	db SCREECH
 	db HARDEN
-	db WITHDRAW
 	db DEFENSE_CURL
 	db BARRIER
 	db LIGHT_SCREEN
@@ -27,10 +26,12 @@ StallMoves:
 	db FOCUS_ENERGY
 	db BIDE
 	db AMNESIA
+	db TICKLE
 	db TRANSFORM
 	db SPLASH
 	db ACID_ARMOR
 	db SHARPEN
 	db CONVERSION
+	db METAL_SOUND
 	db FLAME_WHEEL
 	db -1 ; end

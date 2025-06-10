@@ -182,7 +182,7 @@ Moves:
 	move SKETCH,       EFFECT_SKETCH,              0, NORMAL,       100,  1,   0
 	move AIR_CUTTER,   EFFECT_NORMAL_HIT,         55, FLYING,        95, 25,   0
 	move THIEF,        EFFECT_THIEF,              40, DARK,         100, 10, 100
-	move SPIDER_WEB,   EFFECT_MEAN_LOOK,           0, BUG,          100, 10,   0
+	move METAL_SOUND,  EFFECT_SP_DEF_DOWN_2,       0, STEEL,         85, 40,   0
 	move MIND_READER,  EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
 	move NIGHTMARE,    EFFECT_NIGHTMARE,           0, GHOST,        100, 15,   0
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        60, FIRE,         100, 25,  10
