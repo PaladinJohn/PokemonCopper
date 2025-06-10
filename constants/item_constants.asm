@@ -228,7 +228,7 @@ DEF TM01 EQU const_value
 	add_tm ROCK_SMASH   ; c7
 	add_tm METAL_CLAW   ; c8
 	add_tm HIDDEN_POWER ; c9
-	add_tm SUNNY_DAY    ; ca
+	add_tm FLAMETHROWER ; ca
 	add_tm BULLET_SEED  ; cb
 	add_tm SNORE        ; cc
 	add_tm BLIZZARD     ; cd
@@ -302,7 +302,7 @@ MACRO add_mt
 ENDM
 
 DEF MT01 EQU const_value
-	add_mt FLAMETHROWER
+	add_mt BODY_SLAM
 	add_mt THUNDERBOLT
 	add_mt ICE_BEAM
 DEF NUM_TUTORS = __tmhm_value__ - NUM_TMS - NUM_HMS - 1

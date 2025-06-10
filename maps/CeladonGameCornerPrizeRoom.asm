@@ -1,5 +1,5 @@
 DEF CELADONGAMECORNERPRIZEROOM_TM32_COINS     EQU 1500
-DEF CELADONGAMECORNERPRIZEROOM_TM29_COINS     EQU 3500
+DEF CELADONGAMECORNERPRIZEROOM_TM29_COINS     EQU 4000
 DEF CELADONGAMECORNERPRIZEROOM_TM15_COINS     EQU 7500
 DEF CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS  EQU 2222
 DEF CELADONGAMECORNERPRIZEROOM_PORYGON_COINS  EQU 5555
@@ -34,7 +34,7 @@ CeladonPrizeRoom_tmcounterloop:
 	verticalmenu
 	closewindow
 	ifequal 1, .DoubleTeam
-	ifequal 2, .Psychic
+	ifequal 2, .Flamethrower
 	ifequal 3, .HyperBeam
 	sjump CeladonPrizeRoom_CancelPurchaseScript
 
@@ -49,13 +49,13 @@ CeladonPrizeRoom_tmcounterloop:
 	takecoins CELADONGAMECORNERPRIZEROOM_TM32_COINS
 	sjump CeladonPrizeRoom_purchased
 
-.Psychic:
+.Flamethrower:
 	checkcoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
-	getitemname STRING_BUFFER_3, TM_PSYCHIC_M
+	getitemname STRING_BUFFER_3, TM_FLAMETHROWER
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
-	giveitem TM_PSYCHIC_M
+	giveitem TM_FLAMETHROWER
 	iffalse CeladonPrizeRoom_notenoughroom
 	takecoins CELADONGAMECORNERPRIZEROOM_TM29_COINS
 	sjump CeladonPrizeRoom_purchased
@@ -117,7 +117,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
 	db "TM32    {d:CELADONGAMECORNERPRIZEROOM_TM32_COINS}@"
-	db "TM29    {d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}@"
+	db "TM11    {d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}@"
 	db "TM15    {d:CELADONGAMECORNERPRIZEROOM_TM15_COINS}@"
 	db "CANCEL@"
 
