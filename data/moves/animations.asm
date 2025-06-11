@@ -107,7 +107,7 @@ BattleAnimations::
 	dw BattleAnim_Screech
 	dw BattleAnim_DoubleTeam
 	dw BattleAnim_Recover
-	dw BattleAnim_Harden
+	dw BattleAnim_MagicalLeaf
 	dw BattleAnim_Minimize
 	dw BattleAnim_Smokescreen
 	dw BattleAnim_ConfuseRay
@@ -804,6 +804,7 @@ BattleAnim_HiJumpKick:
 	anim_ret
 
 BattleAnim_Leafage:
+BattleAnim_MagicalLeaf:
 	anim_1gfx BATTLE_ANIM_GFX_PLANT
 	anim_sound 0, 0, SFX_VINE_WHIP
 	anim_obj BATTLE_ANIM_OBJ_RAZOR_LEAF, 48, 80, $1c
@@ -2700,14 +2701,6 @@ BattleAnim_LeechLife:
 	anim_call BattleAnimSub_Drain
 	anim_wait 128
 	anim_wait 48
-	anim_ret
-
-BattleAnim_Harden:
-	anim_1gfx BATTLE_ANIM_GFX_REFLECT
-	anim_obp0 $0
-	anim_call BattleAnim_TargetObj_1Row
-	anim_call BattleAnimSub_Metallic
-	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnim_Psywave:

@@ -7,7 +7,6 @@ MoveGrammar:
 	db SWORDS_DANCE
 	db GROWTH
 	db STRENGTH
-	db HARDEN
 	db MINIMIZE
 	db SMOKESCREEN
 	db DEFENSE_CURL

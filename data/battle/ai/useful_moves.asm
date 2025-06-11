@@ -2,6 +2,7 @@
 
 UsefulMoves:
 	db DOUBLE_EDGE
+	db BODY_SLAM
 	db SING
 	db FLAMETHROWER
 	db HYDRO_PUMP

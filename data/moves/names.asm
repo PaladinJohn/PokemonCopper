@@ -105,7 +105,7 @@ MoveNames::
 	li "Screech"
 	li "Double Team"
 	li "Recover"
-	li "Harden"
+	li "Magical Leaf"
 	li "Minimize"
 	li "Smokescreen"
 	li "Confuse Ray"

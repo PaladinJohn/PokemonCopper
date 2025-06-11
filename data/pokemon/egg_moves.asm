@@ -16,6 +16,7 @@ BulbasaurEggMoves:
 	db SAFEGUARD
 	db PETAL_DANCE
 	db CURSE
+	db MAGICAL_LEAF
 	db -1 ; end
 
 CharmanderEggMoves:
@@ -66,14 +67,7 @@ SpearowEggMoves:
 	db SCARY_FACE
 	db QUICK_ATTACK
 	db TRI_ATTACK
-	db -1 ; end
-
-EkansEggMoves:
-	db PURSUIT
-	db SLAM
-	db SPITE
-	db BEAT_UP
-	db CRUNCH
+	db SKY_ATTACK
 	db -1 ; end
 
 SandshrewEggMoves:
@@ -82,6 +76,8 @@ SandshrewEggMoves:
 	db COUNTER
 	db RAPID_SPIN
 	db METAL_CLAW
+	db ROCK_SLIDE
+	db SWORDS_DANCE
 	db -1 ; end
 
 NidoranFEggMoves:
@@ -180,6 +176,7 @@ GrowlitheEggMoves:
 	db -1 ; end
 
 RockruffEggMoves:
+	db ROCK_SLIDE
 	db THRASH
 	db -1 ; end
 
@@ -202,6 +199,7 @@ BellsproutEggMoves:
 	db REFLECT
 	db SYNTHESIS
 	db LEECH_LIFE
+	db MAGICAL_LEAF
 	db -1 ; end
 
 TentacoolEggMoves:
@@ -420,6 +418,9 @@ LaprasEggMoves:
 EeveeEggMoves:
 	db FLAIL
 	db CHARM
+	db CURSE
+	db ENDURE
+	db TICKLE
 	db -1 ; end
 
 OmanyteEggMoves:
@@ -655,7 +656,7 @@ ShuckleEggMoves:
 	db -1 ; end
 
 HeracrossEggMoves:
-	db HARDEN
+	db DEFENSE_CURL
 	db BIDE
 	db FLAIL
 	db -1 ; end
@@ -721,6 +722,7 @@ SkarmoryEggMoves:
 	db PURSUIT
 	db WHIRLWIND
 	db SKY_ATTACK
+	db CURSE
 	db -1 ; end
 
 HoundourEggMoves:

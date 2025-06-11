@@ -111,7 +111,7 @@
 	const SCREECH      ; 67
 	const DOUBLE_TEAM  ; 68
 	const RECOVER      ; 69
-	const HARDEN       ; 6a
+	const MAGICAL_LEAF ; 6a
 	const MINIMIZE     ; 6b
 	const SMOKESCREEN  ; 6c
 	const CONFUSE_RAY  ; 6d

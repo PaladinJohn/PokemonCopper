@@ -2147,7 +2147,7 @@ BattleTowerMons:
 
 	db MUK
 	db QUICK_CLAW
-	db SCREECH, TOXIC, SLUDGE, HARDEN
+	db SCREECH, TOXIC, SLUDGE, DEFENSE_CURL
 	dw 0 ; OT ID
 	dt 64000 ; Exp
 	; Stat exp
