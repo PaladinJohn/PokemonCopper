@@ -26,11 +26,11 @@ FearowFrontpic:      INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lz"
 NidoqueenFrontpic:   INCBIN "gfx/pokemon/nidoqueen/front.animated.2bpp.lz"
 NidokingFrontpic:    INCBIN "gfx/pokemon/nidoking/front.animated.2bpp.lz"
 NinetalesFrontpic:   INCBIN "gfx/pokemon/ninetales/front.animated.2bpp.lz"
+GolbatFrontpic:      INCBIN "gfx/pokemon/golbat/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
 FeraligatrFrontpic:  INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lz"
 ArticunoFrontpic:    INCBIN "gfx/pokemon/articuno/front.animated.2bpp.lz"
 TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
-SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
 TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
 
 
@@ -101,11 +101,10 @@ UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
 
 SECTION "Pics 5", ROMX
 
-GolbatFrontpic:      INCBIN "gfx/pokemon/golbat/front.animated.2bpp.lz"
+SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
 KinglerFrontpic:     INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lz"
 RioluFrontpic:       INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
 MagcargoFrontpic:    INCBIN "gfx/pokemon/magcargo/front.animated.2bpp.lz"
-PerrserkerFrontpic:  INCBIN "gfx/pokemon/perrserker/front.animated.2bpp.lz"
 StantlerFrontpic:    INCBIN "gfx/pokemon/stantler/front.animated.2bpp.lz"
 RaticateFrontpic:    INCBIN "gfx/pokemon/raticate/front.animated.2bpp.lz"
 VenomothFrontpic:    INCBIN "gfx/pokemon/venomoth/front.animated.2bpp.lz"
@@ -139,7 +138,6 @@ NidorinaFrontpic:    INCBIN "gfx/pokemon/nidorina/front.animated.2bpp.lz"
 FlareonFrontpic:     INCBIN "gfx/pokemon/flareon/front.animated.2bpp.lz"
 FarfetchDFrontpic:   INCBIN "gfx/pokemon/farfetch_d/front.animated.2bpp.lz"
 VileplumeFrontpic:   INCBIN "gfx/pokemon/vileplume/front.animated.2bpp.lz"
-FloragatoFrontpic:   INCBIN "gfx/pokemon/floragato/front.animated.2bpp.lz"
 MagmarFrontpic:      INCBIN "gfx/pokemon/magmar/front.animated.2bpp.lz"
 TentacruelFrontpic:  INCBIN "gfx/pokemon/tentacruel/front.animated.2bpp.lz"
 VenipedeFrontpic:    INCBIN "gfx/pokemon/venipede/front.animated.2bpp.lz"
@@ -707,6 +705,8 @@ SECTION "Pics 19", ROMX
 ; Seems to be an accidental copy of the previous bank
 
 HoOhFrontpic:        INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lz"
+PerrserkerFrontpic:  INCBIN "gfx/pokemon/perrserker/front.animated.2bpp.lz"
+FloragatoFrontpic:   INCBIN "gfx/pokemon/floragato/front.animated.2bpp.lz"
 CapsakidFrontpic:    INCBIN "gfx/pokemon/capsakid/front.animated.2bpp.lz"
 MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
