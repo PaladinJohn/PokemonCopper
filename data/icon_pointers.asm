@@ -62,24 +62,32 @@ IconPointers:
 	dw CloysterIcon
 	dw HaunterIcon
 	dw GengarIcon
+	dw OnixIcon
+	dw DrowzeeIcon
 	dw HypnoIcon
+	dw KrabbyIcon
 	dw KinglerIcon
+	dw CuboneIcon
 	dw MarowakIcon
 	dw LickitungIcon
+	dw KoffingIcon
 	dw WeezingIcon
-	dw EquineIcon
+	dw RhyhornIcon
 	dw RhydonIcon
+	dw ChanseyIcon
 	dw TangelaIcon
 	dw KangaskhanIcon
+	dw SeadraIcon
 	dw StaryuIcon
 	dw StarmieIcon
-	dw BugIcon
+	dw ScytherIcon
 	dw MagmarIcon
 	dw TaurosIcon
-	dw FishIcon
+	dw MagikarpIcon
 	dw GyaradosIcon
 	dw LaprasIcon
 	dw DittoIcon
+	dw EeveeIcon
 	dw VaporeonIcon
 	dw JolteonIcon
 	dw FlareonIcon
@@ -95,6 +103,7 @@ IconPointers:
 	dw FurretIcon
 	dw BirdIcon
 	dw NoctowlIcon
+	dw BugIcon
 	dw LedianIcon
 	dw CrobatIcon
 	dw LanturnIcon
@@ -124,6 +133,7 @@ IconPointers:
 	dw SneaselIcon
 	dw UrsaringIcon
 	dw MagcargoIcon
+	dw EquineIcon
 	dw PiloswineIcon
 	dw OctilleryIcon
 	dw DelibirdIcon
