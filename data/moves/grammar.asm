@@ -41,7 +41,6 @@ MoveGrammar:
 	db 0 ; end set
 
 ; 2: originally "[mon]の<LINE>[move]を　した!" ("[mon]<LINE>did [move]!")
-	db MEDITATE
 	db AGILITY
 	db MIMIC
 	db DOUBLE_TEAM

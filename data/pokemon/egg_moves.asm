@@ -761,7 +761,7 @@ SpiritombEggMoves:
 	db -1 ; end
 
 SmoochumEggMoves:
-	db MEDITATE
+	db SHARPEN
 	db -1 ; end
 
 VenipedeEggMoves:

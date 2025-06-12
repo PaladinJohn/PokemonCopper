@@ -12,7 +12,6 @@ StallMoves:
 	db LEECH_SEED
 	db GROWTH
 	db STRING_SHOT
-	db MEDITATE
 	db AGILITY
 	db RAGE
 	db MIMIC

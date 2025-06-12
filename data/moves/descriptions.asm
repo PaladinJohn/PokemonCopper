@@ -96,7 +96,7 @@ MoveDescriptions::
 	dw ConfusionDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw MeditateDescription
+	dw MeteorMashDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw RageDescription
@@ -644,9 +644,9 @@ HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
 
-MeditateDescription:
-	db   "Raises the user's"
-	next "Attack.@"
+MeteorMashDescription:
+	db   "An attack that may"
+	next "up user's Attack.@"
 
 AgilityDescription:
 	db   "Sharply increases"

@@ -109,7 +109,7 @@ Moves:
 	move CONFUSION,    EFFECT_CONFUSE_HIT,        50, PSYCHIC_TYPE, 100, 25,  10
 	move PSYCHIC_M,    EFFECT_SP_DEF_DOWN_HIT,    90, PSYCHIC_TYPE, 100, 10,  10
 	move HYPNOSIS,     EFFECT_SLEEP,               0, PSYCHIC_TYPE,  60, 20,   0
-	move MEDITATE,     EFFECT_ATTACK_UP,           0, PSYCHIC_TYPE, 100, 40,   0
+	move METEOR_MASH,  EFFECT_ATTACK_UP_HIT,     100, STEEL,         85, 10,  20
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC_TYPE, 100, 30,   0
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,       100, 30,   0
 	move RAGE,         EFFECT_RAGE,               20, NORMAL,       100, 20,   0
@@ -124,7 +124,7 @@ Moves:
 	move SMOKESCREEN,  EFFECT_ACCURACY_DOWN,       0, NORMAL,       100, 20,   0
 	move CONFUSE_RAY,  EFFECT_CONFUSE,             0, GHOST,        100, 10,   0
 	move ROCK_TOMB,    EFFECT_SPEED_DOWN_HIT,     50, ROCK,          80, 10, 100
-	move DEFENSE_CURL, EFFECT_DEFENSE_CURL,        0, NORMAL,       100, 40,   0
+	move DEFENSE_CURL, EFFECT_DEFENSE_CURL,        0, NORMAL,       100, 30,   0
 	move BARRIER,      EFFECT_DEFENSE_UP_2,        0, PSYCHIC_TYPE, 100, 30,   0
 	move LIGHT_SCREEN, EFFECT_LIGHT_SCREEN,        0, PSYCHIC_TYPE, 100, 30,   0
 	move HAZE,         EFFECT_RESET_STATS,         0, ICE,          100, 30,   0

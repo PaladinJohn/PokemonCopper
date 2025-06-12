@@ -509,10 +509,12 @@ ClefairyEvosAttacks:
 	db 16, MAGICAL_LEAF
 	db 17, AMNESIA
 	db 21, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 34, METRONOME
-	db 43, MOONLIGHT
-	db 53, LIGHT_SCREEN
+	db 25, DEFENSE_CURL
+	db 29, METRONOME
+	;db 33, COSMIC_POWER
+	db 37, MOONLIGHT
+	db 41, LIGHT_SCREEN
+	db 45, METEOR_MASH
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -526,8 +528,12 @@ ClefableEvosAttacks:
 	db 16, MAGICAL_LEAF
 	db 17, AMNESIA
 	db 21, MINIMIZE
-	db 21, METRONOME
-	db 21, MOONLIGHT
+	db 25, DEFENSE_CURL
+	db 29, METRONOME
+	;db 33, COSMIC_POWER
+	db 37, MOONLIGHT
+	db 41, LIGHT_SCREEN
+	db 45, METEOR_MASH
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
@@ -1323,6 +1329,7 @@ OnixEvosAttacks:
 	db 41, SLAM
 	db 45, IRON_TAIL
 	db 52, SAND_TOMB
+	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 DrowzeeEvosAttacks:
@@ -1334,7 +1341,7 @@ DrowzeeEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 31, POISON_GAS
-	db 36, MEDITATE
+	db 36, SHARPEN
 	db 40, PSYCHIC_M
 	db 43, PSYCH_UP
 	db 45, FUTURE_SIGHT
@@ -1350,7 +1357,7 @@ HypnoEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 33, POISON_GAS
-	db 40, MEDITATE
+	db 40, SHARPEN
 	db 49, PSYCHIC_M
 	db 55, PSYCH_UP
 	db 60, FUTURE_SIGHT
@@ -1481,7 +1488,7 @@ MarowakEvosAttacks:
 HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
-	db 6, MEDITATE
+	db 6, SHARPEN
 	db 11, TACKLE
 	db 16, TACKLE
 	db 21, FOCUS_ENERGY
@@ -2634,8 +2641,8 @@ SunkernEvosAttacks:
 	db EVOLVE_ITEM, SUN_STONE, SUNFLORA
 	db 0 ; no more evolutions
 	db 1, ABSORB
-	db 4, GROWTH
-	db 10, MEGA_DRAIN
+	db 6, GROWTH
+	db 13, MEGA_DRAIN
 	db 19, SUNNY_DAY
 	db 31, SYNTHESIS
 	db 46, GIGA_DRAIN
@@ -2645,10 +2652,12 @@ SunfloraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, POUND
-	db 4, GROWTH
-	db 10, RAZOR_LEAF
+	db 6, GROWTH
+	db 13, MEGA_DRAIN
+	db 14, RAZOR_LEAF
 	db 19, SUNNY_DAY
-	db 31, PETAL_DANCE
+	db 31, SYNTHESIS
+	db 32, PETAL_DANCE
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 
@@ -2731,7 +2740,7 @@ BombirdierEvosAttacks:
 	db 27, ROCK_THROW
 	db 35, WHIRLWIND
 	db 40, CHARM
-	db 41, ROCK_TOMB
+	db 48, ROCK_TOMB
 	db 0 ; no more level-up moves
 
 SlowkingEvosAttacks:
@@ -2851,6 +2860,7 @@ SteelixEvosAttacks:
 	db 45, IRON_TAIL
 	db 49, CRUNCH
 	db 52, SAND_TOMB
+	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 MinccinoEvosAttacks:
@@ -3145,6 +3155,7 @@ KingdraEvosAttacks:
 PhanpyEvosAttacks:
 	db EVOLVE_LEVEL, 25, DONPHAN
 	db 0 ; no more evolutions
+	db 1, FORESIGHT
 	db 1, TACKLE
 	db 1, GROWL
 	db 9, DEFENSE_CURL
@@ -3157,11 +3168,14 @@ PhanpyEvosAttacks:
 
 DonphanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HORN_ATTACK
+	db 1, FORESIGHT
+	db 1, TACKLE
 	db 1, GROWL
 	db 9, DEFENSE_CURL
 	db 17, FLAIL
-	db 25, FURY_ATTACK
+	db 25, HORN_ATTACK
+	db 26, TAKE_DOWN
+	db 27, FURY_ATTACK
 	db 33, ROLLOUT
 	db 41, RAPID_SPIN
 	db 49, EARTHQUAKE
