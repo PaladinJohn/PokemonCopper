@@ -540,7 +540,7 @@ VulpixEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, NINETALES
 	db 0 ; no more evolutions
 	db 1, EMBER
-	db 1, TAIL_WHIP
+	db 5, TAIL_WHIP
 	db 7, QUICK_ATTACK
 	db 13, ROAR
 	db 19, CONFUSE_RAY
@@ -552,9 +552,10 @@ VulpixEvosAttacks:
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
-	db 1, QUICK_ATTACK
-	db 1, CONFUSE_RAY
-	db 1, SAFEGUARD
+	db 5, TAIL_WHIP
+	db 5, QUICK_ATTACK
+	db 5, CONFUSE_RAY
+	db 5, SAFEGUARD
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -2643,6 +2644,7 @@ SunkernEvosAttacks:
 	db 1, ABSORB
 	db 6, GROWTH
 	db 13, MEGA_DRAIN
+	db 18, CURSE
 	db 19, SUNNY_DAY
 	db 31, SYNTHESIS
 	db 46, GIGA_DRAIN
@@ -2655,6 +2657,7 @@ SunfloraEvosAttacks:
 	db 6, GROWTH
 	db 13, MEGA_DRAIN
 	db 14, RAZOR_LEAF
+	db 18, CURSE
 	db 19, SUNNY_DAY
 	db 31, SYNTHESIS
 	db 32, PETAL_DANCE
