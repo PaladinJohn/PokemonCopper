@@ -1,6 +1,7 @@
 	db SMEARGLE ; 235
 
-	db  55,  20,  35,  75,  20,  50
+	db  55,  20,  40,  75,  20,  50
+	;   80   28   49  105   28   65 (Possible Buffed stats)
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
