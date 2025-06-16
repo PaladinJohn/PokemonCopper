@@ -144,7 +144,6 @@ AlphabeticalPokedexOrder:
 	db NOIBAT
 	db OCTILLERY
 	db ODDISH
-	db OMANYTE
 	db OMASTAR
 	db ONIX
 	db PARAS
@@ -224,6 +223,7 @@ AlphabeticalPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db TIMBURR
+	db TIRTOUGA
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE

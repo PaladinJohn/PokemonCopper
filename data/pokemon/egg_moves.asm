@@ -423,12 +423,13 @@ EeveeEggMoves:
 	db TICKLE
 	db -1 ; end
 
-OmanyteEggMoves:
-	db BUBBLEBEAM
-	db AURORA_BEAM
+TirtougaEggMoves:
+	db BIDE
+	db BODY_SLAM
+	db FLAIL
+	db BARRIER
 	db SLAM
-	db SUPERSONIC
-	db HAZE
+	db WHIRLPOOL
 	db -1 ; end
 
 KabutoEggMoves:

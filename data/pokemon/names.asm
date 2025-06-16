@@ -137,7 +137,7 @@ PokemonNames::
 	db "Jolteon@@@"
 	db "Flareon@@@"
 	db "Porygon@@@"
-	db "Omanyte@@@"
+	db "Tirtouga@@"
 	db "Omastar@@@"
 	db "Kabuto@@@@"
 	db "Kabutops@@"

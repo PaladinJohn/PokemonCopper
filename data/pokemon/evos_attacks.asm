@@ -1926,17 +1926,16 @@ PorygonEvosAttacks:
 	db 44, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-OmanyteEvosAttacks:
-	db EVOLVE_LEVEL, 40, OMASTAR
+TirtougaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONSTRICT
+	db 1, BIDE
 	db 1, DEFENSE_CURL
-	db 13, BITE
-	db 19, WATER_GUN
-	db 31, LEER
+	db 13, WATER_GUN
+	db 19, ROLLOUT
+	db 31, BITE
 	db 37, PROTECT
-	db 49, ANCIENTPOWER
-	db 55, HYDRO_PUMP
+	db 49, CRUNCH
+	db 55, CURSE
 	db 0 ; no more level-up moves
 
 OmastarEvosAttacks:

@@ -221,7 +221,7 @@ NewPokedexOrder:
 	db PORYGON2
 	db CHANSEY
 	db BLISSEY
-	db OMANYTE
+	db TIRTOUGA
 	db OMASTAR
 	db KABUTO
 	db KABUTOPS
