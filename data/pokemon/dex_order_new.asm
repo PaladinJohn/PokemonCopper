@@ -175,7 +175,7 @@ NewPokedexOrder:
 	db FORRETRESS
 	db ABSOL
 	db SNOM
-	db VENOMOTH
+	db FROSMOTH
 	db GRIMER
 	db MUK
 	db BLITZLE

@@ -99,8 +99,8 @@ PokemonPicPointers::
 	dba_pic ParasectBackpic
 	dba_pic SnomFrontpic
 	dba_pic SnomBackpic
-	dba_pic VenomothFrontpic
-	dba_pic VenomothBackpic
+	dba_pic FrosmothFrontpic
+	dba_pic FrosmothBackpic
 	dba_pic MudbrayFrontpic
 	dba_pic MudbrayBackpic
 	dba_pic MudsdaleFrontpic

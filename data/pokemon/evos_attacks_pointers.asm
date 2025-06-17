@@ -50,7 +50,7 @@ EvosAttacksPointers::
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw SnomEvosAttacks
-	dw VenomothEvosAttacks
+	dw FrosmothEvosAttacks
 	dw MudbrayEvosAttacks
 	dw MudsdaleEvosAttacks
 	dw MeowthEvosAttacks

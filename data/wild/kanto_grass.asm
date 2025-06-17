@@ -416,7 +416,7 @@ KantoGrassWildMons:
 	db 15, RATTATA
 	db 15, SNOM
 	db 15, RATICATE
-	db 15, VENOMOTH
+	db 15, FROSMOTH
 	db 15, ZUBAT
 	db 18, RATICATE
 	db 18, RATICATE
@@ -444,7 +444,7 @@ KantoGrassWildMons:
 	db 15, SNOM
 	db 17, BLITZLE
 	db 15, RATICATE
-	db 15, VENOMOTH
+	db 15, FROSMOTH
 	db 15, ZUBAT
 	db 16, WHIRLIPEDE
 	db 16, WHIRLIPEDE
@@ -500,7 +500,7 @@ KantoGrassWildMons:
 	db 23, SNOM
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, FROSMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CHANSEY
@@ -528,7 +528,7 @@ KantoGrassWildMons:
 	db 26, SNOM
 	db 26, QUAGSIRE
 	db 28, NOCTOWL
-	db 28, VENOMOTH
+	db 28, FROSMOTH
 	db 28, QUAGSIRE
 	db 28, QUAGSIRE
 	db 28, CHANSEY
@@ -556,7 +556,7 @@ KantoGrassWildMons:
 	db 23, SNOM
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, FROSMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CHANSEY

@@ -82,7 +82,7 @@ EZChat_SortedPokemon:
 .mi:       db DRATINI, MEW, MEWTWO, MILTANK, -1
 .mu:       db MISDREAVUS, SMOOCHUM, -1
 .me:       db MEGANIUM, DITTO, TENTACOOL, MAREEP, -1
-.mo:       db FLAAFFY, VENOMOTH, TANGELA, -1
+.mo:       db FLAAFFY, FROSMOTH, TANGELA, -1
 .ya:       db SLOWKING, SLOWBRO, SLOWPOKE, BOMBIRDIER, ABSOL, -1
 .yu:       db KADABRA, -1
 .yo:       db LARVITAR, NOCTOWL, -1

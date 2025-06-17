@@ -54,7 +54,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,        32,  352 ; PARAS
 	mon_cry CRY_PARAS,        66,  383 ; PARASECT
 	mon_cry CRY_VENONAT,    1908,  159 ; SNOM
-	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
+	mon_cry CRY_VENONAT,    1288,  544 ; FROSMOTH
 	mon_cry CRY_NATU,       1756,  431 ; MUDBRAY
 	mon_cry CRY_CHIKORITA,  3065,  396 ; MUDSDALE
 	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH

@@ -48,7 +48,7 @@ FramesPointers:
 	dw ParasFrames
 	dw ParasectFrames
 	dw SnomFrames
-	dw VenomothFrames
+	dw FrosmothFrames
 	dw MudbrayFrames
 	dw MudsdaleFrames
 	dw MeowthFrames

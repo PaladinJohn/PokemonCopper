@@ -67,7 +67,7 @@
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const SNOM       ; 30
-	const VENOMOTH   ; 31
+	const FROSMOTH   ; 31
 	const MUDBRAY    ; 32
 	const MUDSDALE   ; 33
 	const MEOWTH     ; 34

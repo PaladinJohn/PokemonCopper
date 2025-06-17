@@ -61,6 +61,7 @@ AlphabeticalPokedexOrder:
 	db FLETCHLING
 	db FLORAGATO
 	db FORRETRESS
+	db FROSMOTH
 	db FURRET
 	db GASTLY
 	db GENGAR
@@ -234,7 +235,6 @@ AlphabeticalPokedexOrder:
 	db URSARING
 	db VAPOREON
 	db VENIPEDE
-	db VENOMOTH
 	db VENUSAUR
 	db VICTREEBEL
 	db VILEPLUME

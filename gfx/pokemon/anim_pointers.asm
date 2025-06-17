@@ -48,7 +48,7 @@ AnimationPointers:
 	dw ParasAnimation
 	dw ParasectAnimation
 	dw SnomAnimation
-	dw VenomothAnimation
+	dw FrosmothAnimation
 	dw MudbrayAnimation
 	dw MudsdaleAnimation
 	dw MeowthAnimation

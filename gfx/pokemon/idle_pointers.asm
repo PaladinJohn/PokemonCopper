@@ -48,7 +48,7 @@ AnimationIdlePointers:
 	dw ParasAnimationIdle
 	dw ParasectAnimationIdle
 	dw SnomAnimationIdle
-	dw VenomothAnimationIdle
+	dw FrosmothAnimationIdle
 	dw MudbrayAnimationIdle
 	dw MudsdaleAnimationIdle
 	dw MeowthAnimationIdle

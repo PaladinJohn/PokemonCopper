@@ -672,26 +672,26 @@ ParasectEvosAttacks:
 	db 0 ; no more level-up moves
 
 SnomEvosAttacks:
+	db EVOLVE_HAPPINESS, TR_NITE, FROSMOTH
 	db 0 ; no more evolutions
 	db 1, POWDER_SNOW
 	db 1, STRUGGLE_BUG
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+FrosmothEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, DISABLE
-	db 1, FORESIGHT
-	db 1, SUPERSONIC
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
+	db 1, POWDER_SNOW
+	db 1, STRUGGLE_BUG
+	db 1, ATTRACT
+	db 9, MIRROR_COAT
+	db 17, ICY_WIND
+	db 20, STUN_SPORE
 	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 31, GUST
-	db 36, PSYBEAM
-	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 28, MIST
+	db 31, SWEET_SCENT
+	db 36, CHARM
+	db 42, AURORA_BEAM
+	db 52, BLIZZARD
 	db 0 ; no more level-up moves
 
 MudbrayEvosAttacks:
