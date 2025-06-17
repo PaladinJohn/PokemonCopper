@@ -1,5 +1,7 @@
 	object_const_def
 	const OLIVINEGYM_JASMINE
+	const OLIVINEGYM_BEAUTY1
+	const OLIVINEGYM_ROCKER1
 	const OLIVINEGYM_GYM_GUIDE
 
 OlivineGym_MapScripts:
@@ -57,6 +59,28 @@ OlivineGymActivateRockets:
 
 .RadioTowerRockets:
 	jumpstd RadioTowerRocketsScript
+
+TrainerSkierCharlene:
+	trainer SKIER, ROXANNE, EVENT_BEAT_SKIER_ROXANNE, SkierCharleneSeenText, SkierCharleneBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SkierCharleneAfterBattleText
+	waitbutton
+	closetext
+	end
+	
+TrainerBoarderMartyn:
+	trainer BOARDER, RONALD, EVENT_BEAT_BOARDER_RONALD, BoarderMartynSeenText, BoarderMartynBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BoarderMartynAfterBattleText
+	waitbutton
+	closetext
+	end
 
 OlivineGymGuideScript:
 	faceplayer
@@ -161,6 +185,46 @@ Jasmine_GoodLuck:
 	line "how to say this,"
 	cont "but good luck…"
 	done
+	
+BoarderMartynSeenText:
+	text "I'll freeze your"
+	line "#MON, so you"
+	cont "can't do a thing!"
+	done
+
+BoarderMartynBeatenText:
+	text "Darn. I couldn't"
+	line "do a thing."
+	done
+
+BoarderMartynAfterBattleText:
+	text "I think there's a"
+	line "move a #MON"
+
+	para "can use while it's"
+	line "frozen."
+	done
+	
+SkierCharleneSeenText:
+	text "To get to PRYCE,"
+	line "our GYM LEADER,"
+
+	para "you need to think"
+	line "before you skate."
+	done
+
+SkierCharleneBeatenText:
+	text "I wouldn't lose to"
+	line "you in skiing!"
+	done
+
+SkierCharleneAfterBattleText:
+	text "If you don't skate"
+	line "with precision,"
+
+	para "you won't get far"
+	line "in this GYM."
+	done
 
 OlivineGymGuideText:
 	text "JASMINE uses the"
@@ -210,4 +274,6 @@ OlivineGym_MapEvents:
 
 	def_object_events
 	object_event  5,  3, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineGymJasmineScript, EVENT_OLIVINE_GYM_JASMINE
+	object_event  3, 11, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 4, TrainerSkierCharlene, EVENT_OLIVINE_GYM_JASMINE
+	object_event  7,  8, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 4, TrainerBoarderMartyn, EVENT_OLIVINE_GYM_JASMINE
 	object_event  7, 13, SPRITE_GYM_GUIDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineGymGuideScript, -1
