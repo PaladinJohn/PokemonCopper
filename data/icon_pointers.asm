@@ -39,7 +39,6 @@ IconPointers:
 	dw GolduckIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon
-	dw HumanshapeIcon
 	dw KadabraIcon
 	dw AlakazamIcon
 	dw WeepinbellIcon
@@ -118,12 +117,16 @@ IconPointers:
 	dw TogeticIcon
 	dw NatuIcon
 	dw XatuIcon
+	dw FlaaffyIcon
 	dw AmpharosIcon
 	dw BellossomIcon
+	dw MarillIcon
 	dw AzumarillIcon
 	dw SudowoodoIcon
 	dw AipomIcon
+	dw SunkernIcon
 	dw SunfloraIcon
+	dw WooperIcon
 	dw QuagsireIcon
 	dw EspeonIcon
 	dw UmbreonIcon
@@ -140,18 +143,25 @@ IconPointers:
 	dw ShuckleIcon
 	dw HeracrossIcon
 	dw SneaselIcon
+	dw TeddiursaIcon
 	dw UrsaringIcon
+	dw SlugmaIcon
 	dw MagcargoIcon
+	dw SwinubIcon
 	dw PiloswineIcon
+	dw RemoraidIcon
 	dw OctilleryIcon
 	dw DelibirdIcon
 	dw SkarmoryIcon
+	dw HoundourIcon
 	dw HoundoomIcon
 	dw KingdraIcon
+	dw PhanpyIcon
 	dw DonphanIcon
 	dw Porygon2Icon
 	dw StantlerIcon
 	dw SmeargleIcon
+	dw MagbyIcon
 	dw MiltankIcon
 	dw BlisseyIcon
 	dw TyranitarIcon
