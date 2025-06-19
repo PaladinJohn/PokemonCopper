@@ -17,7 +17,7 @@ BitmasksPointers:
 	dw PawmotBitmasks
 	dw FletchlingBitmasks
 	dw FletchindrBitmasks
-	dw PidgeotBitmasks
+	dw TalonflameBitmasks
 	dw RattataBitmasks
 	dw RaticateBitmasks
 	dw SpearowBitmasks

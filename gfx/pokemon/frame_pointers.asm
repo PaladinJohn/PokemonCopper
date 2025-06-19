@@ -17,7 +17,7 @@ FramesPointers:
 	dw PawmotFrames
 	dw FletchlingFrames
 	dw FletchindrFrames
-	dw PidgeotFrames
+	dw TalonflameFrames
 	dw RattataFrames
 	dw RaticateFrames
 	dw SpearowFrames

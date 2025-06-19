@@ -18,7 +18,7 @@ PokedexDataPointerTable:
 	dw PawmotPokedexEntry
 	dw FletchlingPokedexEntry
 	dw FletchindrPokedexEntry
-	dw PidgeotPokedexEntry
+	dw TalonflamePokedexEntry
 	dw RattataPokedexEntry
 	dw RaticatePokedexEntry
 	dw SpearowPokedexEntry

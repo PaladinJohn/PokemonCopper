@@ -244,6 +244,7 @@ FletchlingEvosAttacks:
 	db 0 ; no more level-up moves
 
 FletchindrEvosAttacks:
+	db EVOLVE_LEVEL, 35, TALONFLAME
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, GROWL
@@ -256,19 +257,17 @@ FletchindrEvosAttacks:
 	db 52, STEEL_WING
 	db 0 ; no more level-up moves
 
-PidgeotEvosAttacks:
+TalonflameEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 1, QUICK_ATTACK
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 46, AGILITY
-	db 61, MIRROR_MOVE
+	db 5, GROWL
+	db 9, QUICK_ATTACK
+	db 13, PECK
+	db 20, AGILITY
+	db 27, FLAIL
+	db 34, EMBER
+	db 48, RAZOR_WIND
+	db 62, STEEL_WING
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:

@@ -23,7 +23,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,  2823,  392 ; PAWMOT
 	mon_cry CRY_MARILL,     1870,  413 ; FLETCHLING
 	mon_cry CRY_GLIGAR,     3658,  239 ; FLETCHINDR
-	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
+	mon_cry CRY_DUNSPARCE,  3741,  250 ; TALONFLAME
 	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE
 	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW

@@ -17,7 +17,7 @@ PokemonNames::
 	db "Pawmot@@@@"
 	db "Fletchling"
 	db "Fletchindr"
-	db "Pidgeot@@@"
+	db "Talonflame"
 	db "Rattata@@@"
 	db "Raticate@@"
 	db "Spearow@@@"

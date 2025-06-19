@@ -19,7 +19,7 @@ EvosAttacksPointers::
 	dw PawmotEvosAttacks
 	dw FletchlingEvosAttacks
 	dw FletchindrEvosAttacks
-	dw PidgeotEvosAttacks
+	dw TalonflameEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks
 	dw SpearowEvosAttacks

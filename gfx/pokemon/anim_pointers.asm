@@ -17,7 +17,7 @@ AnimationPointers:
 	dw PawmotAnimation
 	dw FletchlingAnimation
 	dw FletchindrAnimation
-	dw PidgeotAnimation
+	dw TalonflameAnimation
 	dw RattataAnimation
 	dw RaticateAnimation
 	dw SpearowAnimation

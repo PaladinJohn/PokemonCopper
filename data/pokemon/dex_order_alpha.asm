@@ -154,7 +154,6 @@ AlphabeticalPokedexOrder:
 	db PAWMOT
 	db PERRSERKER
 	db PHANPY
-	db PIDGEOT
 	db PILOSWINE
 	db PINECO
 	db POLITOED
@@ -218,6 +217,7 @@ AlphabeticalPokedexOrder:
 	db SUNFLORA
 	db SUNKERN
 	db SWINUB
+	db TALONFLAME
 	db TANGELA
 	db TAUROS
 	db TEDDIURSA

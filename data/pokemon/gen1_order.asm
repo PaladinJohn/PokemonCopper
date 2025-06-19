@@ -150,7 +150,7 @@ Pokered_MonIndices:
 	db ABRA
 	db ALAKAZAM
 	db FLETCHINDR
-	db PIDGEOT
+	db TALONFLAME
 	db STARMIE
 	db BULBASAUR
 	db VENUSAUR

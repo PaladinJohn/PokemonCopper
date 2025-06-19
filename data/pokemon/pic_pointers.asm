@@ -37,8 +37,8 @@ PokemonPicPointers::
 	dba_pic FletchlingBackpic
 	dba_pic FletchindrFrontpic
 	dba_pic FletchindrBackpic
-	dba_pic PidgeotFrontpic
-	dba_pic PidgeotBackpic
+	dba_pic TalonflameFrontpic
+	dba_pic TalonflameBackpic
 	dba_pic RattataFrontpic
 	dba_pic RattataBackpic
 	dba_pic RaticateFrontpic

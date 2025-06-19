@@ -36,7 +36,7 @@
 	const PAWMOT     ; 0f
 	const FLETCHLING ; 10
 	const FLETCHINDR ; 11
-	const PIDGEOT    ; 12
+	const TALONFLAME ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14
 	const SPEAROW    ; 15

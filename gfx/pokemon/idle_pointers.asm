@@ -17,7 +17,7 @@ AnimationIdlePointers:
 	dw PawmotAnimationIdle
 	dw FletchlingAnimationIdle
 	dw FletchindrAnimationIdle
-	dw PidgeotAnimationIdle
+	dw TalonflameAnimationIdle
 	dw RattataAnimationIdle
 	dw RaticateAnimationIdle
 	dw SpearowAnimationIdle
