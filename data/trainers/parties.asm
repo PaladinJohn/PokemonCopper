@@ -52,19 +52,44 @@ PryceGroup:
 
 JasmineGroup:
 	; JASMINE (1)
-	db "JASMINE@", TRAINERTYPE_MOVES
-	db 30, YAMPER,     THUNDERBOLT, SUPERSONIC, SONICBOOM, THUNDER_WAVE
-	db 30, YAMPER,     THUNDERBOLT, SUPERSONIC, SONICBOOM, THUNDER_WAVE
-	db 35, STEELIX,    SCREECH, SUNNY_DAY, ROCK_THROW, IRON_TAIL
+	db "JASMINE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db 27, SWINUB
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BERRY
+		db ICE_BEAM, ENDURE, TAKE_DOWN, HORN_ATTACK
+	db 27, CROBAT
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db PRZCUREBERRY
+		db HAZE, GIGA_DRAIN, CONFUSE_RAY, BITE
+	db 29, FROSMOTH
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BITTER_BERRY
+		db ICE_BEAM, MIRROR_COAT, ATTRACT, STRUGGLE_BUG
+	db 31, LAPRAS
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db PRZCUREBERRY
+		db ICE_BEAM, SING, HYDRO_PUMP, BODY_SLAM
 	db -1 ; end
 
 ChuckGroup:
 	; CHUCK (1)
-	db "CHUCK@", TRAINERTYPE_ITEM_MOVES
-	db 32, CHARMELEON, BITTER_BERRY, CRUNCH, FIRE_BLAST, IRON_TAIL, OUTRAGE
-	db 32, SKARMORY,   BERRY,        DRILL_PECK, PURSUIT, SWIFT, STEEL_WING
-	db 32, DURANT,     BITTER_BERRY, STRENGTH, FURY_CUTTER, CRUNCH, METAL_CLAW
-	db 35, KINGLER,    BERRY,        STRENGTH, MUD_SHOT, METAL_CLAW, SWAGGER
+	db "CHUCK@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
+	db 27, CHARMELEON
+	    dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BITTER_BERRY
+		db CRUNCH, FIRE_BLAST, IRON_TAIL, OUTRAGE
+	db 27, SKARMORY
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BERRY
+		db DRILL_PECK, PURSUIT, SWIFT, STEEL_WING
+	db 27, DURANT
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BITTER_BERRY
+		db STRENGTH, FURY_CUTTER, CRUNCH, METAL_CLAW
+	db 30, KINGLER
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db BERRY
+		db STRENGTH, MUD_SHOT, METAL_CLAW, SWAGGER
 	db -1 ; end
 
 ClairGroup:
@@ -1489,8 +1514,8 @@ GentlemanGroup:
 SkierGroup:
 	; SKIER (1)
 	db "CHARLENE@", TRAINERTYPE_NORMAL
-	db 26, SWINUB
-	db 26, DELIBIRD
+	db 25, SWINUB
+	db 25, DELIBIRD
 	db -1 ; end
 
 	; SKIER (2)
@@ -3249,8 +3274,8 @@ MediumGroup:
 BoarderGroup:
 	; BOARDER (1)
 	db "MARTYN@", TRAINERTYPE_NORMAL
-	db 26, SNEASEL
-	db 26, FROSMOTH
+	db 25, SNEASEL
+	db 25, FROSMOTH
 	db -1 ; end
 
 	; BOARDER (2)

@@ -34,7 +34,7 @@ OlivineGymJasmineScript:
 	iftrue .GotIronTail
 	writetext Jasmine_BadgeSpeech
 	promptbutton
-	verbosegiveitem TM_IRON_TAIL
+	verbosegiveitem TM_ICE_BEAM
 	iffalse .NoRoomForIronTail
 	setevent EVENT_GOT_TM23_IRON_TAIL
 	writetext Jasmine_IronTailSpeech
