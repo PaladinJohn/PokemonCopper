@@ -3089,9 +3089,10 @@ AI_Cautious:
 	pop hl
 	jr nc, .loop
 
+; BUG (FIXED): "Cautious" AI may fail to discourage residual moves (see docs/bugs_and_glitches.md)
 	call Random
 	cp 90 percent + 1
-	ret nc
+	jr nc, .loop
 
 	inc [hl]
 	jr .loop
