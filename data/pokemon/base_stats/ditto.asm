@@ -1,6 +1,6 @@
 	db DITTO ; 132
 
-	db  48,  48,  48,  48,  48,  48
+	db  60,  59,  59,  59,  59,  59
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
