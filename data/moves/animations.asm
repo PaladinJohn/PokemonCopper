@@ -172,7 +172,7 @@ BattleAnimations::
 	dw BattleAnim_Thief
 	dw BattleAnim_MetalSound
 	dw BattleAnim_MindReader
-	dw BattleAnim_Nightmare
+	dw BattleAnim_DragonClaw
 	dw BattleAnim_FlameWheel
 	dw BattleAnim_Snore
 	dw BattleAnim_Curse
@@ -3168,16 +3168,6 @@ BattleAnim_MindReader:
 	anim_wait 32
 	anim_ret
 
-BattleAnim_Nightmare:
-	anim_1gfx BATTLE_ANIM_GFX_ANGELS
-	anim_bgp $1b
-	anim_obp0 $f
-	anim_obj BATTLE_ANIM_OBJ_NIGHTMARE, 132, 40, $0
-	anim_obj BATTLE_ANIM_OBJ_NIGHTMARE, 132, 40, $a0
-	anim_sound 0, 1, SFX_NIGHTMARE
-	anim_wait 96
-	anim_ret
-
 BattleAnim_FlameWheel:
 	anim_1gfx BATTLE_ANIM_GFX_FIRE
 .loop
@@ -4193,6 +4183,7 @@ BattleAnim_IronTail:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_DragonClaw:
 BattleAnim_MetalClaw:
 	anim_1gfx BATTLE_ANIM_GFX_REFLECT
 	anim_obp0 $0

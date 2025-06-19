@@ -268,7 +268,7 @@ DEF TM01 EQU const_value
 	add_tm STEEL_WING   ; ef
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
-	add_tm NIGHTMARE    ; f2
+	add_tm DRAGON_CLAW  ; f2
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm

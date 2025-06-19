@@ -81,7 +81,6 @@ MoveGrammar:
 	db POISON_GAS
 	db BUBBLE
 	db SLASH
-	db NIGHTMARE
 	db CURSE
 	db FORESIGHT
 	db CHARM

@@ -541,10 +541,12 @@ VulpixEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 5, TAIL_WHIP
-	db 7, QUICK_ATTACK
-	db 13, ROAR
-	db 19, CONFUSE_RAY
-	db 25, SAFEGUARD
+	db 9, ROAR
+	db 13, QUICK_ATTACK
+	db 17, SHARPEN
+	db 21, CONFUSE_RAY
+	db 25, DISABLE
+	db 26, SAFEGUARD
 	db 31, FLAMETHROWER
 	db 37, FIRE_SPIN
 	db 0 ; no more level-up moves
@@ -553,9 +555,12 @@ NinetalesEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 5, TAIL_WHIP
-	db 5, QUICK_ATTACK
-	db 5, CONFUSE_RAY
-	db 5, SAFEGUARD
+	db 9, ROAR
+	db 13, QUICK_ATTACK
+	db 17, SHARPEN
+	db 21, CONFUSE_RAY
+	db 25, DISABLE
+	db 26, SAFEGUARD
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -2644,8 +2649,9 @@ SunkernEvosAttacks:
 	db 6, GROWTH
 	db 13, MEGA_DRAIN
 	db 18, CURSE
-	db 19, SUNNY_DAY
-	db 31, SYNTHESIS
+	db 25, LEECH_SEED
+	db 30, SUNNY_DAY
+	db 37, SYNTHESIS
 	db 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
@@ -2657,9 +2663,11 @@ SunfloraEvosAttacks:
 	db 13, MEGA_DRAIN
 	db 14, RAZOR_LEAF
 	db 18, CURSE
-	db 19, SUNNY_DAY
-	db 31, SYNTHESIS
-	db 32, PETAL_DANCE
+	db 25, LEECH_SEED
+	db 26, BULLET_SEED
+	db 30, SUNNY_DAY
+	db 37, SYNTHESIS
+	db 38, PETAL_DANCE
 	db 46, SOLARBEAM
 	db 0 ; no more level-up moves
 

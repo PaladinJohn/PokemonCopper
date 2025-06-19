@@ -171,7 +171,7 @@ MoveDescriptions::
 	dw ThiefDescription
 	dw MetalSoundDescription
 	dw MindReaderDescription
-	dw NightmareDescription
+	dw DragonClawDescription
 	dw FlameWheelDescription
 	dw SnoreDescription
 	dw CurseDescription
@@ -944,9 +944,9 @@ MindReaderDescription:
 	db   "Ensures the next"
 	next "attack will hit.@"
 
-NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
+DragonClawDescription:
+	db   "Slashes the foe"
+	next "with sharp claws.@"
 
 FlameWheelDescription:
 	db   "An attack that may"

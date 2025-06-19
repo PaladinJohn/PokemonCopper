@@ -184,7 +184,7 @@ Moves:
 	move THIEF,        EFFECT_THIEF,              40, DARK,         100, 10, 100
 	move METAL_SOUND,  EFFECT_SP_DEF_DOWN_2,       0, STEEL,         85, 40,   0
 	move MIND_READER,  EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
-	move NIGHTMARE,    EFFECT_NIGHTMARE,           0, GHOST,        100, 15,   0
+	move DRAGON_CLAW,  EFFECT_NORMAL_HIT,         80, DRAGON,       100, 15,   0
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        60, FIRE,         100, 25,  10
 	move SNORE,        EFFECT_SNORE,              40, NORMAL,       100, 15,  30
 	move CURSE,        EFFECT_CURSE,               0, CURSE_TYPE,   100, 10,   0

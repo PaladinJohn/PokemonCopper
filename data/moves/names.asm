@@ -170,7 +170,7 @@ MoveNames::
 	li "Thief"
 	li "Metal Sound"
 	li "Mind Reader"
-	li "Nightmare"
+	li "Dragon Claw"
 	li "Flame Wheel"
 	li "Snore"
 	li "Curse"
