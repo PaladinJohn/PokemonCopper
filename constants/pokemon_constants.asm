@@ -79,7 +79,7 @@
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const ROCKRUFF   ; 3c
-	const POLIWHIRL  ; 3d
+	const LYCANROC   ; 3d
 	const LEAFEON    ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40

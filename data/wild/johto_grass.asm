@@ -638,7 +638,7 @@ JohtoGrassWildMons:
 	db 24, GOLBAT
 	; nite
 	db 20, GEODUDE
-	db 21, RATTATA
+	db 21, RATICATE
 	db 22, RATICATE
 	db 21, ZUBAT
 	db 17, MARILL
@@ -1621,9 +1621,9 @@ JohtoGrassWildMons:
 	db 22, ROCKRUFF
 	db 22, BELLSPROUT
 	db 24, WEEPINBELL
-	db 24, POLIWHIRL
-	db 26, POLIWHIRL
-	db 26, POLIWHIRL
+	db 24, LYCANROC
+	db 26, LYCANROC
+	db 26, LYCANROC
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_45
@@ -1702,9 +1702,9 @@ JohtoGrassWildMons:
 	db 43, PAWMO
 	; nite
 	db 41, TANGELA
-	db 42, POLIWHIRL
+	db 42, LYCANROC
 	db 42, GOLBAT
-	db 44, POLIWHIRL
+	db 44, LYCANROC
 	db 40, GOLBAT
 	db 44, GOLBAT
 	db 44, GOLBAT

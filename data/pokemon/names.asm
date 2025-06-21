@@ -60,7 +60,7 @@ PokemonNames::
 	db "Growlithe@"
 	db "Arcanine@@"
 	db "Rockruff@@"
-	db "Poliwhirl@"
+	db "Lycanroc@@"
 	db "Leafeon@@@"
 	db "Abra@@@@@@"
 	db "Kadabra@@@"

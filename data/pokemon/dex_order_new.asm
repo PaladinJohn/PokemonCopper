@@ -173,7 +173,7 @@ NewPokedexOrder:
 	db CLEFAIRY
 	db CLEFABLE
 	db ROCKRUFF
-	db POLIWHIRL
+	db LYCANROC
 	db POLITOED
 	db SEAKING
 	db STUFFUL

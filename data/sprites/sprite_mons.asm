@@ -14,7 +14,7 @@ SpriteMons:
 	db TOGEPI
 	db VIVILLON
 	db MUDBRAY
-	db POLIWHIRL
+	db POLITOED
 	db LUXRAY
 	db CLEFAIRY
 	db CHARMANDER

@@ -506,7 +506,7 @@ SchoolboyGroup:
 	db "BILLY@", TRAINERTYPE_NORMAL
 	db 27, PARAS
 	db 27, PARAS
-	db 27, POLIWHIRL
+	db 27, LYCANROC
 	db 35, DITTO
 	db -1 ; end
 
@@ -1692,7 +1692,7 @@ FisherGroup:
 	; FISHER (4)
 	db "KYLE@", TRAINERTYPE_NORMAL
 	db 28, SEAKING
-	db 31, POLIWHIRL
+	db 31, LYCANROC
 	db 31, SEAKING
 	db -1 ; end
 
@@ -2155,13 +2155,13 @@ SailorGroup:
 
 	; SAILOR (11)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 28, POLIWHIRL
-	db 28, POLIWHIRL
+	db 28, LYCANROC
+	db 28, LYCANROC
 	db -1 ; end
 
 	; SAILOR (12)
 	db "HUEY@", TRAINERTYPE_NORMAL
-	db 34, POLIWHIRL
+	db 34, LYCANROC
 	db 34, LEAFEON
 	db -1 ; end
 

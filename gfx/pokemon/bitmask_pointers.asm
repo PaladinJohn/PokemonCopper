@@ -60,7 +60,7 @@ BitmasksPointers:
 	dw GrowlitheBitmasks
 	dw ArcanineBitmasks
 	dw RockruffBitmasks
-	dw PoliwhirlBitmasks
+	dw LycanrocBitmasks
 	dw LeafeonBitmasks
 	dw AbraBitmasks
 	dw KadabraBitmasks

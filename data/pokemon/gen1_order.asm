@@ -109,7 +109,7 @@ Pokered_MonIndices:
 	db ZUBAT
 	db SCOLIPEDE
 	db PARAS
-	db POLIWHIRL
+	db LYCANROC
 	db LEAFEON
 	db ROOKIDEE
 	db CORVISQUIR

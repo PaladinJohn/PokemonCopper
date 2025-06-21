@@ -61,7 +61,7 @@ PokedexDataPointerTable:
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw RockruffPokedexEntry
-	dw PoliwhirlPokedexEntry
+	dw LycanrocPokedexEntry
 	dw LeafeonPokedexEntry
 	dw AbraPokedexEntry
 	dw KadabraPokedexEntry

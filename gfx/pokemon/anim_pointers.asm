@@ -60,7 +60,7 @@ AnimationPointers:
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
 	dw RockruffAnimation
-	dw PoliwhirlAnimation
+	dw LycanrocAnimation
 	dw LeafeonAnimation
 	dw AbraAnimation
 	dw KadabraAnimation

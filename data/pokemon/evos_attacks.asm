@@ -831,6 +831,7 @@ ArcanineEvosAttacks:
 	db 0 ; no more level-up moves
 
 RockruffEvosAttacks:
+	db EVOLVE_LEVEL, 25, LYCANROC
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 7, LEER
@@ -842,19 +843,18 @@ RockruffEvosAttacks:
 	db 43, ROAR
 	db 0 ; no more level-up moves
 
-PoliwhirlEvosAttacks:
-	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
+LycanrocEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 1, HYPNOSIS
-	db 1, WATER_GUN
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 27, RAIN_DANCE
-	db 35, BODY_SLAM
-	db 43, BELLY_DRUM
-	db 51, HYDRO_PUMP
+	db 1, TACKLE
+	db 7, LEER
+	db 13, SAND_ATTACK
+	db 19, BITE
+	db 25, SHARPEN
+	db 35, ROCK_THROW
+	db 36, QUICK_ATTACK
+	db 43, ROCK_TOMB
+	db 51, ROAR
+	db 53, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 LeafeonEvosAttacks:

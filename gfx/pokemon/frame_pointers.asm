@@ -60,7 +60,7 @@ FramesPointers:
 	dw GrowlitheFrames
 	dw ArcanineFrames
 	dw RockruffFrames
-	dw PoliwhirlFrames
+	dw LycanrocFrames
 	dw LeafeonFrames
 	dw AbraFrames
 	dw KadabraFrames

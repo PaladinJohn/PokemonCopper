@@ -62,7 +62,7 @@ EvosAttacksPointers::
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw RockruffEvosAttacks
-	dw PoliwhirlEvosAttacks
+	dw LycanrocEvosAttacks
 	dw LeafeonEvosAttacks
 	dw AbraEvosAttacks
 	dw KadabraEvosAttacks

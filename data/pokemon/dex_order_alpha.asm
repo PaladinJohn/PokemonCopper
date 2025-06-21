@@ -111,6 +111,7 @@ AlphabeticalPokedexOrder:
 	db LUGIA
 	db LUXIO
 	db LUXRAY
+	db LYCANROC
 	db MACHAMP
 	db MACHOKE
 	db MAGBY
@@ -156,7 +157,6 @@ AlphabeticalPokedexOrder:
 	db PHANPY
 	db PILOSWINE
 	db POLITOED
-	db POLIWHIRL
 	db PONYTA
 	db PORYGON
 	db PORYGON2

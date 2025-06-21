@@ -834,9 +834,9 @@ KantoGrassWildMons:
 	db 43, PAWMO
 	; nite
 	db 39, TANGELA
-	db 40, POLIWHIRL
+	db 40, LYCANROC
 	db 40, GOLBAT
-	db 40, POLIWHIRL
+	db 40, LYCANROC
 	db 42, GOLBAT
 	db 42, GOLBAT
 	db 42, GOLBAT

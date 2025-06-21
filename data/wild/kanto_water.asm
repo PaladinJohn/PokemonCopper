@@ -83,7 +83,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 10, TENTACOOL
 	db 5, TENTACOOL
-	db 10, POLIWHIRL
+	db 10, LYCANROC
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
@@ -118,7 +118,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 40, TENTACOOL
 	db 35, TENTACOOL
-	db 40, POLIWHIRL
+	db 40, LYCANROC
 	end_water_wildmons
 
 	def_water_wildmons PALLET_TOWN
@@ -132,7 +132,7 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 10, TENTACOOL
 	db 5, TENTACOOL
-	db 10, POLIWHIRL
+	db 10, LYCANROC
 	end_water_wildmons
 
 	def_water_wildmons CERULEAN_CITY
