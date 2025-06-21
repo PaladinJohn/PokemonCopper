@@ -223,8 +223,8 @@ DEF JOHTO_POKEMON EQU const_value
 	const UNOWN      ; c9
 	const WOBBUFFET  ; ca
 	const GIRAFARIG  ; cb
-	const PINECO     ; cc
-	const FORRETRESS ; cd
+	const STUFFUL    ; cc
+	const BEWEAR     ; cd
 	const DUNSPARCE  ; ce
 	const GLIGAR     ; cf
 	const STEELIX    ; d0

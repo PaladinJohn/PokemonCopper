@@ -176,8 +176,8 @@ NewPokedexOrder:
 	db POLIWHIRL
 	db POLITOED
 	db SEAKING
-	db PINECO
-	db FORRETRESS
+	db STUFFUL
+	db BEWEAR
 	db ABSOL
 	db SNOM
 	db FROSMOTH

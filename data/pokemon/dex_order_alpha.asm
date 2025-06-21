@@ -16,6 +16,7 @@ AlphabeticalPokedexOrder:
 	db AZUMARILL
 	db BELLOSSOM
 	db BELLSPROUT
+	db BEWEAR
 	db BLASTOISE
 	db BLISSEY
 	db BLITZLE
@@ -61,7 +62,6 @@ AlphabeticalPokedexOrder:
 	db FLETCHINDR
 	db FLETCHLING
 	db FLORAGATO
-	db FORRETRESS
 	db FROSMOTH
 	db FURRET
 	db GASTLY
@@ -155,7 +155,6 @@ AlphabeticalPokedexOrder:
 	db PERRSERKER
 	db PHANPY
 	db PILOSWINE
-	db PINECO
 	db POLITOED
 	db POLIWHIRL
 	db PONYTA
@@ -212,6 +211,7 @@ AlphabeticalPokedexOrder:
 	db STARMIE
 	db STARYU
 	db STEELIX
+	db STUFFUL
 	db SUDOWOODO
 	db SUICUNE
 	db SUNFLORA

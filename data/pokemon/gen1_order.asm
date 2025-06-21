@@ -243,8 +243,8 @@ Pokered_MonIndices:
 	db UNOWN
 	db WOBBUFFET
 	db GIRAFARIG
-	db PINECO
-	db FORRETRESS
+	db STUFFUL
+	db BEWEAR
 	db DUNSPARCE
 	db GLIGAR
 	db STEELIX

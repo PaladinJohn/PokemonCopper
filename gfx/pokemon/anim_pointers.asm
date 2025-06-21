@@ -203,8 +203,8 @@ AnimationPointers:
 	dw UnownAnimation
 	dw WobbuffetAnimation
 	dw GirafarigAnimation
-	dw PinecoAnimation
-	dw ForretressAnimation
+	dw StuffulAnimation
+	dw BewearAnimation
 	dw DunsparceAnimation
 	dw GligarAnimation
 	dw SteelixAnimation

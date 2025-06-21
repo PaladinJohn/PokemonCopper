@@ -465,8 +465,8 @@ INCBIN "gfx/footprints/misdreavus.1bpp", footprint_bottom
 INCBIN "gfx/footprints/unown.1bpp",      footprint_top
 INCBIN "gfx/footprints/wobbuffet.1bpp",  footprint_top
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_top
-INCBIN "gfx/footprints/pineco.1bpp",     footprint_top
-INCBIN "gfx/footprints/forretress.1bpp", footprint_top
+INCBIN "gfx/footprints/stufful.1bpp",    footprint_top
+INCBIN "gfx/footprints/bewear.1bpp",     footprint_top
 INCBIN "gfx/footprints/dunsparce.1bpp",  footprint_top
 INCBIN "gfx/footprints/gligar.1bpp",     footprint_top
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_top
@@ -474,8 +474,8 @@ INCBIN "gfx/footprints/steelix.1bpp",    footprint_top
 INCBIN "gfx/footprints/unown.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/wobbuffet.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/pineco.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/forretress.1bpp", footprint_bottom
+INCBIN "gfx/footprints/stufful.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/bewear.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/dunsparce.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/gligar.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_bottom

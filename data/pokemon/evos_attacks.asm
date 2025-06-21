@@ -2802,31 +2802,30 @@ GirafarigEvosAttacks:
 	db 54, CRUNCH
 	db 0 ; no more level-up moves
 
-PinecoEvosAttacks:
-	db EVOLVE_LEVEL, 31, FORRETRESS
+StuffulEvosAttacks:
+	db EVOLVE_LEVEL, 27, BEWEAR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, PROTECT
-	db 8, SELFDESTRUCT
-	db 15, TAKE_DOWN
-	db 22, RAPID_SPIN
-	db 29, BIDE
-	db 36, EXPLOSION
-	db 43, SPIKES
+	db 1, LEER
+	db 8, BIDE
+	db 15, FLAIL
+	db 22, BIND
+	db 29, TAKE_DOWN
+	db 36, THRASH
+	db 43, PAIN_SPLIT
 	db 50, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-ForretressEvosAttacks:
+BewearEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, PROTECT
-	db 1, SELFDESTRUCT
-	db 8, SELFDESTRUCT
-	db 15, TAKE_DOWN
-	db 22, RAPID_SPIN
-	db 29, BIDE
-	db 39, EXPLOSION
-	db 49, SPIKES
+	db 1, LEER
+	db 8, BIDE
+	db 15, FLAIL
+	db 22, BIND
+	db 30, TAKE_DOWN
+	db 39, THRASH
+	db 49, PAIN_SPLIT
 	db 59, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 

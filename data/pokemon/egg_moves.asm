@@ -614,11 +614,11 @@ GirafarigEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-PinecoEggMoves:
-	db REFLECT
-	db PIN_MISSILE
-	db FLAIL
-	db SWIFT
+StuffulEggMoves:
+	db ENDURE
+	db ICE_PUNCH
+	db MEGA_KICK
+	db THUNDERPUNCH
 	db -1 ; end
 
 DunsparceEggMoves:
