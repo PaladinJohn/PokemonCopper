@@ -188,7 +188,7 @@ AnimationPointers:
 	dw PolitoedAnimation
 	dw SmolivAnimation
 	dw DollivAnimation
-	dw JumpluffAnimation
+	dw ArbolivaAnimation
 	dw AipomAnimation
 	dw SunkernAnimation
 	dw SunfloraAnimation

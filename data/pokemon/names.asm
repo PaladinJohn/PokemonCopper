@@ -188,7 +188,7 @@ PokemonNames::
 	db "Politoed@@"
 	db "Smoliv@@@@"
 	db "Dolliv@@@@"
-	db "Jumpluff@@"
+	db "Arboliva@@"
 	db "Aipom@@@@@"
 	db "Sunkern@@@"
 	db "Sunflora@@"

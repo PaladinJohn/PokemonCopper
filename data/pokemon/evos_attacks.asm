@@ -2601,6 +2601,7 @@ SmolivEvosAttacks:
 	db 0 ; no more level-up moves
 
 DollivEvosAttacks:
+	db EVOLVE_LEVEL, 35, ARBOLIVA
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SWEET_SCENT
@@ -2612,21 +2613,18 @@ DollivEvosAttacks:
 	db 36, LEECH_SEED
 	db 0 ; no more level-up moves
 
-JumpluffEvosAttacks:
+ArbolivaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 1, SYNTHESIS
-	db 1, TAIL_WHIP
 	db 1, TACKLE
-	db 5, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
-	db 13, POISONPOWDER
-	db 15, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 22, LEECH_SEED
-	db 33, COTTON_SPORE
-	db 44, MEGA_DRAIN
+	db 5, SWEET_SCENT
+	db 5, ABSORB
+	db 10, GROWTH
+	db 13, RAZOR_LEAF
+	db 15, FLAIL
+	db 17, MEGA_DRAIN
+	db 35, MIRROR_COAT
+	db 36, SAFEGUARD
+	db 44, LEECH_SEED
 	db 0 ; no more level-up moves
 
 AipomEvosAttacks:

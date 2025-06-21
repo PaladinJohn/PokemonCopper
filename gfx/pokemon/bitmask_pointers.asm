@@ -188,7 +188,7 @@ BitmasksPointers:
 	dw PolitoedBitmasks
 	dw SmolivBitmasks
 	dw DollivBitmasks
-	dw JumpluffBitmasks
+	dw ArbolivaBitmasks
 	dw AipomBitmasks
 	dw SunkernBitmasks
 	dw SunfloraBitmasks

@@ -194,7 +194,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_VOLTORB,    3516,  519 ; SMOLIV
 	mon_cry CRY_VOLTORB,    1520,  448 ; DOLLIV
-	mon_cry CRY_CLEFFA,        0,  384 ; JUMPLUFF
+	mon_cry CRY_SUNFLORA,   2177,  330 ; ARBOLIVA
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA

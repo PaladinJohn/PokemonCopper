@@ -61,7 +61,7 @@ NewPokedexOrder:
 	db PAWMOT
 	db SMOLIV
 	db DOLLIV
-	db JUMPLUFF
+	db ARBOLIVA
 	db SANDSHREW
 	db SANDSLASH
 	db TENTACOOL

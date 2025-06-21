@@ -228,7 +228,7 @@ Pokered_MonIndices:
 	db POLITOED
 	db SMOLIV
 	db DOLLIV
-	db JUMPLUFF
+	db ARBOLIVA
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA

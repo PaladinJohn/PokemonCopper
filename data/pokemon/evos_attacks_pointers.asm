@@ -190,7 +190,7 @@ EvosAttacksPointers::
 	dw PolitoedEvosAttacks
 	dw SmolivEvosAttacks
 	dw DollivEvosAttacks
-	dw JumpluffEvosAttacks
+	dw ArbolivaEvosAttacks
 	dw AipomEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks

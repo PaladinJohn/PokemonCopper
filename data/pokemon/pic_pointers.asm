@@ -379,8 +379,8 @@ PokemonPicPointers::
 	dba_pic SmolivBackpic
 	dba_pic DollivFrontpic
 	dba_pic DollivBackpic
-	dba_pic JumpluffFrontpic
-	dba_pic JumpluffBackpic
+	dba_pic ArbolivaFrontpic
+	dba_pic ArbolivaBackpic
 	dba_pic AipomFrontpic
 	dba_pic AipomBackpic
 	dba_pic SunkernFrontpic

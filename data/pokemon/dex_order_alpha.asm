@@ -8,6 +8,7 @@ AlphabeticalPokedexOrder:
 	db AIPOM
 	db ALAKAZAM
 	db AMPHAROS
+	db ARBOLIVA
 	db ARCANINE
 	db ARCTOZOLT
 	db ARIADOS
@@ -90,7 +91,6 @@ AlphabeticalPokedexOrder:
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
-	db JUMPLUFF
 	db JYNX
 	db KABUTO
 	db KABUTOPS

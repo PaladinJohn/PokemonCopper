@@ -91,5 +91,5 @@ EZChat_SortedPokemon:
 .ru:       db JYNX, LUGIA, -1
 .re:       db BOLTUND, LEDIAN, LEDYBA, -1
 .ro:       db VULPIX, -1
-.wa:       db JUMPLUFF, TOTODILE, TIMBURR ;, -1
+.wa:       db ARBOLIVA, TOTODILE, TIMBURR ;, -1
 .end:      db -1
