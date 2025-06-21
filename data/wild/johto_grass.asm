@@ -593,57 +593,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, RATTATA
-	db 13, ZUBAT
-	db 14, TIMBURR
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 21, RATICATE
+	db 20, ZUBAT
+	db 21, STUFFUL
+	db 21, ZUBAT
+	db 21, GEODUDE
+	db 22, RATICATE
+	db 23, RATICATE
 	; day
-	db 14, RATTATA
-	db 13, ZUBAT
-	db 14, TIMBURR
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 23, RATICATE
+	db 22, GOLBAT
+	db 23, STUFFUL
+	db 23, GOLBAT
+	db 23, GEODUDE
+	db 24, RATICATE
+	db 25, RATICATE
 	; nite
-	db 14, RATTATA
-	db 13, ZUBAT
-	db 14, MARILL
-	db 13, GOLBAT
-	db 14, GEODUDE
-	db 16, RATICATE
-	db 16, RATICATE
+	db 23, RATICATE
+	db 22, GOLBAT
+	db 17, MARILL
+	db 23, GOLBAT
+	db 23, GEODUDE
+	db 24, RATICATE
+	db 25, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_INSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, GEODUDE
-	db 14, RATTATA
-	db 15, TIMBURR
-	db 14, RATICATE
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 20, GEODUDE
+	db 21, RATICATE
+	db 22, STUFFUL
+	db 22, RATICATE
+	db 22, GOLBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
 	; day
-	db 13, GEODUDE
-	db 14, RATTATA
-	db 15, TIMBURR
-	db 14, RATICATE
-	db 15, ZUBAT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 20, GEODUDE
+	db 21, RATICATE
+	db 22, STUFFUL
+	db 22, RATICATE
+	db 22, GOLBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
 	; nite
-	db 13, GEODUDE
-	db 14, RATTATA
-	db 15, RATICATE
-	db 14, ZUBAT
-	db 15, MARILL
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 20, GEODUDE
+	db 21, RATTATA
+	db 22, RATICATE
+	db 21, ZUBAT
+	db 17, MARILL
+	db 22, GOLBAT
+	db 23, GOLBAT
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_2F_INSIDE
@@ -677,29 +677,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons MOUNT_MORTAR_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, TIMBURR
-	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 22, GOLBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
+	db 23, STUFFUL
+	db 23, GEODUDE
+	db 24, RATICATE
+	db 25, RATICATE
 	; day
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, TIMBURR
-	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 22, GOLBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
+	db 23, STUFFUL
+	db 23, GEODUDE
+	db 24, RATICATE
+	db 25, RATICATE
 	; nite
-	db 15, ZUBAT
-	db 17, ZUBAT
-	db 17, GOLBAT
-	db 16, MARILL
-	db 16, GEODUDE
-	db 18, RATICATE
-	db 18, RATICATE
+	db 22, GOLBAT
+	db 23, GOLBAT
+	db 24, GOLBAT
+	db 17, MARILL
+	db 23, GEODUDE
+	db 24, RATICATE
+	db 25, RATICATE
 	end_grass_wildmons
 
 	def_grass_wildmons ICE_PATH_1F
