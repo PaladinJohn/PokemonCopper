@@ -1573,29 +1573,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, FURRET
-	db 24, FLETCHINDR
-	db 24, FARFETCH_D
 	db 24, FURRET
-	db 25, FLAAFFY
+	db 25, FLETCHINDR
+	db 25, FARFETCH_D
 	db 25, FURRET
-	db 25, GIRAFARIG
+	db 26, FLAAFFY
+	db 26, FURRET
+	db 26, GIRAFARIG
 	; day
-	db 23, FURRET
-	db 24, FLETCHINDR
-	db 24, FARFETCH_D
 	db 24, FURRET
-	db 25, FLAAFFY
+	db 25, FLETCHINDR
+	db 25, FARFETCH_D
 	db 25, FURRET
-	db 25, GIRAFARIG
+	db 26, FLAAFFY
+	db 26, FURRET
+	db 26, GIRAFARIG
 	; nite
-	db 23, MINCCINO
-	db 24, NOCTOWL
-	db 24, RATICATE
 	db 24, MINCCINO
-	db 25, FLAAFFY
+	db 25, NOCTOWL
+	db 25, RATICATE
 	db 25, MINCCINO
-	db 25, GIRAFARIG
+	db 26, FLAAFFY
+	db 26, MINCCINO
+	db 26, GIRAFARIG
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
