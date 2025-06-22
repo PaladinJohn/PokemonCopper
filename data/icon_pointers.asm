@@ -164,27 +164,37 @@ IconPointers:
 	dw MagbyIcon
 	dw MiltankIcon
 	dw BlisseyIcon
+	dw PupitarIcon
 	dw TyranitarIcon
 	dw LugiaIcon
+	dw GulpinIcon
 	dw SwalotIcon
 	dw AbsolIcon
 	dw RegirockIcon
+	dw LuxioIcon
 	dw LuxrayIcon
 	dw SpiritombIcon
+	dw RioluIcon
 	dw LucarioIcon
 	dw LeafeonIcon
 	dw VictiniIcon
+	dw BlitzleIcon
 	dw ZebstrikaIcon
+	dw GurdurrIcon
 	dw ConkeldurrIcon
-	dw BugIcon
+	dw WhirlipedeIcon
 	dw ScolipedeIcon
 	dw SigilyphIcon
+	dw TirtougaIcon
 	dw CarracostaIcon
+	dw ZoruaIcon
 	dw ZoroarkIcon
+	dw MinccinoIcon
 	dw CinccinoIcon
 	dw DurantIcon
 	dw ReshiramIcon
 	dw BirdIcon
+	dw FletchinderIcon
 	dw TalonflameIcon
 	dw VivillonIcon
 	dw HawluchaIcon
