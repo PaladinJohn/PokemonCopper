@@ -1475,9 +1475,6 @@ CuboneEvosAttacks:
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
-	db 1, TAIL_WHIP
-	db 1, BONE_CLUB
-	db 1, HEADBUTT
 	db 5, TAIL_WHIP
 	db 9, BONE_CLUB
 	db 13, HEADBUTT
@@ -1485,7 +1482,9 @@ MarowakEvosAttacks:
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
 	db 32, RAGE
+	db 33, FLAME_WHEEL
 	db 39, FALSE_SWIPE
+	db 40, SHADOW_PUNCH
 	db 46, THRASH
 	db 53, BONE_RUSH
 	db 0 ; no more level-up moves
