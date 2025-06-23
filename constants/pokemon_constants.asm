@@ -119,7 +119,7 @@
 	const KRABBY     ; 62
 	const KINGLER    ; 63
 	const BLITZLE    ; 64
-	const ELECTRODE  ; 65
+	const ZEBSTRIKA  ; 65
 	const RIOLU      ; 66
 	const LUCARIO    ; 67
 	const CUBONE     ; 68

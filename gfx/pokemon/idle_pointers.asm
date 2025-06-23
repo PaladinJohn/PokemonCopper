@@ -100,7 +100,7 @@ AnimationIdlePointers:
 	dw KrabbyAnimationIdle
 	dw KinglerAnimationIdle
 	dw BlitzleAnimationIdle
-	dw ElectrodeAnimationIdle
+	dw ZebstrikaAnimationIdle
 	dw RioluAnimationIdle
 	dw LucarioAnimationIdle
 	dw CuboneAnimationIdle

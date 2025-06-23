@@ -1399,6 +1399,7 @@ KinglerEvosAttacks:
 	db 0 ; no more level-up moves
 
 BlitzleEvosAttacks:
+	db EVOLVE_LEVEL, 27, ZEBSTRIKA
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 9, TAIL_WHIP
@@ -1411,20 +1412,17 @@ BlitzleEvosAttacks:
 	db 41, THRASH
 	db 0 ; no more level-up moves
 
-ElectrodeEvosAttacks:
+ZebstrikaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SCREECH
-	db 1, SONICBOOM
-	db 1, SELFDESTRUCT
-	db 9, SCREECH
-	db 17, SONICBOOM
-	db 23, SELFDESTRUCT
-	db 29, ROLLOUT
-	db 34, LIGHT_SCREEN
-	db 40, SWIFT
-	db 44, EXPLOSION
-	db 48, MIRROR_COAT
+	db 1, QUICK_ATTACK
+	db 9, TAIL_WHIP
+	db 17, CHARGE
+	db 23, THUNDER_WAVE
+	db 30, PURSUIT
+	db 34, SPARK
+	db 40, STOMP
+	db 44, AGILITY
+	db 48, THRASH
 	db 0 ; no more level-up moves
 
 RioluEvosAttacks:

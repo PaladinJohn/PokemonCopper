@@ -100,7 +100,7 @@ BitmasksPointers:
 	dw KrabbyBitmasks
 	dw KinglerBitmasks
 	dw BlitzleBitmasks
-	dw ElectrodeBitmasks
+	dw ZebstrikaBitmasks
 	dw RioluBitmasks
 	dw LucarioBitmasks
 	dw CuboneBitmasks

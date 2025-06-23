@@ -102,7 +102,7 @@ EvosAttacksPointers::
 	dw KrabbyEvosAttacks
 	dw KinglerEvosAttacks
 	dw BlitzleEvosAttacks
-	dw ElectrodeEvosAttacks
+	dw ZebstrikaEvosAttacks
 	dw RioluEvosAttacks
 	dw LucarioEvosAttacks
 	dw CuboneEvosAttacks

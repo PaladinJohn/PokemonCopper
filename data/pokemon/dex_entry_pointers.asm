@@ -101,7 +101,7 @@ PokedexDataPointerTable:
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
 	dw BlitzlePokedexEntry
-	dw ElectrodePokedexEntry
+	dw ZebstrikaPokedexEntry
 	dw RioluPokedexEntry
 	dw LucarioPokedexEntry
 	dw CubonePokedexEntry

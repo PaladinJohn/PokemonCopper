@@ -203,8 +203,8 @@ PokemonPicPointers::
 	dba_pic KinglerBackpic
 	dba_pic BlitzleFrontpic
 	dba_pic BlitzleBackpic
-	dba_pic ElectrodeFrontpic
-	dba_pic ElectrodeBackpic
+	dba_pic ZebstrikaFrontpic
+	dba_pic ZebstrikaBackpic
 	dba_pic RioluFrontpic
 	dba_pic RioluBackpic
 	dba_pic LucarioFrontpic

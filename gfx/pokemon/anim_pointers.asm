@@ -100,7 +100,7 @@ AnimationPointers:
 	dw KrabbyAnimation
 	dw KinglerAnimation
 	dw BlitzleAnimation
-	dw ElectrodeAnimation
+	dw ZebstrikaAnimation
 	dw RioluAnimation
 	dw LucarioAnimation
 	dw CuboneAnimation

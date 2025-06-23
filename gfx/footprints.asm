@@ -232,7 +232,7 @@ INCBIN "gfx/footprints/hypno.1bpp",      footprint_top
 INCBIN "gfx/footprints/krabby.1bpp",     footprint_top
 INCBIN "gfx/footprints/kingler.1bpp",    footprint_top
 INCBIN "gfx/footprints/blitzle.1bpp",    footprint_top
-INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
+INCBIN "gfx/footprints/zebstrika.1bpp",  footprint_top
 INCBIN "gfx/footprints/riolu.1bpp",      footprint_top
 INCBIN "gfx/footprints/lucario.1bpp",    footprint_top
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_top
@@ -241,7 +241,7 @@ INCBIN "gfx/footprints/hypno.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/krabby.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kingler.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/blitzle.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/zebstrika.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/riolu.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/lucario.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/cubone.1bpp",     footprint_bottom

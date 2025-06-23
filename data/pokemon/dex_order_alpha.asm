@@ -52,7 +52,6 @@ AlphabeticalPokedexOrder:
 	db DUNSPARCE
 	db DURANT
 	db EEVEE
-	db ELECTRODE
 	db ESPEON
 	db FARFETCH_D
 	db FEAROW
@@ -250,6 +249,7 @@ AlphabeticalPokedexOrder:
 	db XATU
 	db YAMPER
 	db ZAPDOS
+	db ZEBSTRIKA
 	db ZOROARK
 	db ZORUA
 	db ZUBAT

@@ -100,7 +100,7 @@ PokemonNames::
 	db "Krabby@@@@"
 	db "Kingler@@@"
 	db "Blitzle@@@"
-	db "Electrode@"
+	db "Zebstrika@"
 	db "Riolu@@@@@"
 	db "Lucario@@@"
 	db "Cubone@@@@"

@@ -100,7 +100,7 @@ FramesPointers:
 	dw KrabbyFrames
 	dw KinglerFrames
 	dw BlitzleFrames
-	dw ElectrodeFrames
+	dw ZebstrikaFrames
 	dw RioluFrames
 	dw LucarioFrames
 	dw CuboneFrames

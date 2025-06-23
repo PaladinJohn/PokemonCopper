@@ -409,7 +409,7 @@ SunkernFrontpic:     INCBIN "gfx/pokemon/sunkern/front.animated.2bpp.lz"
 NidorinoBackpic:     INCBIN "gfx/pokemon/nidorino/back.2bpp.lz"
 MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
-ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
+ZebstrikaFrontpic:   INCBIN "gfx/pokemon/zebstrika/front.animated.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
@@ -626,7 +626,7 @@ GastlyBackpic:       INCBIN "gfx/pokemon/gastly/back.2bpp.lz"
 FearowBackpic:       INCBIN "gfx/pokemon/fearow/back.2bpp.lz"
 MarillBackpic:       INCBIN "gfx/pokemon/marill/back.2bpp.lz"
 DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
-ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
+ZebstrikaBackpic:    INCBIN "gfx/pokemon/zebstrika/back.2bpp.lz"
 SkarmoryBackpic:     INCBIN "gfx/pokemon/skarmory/back.2bpp.lz"
 SpewpaBackpic:       INCBIN "gfx/pokemon/spewpa/back.2bpp.lz"
 JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"

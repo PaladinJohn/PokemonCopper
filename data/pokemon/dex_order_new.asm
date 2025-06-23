@@ -184,7 +184,7 @@ NewPokedexOrder:
 	db GRIMER
 	db MUK
 	db BLITZLE
-	db ELECTRODE
+	db ZEBSTRIKA
 	db MARILL
 	db AZUMARILL
 	db GREAVARD
