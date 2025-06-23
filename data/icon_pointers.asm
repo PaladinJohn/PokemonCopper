@@ -193,27 +193,37 @@ IconPointers:
 	dw CinccinoIcon
 	dw DurantIcon
 	dw ReshiramIcon
-	dw BirdIcon
 	dw FletchinderIcon
 	dw TalonflameIcon
+	dw SpewpaIcon
 	dw VivillonIcon
 	dw HawluchaIcon
+	dw NoibatIcon
 	dw NoivernIcon
+	dw RockruffIcon
 	dw LycanrocIcon
+	dw MareanieIcon
 	dw ToxapexIcon
+	dw MudbrayIcon
 	dw MudsdaleIcon
+	dw StuffulIcon
 	dw BewearIcon
 	dw MimikyuIcon
 	dw SolgaleoIcon
 	dw LunalaIcon
 	dw NihilegoIcon
+	dw CorvisquireIcon
 	dw CorviknightIcon
+	dw YamperIcon
 	dw BoltundIcon
 	dw PerrserkerIcon
+	dw SnomIcon
 	dw FrosmothIcon
 	dw ArctozoltIcon
 	dw SpectrierIcon
+	dw FloragatoIcon
 	dw MeowscaradaIcon
+	dw PawmoIcon
 	dw PawmotIcon
 	dw ArbolivaIcon
 	dw ScovillainIcon
