@@ -15,11 +15,8 @@ MomItems_1:
 
 MomItems_2:
 	momitem    900,   600, MOM_ITEM, SUPER_POTION
-	;momitem   2000,  1000, MOM_DOLL, DECO_JIGGLYPUFF_DOLL ; Mystery Gift/Need to put elsewhere.
-	;momitem   3000,  1000, MOM_DOLL, DECO_EEVEE_DOLL ; Mystery Gift/Need to put elsewhere.
 	momitem   3000,  1000, MOM_DOLL, DECO_STARYU_DOLL ; Mystery Gift
 	momitem   4000,   270, MOM_ITEM, REPEL
-	;momitem   5000,  1000, MOM_DOLL, DECO_SPRIGATITO_DOLL ; Mystery Gift/Need to put elsewhere.
 	momitem   6000,  1000, MOM_DOLL, DECO_MAGIKARP_DOLL ; Mystery Gift
 	momitem   7000,   600, MOM_ITEM, SUPER_POTION
 	momitem   8000,  1000, MOM_DOLL, DECO_ODDISH_DOLL ; Mystery Gift
@@ -28,7 +25,7 @@ MomItems_2:
 	momitem  12000,  2000, MOM_DOLL, DECO_SHELLDER_DOLL ; Mystery Gift
 	momitem  14000,  2000, MOM_DOLL, DECO_GRIMER_DOLL ; Mystery Gift
 	momitem  15000,  3000, MOM_ITEM, MOON_STONE
-	momitem  18000,  2000, MOM_DOLL, DECO_VOLTORB_DOLL ; Mystery Gift
+	momitem  18000,  2000, MOM_DOLL, DECO_HOOTHOOT_DOLL ; Mystery Gift
 	momitem  19000,   600, MOM_ITEM, SUPER_POTION
 	momitem  24000,  2000, MOM_DOLL, DECO_CLEFAIRY_POSTER ; Mystery Gift
 	momitem  27000,  3000, MOM_DOLL, DECO_JIGGLYPUFF_POSTER ; Mystery Gift

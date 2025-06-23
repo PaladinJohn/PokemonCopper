@@ -280,7 +280,7 @@ ExplodingTrap1:
 ExplodingTrap2:
 	checkevent EVENT_EXPLODING_TRAP_2
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_2
 	end
@@ -296,7 +296,7 @@ ExplodingTrap3:
 ExplodingTrap4:
 	checkevent EVENT_EXPLODING_TRAP_4
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall KoffingExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_4
 	end
@@ -320,7 +320,7 @@ ExplodingTrap6:
 ExplodingTrap7:
 	checkevent EVENT_EXPLODING_TRAP_7
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_7
 	end
@@ -344,7 +344,7 @@ ExplodingTrap9:
 ExplodingTrap10:
 	checkevent EVENT_EXPLODING_TRAP_10
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall KoffingExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_10
 	end
@@ -384,7 +384,7 @@ ExplodingTrap14:
 ExplodingTrap15:
 	checkevent EVENT_EXPLODING_TRAP_15
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_15
 	end
@@ -400,7 +400,7 @@ ExplodingTrap16:
 ExplodingTrap17:
 	checkevent EVENT_EXPLODING_TRAP_17
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall KoffingExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_17
 	end
@@ -424,7 +424,7 @@ ExplodingTrap19:
 ExplodingTrap20:
 	checkevent EVENT_EXPLODING_TRAP_20
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall GeodudeExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_20
 	end
@@ -440,28 +440,18 @@ ExplodingTrap21:
 ExplodingTrap22:
 	checkevent EVENT_EXPLODING_TRAP_22
 	iftrue NoExplodingTrap
-	scall VoltorbExplodingTrap
+	scall KoffingExplodingTrap
 	reloadmapafterbattle
 	setevent EVENT_EXPLODING_TRAP_22
 	end
 
-VoltorbExplodingTrap:
-	special FadeOutToWhite
-	cry BLITZLE
-	special FadeInFromWhite
-	setlasttalked -1
-	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon BLITZLE, 23
-	startbattle
-	end
-
 GeodudeExplodingTrap:
 	special FadeOutToWhite
-	cry GEODUDE
+	cry GRAVELER
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon GEODUDE, 21
+	loadwildmon GRAVELER, 26
 	startbattle
 	end
 
@@ -471,7 +461,7 @@ KoffingExplodingTrap:
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon KOFFING, 21
+	loadwildmon KOFFING, 26
 	startbattle
 	end
 

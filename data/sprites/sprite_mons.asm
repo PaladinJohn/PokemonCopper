@@ -4,7 +4,7 @@ SpriteMons:
 	db UNOWN
 	db GEODUDE
 	db GROWLITHE
-	db SCATTERBUG
+	db EEVEE
 	db SHELLDER
 	db ODDISH
 	db GENGAR
@@ -13,9 +13,9 @@ SpriteMons:
 	db SQUIRTLE
 	db TOGEPI
 	db VIVILLON
-	db MUDBRAY
-	db POLITOED
-	db LUXRAY
+	db HOUNDOUR
+	db HOOTHOOT
+	db NINETALES
 	db CLEFAIRY
 	db CHARMANDER
 	db JYNX
@@ -28,7 +28,7 @@ SpriteMons:
 	db TENTACOOL
 	db MILTANK
 	db LUCARIO
-	db ELECTRODE
+	db CHINCHOU
 	db LAPRAS
 	db RHYDON
 	db MOLTRES
