@@ -18,7 +18,7 @@ SpriteMons:
 	db NINETALES
 	db CLEFAIRY
 	db CHARMANDER
-	db JYNX
+	db ZORUA
 	db STARMIE
 	db BULBASAUR
 	db JIGGLYPUFF
