@@ -6403,9 +6403,7 @@ INCLUDE "engine/battle/move_effects/sandstorm.asm"
 
 INCLUDE "engine/battle/move_effects/rollout.asm"
 
-BattleCommand_Unused5D:
-; effect0x5d
-	ret
+INCLUDE "engine/battle/move_effects/yawn.asm"
 
 INCLUDE "engine/battle/move_effects/fury_cutter.asm"
 

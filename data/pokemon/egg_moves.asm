@@ -34,6 +34,7 @@ SquirtleEggMoves:
 	db CONFUSION
 	db FORESIGHT
 	db FLAIL
+	db YAWN
 	db -1 ; end
 	
 ScatterbugEggMoves:
@@ -165,6 +166,7 @@ GreavardEggMoves:
 	db DESTINY_BOND
 	db DISABLE
 	db SHARPEN
+	db YAWN
 	db -1 ; end
 
 GrowlitheEggMoves:

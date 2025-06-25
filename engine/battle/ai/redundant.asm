@@ -45,6 +45,7 @@ AI_Redundant:
 	dbw EFFECT_SWAGGER,      .Swagger
 	dbw EFFECT_FUTURE_SIGHT, .FutureSight
 	dbw EFFECT_CHARGE_M,     .Charge
+	dbw EFFECT_YAWN,         .Yawn
 	db -1
 
 .LightScreen:
@@ -192,6 +193,11 @@ AI_Redundant:
 .Charge:
 	ld a, [wEnemySubStatus4]
 	bit SUBSTATUS_CHARGE, a
+	ret
+	
+.Yawn:
+	ld a, [wPlayerSubStatus5]
+	bit SUBSTATUS_YAWN, a
 	ret
 
 .Teleport:

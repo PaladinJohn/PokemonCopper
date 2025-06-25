@@ -1086,6 +1086,14 @@ SkyAttack:
 	kingsrock
 	endmove
 
+Yawn:
+	checkobedience
+	usedmovetext
+	doturn
+	checksafeguard
+	yawn
+	endmove
+
 Substitute:
 	checkobedience
 	usedmovetext

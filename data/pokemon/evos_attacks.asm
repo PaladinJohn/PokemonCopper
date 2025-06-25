@@ -1490,7 +1490,7 @@ MarowakEvosAttacks:
 GulpinEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	;db 1, YAWN
+	db 1, YAWN
 	db 8, POISON_GAS
 	db 13, SMOG
 	db 20, AMNESIA

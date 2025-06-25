@@ -184,7 +184,7 @@ BattleAnimations::
 	dw BattleAnim_Spite
 	dw BattleAnim_PowderSnow
 	dw BattleAnim_Protect
-	dw BattleAnim_MachPunch
+	dw BattleAnim_Yawn
 	dw BattleAnim_ScaryFace
 	dw BattleAnim_FaintAttack
 	dw BattleAnim_SweetKiss
@@ -1846,6 +1846,7 @@ BattleAnim_Fissure:
 	anim_ret
 
 BattleAnim_Growl:
+BattleAnim_Yawn:
 	anim_1gfx BATTLE_ANIM_GFX_NOISE
 	anim_battlergfx_2row
 	anim_bgeffect BATTLE_BG_EFFECT_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -3369,26 +3370,6 @@ BattleAnim_Protect:
 	anim_obj BATTLE_ANIM_OBJ_PROTECT, 80, 80, $34
 	anim_sound 0, 0, SFX_PROTECT
 	anim_wait 96
-	anim_ret
-
-BattleAnim_MachPunch:
-	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
-	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
-	anim_sound 0, 0, SFX_MENU
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 24, 88, $2
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 32, 88, $1
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 40, 88, $0
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 48, 88, $80
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 56, 88, $81
-	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 64, 88, $82
-	anim_wait 12
-	anim_sound 0, 1, SFX_MEGA_PUNCH
-	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
-	anim_wait 6
-	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
-	anim_wait 8
-	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
-	anim_wait 16
 	anim_ret
 
 BattleAnim_ScaryFace:

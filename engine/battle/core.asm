@@ -296,6 +296,7 @@ HandleBetweenTurnEffects:
 	call HandleDefrost
 	call HandleSafeguard
 	call HandleScreens
+	call HandleYawn
 	call HandleStatBoostingHeldItems
 	call HandleHealingItems
 	call UpdateBattleMonInParty
@@ -1719,6 +1720,42 @@ HandleScreens:
 	res SCREENS_REFLECT, [hl]
 	ld hl, BattleText_MonsReflectFaded
 	jp StdBattleTextbox
+
+HandleYawn:
+	ldh a, [hSerialConnectionStatus]
+	cp USING_EXTERNAL_CLOCK
+	jr z, .player1
+	call .CheckPlayer
+	jr .CheckEnemy
+
+.player1
+	call .CheckEnemy
+.CheckPlayer:
+	ld hl, wPlayerSubStatus5
+	bit SUBSTATUS_YAWN, [hl]
+	ret z
+	ld a, [wPlayerYawnCount]
+	dec a
+	ld [wPlayerYawnCount], a
+	ret nz
+	res SUBSTATUS_YAWN, [hl]
+	xor a
+	jr .sleep
+
+.CheckEnemy:
+	ld hl, wEnemySubStatus5
+	bit SUBSTATUS_YAWN, [hl]
+	ret z
+	ld a, [wEnemyYawnCount]
+	dec a
+	ld [wEnemyYawnCount], a
+	ret nz
+	res SUBSTATUS_YAWN, [hl]
+	ld hl, $1
+
+.sleep
+	ldh [hBattleTurn], a
+	farcall BattleCommand_SleepTarget
 
 HandleWeather:
 	ld a, [wBattleWeather]

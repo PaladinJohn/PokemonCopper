@@ -182,7 +182,7 @@ MoveNames::
 	li "Spite"
 	li "Powder Snow"
 	li "Protect"
-	li "Mach Punch"
+	li "Yawn"
 	li "Scary Face"
 	li "Feint Attack"
 	li "Sweet Kiss"

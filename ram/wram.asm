@@ -410,6 +410,7 @@ wPlayerEncoreCount:: db
 wPlayerPerishCount:: db
 wPlayerFuryCutterCount:: db
 wPlayerProtectCount:: db
+wPlayerYawnCount:: db
 
 wEnemyRolloutCount:: db
 wEnemyConfuseCount:: db
@@ -419,6 +420,7 @@ wEnemyEncoreCount:: db
 wEnemyPerishCount:: db
 wEnemyFuryCutterCount:: db
 wEnemyProtectCount:: db
+wEnemyYawnCount:: db
 
 wPlayerDamageTaken:: dw
 wEnemyDamageTaken::  dw

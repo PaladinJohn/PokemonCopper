@@ -183,7 +183,7 @@ MoveDescriptions::
 	dw SpiteDescription
 	dw PowderSnowDescription
 	dw ProtectDescription
-	dw MachPunchDescription
+	dw YawnDescription
 	dw ScaryFaceDescription
 	dw FaintAttackDescription
 	dw SweetKissDescription
@@ -992,9 +992,9 @@ ProtectDescription:
 	db   "Foils attack that"
 	next "turn. It may fail.@"
 
-MachPunchDescription:
-	db   "A fast punch that"
-	next "lands first.@"
+YawnDescription:
+	db   "Makes foe yawn,"
+	next "causing sleep.@"
 
 ScaryFaceDescription:
 	db   "Sharply reduces"

@@ -188,7 +188,7 @@
 	const SPITE        ; b4
 	const POWDER_SNOW  ; b5
 	const PROTECT      ; b6
-	const MACH_PUNCH   ; b7
+	const YAWN         ; b7
 	const SCARY_FACE   ; b8
 	const FAINT_ATTACK ; b9
 	const SWEET_KISS   ; ba

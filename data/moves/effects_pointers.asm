@@ -79,7 +79,7 @@ MoveEffectsPointers:
 	dw SkyAttack
 	dw ConfuseHit
 	dw PoisonMultiHit
-	dw NormalHit
+	dw Yawn
 	dw Substitute
 	dw HyperBeam
 	dw Rage

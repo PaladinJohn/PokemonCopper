@@ -1108,6 +1108,12 @@ ChargeText:
 	cont "power!"
 	prompt
 	
+YawnText:
+	text "<USER> made"
+	line "foe <TARGET>"
+	cont "drowsy!"
+	prompt
+	
 BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"
