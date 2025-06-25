@@ -1487,19 +1487,19 @@ MarowakEvosAttacks:
 	db 53, BONE_RUSH
 	db 0 ; no more level-up moves
 
-HitmonleeEvosAttacks:
+GulpinEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DOUBLE_KICK
-	db 6, SHARPEN
-	db 11, TACKLE
-	db 16, TACKLE
-	db 21, FOCUS_ENERGY
-	db 26, HI_JUMP_KICK
-	db 31, MIND_READER
-	db 36, FORESIGHT
-	db 41, ENDURE
-	db 46, MEGA_KICK
-	db 51, REVERSAL
+	db 1, POUND
+	;db 1, YAWN
+	db 8, POISON_GAS
+	db 13, SMOG
+	db 20, AMNESIA
+	db 25, ENCORE
+	db 32, TOXIC
+	db 37, ACID_ARMOR
+	db 38, PAIN_SPLIT
+	db 39, SLUDGE
+	db 44, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 SigilyphEvosAttacks:

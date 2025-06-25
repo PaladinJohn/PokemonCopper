@@ -105,7 +105,7 @@ FramesPointers:
 	dw LucarioFrames
 	dw CuboneFrames
 	dw MarowakFrames
-	dw HitmonleeFrames
+	dw GulpinFrames
 	dw SigilyphFrames
 	dw LickitungFrames
 	dw KoffingFrames

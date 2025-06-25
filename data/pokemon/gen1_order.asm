@@ -42,7 +42,7 @@ Pokered_MonIndices:
 	db CHANSEY
 	db MACHOKE
 	db CAPSAKID
-	db HITMONLEE
+	db GULPIN
 	db SIGILYPH
 	db ZOROARK
 	db PARASECT

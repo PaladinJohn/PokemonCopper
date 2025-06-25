@@ -326,6 +326,13 @@ CuboneEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
+GulpinEggMoves:
+	db ACID_ARMOR
+	db DREAM_EATER
+	db PAIN_SPLIT
+	db SMOG
+	db -1 ; end
+
 SigilyphEggMoves:
 	db ANCIENTPOWER
 	db STEEL_WING

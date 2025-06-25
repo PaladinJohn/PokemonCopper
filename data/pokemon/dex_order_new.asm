@@ -192,7 +192,7 @@ NewPokedexOrder:
 	db TIMBURR
 	db MACHOKE
 	db MACHAMP
-	db HITMONLEE
+	db GULPIN
 	db SPIRITOMB
 	db GIRAFARIG
 	db SMOOCHUM

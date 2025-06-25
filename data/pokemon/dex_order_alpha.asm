@@ -76,10 +76,10 @@ AlphabeticalPokedexOrder:
 	db GREAVARD
 	db GRIMER
 	db GROWLITHE
+	db GULPIN
 	db GYARADOS
 	db HAUNTER
 	db HERACROSS
-	db HITMONLEE
 	db HO_OH
 	db HOOTHOOT
 	db HORSEA

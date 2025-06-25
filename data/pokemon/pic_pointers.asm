@@ -213,8 +213,8 @@ PokemonPicPointers::
 	dba_pic CuboneBackpic
 	dba_pic MarowakFrontpic
 	dba_pic MarowakBackpic
-	dba_pic HitmonleeFrontpic
-	dba_pic HitmonleeBackpic
+	dba_pic GulpinFrontpic
+	dba_pic GulpinBackpic
 	dba_pic SigilyphFrontpic
 	dba_pic SigilyphBackpic
 	dba_pic LickitungFrontpic

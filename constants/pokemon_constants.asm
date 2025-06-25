@@ -124,7 +124,7 @@
 	const LUCARIO    ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
-	const HITMONLEE  ; 6a
+	const GULPIN     ; 6a
 	const SIGILYPH   ; 6b
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d

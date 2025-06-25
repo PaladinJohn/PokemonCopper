@@ -105,7 +105,7 @@ AnimationIdlePointers:
 	dw LucarioAnimationIdle
 	dw CuboneAnimationIdle
 	dw MarowakAnimationIdle
-	dw HitmonleeAnimationIdle
+	dw GulpinAnimationIdle
 	dw SigilyphAnimationIdle
 	dw LickitungAnimationIdle
 	dw KoffingAnimationIdle

@@ -105,7 +105,7 @@ AnimationPointers:
 	dw LucarioAnimation
 	dw CuboneAnimation
 	dw MarowakAnimation
-	dw HitmonleeAnimation
+	dw GulpinAnimation
 	dw SigilyphAnimation
 	dw LickitungAnimation
 	dw KoffingAnimation

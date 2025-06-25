@@ -105,7 +105,7 @@ PokemonNames::
 	db "Lucario@@@"
 	db "Cubone@@@@"
 	db "Marowak@@@"
-	db "Hitmonlee@"
+	db "Gulpin@@@@"
 	db "Sigilyph@@"
 	db "Lickitung@"
 	db "Koffing@@@"

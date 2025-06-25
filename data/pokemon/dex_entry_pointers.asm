@@ -106,7 +106,7 @@ PokedexDataPointerTable:
 	dw LucarioPokedexEntry
 	dw CubonePokedexEntry
 	dw MarowakPokedexEntry
-	dw HitmonleePokedexEntry
+	dw GulpinPokedexEntry
 	dw SigilyphPokedexEntry
 	dw LickitungPokedexEntry
 	dw KoffingPokedexEntry

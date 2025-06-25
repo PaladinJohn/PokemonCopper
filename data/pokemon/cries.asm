@@ -111,7 +111,7 @@ PokemonCries::
 	mon_cry CRY_KANGASKHAN, -235,  513 ; LUCARIO
 	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
 	mon_cry CRY_ODDISH,       79,  224 ; MAROWAK
-	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
+	mon_cry CRY_ODDISH,     2421,  496 ; GULPIN
 	mon_cry CRY_DIGLETT,    3355,  538 ; SIGILYPH
 	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
 	mon_cry CRY_GOLEM,       230,  349 ; KOFFING

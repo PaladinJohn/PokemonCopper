@@ -105,7 +105,7 @@ BitmasksPointers:
 	dw LucarioBitmasks
 	dw CuboneBitmasks
 	dw MarowakBitmasks
-	dw HitmonleeBitmasks
+	dw GulpinBitmasks
 	dw SigilyphBitmasks
 	dw LickitungBitmasks
 	dw KoffingBitmasks
