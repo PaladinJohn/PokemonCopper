@@ -41,15 +41,18 @@ DEF CONTEXT_USE        EQU 1 << CONTEXT_USE_F
 
 ; TrainerTypes bits (see engine/battle/read_trainer_party.asm)
 	const_def
-	const TRAINERTYPE_MOVES_F ; 0
-	const TRAINERTYPE_ITEM_F  ; 1
-	const TRAINERTYPE_STAT_EXP_F ; 2
+	const TRAINERTYPE_MOVES_F   ; 0
+	const TRAINERTYPE_ITEM_F    ; 1
+	const TRAINERTYPE_DVS_F     ; 2
+	const TRAINERTYPE_STAT_EXP_F ; 3
 
 ; Trainer party types (see data/trainers/parties.asm)
 DEF TRAINERTYPE_NORMAL     EQU 0
 DEF TRAINERTYPE_MOVES      EQU 1 << TRAINERTYPE_MOVES_F
 DEF TRAINERTYPE_ITEM       EQU 1 << TRAINERTYPE_ITEM_F
 DEF TRAINERTYPE_ITEM_MOVES EQU TRAINERTYPE_MOVES | TRAINERTYPE_ITEM
+DEF TRAINERTYPE_DVS        EQU 1 << TRAINERTYPE_DVS_F
 DEF TRAINERTYPE_STAT_EXP   EQU 1 << TRAINERTYPE_STAT_EXP_F
 
+DEF PERFECT_DV EQU $11 ; treated as $FF in enemy party data
 DEF PERFECT_STAT_EXP EQU $1337 ; treated as $FFFF in enemy party data

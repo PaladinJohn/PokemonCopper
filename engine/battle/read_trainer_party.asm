@@ -97,6 +97,36 @@ ReadTrainerPartyPieces:
 	predef TryAddMonToParty
 	pop hl
 
+; dvs?
+	ld a, [wOtherTrainerType]
+	bit TRAINERTYPE_DVS_F, a
+	jr z, .no_dvs
+
+	push hl
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMon1DVs
+	call GetPartyLocation
+	ld d, h
+	ld e, l
+	pop hl
+
+; When reading DVs, treat PERFECT_DV as $ff
+	ld a, [hli]
+	cp PERFECT_DV
+	jr nz, .atk_def_dv_nonzero
+	ld a, $ff
+.atk_def_dv_nonzero
+	ld [de], a
+	inc de
+	ld a, [hli]
+	cp PERFECT_DV
+	jr nz, .spd_spc_dv_nonzero
+	ld a, $ff
+.spd_spc_dv_nonzero
+	ld [de], a
+.no_dvs
+
 ; stat exp?
 	ld a, [wOtherTrainerType]
 	bit TRAINERTYPE_STAT_EXP_F, a
@@ -225,7 +255,7 @@ endr
 
 ; Custom DVs or stat experience affect stats, so recalculate them after TryAddMonToParty
 	ld a, [wOtherTrainerType]
-	and TRAINERTYPE_STAT_EXP
+	and TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP
 	jr z, .no_stat_recalc
 
 	push hl
