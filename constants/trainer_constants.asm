@@ -313,12 +313,12 @@ DEF KRIS EQU __trainer_class__
 	const PRESTON
 	const EDWARD
 	const GREGORY
-	const VIRGIL ; unused
+	const VIRGIL ; Gerard; Mahogany Gym
 	const ALFRED
 
 	trainerclass SKIER ; 21
 	const ROXANNE
-	const CLARISSA
+	const CLARISSA ; unused
 
 	trainerclass TEACHER ; 22
 	const COLETTE
@@ -434,6 +434,7 @@ DEF KRIS EQU __trainer_class__
 	const HUEY2
 	const HUEY3
 	const HUEY4
+	const S_WAYNE ; (Newly Added); Mahogany Gym
 
 	trainerclass SUPER_NERD ; 29
 	const STAN
@@ -462,6 +463,8 @@ DEF KRIS EQU __trainer_class__
 	trainerclass GUITARIST ; 2b
 	const CLYDE
 	const VINCENT
+	const BRUCE ; (Newly Added); Mahogany Gym
+	const G_RUSSELL ; (Newly Added); Mahogany Gym
 
 	trainerclass HIKER ; 2c
 	const ANTHONY1
@@ -520,7 +523,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN1
 	const FRITZ
 	const HORTON
-	const IRWIN2 ; unused
+	const IRWIN2 ; Kris; Mahogany Gym
 	const IRWIN3 ; unused
 	const IRWIN4 ; unused
 
@@ -637,8 +640,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BOARDER ; 3a
 	const RONALD
-	const BRAD
-	const DOUGLAS
+	const BRAD ; unused
+	const DOUGLAS ; unused
 
 	trainerclass POKEFANM ; 3b
 	const WILLIAM
@@ -699,8 +702,8 @@ DEF KRIS EQU __trainer_class__
 	const GRUNTF_3
 	const GRUNTF_4
 	const GRUNTF_5
-	const AMANDA
-	const R_SAMANTHA
+	const AMANDA ; (Newly Added); Ecruteak Gym
+	const R_SAMANTHA ; (Newly Added); Ecruteak Gym
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE

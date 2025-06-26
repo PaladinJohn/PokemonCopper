@@ -1513,8 +1513,9 @@ GentlemanGroup:
 	db -1 ; end
 
 	; GENTLEMAN (4)
-	db "VIRGIL@", TRAINERTYPE_NORMAL
-	db 20, PONYTA
+	db "GERARD@", TRAINERTYPE_NORMAL
+	db 31, BOLTUND
+	db 36, ZEBSTRIKA
 	db -1 ; end
 
 	; GENTLEMAN (5)
@@ -2184,6 +2185,12 @@ SailorGroup:
 	db 38, POLITOED,   WHIRLPOOL, RAIN_DANCE, BODY_SLAM, PERISH_SONG
 	db 38, LEAFEON,  SURF, STRENGTH, ICE_PUNCH, SUBMISSION
 	db -1 ; end
+	
+	; SAILOR (14)
+	db "WAYNE@", TRAINERTYPE_NORMAL
+	db 31, YAMPER
+	db 36, PAWMO
+	db -1 ; end
 
 SuperNerdGroup:
 	; SUPER_NERD (1)
@@ -2344,6 +2351,20 @@ GuitaristGroup:
 	db 33, BLITZLE
 	db 32, YAMPER
 	db 32, YAMPER
+	db -1 ; end
+	
+	; GUITARIST (3)
+	db "BRUCE@", TRAINERTYPE_NORMAL
+	db 32, LUXIO
+	db 32, FLAAFFY
+	db 33, LANTURN
+	db -1 ; end
+
+	; GUITARIST (4)
+	db "RUSSELL@", TRAINERTYPE_NORMAL
+	db 32, JOLTEON
+	db 32, ARCTOZOLT
+	db 33, ZEBSTRIKA
 	db -1 ; end
 
 HikerGroup:
@@ -2657,11 +2678,9 @@ JugglerGroup:
 	db -1 ; end
 
 	; JUGGLER (4)
-	db "IRWIN@", TRAINERTYPE_NORMAL
-	db  6, BLITZLE
-	db 10, BLITZLE
-	db 14, BLITZLE
-	db 18, BLITZLE
+	db "KRIS@", TRAINERTYPE_NORMAL
+	db 34, ARCTOZOLT
+	db 34, AMPHAROS
 	db -1 ; end
 
 	; JUGGLER (5)
