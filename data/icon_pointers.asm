@@ -17,9 +17,10 @@ IconPointers:
 	dw FearowIcon
 	dw SandshrewIcon
 	dw SandslashIcon
-	dw FoxIcon
+	dw NidoranFIcon
 	dw NidorinaIcon
 	dw NidoqueenIcon
+	dw NidoranMIcon
 	dw NidorinoIcon
 	dw NidokingIcon
 	dw ClefairyIcon
@@ -28,6 +29,7 @@ IconPointers:
 	dw NinetalesIcon
 	dw JigglypuffIcon
 	dw WigglytuffIcon
+	dw ZubatIcon
 	dw GolbatIcon
 	dw OddishIcon
 	dw GloomIcon
@@ -39,8 +41,10 @@ IconPointers:
 	dw GolduckIcon
 	dw GrowlitheIcon
 	dw ArcanineIcon
+	dw AbraIcon
 	dw KadabraIcon
 	dw AlakazamIcon
+	dw BellsproutIcon
 	dw WeepinbellIcon
 	dw VictreebelIcon
 	dw TentacoolIcon
@@ -59,6 +63,7 @@ IconPointers:
 	dw MukIcon
 	dw ShellderIcon
 	dw CloysterIcon
+	dw GastlyIcon
 	dw HaunterIcon
 	dw GengarIcon
 	dw OnixIcon
@@ -76,6 +81,7 @@ IconPointers:
 	dw ChanseyIcon
 	dw TangelaIcon
 	dw KangaskhanIcon
+	dw HorseaIcon
 	dw SeadraIcon
 	dw StaryuIcon
 	dw StarmieIcon
@@ -96,6 +102,7 @@ IconPointers:
 	dw AerodactylIcon
 	dw SnorlaxIcon
 	dw ArticunoIcon
+	dw DratiniIcon
 	dw DragonairIcon
 	dw DragoniteIcon
 	dw MewtwoIcon
@@ -225,9 +232,12 @@ IconPointers:
 	dw MeowscaradaIcon
 	dw PawmoIcon
 	dw PawmotIcon
+	dw DollivIcon
 	dw ArbolivaIcon
+	dw CapsakidIcon
 	dw ScovillainIcon
 	dw BombirdierIcon
+	dw GreavardIcon
 	dw HoundstoneIcon
 	dw EggIcon
 	assert_table_length NUM_ICONS + 1
