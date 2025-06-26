@@ -523,7 +523,7 @@ DEF KRIS EQU __trainer_class__
 	const IRWIN1
 	const FRITZ
 	const HORTON
-	const IRWIN2 ; Kris; Mahogany Gym
+	const J_KRIS ; Kris; Mahogany Gym
 	const IRWIN3 ; unused
 	const IRWIN4 ; unused
 

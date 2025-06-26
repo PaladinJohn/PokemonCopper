@@ -102,7 +102,7 @@ TrainerBoarderRonald:
 	end
 
 TrainerBoarderBrad:
-	trainer JUGGLER, IRWIN2, EVENT_BEAT_JUGGLER_IRWIN2, BoarderBradSeenText, BoarderBradBeatenText, 0, .Script
+	trainer JUGGLER, J_KRIS, EVENT_BEAT_JUGGLER_IRWIN2, BoarderBradSeenText, BoarderBradBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -113,7 +113,7 @@ TrainerBoarderBrad:
 	end
 
 TrainerBoarderDouglas:
-	trainer GUITARIST, RUSSELL, EVENT_BEAT_GUITARIST_RUSSELL, BoarderDouglasSeenText, BoarderDouglasBeatenText, 0, .Script
+	trainer GUITARIST, G_RUSSELL, EVENT_BEAT_GUITARIST_RUSSELL, BoarderDouglasSeenText, BoarderDouglasBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
