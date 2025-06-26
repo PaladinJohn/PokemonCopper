@@ -29,7 +29,7 @@ TrainerClassDVs:
 	dn  5,  8,  8,  8 ; LASS
 	dn 15, 15, 15, 15 ; JANINE
 	dn 13,  8, 12,  8 ; COOLTRAINERM
-	dn  7, 12, 12,  8 ; COOLTRAINERF
+	dn  7, 12, 12,  9 ; COOLTRAINERF
 	dn  6,  9, 12,  8 ; BEAUTY
 	dn  9,  8,  8,  8 ; POKEMANIAC
 	dn 13,  8, 10,  8 ; GRUNTM

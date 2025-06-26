@@ -851,10 +851,16 @@ CooltrainerMGroup:
 	db -1 ; end
 
 	; COOLTRAINERM (2)
-	db "AARON@", TRAINERTYPE_NORMAL
-	db 24, IVYSAUR
-	db 24, CHARMELEON
-	db 24, WARTORTLE
+	db "BLAIR@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
+	db 33, GOLDUCK
+		db $d8, $c8
+		db DYNAMICPUNCH, SCRATCH, CONFUSION, SCREECH
+	db 33, GULPIN
+		db $d8, $c8
+		db SLUDGE_BOMB, POUND, AMNESIA, TOXIC
+	db 33, GYARADOS
+		db $c9, $c8
+		db HIDDEN_POWER, THRASH, BITE, DRAGON_RAGE
 	db -1 ; end
 
 	; COOLTRAINERM (3)
@@ -981,9 +987,9 @@ CooltrainerFGroup:
 	db -1 ; end
 
 	; COOLTRAINERF (2)
-	db "LOIS@", TRAINERTYPE_MOVES
-	db 25, DOLLIV,   SYNTHESIS, POISONPOWDER, MEGA_DRAIN, LEECH_SEED
-	db 25, NINETALES,  EMBER, QUICK_ATTACK, CONFUSE_RAY, SAFEGUARD
+	db "ALISON@", TRAINERTYPE_MOVES
+	db 34, ALAKAZAM,   PSYCHIC_M, KINESIS, RECOVER, FUTURE_SIGHT
+	db 34, ARCANINE,   FIRE_BLAST, BITE, TAKE_DOWN, FLAME_WHEEL
 	db -1 ; end
 
 	; COOLTRAINERF (3)
@@ -1723,16 +1729,17 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (8)
-	db "ANDRE@", TRAINERTYPE_NORMAL
-	db 27, GYARADOS
+	db "KRISTOPHER@", TRAINERTYPE_NORMAL
+	db 31, QWILFISH
+	db 36, GYARADOS
 	db -1 ; end
 
 	; FISHER (9)
-	db "RAYMOND@", TRAINERTYPE_NORMAL
-	db 22, MAGIKARP
-	db 22, MAGIKARP
-	db 22, MAGIKARP
-	db 22, MAGIKARP
+	db "NIALL@", TRAINERTYPE_NORMAL
+	db 31, PSYDUCK
+	db 31, SLOWPOKE
+	db 31, STARYU
+	db 31, GYARADOS
 	db -1 ; end
 
 	; FISHER (10)
@@ -2754,10 +2761,13 @@ ExecutiveMGroup:
 	db -1 ; end
 
 	; EXECUTIVEM (4)
-	db "EXECUTIVE@", TRAINERTYPE_NORMAL
+	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_NORMAL
 	db 30, GOLBAT
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
 	db 32, RATICATE
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
 	db 30, KOFFING
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
 	db -1 ; end
 
 PsychicGroup:
@@ -3155,10 +3165,16 @@ ExecutiveFGroup:
 	db -1 ; end
 
 	; EXECUTIVEF (2)
-	db "EXECUTIVE@", TRAINERTYPE_MOVES
-	db 31, HOUNDOOM,   EMBER, SHARPEN, SMOG, BITE
-	db 31, VILEPLUME,  ABSORB, STUN_SPORE, SLEEP_POWDER, ACID
-	db 33, SUDOWOODO,  MIMIC, FLAIL, LOW_KICK, ROCK_SLIDE
+	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
+	db 31, HOUNDOOM
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db EMBER, SHARPEN, SMOG, BITE
+	db 31, VILEPLUME
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db ABSORB, STUN_SPORE, SLEEP_POWDER, ACID
+	db 33, SUDOWOODO
+		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		db MIMIC, FLAIL, LOW_KICK, ROCK_SLIDE
 	db -1 ; end
 
 SageGroup:
