@@ -279,8 +279,8 @@ PokemonPicPointers::
 	dba_pic PorygonBackpic
 	dba_pic TirtougaFrontpic
 	dba_pic TirtougaBackpic
-	dba_pic OmastarFrontpic
-	dba_pic OmastarBackpic
+	dba_pic CarracostaFrontpic
+	dba_pic CarracostaBackpic
 	dba_pic KabutoFrontpic
 	dba_pic KabutoBackpic
 	dba_pic KabutopsFrontpic

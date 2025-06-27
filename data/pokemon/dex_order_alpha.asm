@@ -24,6 +24,7 @@ AlphabeticalPokedexOrder:
 	db BOMBIRDIER
 	db BULBASAUR
 	db CAPSAKID
+	db CARRACOSTA
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -145,7 +146,6 @@ AlphabeticalPokedexOrder:
 	db NOIBAT
 	db OCTILLERY
 	db ODDISH
-	db OMASTAR
 	db ONIX
 	db PARAS
 	db PARASECT

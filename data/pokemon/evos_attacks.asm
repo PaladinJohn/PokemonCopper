@@ -1929,6 +1929,7 @@ PorygonEvosAttacks:
 	db 0 ; no more level-up moves
 
 TirtougaEvosAttacks:
+	db EVOLVE_LEVEL, 38, CARRACOSTA
 	db 0 ; no more evolutions
 	db 1, BIDE
 	db 1, DEFENSE_CURL
@@ -1940,18 +1941,17 @@ TirtougaEvosAttacks:
 	db 55, CURSE
 	db 0 ; no more level-up moves
 
-OmastarEvosAttacks:
+CarracostaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONSTRICT
+	db 1, BIDE
 	db 1, DEFENSE_CURL
-	db 1, BITE
-	db 13, BITE
-	db 19, WATER_GUN
-	db 31, LEER
+	db 13, WATER_GUN
+	db 19, ROLLOUT
+	db 31, BITE
 	db 37, PROTECT
-	db 40, SPIKE_CANNON
-	db 54, ANCIENTPOWER
-	db 65, HYDRO_PUMP
+	db 40, ANCIENTPOWER
+	db 54, CRUNCH
+	db 65, CURSE
 	db 0 ; no more level-up moves
 
 KabutoEvosAttacks:

@@ -138,7 +138,7 @@ BitmasksPointers:
 	dw FlareonBitmasks
 	dw PorygonBitmasks
 	dw TirtougaBitmasks
-	dw OmastarBitmasks
+	dw CarracostaBitmasks
 	dw KabutoBitmasks
 	dw KabutopsBitmasks
 	dw AerodactylBitmasks

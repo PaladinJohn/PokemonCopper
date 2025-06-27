@@ -138,7 +138,7 @@ AnimationPointers:
 	dw FlareonAnimation
 	dw PorygonAnimation
 	dw TirtougaAnimation
-	dw OmastarAnimation
+	dw CarracostaAnimation
 	dw KabutoAnimation
 	dw KabutopsAnimation
 	dw AerodactylAnimation

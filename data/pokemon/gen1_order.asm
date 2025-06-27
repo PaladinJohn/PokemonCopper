@@ -98,7 +98,7 @@ Pokered_MonIndices:
 	db SANDSHREW
 	db SANDSLASH
 	db TIRTOUGA
-	db OMASTAR
+	db CARRACOSTA
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db EEVEE

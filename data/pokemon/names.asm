@@ -138,7 +138,7 @@ PokemonNames::
 	db "Flareon@@@"
 	db "Porygon@@@"
 	db "Tirtouga@@"
-	db "Omastar@@@"
+	db "Carracosta"
 	db "Kabuto@@@@"
 	db "Kabutops@@"
 	db "Aerodactyl"

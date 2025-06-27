@@ -30,18 +30,18 @@ GolbatFrontpic:      INCBIN "gfx/pokemon/golbat/front.animated.2bpp.lz"
 VileplumeFrontpic:   INCBIN "gfx/pokemon/vileplume/front.animated.2bpp.lz"
 ParasectFrontpic:    INCBIN "gfx/pokemon/parasect/front.animated.2bpp.lz"
 GolduckFrontpic:     INCBIN "gfx/pokemon/golduck/front.animated.2bpp.lz"
+ArcanineFrontpic:    INCBIN "gfx/pokemon/arcanine/front.animated.2bpp.lz"
 MachampFrontpic:     INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lz"
-TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
 
+TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 RapidashFrontpic:    INCBIN "gfx/pokemon/rapidash/front.animated.2bpp.lz"
 MeowscaradFrontpic:  INCBIN "gfx/pokemon/meowscarad/front.animated.2bpp.lz"
 GulpinFrontpic:      INCBIN "gfx/pokemon/gulpin/front.animated.2bpp.lz"
 ScizorFrontpic:      INCBIN "gfx/pokemon/scizor/front.animated.2bpp.lz"
 PawmotFrontpic:      INCBIN "gfx/pokemon/pawmot/front.animated.2bpp.lz"
-ArcanineFrontpic:    INCBIN "gfx/pokemon/arcanine/front.animated.2bpp.lz"
 TyranitarFrontpic:   INCBIN "gfx/pokemon/tyranitar/front.animated.2bpp.lz"
 MoltresFrontpic:     INCBIN "gfx/pokemon/moltres/front.animated.2bpp.lz"
 ZapdosFrontpic:      INCBIN "gfx/pokemon/zapdos/front.animated.2bpp.lz"
@@ -71,7 +71,7 @@ DewgongFrontpic:     INCBIN "gfx/pokemon/dewgong/front.animated.2bpp.lz"
 VictreebelFrontpic:  INCBIN "gfx/pokemon/victreebel/front.animated.2bpp.lz"
 LuxrayFrontpic:      INCBIN "gfx/pokemon/luxray/front.animated.2bpp.lz"
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
-OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
+CarracostaBackpic:   INCBIN "gfx/pokemon/carracosta/back.2bpp.lz"
 
 
 SECTION "Pics 4", ROMX
@@ -159,20 +159,18 @@ AbsolFrontpic:       INCBIN "gfx/pokemon/absol/front.animated.2bpp.lz"
 SmeargleFrontpic:    INCBIN "gfx/pokemon/smeargle/front.animated.2bpp.lz"
 ClefableFrontpic:    INCBIN "gfx/pokemon/clefable/front.animated.2bpp.lz"
 PonytaFrontpic:      INCBIN "gfx/pokemon/ponyta/front.animated.2bpp.lz"
-BombirdierFrontpic:  INCBIN "gfx/pokemon/bombirdier/front.animated.2bpp.lz"
 GravelerFrontpic:    INCBIN "gfx/pokemon/graveler/front.animated.2bpp.lz"
 StarmieFrontpic:     INCBIN "gfx/pokemon/starmie/front.animated.2bpp.lz"
 FletchindrFrontpic:  INCBIN "gfx/pokemon/fletchindr/front.animated.2bpp.lz"
 LedybaFrontpic:      INCBIN "gfx/pokemon/ledyba/front.animated.2bpp.lz"
 GengarFrontpic:      INCBIN "gfx/pokemon/gengar/front.animated.2bpp.lz"
-OmastarFrontpic:     INCBIN "gfx/pokemon/omastar/front.animated.2bpp.lz"
+CarracostaFrontpic:  INCBIN "gfx/pokemon/carracosta/front.animated.2bpp.lz"
 PiloswineFrontpic:   INCBIN "gfx/pokemon/piloswine/front.animated.2bpp.lz"
 MudsdaleFrontpic:    INCBIN "gfx/pokemon/mudsdale/front.animated.2bpp.lz"
 BoltundFrontpic:     INCBIN "gfx/pokemon/boltund/front.animated.2bpp.lz"
 DragonairFrontpic:   INCBIN "gfx/pokemon/dragonair/front.animated.2bpp.lz"
 BewearFrontpic:      INCBIN "gfx/pokemon/bewear/front.animated.2bpp.lz"
 TogeticFrontpic:     INCBIN "gfx/pokemon/togetic/front.animated.2bpp.lz"
-KangaskhanBackpic:   INCBIN "gfx/pokemon/kangaskhan/back.2bpp.lz"
 
 
 SECTION "Pics 8", ROMX
@@ -706,6 +704,7 @@ PerrserkerFrontpic:  INCBIN "gfx/pokemon/perrserker/front.animated.2bpp.lz"
 SprigatitoFrontpic:  INCBIN "gfx/pokemon/sprigatito/front.animated.2bpp.lz"
 FloragatoFrontpic:   INCBIN "gfx/pokemon/floragato/front.animated.2bpp.lz"
 CapsakidFrontpic:    INCBIN "gfx/pokemon/capsakid/front.animated.2bpp.lz"
+BombirdierFrontpic:  INCBIN "gfx/pokemon/bombirdier/front.animated.2bpp.lz"
 UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
 MistyPic:            INCBIN "gfx/trainers/misty.2bpp.lz"
 BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
@@ -713,6 +712,7 @@ BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 SchoolboyPic:        INCBIN "gfx/trainers/schoolboy.2bpp.lz"
 GuitaristPic:        INCBIN "gfx/trainers/guitarist.2bpp.lz"
 BikerPic:            INCBIN "gfx/trainers/biker.2bpp.lz"
+KangaskhanBackpic:   INCBIN "gfx/pokemon/kangaskhan/back.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
