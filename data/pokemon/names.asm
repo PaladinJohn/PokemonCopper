@@ -153,7 +153,7 @@ PokemonNames::
 	db "Mew@@@@@@@"
 	db "Sprigatito"
 	db "Floragato@"
-	db "Meganium@@"
+	db "Meowscarad"
 	db "Cyndaquil@"
 	db "Quilava@@@"
 	db "Typhlosion"

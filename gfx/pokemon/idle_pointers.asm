@@ -153,7 +153,7 @@ AnimationIdlePointers:
 	dw MewAnimationIdle
 	dw SprigatitoAnimationIdle
 	dw FloragatoAnimationIdle
-	dw MeganiumAnimationIdle
+	dw MeowscaradAnimationIdle
 	dw CyndaquilAnimationIdle
 	dw QuilavaAnimationIdle
 	dw TyphlosionAnimationIdle

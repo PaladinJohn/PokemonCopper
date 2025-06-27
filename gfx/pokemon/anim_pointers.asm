@@ -153,7 +153,7 @@ AnimationPointers:
 	dw MewAnimation
 	dw SprigatitoAnimation
 	dw FloragatoAnimation
-	dw MeganiumAnimation
+	dw MeowscaradAnimation
 	dw CyndaquilAnimation
 	dw QuilavaAnimation
 	dw TyphlosionAnimation

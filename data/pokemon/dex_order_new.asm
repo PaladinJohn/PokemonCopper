@@ -4,7 +4,7 @@ NewPokedexOrder:
 	table_width 1, NewPokedexOrder
 	db SPRIGATITO
 	db FLORAGATO
-	db MEGANIUM
+	db MEOWSCARAD
 	db CYNDAQUIL
 	db QUILAVA
 	db TYPHLOSION

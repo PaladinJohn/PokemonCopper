@@ -154,7 +154,7 @@ PokedexDataPointerTable:
 	dw MewPokedexEntry
 	dw SprigatitoPokedexEntry
 	dw FloragatoPokedexEntry
-	dw MeganiumPokedexEntry
+	dw MeowscaradPokedexEntry
 	dw CyndaquilPokedexEntry
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry

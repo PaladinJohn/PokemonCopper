@@ -173,7 +173,7 @@
 DEF JOHTO_POKEMON EQU const_value
 	const SPRIGATITO ; 98
 	const FLORAGATO  ; 99
-	const MEGANIUM   ; 9a
+	const MEOWSCARAD ; 9a
 	const CYNDAQUIL  ; 9b
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d

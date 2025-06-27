@@ -153,7 +153,7 @@ FramesPointers:
 	dw MewFrames
 	dw SprigatitoFrames
 	dw FloragatoFrames
-	dw MeganiumFrames
+	dw MeowscaradFrames
 	dw CyndaquilFrames
 	dw QuilavaFrames
 	dw TyphlosionFrames

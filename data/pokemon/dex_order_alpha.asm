@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db MAREEP
 	db MARILL
 	db MAROWAK
-	db MEGANIUM
+	db MEOWSCARAD
 	db MEOWTH
 	db MEW
 	db MEWTWO

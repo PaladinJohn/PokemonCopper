@@ -309,8 +309,8 @@ PokemonPicPointers::
 	dba_pic SprigatitoBackpic
 	dba_pic FloragatoFrontpic
 	dba_pic FloragatoBackpic
-	dba_pic MeganiumFrontpic
-	dba_pic MeganiumBackpic
+	dba_pic MeowscaradFrontpic
+	dba_pic MeowscaradBackpic
 	dba_pic CyndaquilFrontpic
 	dba_pic CyndaquilBackpic
 	dba_pic QuilavaFrontpic

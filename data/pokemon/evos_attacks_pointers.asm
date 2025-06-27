@@ -155,7 +155,7 @@ EvosAttacksPointers::
 	dw MewEvosAttacks
 	dw SprigatitoEvosAttacks
 	dw FloragatoEvosAttacks
-	dw MeganiumEvosAttacks
+	dw MeowscaradEvosAttacks
 	dw CyndaquilEvosAttacks
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks

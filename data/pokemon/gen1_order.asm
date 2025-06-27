@@ -193,7 +193,7 @@ Pokered_MonIndices:
 	assert_table_length 190 ; gen 1 mon indexes
 	db SPRIGATITO
 	db FLORAGATO
-	db MEGANIUM
+	db MEOWSCARAD
 	db CYNDAQUIL
 	db QUILAVA
 	db TYPHLOSION
