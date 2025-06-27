@@ -545,8 +545,8 @@ VulpixEvosAttacks:
 	db 17, SHARPEN
 	db 21, CONFUSE_RAY
 	db 25, DISABLE
-	db 26, SAFEGUARD
-	db 31, FLAMETHROWER
+	db 29, FLAMETHROWER
+	db 30, SAFEGUARD
 	db 37, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -559,7 +559,8 @@ NinetalesEvosAttacks:
 	db 17, SHARPEN
 	db 21, CONFUSE_RAY
 	db 25, DISABLE
-	db 26, SAFEGUARD
+	db 29, FLAMETHROWER
+	db 30, SAFEGUARD
 	db 43, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -1830,7 +1831,7 @@ LaprasEvosAttacks:
 	db 1, WATER_GUN
 	db 1, GROWL
 	db 1, SING
-	db 8, MIST
+	db 7, MIST
 	db 15, BODY_SLAM
 	db 22, CONFUSE_RAY
 	db 29, PERISH_SONG
