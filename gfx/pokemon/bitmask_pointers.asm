@@ -123,7 +123,7 @@ BitmasksPointers:
 	dw StarmieBitmasks
 	dw CapsakidBitmasks
 	dw ScytherBitmasks
-	dw JynxBitmasks
+	dw CorviknghtBitmasks
 	dw WhirlipedeBitmasks
 	dw MagmarBitmasks
 	dw DurantBitmasks

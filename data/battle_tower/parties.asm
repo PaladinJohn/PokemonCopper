@@ -1180,7 +1180,7 @@ BattleTowerMons:
 	bigdw 81 ; SDef
 	db "SUTA-MI-@@@"
 
-	db JYNX
+	db CORVIKNGHT
 	db GOLD_BERRY
 	db BLIZZARD, NUZZLE, DREAM_EATER, ATTRACT
 	dw 0 ; OT ID
@@ -3139,7 +3139,7 @@ BattleTowerMons:
 	bigdw 167 ; SDef
 	db "HERAKUROSU@"
 
-	db JYNX
+	db CORVIKNGHT
 	db MIRACLEBERRY
 	db BLIZZARD, PSYCHIC_M, SHADOW_BALL, ICY_WIND
 	dw 0 ; OT ID
@@ -4133,7 +4133,7 @@ BattleTowerMons:
 	bigdw 221 ; SDef
 	db "PORIGON2@@@"
 
-	db JYNX
+	db CORVIKNGHT
 	db QUICK_CLAW
 	db NUZZLE, BLIZZARD, DREAM_EATER, PSYCHIC_M
 	dw 0 ; OT ID

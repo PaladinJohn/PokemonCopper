@@ -124,7 +124,7 @@ PokedexDataPointerTable:
 	dw StarmiePokedexEntry
 	dw CapsakidPokedexEntry
 	dw ScytherPokedexEntry
-	dw JynxPokedexEntry
+	dw CorviknghtPokedexEntry
 	dw WhirlipedePokedexEntry
 	dw MagmarPokedexEntry
 	dw DurantPokedexEntry

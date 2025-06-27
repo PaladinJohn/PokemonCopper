@@ -249,8 +249,8 @@ PokemonPicPointers::
 	dba_pic CapsakidBackpic
 	dba_pic ScytherFrontpic
 	dba_pic ScytherBackpic
-	dba_pic JynxFrontpic
-	dba_pic JynxBackpic
+	dba_pic CorviknghtFrontpic
+	dba_pic CorviknghtBackpic
 	dba_pic WhirlipedeFrontpic
 	dba_pic WhirlipedeBackpic
 	dba_pic MagmarFrontpic

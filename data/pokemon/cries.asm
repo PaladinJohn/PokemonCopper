@@ -129,7 +129,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,         0,  256 ; STARMIE
 	mon_cry CRY_NATU,       3552,  144 ; CAPSAKID
 	mon_cry CRY_CATERPIE,      0,  256 ; SCYTHER
-	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
+	mon_cry CRY_LAPRAS,     2580,  254 ; CORVIKNGHT
 	mon_cry CRY_SLOWKING,   3197,  268 ; WHIRLIPEDE
 	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
 	mon_cry CRY_SLOWPOKE,   2809,  171 ; DURANT

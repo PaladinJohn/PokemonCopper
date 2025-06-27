@@ -123,7 +123,7 @@ PokemonNames::
 	db "Starmie@@@"
 	db "Capsakid@@"
 	db "Scyther@@@"
-	db "Jynx@@@@@@"
+	db "Corviknght"
 	db "Whirlipede"
 	db "Magmar@@@@"
 	db "Durant@@@@"

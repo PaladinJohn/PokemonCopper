@@ -35,6 +35,7 @@ AlphabeticalPokedexOrder:
 	db CLEFAIRY
 	db CLEFFA
 	db CLOYSTER
+	db CORVIKNGHT
 	db CORVISQUIR
 	db CROBAT
 	db CROCONAW
@@ -90,7 +91,6 @@ AlphabeticalPokedexOrder:
 	db IVYSAUR
 	db JIGGLYPUFF
 	db JOLTEON
-	db JYNX
 	db KABUTO
 	db KABUTOPS
 	db KADABRA

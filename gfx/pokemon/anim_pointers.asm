@@ -123,7 +123,7 @@ AnimationPointers:
 	dw StarmieAnimation
 	dw CapsakidAnimation
 	dw ScytherAnimation
-	dw JynxAnimation
+	dw CorviknghtAnimation
 	dw WhirlipedeAnimation
 	dw MagmarAnimation
 	dw DurantAnimation

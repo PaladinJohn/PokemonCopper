@@ -285,7 +285,7 @@ INCBIN "gfx/footprints/staryu.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/starmie.1bpp",    footprint_top
 INCBIN "gfx/footprints/capsakid.1bpp",   footprint_top
 INCBIN "gfx/footprints/scyther.1bpp",    footprint_top
-INCBIN "gfx/footprints/jynx.1bpp",       footprint_top
+INCBIN "gfx/footprints/corviknght.1bpp", footprint_top
 INCBIN "gfx/footprints/whirlipede.1bpp", footprint_top
 INCBIN "gfx/footprints/magmar.1bpp",     footprint_top
 INCBIN "gfx/footprints/durant.1bpp",     footprint_top
@@ -294,7 +294,7 @@ INCBIN "gfx/footprints/tauros.1bpp",     footprint_top
 INCBIN "gfx/footprints/starmie.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/capsakid.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/scyther.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/jynx.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/corviknght.1bpp", footprint_bottom
 INCBIN "gfx/footprints/whirlipede.1bpp", footprint_bottom
 INCBIN "gfx/footprints/magmar.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/durant.1bpp",     footprint_bottom

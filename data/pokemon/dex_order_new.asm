@@ -56,6 +56,7 @@ NewPokedexOrder:
 	db VIVILLON
 	db ROOKIDEE
 	db CORVISQUIR
+	db CORVIKNGHT
 	db PAWMI
 	db PAWMO
 	db PAWMOT
@@ -197,7 +198,6 @@ NewPokedexOrder:
 	db GULPIN
 	db SPIRITOMB
 	db SMOOCHUM
-	db JYNX
 	db CAPSAKID
 	db QWILFISH
 	db SEEL

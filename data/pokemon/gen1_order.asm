@@ -71,7 +71,7 @@ Pokered_MonIndices:
 	db PILOSWINE ; MISSINGNO.
 	db PAWMI
 	db ROCKRUFF
-	db JYNX
+	db CORVIKNGHT
 	db MOLTRES
 	db ARTICUNO
 	db ZAPDOS

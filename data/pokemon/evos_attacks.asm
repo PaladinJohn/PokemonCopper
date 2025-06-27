@@ -206,6 +206,7 @@ RookideeEvosAttacks:
 	db 0 ; no more level-up moves
 
 CorvisquirEvosAttacks:
+	db EVOLVE_LEVEL, 38, CORVIKNGHT
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -1735,20 +1736,19 @@ ScytherEvosAttacks:
 	db 48, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
-JynxEvosAttacks:
+CorviknghtEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, LICK
-	db 1, NUZZLE
-	db 1, POWDER_SNOW
-	db 9, NUZZLE
-	db 13, POWDER_SNOW
-	db 21, DOUBLESLAP
-	db 25, ICE_PUNCH
-	db 35, MEAN_LOOK
-	db 41, BODY_SLAM
-	db 51, PERISH_SONG
-	db 57, BLIZZARD
+	db 1, PECK
+	db 1, LEER
+	db 7, SHARPEN
+	db 10, FURY_ATTACK
+	db 15, WING_ATTACK
+	db 21, SAND_ATTACK
+	db 27, SCARY_FACE
+	db 33, DRILL_PECK
+	db 41, BARRIER
+	db 49, STEEL_WING
+	db 56, SWAGGER
 	db 0 ; no more level-up moves
 
 WhirlipedeEvosAttacks:
@@ -3253,7 +3253,6 @@ SpiritombEvosAttacks:
 	db 0 ; no more level-up moves
 
 SmoochumEvosAttacks:
-	db EVOLVE_LEVEL, 30, JYNX
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LICK

@@ -142,7 +142,7 @@
 	const STARMIE    ; 79
 	const CAPSAKID   ; 7a
 	const SCYTHER    ; 7b
-	const JYNX       ; 7c
+	const CORVIKNGHT ; 7c
 	const WHIRLIPEDE ; 7d
 	const MAGMAR     ; 7e
 	const DURANT     ; 7f

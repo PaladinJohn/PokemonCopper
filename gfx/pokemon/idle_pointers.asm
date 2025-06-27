@@ -123,7 +123,7 @@ AnimationIdlePointers:
 	dw StarmieAnimationIdle
 	dw CapsakidAnimationIdle
 	dw ScytherAnimationIdle
-	dw JynxAnimationIdle
+	dw CorviknghtAnimationIdle
 	dw WhirlipedeAnimationIdle
 	dw MagmarAnimationIdle
 	dw DurantAnimationIdle

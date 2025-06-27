@@ -123,7 +123,7 @@ FramesPointers:
 	dw StarmieFrames
 	dw CapsakidFrames
 	dw ScytherFrames
-	dw JynxFrames
+	dw CorviknghtFrames
 	dw WhirlipedeFrames
 	dw MagmarFrames
 	dw DurantFrames

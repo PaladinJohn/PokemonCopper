@@ -125,7 +125,7 @@ EvosAttacksPointers::
 	dw StarmieEvosAttacks
 	dw CapsakidEvosAttacks
 	dw ScytherEvosAttacks
-	dw JynxEvosAttacks
+	dw CorviknghtEvosAttacks
 	dw WhirlipedeEvosAttacks
 	dw MagmarEvosAttacks
 	dw DurantEvosAttacks
