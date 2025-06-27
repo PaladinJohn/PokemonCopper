@@ -118,7 +118,7 @@ AnimationPointers:
 	dw HorseaAnimation
 	dw SeadraAnimation
 	dw MareanieAnimation
-	dw SeakingAnimation
+	dw ToxapexAnimation
 	dw StaryuAnimation
 	dw StarmieAnimation
 	dw CapsakidAnimation

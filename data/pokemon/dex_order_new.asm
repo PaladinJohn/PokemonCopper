@@ -163,6 +163,7 @@ NewPokedexOrder:
 	db MILTANK
 	db SIGILYPH
 	db MAREANIE
+	db TOXAPEX
 	db KABUTO
 	db KABUTOPS
 	db AERODACTYL
@@ -182,7 +183,6 @@ NewPokedexOrder:
 	db CLEFAIRY
 	db CLEFABLE
 	db POLITOED
-	db SEAKING
 	db ABSOL
 	db SNOM
 	db FROSMOTH

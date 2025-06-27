@@ -124,7 +124,7 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
 	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
 	mon_cry CRY_KANGASKHAN,  -48,  292 ; MAREANIE
-	mon_cry CRY_CATERPIE,     16,  383 ; SEAKING
+	mon_cry CRY_AMPHAROS,   3456,  418 ; TOXAPEX
 	mon_cry CRY_PARAS,         2,  160 ; STARYU
 	mon_cry CRY_PARAS,         0,  256 ; STARMIE
 	mon_cry CRY_NATU,       3552,  144 ; CAPSAKID

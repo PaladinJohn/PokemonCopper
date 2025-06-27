@@ -239,8 +239,8 @@ PokemonPicPointers::
 	dba_pic SeadraBackpic
 	dba_pic MareanieFrontpic
 	dba_pic MareanieBackpic
-	dba_pic SeakingFrontpic
-	dba_pic SeakingBackpic
+	dba_pic ToxapexFrontpic
+	dba_pic ToxapexBackpic
 	dba_pic StaryuFrontpic
 	dba_pic StaryuBackpic
 	dba_pic StarmieFrontpic

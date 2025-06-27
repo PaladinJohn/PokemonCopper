@@ -118,7 +118,7 @@ PokemonNames::
 	db "Horsea@@@@"
 	db "Seadra@@@@"
 	db "Mareanie@@"
-	db "Seaking@@@"
+	db "Toxapex@@@"
 	db "Staryu@@@@"
 	db "Starmie@@@"
 	db "Capsakid@@"

@@ -118,7 +118,7 @@ AnimationIdlePointers:
 	dw HorseaAnimationIdle
 	dw SeadraAnimationIdle
 	dw MareanieAnimationIdle
-	dw SeakingAnimationIdle
+	dw ToxapexAnimationIdle
 	dw StaryuAnimationIdle
 	dw StarmieAnimationIdle
 	dw CapsakidAnimationIdle

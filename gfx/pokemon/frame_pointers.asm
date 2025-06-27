@@ -118,7 +118,7 @@ FramesPointers:
 	dw HorseaFrames
 	dw SeadraFrames
 	dw MareanieFrames
-	dw SeakingFrames
+	dw ToxapexFrames
 	dw StaryuFrames
 	dw StarmieFrames
 	dw CapsakidFrames

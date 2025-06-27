@@ -182,7 +182,6 @@ AlphabeticalPokedexOrder:
 	db SCOLIPEDE
 	db SCYTHER
 	db SEADRA
-	db SEAKING
 	db SEEL
 	db SENTRET
 	db SHELLDER
@@ -227,6 +226,7 @@ AlphabeticalPokedexOrder:
 	db TOGEPI
 	db TOGETIC
 	db TOTODILE
+	db TOXAPEX
 	db TYPHLOSION
 	db TYRANITAR
 	db UMBREON

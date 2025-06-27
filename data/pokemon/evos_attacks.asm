@@ -1657,6 +1657,7 @@ SeadraEvosAttacks:
 	db 0 ; no more level-up moves
 
 MareanieEvosAttacks:
+	db EVOLVE_LEVEL, 38, TOXAPEX
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, PECK
@@ -1669,18 +1670,17 @@ MareanieEvosAttacks:
 	db 52, PIN_MISSILE
 	db 0 ; no more level-up moves
 
-SeakingEvosAttacks:
+ToxapexEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POISON_STING
 	db 1, PECK
-	db 1, TAIL_WHIP
-	db 1, TAIL_WHIP
-	db 10, SUPERSONIC
-	db 15, HORN_ATTACK
-	db 24, FLAIL
-	db 29, FURY_ATTACK
-	db 41, WATERFALL
-	db 49, HORN_DRILL
-	db 61, AGILITY
+	db 10, BITE
+	db 15, HAZE
+	db 24, PROTECT
+	db 29, TOXIC
+	db 38, SPIKE_CANNON
+	db 49, RECOVER
+	db 61, PIN_MISSILE
 	db 0 ; no more level-up moves
 
 StaryuEvosAttacks:

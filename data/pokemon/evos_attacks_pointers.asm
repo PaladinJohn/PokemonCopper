@@ -120,7 +120,7 @@ EvosAttacksPointers::
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
 	dw MareanieEvosAttacks
-	dw SeakingEvosAttacks
+	dw ToxapexEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw CapsakidEvosAttacks

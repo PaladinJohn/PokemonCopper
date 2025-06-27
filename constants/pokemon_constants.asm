@@ -137,7 +137,7 @@
 	const HORSEA     ; 74
 	const SEADRA     ; 75
 	const MAREANIE   ; 76
-	const SEAKING    ; 77
+	const TOXAPEX    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
 	const CAPSAKID   ; 7a

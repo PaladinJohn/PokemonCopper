@@ -119,7 +119,7 @@ PokedexDataPointerTable:
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry
 	dw MareaniePokedexEntry
-	dw SeakingPokedexEntry
+	dw ToxapexPokedexEntry
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry
 	dw CapsakidPokedexEntry
