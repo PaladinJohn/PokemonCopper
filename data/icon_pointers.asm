@@ -107,8 +107,10 @@ IconPointers:
 	dw DragoniteIcon
 	dw MewtwoIcon
 	dw MewIcon
+	dw CyndaquilIcon
 	dw QuilavaIcon
 	dw TyphlosionIcon
+	dw TotodileIcon
 	dw CroconawIcon
 	dw FeraligatrIcon
 	dw SentretIcon
@@ -120,10 +122,13 @@ IconPointers:
 	dw CrobatIcon
 	dw ChinchouIcon
 	dw LanturnIcon
+	dw CleffaIcon
+	dw IgglybuffIcon
 	dw TogepiIcon
 	dw TogeticIcon
 	dw NatuIcon
 	dw XatuIcon
+	dw MareepIcon
 	dw FlaaffyIcon
 	dw AmpharosIcon
 	dw BellossomIcon
@@ -171,6 +176,7 @@ IconPointers:
 	dw MagbyIcon
 	dw MiltankIcon
 	dw BlisseyIcon
+	dw LarvitarIcon
 	dw PupitarIcon
 	dw TyranitarIcon
 	dw LugiaIcon
@@ -178,6 +184,7 @@ IconPointers:
 	dw SwalotIcon
 	dw AbsolIcon
 	dw RegirockIcon
+	dw ShinxIcon
 	dw LuxioIcon
 	dw LuxrayIcon
 	dw SpiritombIcon
@@ -187,8 +194,10 @@ IconPointers:
 	dw VictiniIcon
 	dw BlitzleIcon
 	dw ZebstrikaIcon
+	dw TimburrIcon
 	dw GurdurrIcon
 	dw ConkeldurrIcon
+	dw VenipedeIcon
 	dw WhirlipedeIcon
 	dw ScolipedeIcon
 	dw SigilyphIcon
@@ -200,8 +209,10 @@ IconPointers:
 	dw CinccinoIcon
 	dw DurantIcon
 	dw ReshiramIcon
+	dw FletchlingIcon
 	dw FletchinderIcon
 	dw TalonflameIcon
+	dw ScatterbugIcon
 	dw SpewpaIcon
 	dw VivillonIcon
 	dw HawluchaIcon
