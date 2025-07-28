@@ -13,10 +13,10 @@ Trainers:
 EmeryGroup:
 	; EMERY (1)
 	db "EMERY@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
-	db  8, ROCKRUFF
+	db  9, ROCKRUFF
 		db $9a, $77
 		db TACKLE, LEER, SWAGGER, NO_MOVE
-	db  10, RHYHORN
+	db  11, RHYHORN
 		db $9a, $77
 		db HORN_ATTACK, TAIL_WHIP, SANDSTORM, PURSUIT
 	db -1 ; end
@@ -41,13 +41,13 @@ WhitneyGroup:
 BugsyGroup:
 	; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
-	db 14, SMOLIV
+	db 15, SMOLIV
 		db $98, $88
-		db TACKLE, ABSORB, GROWTH, RAZOR_LEAF
-	db 14, BELLSPROUT
+		db FLAIL, ABSORB, GROWTH, RAZOR_LEAF
+	db 15, BELLSPROUT
 		db $98, $88
-		db VINE_WHIP, GROWTH, WRAP, NO_MOVE
-	db 16, SUNFLORA
+		db VINE_WHIP, GROWTH, WRAP, SLEEP_POWDER
+	db 17, SUNFLORA
 		db $98, $88
 		db POUND, GROWTH, RAZOR_LEAF, GIGA_DRAIN
 	db -1 ; end
@@ -175,23 +175,23 @@ Rival1Group:
 
 	; RIVAL1 (4)
 	db "?@", TRAINERTYPE_DVS
-	db 12, ROOKIDEE, $ed, $dd
-	db 14, PAWMI, $ed, $dd
-	db 16, FLORAGATO, $ed, $dd
+	db 13, ROOKIDEE, $ed, $dd
+	db 15, PAWMI, $ed, $dd
+	db 17, FLORAGATO, $ed, $dd
 	db -1 ; end
 
 	; RIVAL1 (5)
 	db "?@", TRAINERTYPE_DVS
-	db 12, ROOKIDEE, $ed, $dd
-	db 14, PAWMI, $ed, $dd
-	db 16, QUILAVA, $ed, $dd
+	db 13, ROOKIDEE, $ed, $dd
+	db 15, PAWMI, $ed, $dd
+	db 17, QUILAVA, $ed, $dd
 	db -1 ; end
 
 	; RIVAL1 (6)
 	db "?@", TRAINERTYPE_DVS
-	db 12, ROOKIDEE, $ed, $dd
-	db 14, PAWMI, $ed, $dd
-	db 16, TOTODILE, $ed, $dd
+	db 13, ROOKIDEE, $ed, $dd
+	db 15, PAWMI, $ed, $dd
+	db 17, TOTODILE, $ed, $dd
 	db -1 ; end
 
 	; RIVAL1 (7)
@@ -1663,10 +1663,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (4)
 	db "JAMES@", TRAINERTYPE_NORMAL
-	db  4, SNOM
-	db  4, SNOM
+	db  5, SNOM
+	db  5, SNOM
+	db  6, SCATTERBUG
 	db  5, SCATTERBUG
-	db  4, SCATTERBUG
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -3159,13 +3159,13 @@ CamperGroup:
 
 	; CAMPER (9)
 	db "JOHN@", TRAINERTYPE_NORMAL
-	db 10, ROCKRUFF
+	db 11, ROCKRUFF
 	db -1 ; end
 
 	; CAMPER (10)
 	db "CRAIG@", TRAINERTYPE_NORMAL
-	db 8, GEODUDE
-	db 8, LARVITAR
+	db 9, GEODUDE
+	db 9, LARVITAR
 	db -1 ; end
 
 	; CAMPER (11)
@@ -3279,27 +3279,27 @@ ExecutiveFGroup:
 SageGroup:
 	; SAGE (1)
 	db "YOSHITAKA@", TRAINERTYPE_NORMAL
-	db  4, NIDORAN_M
-	db  4, RATTATA
-	db  4, BELLSPROUT
+	db  5, NIDORAN_M
+	db  5, RATTATA
+	db  5, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (2)
 	db "NASIR@", TRAINERTYPE_NORMAL
-	db  4, SPEAROW
-	db  4, EEVEE
-	db  4, BELLSPROUT
+	db  5, SPEAROW
+	db  5, EEVEE
+	db  5, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (3)
 	db "NOBUO@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
+	db  8, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (4)
 	db "KIYOSHI@", TRAINERTYPE_NORMAL
-	db  8, BELLSPROUT
-	db  8, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (5) - Cianwood Gym
@@ -3319,14 +3319,14 @@ SageGroup:
 
 	; SAGE (7)
 	db "KENJI@", TRAINERTYPE_NORMAL
-	db  4, RATTATA
-	db  4, SENTRET
-	db  4, BELLSPROUT
+	db  5, RATTATA
+	db  5, SENTRET
+	db  5, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (8)
 	db "KEN@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
+	db  8, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (9)
