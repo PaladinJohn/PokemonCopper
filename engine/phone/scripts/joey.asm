@@ -5,8 +5,6 @@ JoeyPhoneCalleeScript:
 	farscall PhoneScript_AnswerPhone_Male
 	checkflag ENGINE_JOEY_MONDAY_AFTERNOON
 	iftrue .NotMonday
-	readvar VAR_WEEKDAY
-	ifnotequal MONDAY, .NotMonday
 	checktime DAY
 	iftrue JoeyMondayAfternoon
 

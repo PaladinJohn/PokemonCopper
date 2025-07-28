@@ -5,8 +5,6 @@ ParryPhoneCalleeScript:
 	farscall PhoneScript_AnswerPhone_Male
 	checkflag ENGINE_PARRY_FRIDAY_AFTERNOON
 	iftrue .WantsRematch
-	readvar VAR_WEEKDAY
-	ifnotequal FRIDAY, .WantsRematch
 	checktime DAY
 	iftrue ParryFridayDay
 

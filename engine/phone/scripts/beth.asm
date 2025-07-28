@@ -5,8 +5,6 @@ BethPhoneCalleeScript:
 	farscall PhoneScript_AnswerPhone_Female
 	checkflag ENGINE_BETH_FRIDAY_AFTERNOON
 	iftrue .NotFriday
-	readvar VAR_WEEKDAY
-	ifnotequal FRIDAY, .NotFriday
 	checktime DAY
 	iftrue BethFridayAfternoon
 

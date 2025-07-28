@@ -7,8 +7,6 @@ GinaPhoneCalleeScript:
 	iftrue .NotSunday
 	checkflag ENGINE_GINA_HAS_LEAF_STONE
 	iftrue .HasLeafStone
-	readvar VAR_WEEKDAY
-	ifnotequal SUNDAY, .NotSunday
 	checktime DAY
 	iftrue GinaSundayDay
 

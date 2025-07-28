@@ -7,8 +7,6 @@ TiffanyPhoneCalleeScript:
 	iftrue .NotTuesday
 	checkflag ENGINE_TIFFANY_HAS_PINK_BOW
 	iftrue .HasItem
-	readvar VAR_WEEKDAY
-	ifnotequal TUESDAY, .NotTuesday
 	checktime DAY
 	iftrue TiffanyTuesdayAfternoon
 

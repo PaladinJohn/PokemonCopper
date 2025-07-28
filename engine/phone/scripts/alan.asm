@@ -7,8 +7,6 @@ AlanPhoneCalleeScript:
 	iftrue .NotWednesday
 	checkflag ENGINE_ALAN_HAS_FIRE_STONE
 	iftrue .FireStone
-	readvar VAR_WEEKDAY
-	ifnotequal WEDNESDAY, .NotWednesday
 	checktime DAY
 	iftrue AlanWednesdayDay
 

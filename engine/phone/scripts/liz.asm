@@ -5,8 +5,6 @@ LizPhoneCalleeScript:
 	farscall PhoneScript_AnswerPhone_Female
 	checkflag ENGINE_LIZ_THURSDAY_AFTERNOON
 	iftrue .NotThursday
-	readvar VAR_WEEKDAY
-	ifnotequal THURSDAY, .NotThursday
 	checktime DAY
 	iftrue LizThursdayAfternoon
 
