@@ -879,8 +879,8 @@ LassGroup:
 
 	; LASS (12)
 	db "CLAIRE@", TRAINERTYPE_NORMAL
-	db 10, SUNKERN
-	db 10, WOOPER
+	db 11, SUNKERN
+	db 11, WOOPER
 	db -1 ; end
 
 	; LASS (13)
@@ -1205,15 +1205,15 @@ BeautyGroup:
 
 	; BEAUTY (3)
 	db "NICOLA@", TRAINERTYPE_NORMAL
-	db 12, SMOLIV
-	db 12, PARAS
+	db 13, SMOLIV
+	db 13, PARAS
 	db -1 ; end
 
 	; BEAUTY (4)
 	db "JENNIFER@", TRAINERTYPE_NORMAL
-	db 10, BELLSPROUT
-	db 10, CAPSAKID
-	db 12, SPRIGATITO
+	db 11, BELLSPROUT
+	db 11, CAPSAKID
+	db 13, SPRIGATITO
 	db -1 ; end
 
 	; BEAUTY (5)
@@ -1378,15 +1378,15 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 10, RATTATA
-	db 15, KOFFING
+	db 9, RATTATA
+	db 14, KOFFING
 	db -1 ; end
 
 	; GRUNTM (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 10, RATTATA
-	db 10, SANDSHREW
-	db 10, ZUBAT
+	db 9, RATTATA
+	db 9, SANDSHREW
+	db 9, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3)
@@ -1558,8 +1558,8 @@ GruntMGroup:
 
 	; GRUNTM (29)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 10, RATTATA
-	db 10, RATTATA
+	db 9, RATTATA
+	db 9, RATTATA
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -3104,8 +3104,8 @@ PicnickerGroup:
 	
 	; PICNICKER (27)
 	db "SARAH@", TRAINERTYPE_NORMAL
-	db  10, BULBASAUR
-	db  13, ODDISH
+	db  11, BULBASAUR
+	db  14, ODDISH
 	db -1 ; end
 
 CamperGroup:
@@ -3663,8 +3663,8 @@ OfficerGroup:
 GruntFGroup:
 	; GRUNTF (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 10, ZUBAT
-	db 12, DROWZEE
+	db 9, ZUBAT
+	db 11, DROWZEE
 	db -1 ; end
 
 	; GRUNTF (2)
