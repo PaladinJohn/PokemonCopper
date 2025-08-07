@@ -168,7 +168,7 @@ PokedexDataPointerTable:
 	dw LedybaPokedexEntry
 	dw LedianPokedexEntry
 	dw ArctozoltPokedexEntry
-	dw AriadosPokedexEntry
+	dw SwalotPokedexEntry
 	dw CrobatPokedexEntry
 	dw ChinchouPokedexEntry
 	dw LanturnPokedexEntry

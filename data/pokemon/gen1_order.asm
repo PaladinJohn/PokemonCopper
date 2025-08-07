@@ -207,7 +207,7 @@ Pokered_MonIndices:
 	db LEDYBA
 	db LEDIAN
 	db ARCTOZOLT
-	db ARIADOS
+	db SWALOT
 	db CROBAT
 	db CHINCHOU
 	db LANTURN

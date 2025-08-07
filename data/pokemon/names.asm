@@ -167,7 +167,7 @@ PokemonNames::
 	db "Ledyba@@@@"
 	db "Ledian@@@@"
 	db "Arctozolt@"
-	db "Ariados@@@"
+	db "Swalot@@@@"
 	db "Crobat@@@@"
 	db "Chinchou@@"
 	db "Lanturn@@@"

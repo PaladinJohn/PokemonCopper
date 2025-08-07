@@ -1490,6 +1490,7 @@ MarowakEvosAttacks:
 	db 0 ; no more level-up moves
 
 GulpinEvosAttacks:
+	db EVOLVE_LEVEL, 26, SWALOT
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, YAWN
@@ -2345,20 +2346,19 @@ ArctozoltEvosAttacks:
 	db 63, BLIZZARD
 	db 0 ; no more level-up moves
 
-AriadosEvosAttacks:
+SwalotEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
-	db 1, SCARY_FACE
-	db 1, CONSTRICT
-	db 6, SCARY_FACE
-	db 11, CONSTRICT
-	db 17, NIGHT_SHADE
-	db 25, LEECH_LIFE
-	db 34, FURY_SWIPES
-	;db 43, SPIDER_WEB
-	db 53, AGILITY
-	db 63, PSYCHIC_M
+	db 1, POUND
+	db 1, YAWN
+	db 8, POISON_GAS
+	db 13, SMOG
+	db 20, AMNESIA
+	db 25, ENCORE
+	db 38, TOXIC
+	db 46, ACID_ARMOR
+	db 47, PAIN_SPLIT
+	db 48, SLUDGE
+	db 56, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 CrobatEvosAttacks:

@@ -169,7 +169,7 @@ EvosAttacksPointers::
 	dw LedybaEvosAttacks
 	dw LedianEvosAttacks
 	dw ArctozoltEvosAttacks
-	dw AriadosEvosAttacks
+	dw SwalotEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks

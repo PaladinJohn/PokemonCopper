@@ -167,7 +167,7 @@ AnimationPointers:
 	dw LedybaAnimation
 	dw LedianAnimation
 	dw ArctozoltAnimation
-	dw AriadosAnimation
+	dw SwalotAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation

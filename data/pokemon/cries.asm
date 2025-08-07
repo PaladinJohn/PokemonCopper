@@ -173,7 +173,7 @@ PokemonCries::
 	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
 	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
 	mon_cry CRY_SUNFLORA,    862,  118 ; ARCTOZOLT
-	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
+	mon_cry CRY_ODDISH,     1894,  245 ; SWALOT
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
 	mon_cry CRY_CYNDAQUIL,   969,  320 ; CHINCHOU
 	mon_cry CRY_CYNDAQUIL,   720,  272 ; LANTURN

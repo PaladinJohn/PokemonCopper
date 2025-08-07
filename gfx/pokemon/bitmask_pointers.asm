@@ -167,7 +167,7 @@ BitmasksPointers:
 	dw LedybaBitmasks
 	dw LedianBitmasks
 	dw ArctozoltBitmasks
-	dw AriadosBitmasks
+	dw SwalotBitmasks
 	dw CrobatBitmasks
 	dw ChinchouBitmasks
 	dw LanturnBitmasks

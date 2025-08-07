@@ -167,7 +167,7 @@ AnimationIdlePointers:
 	dw LedybaAnimationIdle
 	dw LedianAnimationIdle
 	dw ArctozoltAnimationIdle
-	dw AriadosAnimationIdle
+	dw SwalotAnimationIdle
 	dw CrobatAnimationIdle
 	dw ChinchouAnimationIdle
 	dw LanturnAnimationIdle

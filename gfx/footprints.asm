@@ -379,7 +379,7 @@ INCBIN "gfx/footprints/noctowl.1bpp",    footprint_top
 INCBIN "gfx/footprints/ledyba.1bpp",     footprint_top
 INCBIN "gfx/footprints/ledian.1bpp",     footprint_top
 INCBIN "gfx/footprints/arctozolt.1bpp",  footprint_top
-INCBIN "gfx/footprints/ariados.1bpp",    footprint_top
+INCBIN "gfx/footprints/swalot.1bpp",     footprint_top
 ; 161-168 bottom halves
 INCBIN "gfx/footprints/sentret.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/furret.1bpp",     footprint_bottom
@@ -388,7 +388,7 @@ INCBIN "gfx/footprints/noctowl.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/ledyba.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/ledian.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/arctozolt.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/ariados.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/swalot.1bpp",     footprint_bottom
 ; 169-176 top halves
 INCBIN "gfx/footprints/crobat.1bpp",     footprint_top
 INCBIN "gfx/footprints/chinchou.1bpp",   footprint_top

@@ -11,7 +11,6 @@ AlphabeticalPokedexOrder:
 	db ARBOLIVA
 	db ARCANINE
 	db ARCTOZOLT
-	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
 	db BELLOSSOM
@@ -214,6 +213,7 @@ AlphabeticalPokedexOrder:
 	db SUICUNE
 	db SUNFLORA
 	db SUNKERN
+	db SWALOT
 	db SWINUB
 	db TALONFLAME
 	db TANGELA

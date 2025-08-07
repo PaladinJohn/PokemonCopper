@@ -167,7 +167,7 @@ FramesPointers:
 	dw LedybaFrames
 	dw LedianFrames
 	dw ArctozoltFrames
-	dw AriadosFrames
+	dw SwalotFrames
 	dw CrobatFrames
 	dw ChinchouFrames
 	dw LanturnFrames

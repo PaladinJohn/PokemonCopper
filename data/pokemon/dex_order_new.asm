@@ -178,7 +178,6 @@ NewPokedexOrder:
 	db STUFFUL
 	db BEWEAR
 	db ARCTOZOLT
-	db ARIADOS
 	db CLEFFA
 	db CLEFAIRY
 	db CLEFABLE
@@ -196,6 +195,7 @@ NewPokedexOrder:
 	db MACHOKE
 	db MACHAMP
 	db GULPIN
+	db SWALOT
 	db SPIRITOMB
 	db SMOOCHUM
 	db CAPSAKID

@@ -337,8 +337,8 @@ PokemonPicPointers::
 	dba_pic LedianBackpic
 	dba_pic ArctozoltFrontpic
 	dba_pic ArctozoltBackpic
-	dba_pic AriadosFrontpic
-	dba_pic AriadosBackpic
+	dba_pic SwalotFrontpic
+	dba_pic SwalotBackpic
 	dba_pic CrobatFrontpic
 	dba_pic CrobatBackpic
 	dba_pic ChinchouFrontpic
