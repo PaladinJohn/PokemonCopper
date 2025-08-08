@@ -230,6 +230,7 @@ IconPointers:
 	dw SolgaleoIcon
 	dw LunalaIcon
 	dw NihilegoIcon
+	dw RookideeIcon
 	dw CorvisquireIcon
 	dw CorviknightIcon
 	dw YamperIcon
@@ -239,10 +240,13 @@ IconPointers:
 	dw FrosmothIcon
 	dw ArctozoltIcon
 	dw SpectrierIcon
+	dw SprigatitoIcon
 	dw FloragatoIcon
 	dw MeowscaradaIcon
+	dw PawmiIcon
 	dw PawmoIcon
 	dw PawmotIcon
+	dw SmolivIcon
 	dw DollivIcon
 	dw ArbolivaIcon
 	dw CapsakidIcon
