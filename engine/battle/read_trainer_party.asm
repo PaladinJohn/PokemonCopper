@@ -106,6 +106,35 @@ ReadTrainerPartyPieces:
 	predef TryAddMonToParty
 	pop hl
 
+; nickname?
+	ld a, [wOtherTrainerType]
+	bit TRAINERTYPE_NICKNAME_F, a
+	jr z, .no_nickname
+
+	push de
+	ld de, wStringBuffer2
+.copy_nickname
+	call GetNextTrainerDataByte
+	ld [de], a
+	inc de
+	cp "@"
+	jr nz, .copy_nickname
+
+	push hl
+	ld a, [wOTPartyCount]
+	dec a
+	ld hl, wOTPartyMonNicknames
+	ld bc, MON_NAME_LENGTH
+	call AddNTimes
+	ld d, h
+	ld e, l
+	ld hl, wStringBuffer2
+	ld bc, MON_NAME_LENGTH
+	call CopyBytes
+	pop hl
+	pop de
+.no_nickname
+
 ; dvs?
 	ld a, [wOtherTrainerType]
 	bit TRAINERTYPE_DVS_F, a
