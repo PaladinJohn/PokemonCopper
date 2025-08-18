@@ -48,22 +48,22 @@ PryceGroup:
 	db "PRYCE@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 	db 31, DRAGONAIR
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db THUNDER, THUNDER_WAVE, TWISTER, SLAM
 	db 31, AMPHAROS
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db RAIN_DANCE, THUNDERPUNCH, THUNDER_WAVE, COTTON_SPORE
 	db 31, JOLTEON
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db SHADOW_BALL, DOUBLE_KICK, THUNDERSHOCK, QUICK_ATTACK
 	db 36, LUXRAY
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db THUNDER, RAIN_DANCE, CRUNCH, SPARK
 	db -1 ; end
@@ -73,22 +73,22 @@ JasmineGroup:
 	db "JASMINE@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 	db 27, SWINUB
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db ICE_BEAM, ENDURE, TAKE_DOWN, HORN_ATTACK
 	db 27, CROBAT
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db PRZCUREBERRY
 		db HAZE, GIGA_DRAIN, CONFUSE_RAY, BITE
 	db 29, FROSMOTH
 		db $7f, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BITTER_BERRY
 		db ICE_BEAM, MIRROR_COAT, ATTRACT, STRUGGLE_BUG
 	db 31, LAPRAS
 		db $11, $11
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db PRZCUREBERRY
 		db ICE_BEAM, SING, HYDRO_PUMP, BODY_SLAM
 	db -1 ; end
@@ -97,19 +97,19 @@ ChuckGroup:
 	; CHUCK (1)
 	db "CHUCK@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM_MOVES
 	db 27, CHARMELEON
-	    dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+	    dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BITTER_BERRY
 		db CRUNCH, FIRE_BLAST, IRON_TAIL, OUTRAGE
 	db 27, SKARMORY
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db DRILL_PECK, PURSUIT, SWIFT, STEEL_WING
 	db 27, DURANT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BITTER_BERRY
 		db STRENGTH, FURY_CUTTER, CRUNCH, METAL_CLAW
 	db 30, KINGLER
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BERRY
 		db STRENGTH, MUD_SHOT, METAL_CLAW, SWAGGER
 	db -1 ; end
@@ -211,57 +211,57 @@ Rival1Group:
 	; RIVAL1 (10)
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 36, CORVISQUIR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SHARPEN, FURY_ATTACK, SAND_ATTACK, DRILL_PECK
 	db 34, SCIZOR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db QUICK_ATTACK, PURSUIT, WING_ATTACK, METAL_CLAW
 	db 36, PAWMOT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db ICE_PUNCH, THUNDERSHOCK, QUICK_ATTACK, NUZZLE
 	db 38, UMBREON
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SAND_ATTACK, QUICK_ATTACK, CONFUSE_RAY, FAINT_ATTACK
 	db 38, VENUSAUR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db TACKLE, LEECH_SEED, SLEEP_POWDER, RAZOR_LEAF
 	db -1 ; end
 
 	; RIVAL1 (11)
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 36, CORVISQUIR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SHARPEN, FURY_ATTACK, SAND_ATTACK, DRILL_PECK
 	db 34, SCIZOR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db QUICK_ATTACK, PURSUIT, WING_ATTACK, METAL_CLAW
 	db 36, PAWMOT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db ICE_PUNCH, THUNDERSHOCK, QUICK_ATTACK, NUZZLE
 	db 38, UMBREON
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SAND_ATTACK, QUICK_ATTACK, CONFUSE_RAY, FAINT_ATTACK
 	db 38, CHARIZARD
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe0, $00c2 ; hp, atk, def, spd, spc
 		db METAL_CLAW, SMOKESCREEN, FLAMETHROWER, WING_ATTACK
 	db -1 ; end
 
 	; RIVAL1 (12)
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 36, CORVISQUIR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SHARPEN, FURY_ATTACK, SAND_ATTACK, DRILL_PECK
 	db 34, SCIZOR
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db QUICK_ATTACK, PURSUIT, WING_ATTACK, METAL_CLAW
 	db 36, PAWMOT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db ICE_PUNCH, THUNDERSHOCK, QUICK_ATTACK, NUZZLE
 	db 38, UMBREON
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SAND_ATTACK, QUICK_ATTACK, CONFUSE_RAY, FAINT_ATTACK
 	db 38, BLASTOISE
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db TACKLE, TAIL_WHIP, WATER_GUN, BITE
 	db -1 ; end
 
@@ -2839,56 +2839,56 @@ ExecutiveMGroup:
 	; EXECUTIVEM (1)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 39, MUK
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db POUND, SLUDGE, MINIMIZE, SCREECH
 	db 39, WEEZING
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db POISON_GAS, TACKLE, SLUDGE, SMOKESCREEN
 	db 41, HOUNDOOM
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db FIRE_BLAST, SHARPEN, SMOG, BITE
 	db -1 ; end
 
 	; EXECUTIVEM (2)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 37, ABSOL
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BITE, SWORDS_DANCE, DOUBLE_TEAM, SLASH
 	db 42, GOLBAT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db BITE, CONFUSE_RAY, WING_ATTACK, TOXIC
 	db -1 ; end
 
 	; EXECUTIVEM (3)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 35, PORYGON
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db CONVERSION2, PSYBEAM, RECOVER, TACKLE
 	db 36, MAREANIE
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db POISON_STING, PECK, BITE, TOXIC
 	db 36, BOMBIRDIER
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db LEER, WING_ATTACK, THIEF, ROCK_THROW
 	db 38, RATICATE
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db HYPER_FANG, FOCUS_ENERGY, PURSUIT, SHADOW_BALL
 	db 36, GOLBAT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db SCREECH, BITE, CONFUSE_RAY, WING_ATTACK
 	db 36, WEEZING
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db TACKLE, SELFDESTRUCT, SLUDGE, SMOKESCREEN
 	db -1 ; end
 
 	; EXECUTIVEM (4)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_NORMAL
 	db 30, GOLBAT
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $0100, $00c2 ; hp, atk, def, spd, spc
 	db 32, RATICATE
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $0100, $00c2 ; hp, atk, def, spd, spc
 	db 30, KOFFING
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $0100, $00c2 ; hp, atk, def, spd, spc
 	db -1 ; end
 
 PsychicGroup:
@@ -3281,26 +3281,26 @@ ExecutiveFGroup:
 	; EXECUTIVEF (1)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 38, HOUNDOOM
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db EMBER, SHARPEN, SMOG, BITE
 	db 38, VILEPLUME
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db ABSORB, SLEEP_POWDER, ACID, MOONLIGHT
 	db 38, SUDOWOODO
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db CURSE, LOW_KICK, ROCK_SLIDE, FAINT_ATTACK
 	db -1 ; end
 
 	; EXECUTIVEF (2)
 	db "EXECUTIVE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_MOVES
 	db 31, HOUNDOOM
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db EMBER, SHARPEN, SMOG, BITE
 	db 31, VILEPLUME
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db ABSORB, STUN_SPORE, SLEEP_POWDER, ACID
 	db 33, SUDOWOODO
-		dw $00fb, $010b, $00f3, $00ff, $00c2 ; hp, atk, def, spd, spc
+		dw $00fb, $010b, $00f3, $00fe, $00c2 ; hp, atk, def, spd, spc
 		db MIMIC, FLAIL, LOW_KICK, ROCK_SLIDE
 	db -1 ; end
 
@@ -3365,21 +3365,21 @@ SageGroup:
 	db -1 ; end
 
 	; SAGE (10)
-	db "GAKU@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
-	db 32, FLAREON
+	db "AKITOSHI@", TRAINERTYPE_NORMAL
+	db 39, NOCTOWL
+	db 39, FLAREON
 	db -1 ; end
 
 	; SAGE (11)
-	db "MASA@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
-	db 32, JOLTEON
+	db "HIROMICHI@", TRAINERTYPE_NORMAL
+	db 39, NOCTOWL
+	db 39, JOLTEON
 	db -1 ; end
 
 	; SAGE (12)
-	db "KOJI@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
-	db 32, VAPOREON
+	db "HIRONOBU@", TRAINERTYPE_NORMAL
+	db 39, NOCTOWL
+	db 39, VAPOREON
 	db -1 ; end
 
 MediumGroup:
