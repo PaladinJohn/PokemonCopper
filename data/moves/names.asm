@@ -220,7 +220,7 @@ MoveNames::
 	li "Frustration"
 	li "Safeguard"
 	li "Pain Split"
-	li "Sacred Fire"
+	li "Guard Split"
 	li "Magnitude"
 	li "DynamicPunch"
 	li "Megahorn"

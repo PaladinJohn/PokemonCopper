@@ -221,7 +221,7 @@ MoveDescriptions::
 	dw FrustrationDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw SacredFireDescription
+	dw GuardSplitDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -1144,9 +1144,9 @@ PainSplitDescription:
 	db   "Adds user & foe's"
 	next "HPs. Shares total.@"
 
-SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+GuardSplitDescription:
+	db   "Absorbs foe's"
+	next "Def & S.Def..@"
 
 MagnitudeDescription:
 	db   "A ground attack"

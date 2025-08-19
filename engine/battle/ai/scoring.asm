@@ -388,6 +388,7 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_FLY,              AI_Smart_Fly
 	dbw EFFECT_CHARGE_M,         AI_Smart_Charge
 	dbw EFFECT_YAWN,             AI_Smart_Sleep
+	dbw EFFECT_GUARD_SPLIT,      AI_Smart_GuardSplit
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -1090,6 +1091,7 @@ AI_Smart_RazorWind:
 	ret
 
 AI_Smart_Confuse:
+AI_Smart_GuardSplit:
 ; 90% chance to discourage this move if player's HP is between 25% and 50%.
 	call AICheckPlayerHalfHP
 	ret c

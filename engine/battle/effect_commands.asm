@@ -198,8 +198,6 @@ BattleCommand_CheckTurn:
 	ld a, [wCurPlayerMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
-	cp SACRED_FIRE
-	jr z, .not_frozen
 
 	ld hl, FrozenSolidText
 	call StdBattleTextbox
@@ -424,8 +422,6 @@ CheckEnemyTurn:
 	; Flame Wheel and Sacred Fire thaw the user.
 	ld a, [wCurEnemyMove]
 	cp FLAME_WHEEL
-	jr z, .not_frozen
-	cp SACRED_FIRE
 	jr z, .not_frozen
 
 	ld hl, FrozenSolidText

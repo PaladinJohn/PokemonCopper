@@ -3422,7 +3422,7 @@ LugiaEvosAttacks:
 
 HoOhEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SACRED_FIRE
+	;db 1, SACRED_FIRE
 	db 11, SAFEGUARD
 	db 22, GUST
 	db 33, RECOVER

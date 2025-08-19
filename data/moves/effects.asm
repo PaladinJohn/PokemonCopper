@@ -1517,6 +1517,26 @@ Curse:
 	doturn
 	curse
 	endmove
+	
+GuardSplit:
+	checkobedience
+	usedmovetext
+	doturn
+	defensedown
+	statdownanim
+	statdownmessage
+	specialdefensedown
+	statdownanim
+	statdownmessage
+	statdownfailtext
+	defenseup
+	statupanim
+	statupmessage
+	specialdefenseup
+	statupanim
+	statupmessage
+	statupfailtext
+	endmove
 
 Protect:
 	checkobedience

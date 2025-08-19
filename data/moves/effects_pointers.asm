@@ -111,7 +111,7 @@ MoveEffectsPointers:
 	dw Nightmare
 	dw FlameWheel
 	dw Curse
-	dw NormalHit
+	dw GuardSplit
 	dw Protect
 	dw Spikes
 	dw Foresight

@@ -32,4 +32,5 @@ StallMoves:
 	db CONVERSION
 	db METAL_SOUND
 	db FLAME_WHEEL
+	db GUARD_SPLIT
 	db -1 ; end
