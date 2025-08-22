@@ -14,8 +14,8 @@ SECTION "Enemy Trainer Parties 1", ROMX
 EmeryGroup:
 	; EMERY (1)
 	db "EMERY@", TRAINERTYPE_MOVES
-	db  9, ROCKRUFF,   TACKLE, LEER, SWAGGER, NO_MOVE
-	db  11, RHYHORN,   HORN_ATTACK, TAIL_WHIP, SANDSTORM, PURSUIT
+	db  10, ROCKRUFF,   TACKLE, LEER, SWAGGER, NO_MOVE
+	db  12, RHYHORN,   HORN_ATTACK, TAIL_WHIP, SANDSTORM, PURSUIT
 	db -1 ; end
 
 WhitneyGroup:
@@ -455,14 +455,14 @@ YoungsterGroup:
 
 	; YOUNGSTER (3)
 	db "STEVEN@", TRAINERTYPE_NORMAL
-	db  7, FLETCHLING
-	db  9, SMOLIV
+	db  8, FLETCHLING
+	db  10, SMOLIV
 	db -1 ; end
 
 	; YOUNGSTER (4)
 	db "ROBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db 11, SPEAROW
+	db  7, RATTATA
+	db 12, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (5)
@@ -764,9 +764,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13)
 	db "STUART@", TRAINERTYPE_NORMAL
-	db  7, FLETCHLING
-	db  7, FARFETCH_D
-	db  9, SPEAROW
+	db  8, FLETCHLING
+	db  8, FARFETCH_D
+	db  10, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -1288,8 +1288,8 @@ BeautyGroup:
 PokemaniacGroup:
 	; POKEMANIAC (1)
 	db "KEVIN@", TRAINERTYPE_NORMAL
-	db  7, NIDORAN_F
-	db 11, NIDORAN_M
+	db  8, NIDORAN_F
+	db 12, NIDORAN_M
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -1764,10 +1764,10 @@ BugCatcherGroup:
 FisherGroup:
 	; FISHER (1)
 	db "MARK@", TRAINERTYPE_NORMAL
-	db  6, SHELLDER
-	db  6, TENTACOOL
+	db  7, SHELLDER
+	db  7, TENTACOOL
 	db 15, MAGIKARP
-	db  6, CHINCHOU
+	db  7, CHINCHOU
 	db -1 ; end
 
 	; FISHER (2)
@@ -1790,8 +1790,8 @@ FisherGroup:
 
 	; FISHER (5)
 	db "SCOTT@", TRAINERTYPE_NORMAL
-	db  9, STARYU
-	db  9, HORSEA
+	db  10, STARYU
+	db  10, HORSEA
 	db -1 ; end
 
 	; FISHER (6)
@@ -2455,9 +2455,9 @@ HikerGroup:
 
 	; HIKER (2)
 	db "STEVEN@", TRAINERTYPE_NORMAL
-	db  7, ZUBAT
-	db  7, TIMBURR
-	db  9, GEODUDE
+	db  8, ZUBAT
+	db  8, TIMBURR
+	db  10, GEODUDE
 	db -1 ; end
 
 	; HIKER (3)
@@ -2475,8 +2475,8 @@ HikerGroup:
 
 	; HIKER (5)
 	db "JAMIE@", TRAINERTYPE_NORMAL
-	db 12, GEODUDE
-	db 12, PHANPY
+	db 13, GEODUDE
+	db 13, PHANPY
 	db -1 ; end
 
 	; HIKER (6)
@@ -2562,8 +2562,8 @@ HikerGroup:
 
 	; HIKER (18)
 	db "ROSS@", TRAINERTYPE_NORMAL
-	db  7, SANDSHREW
-	db 12, ONIX
+	db  8, SANDSHREW
+	db 13, ONIX
 	db -1 ; end
 
 	; HIKER (19)
@@ -2709,8 +2709,8 @@ FirebreatherGroup:
 
 	; FIREBREATHER (5)
 	db "GARY@", TRAINERTYPE_NORMAL
-	db  7, GROWLITHE
-	db  7, KOFFING
+	db  8, GROWLITHE
+	db  8, KOFFING
 	db -1 ; end
 
 	; FIREBREATHER (6)
@@ -2721,8 +2721,8 @@ FirebreatherGroup:
 
 	; FIREBREATHER (7)
 	db "WILL@", TRAINERTYPE_NORMAL
-	db  7, CHARMANDER
-	db 10, VULPIX
+	db  8, CHARMANDER
+	db 11, VULPIX
 	db -1 ; end
 
 	; FIREBREATHER (8)
@@ -2968,8 +2968,8 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1)
 	db "LAURA@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
-	db  10, NIDORAN_F
+	db  7, BELLSPROUT
+	db  11, NIDORAN_F
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -3133,8 +3133,8 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1)
 	db "MICHAEL@", TRAINERTYPE_NORMAL
-	db   6, SPEAROW
-	db  10, NIDORAN_M
+	db   7, SPEAROW
+	db  11, NIDORAN_M
 	db -1 ; end
 
 	; CAMPER (2)
@@ -3181,13 +3181,13 @@ CamperGroup:
 
 	; CAMPER (9)
 	db "JOHN@", TRAINERTYPE_NORMAL
-	db 11, ROCKRUFF
+	db 12, ROCKRUFF
 	db -1 ; end
 
 	; CAMPER (10)
 	db "CRAIG@", TRAINERTYPE_NORMAL
-	db 9, GEODUDE
-	db 9, LARVITAR
+	db 10, GEODUDE
+	db 10, LARVITAR
 	db -1 ; end
 
 	; CAMPER (11)
