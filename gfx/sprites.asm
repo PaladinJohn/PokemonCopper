@@ -103,7 +103,7 @@ KrisSpriteGFX::                INCBIN "gfx/sprites/kris.2bpp"
 KrisBikeSpriteGFX::            INCBIN "gfx/sprites/kris_bike.2bpp"
 KurtOutsideSpriteGFX::         INCBIN "gfx/sprites/kurt_outside.2bpp"
 NihilegoSpriteGFX::            INCBIN "gfx/sprites/nihilego.2bpp"
-EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
+SpectrierSpriteGFX::           INCBIN "gfx/sprites/spectrier.2bpp"
 RegirockSpriteGFX::            INCBIN "gfx/sprites/regirock.2bpp"
 StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 

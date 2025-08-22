@@ -244,7 +244,7 @@ AnimationPointers:
 	dw BlisseyAnimation
 	dw RegirockAnimation
 	dw SpectrierAnimation
-	dw SuicuneAnimation
+	dw NihilegoAnimation
 	dw LarvitarAnimation
 	dw PupitarAnimation
 	dw TyranitarAnimation

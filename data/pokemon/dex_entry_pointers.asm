@@ -245,7 +245,7 @@ PokedexDataPointerTable:
 	dw BlisseyPokedexEntry
 	dw RegirockPokedexEntry
 	dw SpectrierPokedexEntry
-	dw SuicunePokedexEntry
+	dw NihilegoPokedexEntry
 	dw LarvitarPokedexEntry
 	dw PupitarPokedexEntry
 	dw TyranitarPokedexEntry

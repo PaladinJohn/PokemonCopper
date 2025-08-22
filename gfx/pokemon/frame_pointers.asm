@@ -244,7 +244,7 @@ FramesPointers:
 	dw BlisseyFrames
 	dw RegirockFrames
 	dw SpectrierFrames
-	dw SuicuneFrames
+	dw NihilegoFrames
 	dw LarvitarFrames
 	dw PupitarFrames
 	dw TyranitarFrames

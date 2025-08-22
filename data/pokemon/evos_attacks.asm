@@ -3345,17 +3345,17 @@ SpectrierEvosAttacks:
 	db 71, AGILITY
 	db 0 ; no more level-up moves
 
-SuicuneEvosAttacks:
+NihilegoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, LEER
-	db 11, BUBBLEBEAM
-	db 21, RAIN_DANCE
-	db 31, GUST
-	db 41, AURORA_BEAM
-	db 51, MIST
-	db 61, MIRROR_COAT
-	db 71, HYDRO_PUMP
+	db 1, GUARD_SPLIT
+	db 1, TICKLE
+	db 11, CONSTRICT
+	db 21, POUND
+	db 31, ACID
+	db 41, PSYWAVE
+	db 51, HEADBUTT
+	db 61, SAFEGUARD
+	db 71, MIRROR_COAT
 	db 0 ; no more level-up moves
 
 LarvitarEvosAttacks:

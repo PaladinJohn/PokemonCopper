@@ -140,6 +140,7 @@ AlphabeticalPokedexOrder:
 	db NIDORAN_M
 	db NIDORINA
 	db NIDORINO
+	db NIHILEGO
 	db NINETALES
 	db NOCTOWL
 	db NOIBAT
@@ -210,7 +211,6 @@ AlphabeticalPokedexOrder:
 	db STEELIX
 	db STUFFUL
 	db SUDOWOODO
-	db SUICUNE
 	db SUNFLORA
 	db SUNKERN
 	db SWALOT

@@ -244,7 +244,7 @@ PokemonNames::
 	db "Blissey@@@"
 	db "Regirock@@"
 	db "Spectrier@"
-	db "Suicune@@@"
+	db "Nihilego@@"
 	db "Larvitar@@"
 	db "Pupitar@@@"
 	db "Tyranitar@"

@@ -99,7 +99,7 @@ DurantFrontpic:      INCBIN "gfx/pokemon/durant/front.animated.2bpp.lz"
 
 SECTION "Pics 5", ROMX
 
-SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
+NihilegoFrontpic:    INCBIN "gfx/pokemon/nihilego/front.animated.2bpp.lz"
 KinglerFrontpic:     INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lz"
 RioluFrontpic:       INCBIN "gfx/pokemon/riolu/front.animated.2bpp.lz"
 MagcargoFrontpic:    INCBIN "gfx/pokemon/magcargo/front.animated.2bpp.lz"
@@ -308,7 +308,7 @@ FeraligatrBackpic:   INCBIN "gfx/pokemon/feraligatr/back.2bpp.lz"
 DratiniFrontpic:     INCBIN "gfx/pokemon/dratini/front.animated.2bpp.lz"
 BoltundBackpic:      INCBIN "gfx/pokemon/boltund/back.2bpp.lz"
 QwilfishFrontpic:    INCBIN "gfx/pokemon/qwilfish/front.animated.2bpp.lz"
-SuicuneBackpic:      INCBIN "gfx/pokemon/suicune/back.2bpp.lz"
+NihilegoBackpic:     INCBIN "gfx/pokemon/nihilego/back.2bpp.lz"
 SlowkingBackpic:     INCBIN "gfx/pokemon/slowking/back.2bpp.lz"
 VenipedeBackpic:     INCBIN "gfx/pokemon/venipede/back.2bpp.lz"
 CelebiBackpic:       INCBIN "gfx/pokemon/celebi/back.2bpp.lz"

@@ -244,7 +244,7 @@ AnimationIdlePointers:
 	dw BlisseyAnimationIdle
 	dw RegirockAnimationIdle
 	dw SpectrierAnimationIdle
-	dw SuicuneAnimationIdle
+	dw NihilegoAnimationIdle
 	dw LarvitarAnimationIdle
 	dw PupitarAnimationIdle
 	dw TyranitarAnimationIdle

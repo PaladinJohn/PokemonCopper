@@ -244,7 +244,7 @@ BitmasksPointers:
 	dw BlisseyBitmasks
 	dw RegirockBitmasks
 	dw SpectrierBitmasks
-	dw SuicuneBitmasks
+	dw NihilegoBitmasks
 	dw LarvitarBitmasks
 	dw PupitarBitmasks
 	dw TyranitarBitmasks

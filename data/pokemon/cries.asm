@@ -250,7 +250,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    659,  320 ; BLISSEY
 	mon_cry CRY_RAICHU,     2873,  527 ; REGIROCK
 	mon_cry CRY_VOLTORB,    2223,  454 ; SPECTRIER
-	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
+	mon_cry CRY_RHYDON,      558,  168 ; NIHILEGO
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
 	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR

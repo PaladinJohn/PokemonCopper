@@ -494,8 +494,8 @@ PokemonPicPointers::
 	dba_pic RegirockBackpic
 	dba_pic SpectrierFrontpic
 	dba_pic SpectrierBackpic
-	dba_pic SuicuneFrontpic
-	dba_pic SuicuneBackpic
+	dba_pic NihilegoFrontpic
+	dba_pic NihilegoBackpic
 	dba_pic LarvitarFrontpic
 	dba_pic LarvitarBackpic
 	dba_pic PupitarFrontpic

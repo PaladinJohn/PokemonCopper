@@ -246,7 +246,7 @@ EvosAttacksPointers::
 	dw BlisseyEvosAttacks
 	dw RegirockEvosAttacks
 	dw SpectrierEvosAttacks
-	dw SuicuneEvosAttacks
+	dw NihilegoEvosAttacks
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks
