@@ -3158,8 +3158,10 @@ DEF DAMAGE_CAP EQU MAX_DAMAGE - MIN_DAMAGE
 	and a
 	ret z
 
-; x2
+; x1.5
 	ldh a, [hQuotient + 3]
+	srl a
+	add a
 	add a
 	ldh [hQuotient + 3], a
 
