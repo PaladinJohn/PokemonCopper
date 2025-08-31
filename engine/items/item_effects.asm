@@ -133,7 +133,7 @@ ItemEffects:
 	dw NoEffect            ; MIRACLE_SEED
 	dw NoEffect            ; THICK_CLUB
 	dw NoEffect            ; FOCUS_BAND
-	dw NoEffect            ; ITEM_78
+	dw PokeBallEffect      ; NEST_BALL
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
 	dw HealPowderEffect    ; HEAL_POWDER
@@ -736,6 +736,7 @@ BallMultiplierFunctionTable:
 	dbw ULTRA_BALL,  UltraBallMultiplier
 	dbw GREAT_BALL,  GreatBallMultiplier
 	dbw NET_BALL,    NetBallMultiplier
+	dbw NEST_BALL,   NestBallMultiplier
 	dbw SAFARI_BALL, SafariBallMultiplier ; Safari Ball, leftover from RBY
 	dbw HEAVY_BALL,  HeavyBallMultiplier
 	dbw LEVEL_BALL,  LevelBallMultiplier
@@ -791,6 +792,45 @@ NetBallMultiplier:
 
 .max
 	ld b, $ff
+	ret
+	
+NestBallMultiplier:
+; multiply catch rate by (41 - enemy mon level) / 10, floored at 1
+	ld a, [wEnemyMonLevel]
+	cp 30
+	ret nc
+
+	push bc
+	ld b, a
+	ld a, 41
+	sub b
+	pop bc
+
+	; hMultiplier = 41 - level
+	ld [hMultiplier], a
+
+	; hMultiplicand = catch rate
+	xor a
+	ld [hMultiplicand + 0], a
+	ld [hMultiplicand + 1], a
+	ld a, b
+	ld [hMultiplicand + 2], a
+
+	; hProduct = catch rate * (41 - level)
+	call Multiply
+
+	; hDivisor = 10
+	ld a, 10
+	ld [hDivisor], a
+
+	; hQuotient = catch rate * (41 - level) / 10
+	ld b, 4
+	call Divide
+
+	; b = hQuotient = catch rate * (41 - level) / 10
+	ld a, [hQuotient + 2]
+	ld b, a
+	
 	ret
 	
 HeavyBall_GetDexEntryBank:

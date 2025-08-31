@@ -209,13 +209,13 @@ MartMahogany2:
 	db RAGECANDYBAR
 	db GREAT_BALL
 	db NET_BALL
+	db NEST_BALL
 	db SUPER_POTION
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db SUPER_REPEL
 	db REVIVE
-	db FLOWER_MAIL
 	db -1 ; end
 
 MartBlackthorn:
