@@ -187,3 +187,4 @@ SpecialsPointers::
 ;Pokemon Copper
 	add_special BillBoxSwitchCheck
 	add_special BillBoxSwitch
+	add_special MoveReminder
