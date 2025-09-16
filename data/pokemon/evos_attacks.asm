@@ -2572,14 +2572,19 @@ SudowoodoEvosAttacks:
 	db 46, SLAM
 	db 0 ; no more level-up moves
 
-PolitoedEvosAttacks:
+NoivernEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, HYPNOSIS
-	db 1, DOUBLESLAP
-	db 1, PERISH_SONG
-	db 35, PERISH_SONG
-	db 51, SWAGGER
+	db 1, SCREECH
+	db 6, SUPERSONIC
+	db 11, TACKLE
+	db 16, LEECH_LIFE
+	db 21, GUST
+	db 26, BITE
+	db 31, WING_ATTACK
+	db 36, AGILITY
+	db 41, AIR_CUTTER
+	db 46, RAZOR_WIND
+	db 52, WHIRLWIND
 	db 0 ; no more level-up moves
 
 SmolivEvosAttacks:
@@ -3222,6 +3227,7 @@ SmeargleEvosAttacks:
 	db 0 ; no more level-up moves
 
 NoibatEvosAttacks:
+	db EVOLVE_LEVEL, 48, NOIVERN
 	db 0 ; no more evolutions
 	db 1, SCREECH
 	db 6, SUPERSONIC

@@ -225,7 +225,7 @@ Pokered_MonIndices:
 	db MARILL
 	db AZUMARILL
 	db SUDOWOODO
-	db POLITOED
+	db NOIVERN
 	db SMOLIV
 	db DOLLIV
 	db ARBOLIVA

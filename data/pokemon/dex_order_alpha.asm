@@ -145,6 +145,7 @@ AlphabeticalPokedexOrder:
 	db NINETALES
 	db NOCTOWL
 	db NOIBAT
+	db NOIVERN
 	db OCTILLERY
 	db ODDISH
 	db ONIX
@@ -156,7 +157,6 @@ AlphabeticalPokedexOrder:
 	db PERRSERKER
 	db PHANPY
 	db PILOSWINE
-	db POLITOED
 	db PONYTA
 	db PORYGON
 	db PORYGON2

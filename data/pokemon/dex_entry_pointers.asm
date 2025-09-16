@@ -186,7 +186,7 @@ PokedexDataPointerTable:
 	dw MarillPokedexEntry
 	dw AzumarillPokedexEntry
 	dw SudowoodoPokedexEntry
-	dw PolitoedPokedexEntry
+	dw NoivernPokedexEntry
 	dw SmolivPokedexEntry
 	dw DollivPokedexEntry
 	dw ArbolivaPokedexEntry

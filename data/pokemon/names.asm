@@ -185,7 +185,7 @@ PokemonNames::
 	db "Marill@@@@"
 	db "Azumarill@"
 	db "Sudowoodo@"
-	db "Politoed@@"
+	db "Noivern@@@"
 	db "Smoliv@@@@"
 	db "Dolliv@@@@"
 	db "Arboliva@@"

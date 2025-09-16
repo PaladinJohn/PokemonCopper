@@ -185,7 +185,7 @@ AnimationPointers:
 	dw MarillAnimation
 	dw AzumarillAnimation
 	dw SudowoodoAnimation
-	dw PolitoedAnimation
+	dw NoivernAnimation
 	dw SmolivAnimation
 	dw DollivAnimation
 	dw ArbolivaAnimation

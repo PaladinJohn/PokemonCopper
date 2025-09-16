@@ -112,6 +112,7 @@ NewPokedexOrder:
 	db MINCCINO
 	db CINCCINO
 	db NOIBAT
+	db NOIVERN
 	db YAMPER
 	db BOLTUND
 	db NIDORAN_F
@@ -191,7 +192,6 @@ NewPokedexOrder:
 	db CLEFFA
 	db CLEFAIRY
 	db CLEFABLE
-	db POLITOED
 	db ABSOL
 	db GRIMER
 	db MUK

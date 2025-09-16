@@ -373,8 +373,8 @@ PokemonPicPointers::
 	dba_pic AzumarillBackpic
 	dba_pic SudowoodoFrontpic
 	dba_pic SudowoodoBackpic
-	dba_pic PolitoedFrontpic
-	dba_pic PolitoedBackpic
+	dba_pic NoivernFrontpic
+	dba_pic NoivernBackpic
 	dba_pic SmolivFrontpic
 	dba_pic SmolivBackpic
 	dba_pic DollivFrontpic

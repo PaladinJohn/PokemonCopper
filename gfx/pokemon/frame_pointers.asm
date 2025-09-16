@@ -185,7 +185,7 @@ FramesPointers:
 	dw MarillFrames
 	dw AzumarillFrames
 	dw SudowoodoFrames
-	dw PolitoedFrames
+	dw NoivernFrames
 	dw SmolivFrames
 	dw DollivFrames
 	dw ArbolivaFrames

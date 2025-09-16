@@ -191,7 +191,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,      283,  288 ; MARILL
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
-	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
+	mon_cry CRY_SEEL,        790,   79 ; NOIVERN
 	mon_cry CRY_VOLTORB,    3516,  519 ; SMOLIV
 	mon_cry CRY_VOLTORB,    1520,  448 ; DOLLIV
 	mon_cry CRY_SUNFLORA,   2177,  330 ; ARBOLIVA
