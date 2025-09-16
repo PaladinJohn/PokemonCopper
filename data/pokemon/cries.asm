@@ -62,7 +62,7 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,      32,  224 ; PSYDUCK
 	mon_cry CRY_PSYDUCK,     255,  192 ; GOLDUCK
 	mon_cry CRY_FEAROW,      821,  175 ; GREAVARD
-	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
+	mon_cry CRY_GRIMER,     2894,  173 ; HOUNDSTONE
 	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
 	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
 	mon_cry CRY_TYPHLOSION, -100,  540 ; ROCKRUFF

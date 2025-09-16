@@ -56,7 +56,7 @@ AnimationPointers:
 	dw PsyduckAnimation
 	dw GolduckAnimation
 	dw GreavardAnimation
-	dw PrimeapeAnimation
+	dw HoundstoneAnimation
 	dw GrowlitheAnimation
 	dw ArcanineAnimation
 	dw RockruffAnimation

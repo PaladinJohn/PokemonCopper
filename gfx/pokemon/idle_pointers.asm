@@ -56,7 +56,7 @@ AnimationIdlePointers:
 	dw PsyduckAnimationIdle
 	dw GolduckAnimationIdle
 	dw GreavardAnimationIdle
-	dw PrimeapeAnimationIdle
+	dw HoundstoneAnimationIdle
 	dw GrowlitheAnimationIdle
 	dw ArcanineAnimationIdle
 	dw RockruffAnimationIdle

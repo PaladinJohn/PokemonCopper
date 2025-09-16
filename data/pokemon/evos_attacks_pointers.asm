@@ -58,7 +58,7 @@ EvosAttacksPointers::
 	dw PsyduckEvosAttacks
 	dw GolduckEvosAttacks
 	dw GreavardEvosAttacks
-	dw PrimeapeEvosAttacks
+	dw HoundstoneEvosAttacks
 	dw GrowlitheEvosAttacks
 	dw ArcanineEvosAttacks
 	dw RockruffEvosAttacks

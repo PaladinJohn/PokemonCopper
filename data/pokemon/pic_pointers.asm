@@ -115,8 +115,8 @@ PokemonPicPointers::
 	dba_pic GolduckBackpic
 	dba_pic GreavardFrontpic
 	dba_pic GreavardBackpic
-	dba_pic PrimeapeFrontpic
-	dba_pic PrimeapeBackpic
+	dba_pic HoundstoneFrontpic
+	dba_pic HoundstoneBackpic
 	dba_pic GrowlitheFrontpic
 	dba_pic GrowlitheBackpic
 	dba_pic ArcanineFrontpic

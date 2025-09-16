@@ -57,7 +57,7 @@ PokedexDataPointerTable:
 	dw PsyduckPokedexEntry
 	dw GolduckPokedexEntry
 	dw GreavardPokedexEntry
-	dw PrimeapePokedexEntry
+	dw HoundstonePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
 	dw RockruffPokedexEntry

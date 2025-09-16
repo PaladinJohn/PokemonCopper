@@ -190,7 +190,7 @@ NewPokedexOrder:
 	db BLITZLE
 	db ZEBSTRIKA
 	db GREAVARD
-	db PRIMEAPE
+	db HOUNDSTONE
 	db TIMBURR
 	db MACHOKE
 	db MACHAMP

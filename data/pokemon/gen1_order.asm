@@ -116,7 +116,7 @@ Pokered_MonIndices:
 	db PAWMOT
 	db HOUNDOOM ; MISSINGNO.
 	db PAWMO
-	db PRIMEAPE
+	db HOUNDSTONE
 	db MUDSDALE
 	db FROSMOTH
 	db DEWGONG

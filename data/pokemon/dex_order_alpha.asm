@@ -86,6 +86,7 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
+	db HOUNDSTONE
 	db HYPNO
 	db IGGLYBUFF
 	db IVYSAUR
@@ -159,7 +160,6 @@ AlphabeticalPokedexOrder:
 	db PONYTA
 	db PORYGON
 	db PORYGON2
-	db PRIMEAPE
 	db PSYDUCK
 	db PUPITAR
 	db QUAGSIRE

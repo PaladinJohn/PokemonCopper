@@ -75,7 +75,7 @@
 	const PSYDUCK    ; 36
 	const GOLDUCK    ; 37
 	const GREAVARD   ; 38
-	const PRIMEAPE   ; 39
+	const HOUNDSTONE ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const ROCKRUFF   ; 3c

@@ -56,7 +56,7 @@ FramesPointers:
 	dw PsyduckFrames
 	dw GolduckFrames
 	dw GreavardFrames
-	dw PrimeapeFrames
+	dw HoundstoneFrames
 	dw GrowlitheFrames
 	dw ArcanineFrames
 	dw RockruffFrames

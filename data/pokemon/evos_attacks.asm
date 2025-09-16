@@ -780,6 +780,7 @@ GolduckEvosAttacks:
 	db 0 ; no more level-up moves
 
 GreavardEvosAttacks:
+	db EVOLVE_LEVEL, 30, HOUNDSTONE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -793,21 +794,19 @@ GreavardEvosAttacks:
 	db 51, CHARM
 	db 0 ; no more level-up moves
 
-PrimeapeEvosAttacks:
+HoundstoneEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, LOW_KICK
-	db 1, RAGE
-	db 9, LOW_KICK
-	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 28, RAGE
-	db 36, SEISMIC_TOSS
-	db 45, CROSS_CHOP
-	db 54, SCREECH
-	db 63, THRASH
+	db 1, TACKLE
+	db 1, GROWL
+	db 9, LICK
+	db 15, TAIL_WHIP
+	db 21, BITE
+	db 27, ROAR
+	db 30, HEADBUTT
+	db 36, DIG
+	db 45, REST
+	db 54, CRUNCH
+	db 63, CHARM
 	db 0 ; no more level-up moves
 
 GrowlitheEvosAttacks:

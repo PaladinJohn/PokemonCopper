@@ -56,7 +56,7 @@ PokemonNames::
 	db "Psyduck@@@"
 	db "Golduck@@@"
 	db "Greavard@@"
-	db "Primeape@@"
+	db "Houndstone"
 	db "Growlithe@"
 	db "Arcanine@@"
 	db "Rockruff@@"
