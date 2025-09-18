@@ -6590,6 +6590,8 @@ INCLUDE "engine/battle/move_effects/future_sight.asm"
 
 INCLUDE "engine/battle/move_effects/thunder.asm"
 
+INCLUDE "engine/battle/move_effects/growth.asm"
+
 CheckHiddenOpponent:
 ; BUG (FIXED): Lock-On and Mind Reader don't always bypass Fly and Dig (see docs/bugs_and_glitches.md)
 	ld a, BATTLE_VARS_SUBSTATUS5_OPP
